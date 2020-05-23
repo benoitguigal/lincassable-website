@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Gotham-Thin";
+  src: url("../fonts/gotham/gotham-thin.ttf");
+}
+
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("../fonts/gotham/gotham-medium.ttf");
+}
+
+.bg-my-yellow {
+  background-color: #ffef36
+}
+
+.font-medium {
+  font-family: Gotham, Arial, Helvetica, sans-serif
+}
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
