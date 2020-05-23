@@ -4,6 +4,7 @@ module.exports = {
     description: `Développement d'une filière de réemploi du verre à Marseille`,
     author: `Benoît Guigal`
   },
+  pathPrefix: "/lincassable-website",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
