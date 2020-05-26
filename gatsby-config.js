@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `L'incassable`,
-    description: `Développement d'une filière de réemploi du verre à Marseille`,
+    description: `DÉVELOPPEMENT D’UNE FILIÈRE DE RÉEMPLOI DU VERRE EN RÉGION MARSEILLAISE`,
     author: `Benoît Guigal`
   },
   pathPrefix: "/lincassable-website",

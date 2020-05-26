@@ -8,6 +8,11 @@
   src: url("../fonts/gotham/gotham-medium.ttf");
 }
 
+@font-face {
+  font-family: "Gotham-Ultra";
+  src: url("../fonts/gotham/gotham-ultra.ttf");
+}
+
 .bg-my-yellow {
   background-color: #ffef36
 }

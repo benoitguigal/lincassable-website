@@ -22,16 +22,20 @@ const IndexPage = () => (
         également un emballage, un emballage qui coûte cher et que l’on jette à
         chaque fois. Très souvent les fabricants de ces produits sont également
         des fabricants d’emballages.
-        <a href="">
-          Pourquoi avons nous abandonné le verre consingé?[Vidéo INA]
+        <br />
+        <a
+          class="underline"
+          href="https://m.ina.fr/video/S822033_001/pourquoi-avons-nous-abandonne-le-verre-consigne-video.html"
+        >
+          Pourquoi avons nous abandonné le verre consigné? [Vidéo INA]
         </a>
       </div>
     </div>
     <img src={Image2} />
-    <h1 class="p-24 text-2xl text-center">
+    <h1 class="mx-auto max-w-xl my-20 text-2xl text-center">
       AUJOURD’HUI LES FILIÈRES DE RECYCLAGE SONT LOIN D’ÊTRE SATISFAISANTES
     </h1>
-    <div class="px-10 grid grid-cols-3 gap-10">
+    <div class="px-32 grid grid-cols-3 gap-10">
       <div>
         <h5>Un taux de recyclage très faible du plastique</h5>{" "}
         <div>
@@ -69,7 +73,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div class="p-32 grid grid-cols-2 gap-10">
+    <div class="p-32 grid grid-cols-2 gap-10 bg-my-yellow">
       <h1 class="text-2xl text-right">
         L’AMBITION DU PROJET: DÉVELOPPER UNE FILLIÈRE DE RÉEMPLOI DU VERRE A
         MARSEILLE
