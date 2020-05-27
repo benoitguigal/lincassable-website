@@ -17,9 +17,18 @@
   background-color: #ffef36
 }
 
-.font-medium {
-  font-family: Gotham, Arial, Helvetica, sans-serif
+.border-my-yellow {
+  border-color: #ffef36;
 }
+
+.font-medium {
+  font-family: Gotham-Medium, Arial, Helvetica, sans-serif
+}
+
+.header {
+  font-size: 1.6em;
+}
+
 
 @tailwind base;
 

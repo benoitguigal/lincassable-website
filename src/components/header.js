@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
 import Logo from "../images/logo.svg";
-import "./header.css";
 
 const Header = ({ siteDescription }) => (
   <header
@@ -9,7 +8,7 @@ const Header = ({ siteDescription }) => (
     id="header"
   >
     <div>
-      <img src={Logo} class="w-1/4 m-auto mb-16" alt="Logo" />
+      <img src={Logo} class="w-1/2 sm:w-1/4 m-auto mb-16" alt="Logo" />
       <h2 class="text-sm text-center max-w-md m-auto leading-7">
         {siteDescription}
       </h2>
