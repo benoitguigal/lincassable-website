@@ -7,10 +7,15 @@ import Section from "./section";
  */
 const Advantages = () => (
   <Section>
-    <h1 class="header text-center md:w-3/4 m-auto">
-      LE RETOUR DE LA CONSIGNE DU VERRE POUR RÉEMPLOI
+    <h1 class="header text-left md:text-center md:w-3/4 m-auto">
+      UN OFFRE DE COLLECTE ET DE LAVAGE DE CONTENANTS EN VERRE, EN ALTERNATIVE
+      AU RECYCLAGE
     </h1>
-    <img class="mt-5 md:mt-20 mx-auto w-full" src={LoopImage} alt="loop" />
+    <img
+      class="mt-5 md:mt-20 mx-auto w-full md-w-3/4"
+      src={LoopImage}
+      alt="loop"
+    />
     <div class="mt-5 md:mt-20 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-12">
       <div>
         <p class="font-medium">Un impact environnemental réduit</p>
@@ -44,11 +49,10 @@ const Advantages = () => (
         <p class="font-medium">Un impact social positif</p>
         <p>
           Sensibilisation à l’environnement et participation à sa préservation
-          auprès des citoyens, et de création de nouvelles habitudes de
-          consommations... Les citoyens sont favorables à ce genre de
-          dispositifs et avec l’aide de la réglementation il est facile
-          d’arriver à des taux de retours importants (90% de taux de retour en
-          Allemagne).
+          auprès des citoyens, et création de nouvelles habitudes de
+          consommations. Les citoyens sont favorables à ce genre de dispositifs
+          et avec l’aide de la réglementation il est facile d’arriver à des taux
+          de retours importants (90% de taux de retour en Allemagne).
         </p>
       </div>
     </div>

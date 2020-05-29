@@ -7,15 +7,15 @@ import Section from "./section";
 const History = () => (
   <Section>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-12">
-      <h1 class="header text-center sm:text-right">
-        LA CONSIGNE A ÉTÉ ABANDONNÉE DANS LES ANNÉES 60, AU PROFIT DU TOUT
-        JETABLE SOUS L'EFFET DE LA PRESSION DES LOBBIES INDUSTRIELS
+      <h1 class="header text-left sm:text-right">
+        LA CONSIGNE A ÉTÉ ABANDONNÉE DANS LES ANNÉES 60, <br /> AU PROFIT DU
+        TOUT JETABLE SOUS L'EFFET DE LA PRESSION DES LOBBIES INDUSTRIELS
       </h1>
-      <div class="text-center sm:text-left">
+      <div class="text-left">
         Des groupes de pression agissent sur la communauté européenne pour
-        imposer la politique du gaspillage et empêcher tout retour même modéré à
-        la consigne. Quand les industriels vendent du vin, de l’eau minérale ou
-        de la bière, ils vendent non seulement ce produit mais ils vendent
+        imposer la politique du gaspillage et empêcher tout retour, même modéré,
+        à la consigne. Quand les industriels vendent du vin, de l’eau minérale
+        ou de la bière, ils vendent non seulement ce produit mais ils vendent
         également un emballage, un emballage qui coûte cher et que l’on jette à
         chaque fois. Très souvent les fabricants de ces produits sont également
         des fabricants d’emballages.
