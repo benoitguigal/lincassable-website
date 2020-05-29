@@ -12,7 +12,7 @@ const Advantages = () => (
       AU RECYCLAGE
     </h1>
     <img
-      class="mt-5 md:mt-20 mx-auto w-full md-w-3/4"
+      class="mt-5 md:mt-20 mx-auto w-full md:w-3/4"
       src={LoopImage}
       alt="loop"
     />
