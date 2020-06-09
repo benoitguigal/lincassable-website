@@ -10,11 +10,11 @@ const Sector = () => (
       UN RÉSEAU D’ACTEURS ENGAGÉS
     </h1>
     <div class="mt-5 md:mt-20 md:px-20">
-      Le projet de développement de cette filière se concentre sur un
-      développement économique local, en favorisant le travail avec les acteurs
-      du territoire (producteurs, distributeurs, collectivités...), en
-      développement une logistique de proximité, et mise sur une implication et
-      coopération totale entre ces différents acteurs.
+      Le déploiement de cette filière se concentre sur un développement
+      économique local, en favorisant le travail avec les acteurs du territoire
+      (producteurs, distributeurs, collectivités...), la mise en place d'une
+      logistique de proximité, et une implication et coopération forte entre ces
+      différents acteurs
     </div>
     <div class="mt-5 md:mt-20 flex flex-col md:flex-row items-end">
       <div class="md:pl-20 md:pr-8">
@@ -32,18 +32,18 @@ const Sector = () => (
           <h6>Distributeurs</h6>
           <div>
             Vente directe, marchés, épiceries bio, épiceries spécialisées dans
-            le vrac, magasin spécialisé (caviste, épicerie fine), magasin de
-            proximité : superette, épicerie de quartier, grande surface : super
-            marché / hyper marché...
+            le vrac, magasins spécialisés (cavistes, épiceries fine), magasins
+            de proximité : superettes, épiceries de quartier, grandes surfaces :
+            super marchés / hyper marchés...
           </div>
         </div>
         <br />
         <div>
           <h6>Consommateurs</h6>
           <span>
-            Des consommateurs conscients des enjeux économmiques et
-            environnementaux en jeu, et vous souhaitez vous impliquer dans une
-            démarche de réemploi du verre.
+            Des consommateurs conscients des enjeux économiques et
+            environnementaux en jeu, et souhaitant s'impliquer dans une démarche
+            de réemploi de contenants en verre.
           </span>
         </div>
       </div>
@@ -51,11 +51,11 @@ const Sector = () => (
         <div class="p-6 border-4 border-my-yellow">
           <div>
             Producteurs, distributeurs, consommateurs et autres acteurs engagés,
-            vous êtes intéressé pour vous impliquer ou échanger autour de ce
+            vous êtes intéressés pour vous impliquer ou échanger autour de ce
             projet de développement de la consigne du verre à Marseille ?
           </div>
           <br />
-          <div>Contactez-nous: </div>
+          <div>Contactez-nous : </div>
           <div class="underline font-medium">contact@lincassable.com</div>
         </div>
       </div>

@@ -10,6 +10,6 @@ const typography = new Typography({
     "Arial",
     "sans-serif"
   ],
-  bodyFontFamily: ["Gotham-Thin", "Georgia", "serif"]
+  bodyFontFamily: ["Gotham-Regular", "Georgia", "serif"]
 });
 export default typography;

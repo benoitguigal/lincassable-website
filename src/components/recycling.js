@@ -13,11 +13,11 @@ const Recycling = () => (
       <div>
         <p class="font-medium">Un taux de recyclage très faible du plastique</p>
         <p>
-          Une bouteille sur deux en plastique recyclée en France (moins d’une
-          sur cinq à Marseille). Et encore la matière plastique obtenue après
-          recyclage est de bien moins bonne qualité, il faut donc injecter une
-          grande partie de matière vierge pour créer de nouvelles bouteilles en
-          plastique.
+          Une bouteille en plastique sur deux est recyclée en France (moins
+          d’une sur cinq à Marseille). Et encore la matière plastique obtenue
+          après recyclage est de bien moins bonne qualité, il faut donc injecter
+          une grande partie de matière vierge pour créer de nouvelles bouteilles
+          en plastique.
         </p>
         <p>
           <a
@@ -29,7 +29,7 @@ const Recycling = () => (
         </p>
       </div>
       <div>
-        <p class="font-medium">Le recyclage du verre est très énergivore</p>
+        <p class="font-medium">Un recyclage du verre très énergivore</p>
         <div>
           À contrario, le verre présente un assez bon taux de recyclage (89%
           d’après CITEO). Néanmoins, le procédé permettant le recyclage du verre
@@ -50,7 +50,7 @@ const Recycling = () => (
           collectivités et les consommateurs (qui payent une éco-taxe via le
           système de REP) et rapporte de l’argent aux producteurs d’emballages
           et aux industriels du plastique. Le recyclage du verre coûte 35€/t, et
-          l’enfouissement 106€/t Ce cout est répercuté pour les consommateurs
+          l’enfouissement 106€/t Ce coût est répercuté pour les consommateurs
           sur les prix des produits et payé doublement via la taxe d’ordures
           ménagères.
           <p>

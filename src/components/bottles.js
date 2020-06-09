@@ -7,7 +7,7 @@ import YellowSection from "./yellow-section";
  */
 const Bottles = () => (
   <YellowSection>
-    <img src={BottlesImage} class="w-1/2 sm:w-1/4 m-auto" alt="Bottles" />
+    <img src={BottlesImage} class="w-1/3 sm:w-1/6 m-auto" alt="Bottles" />
   </YellowSection>
 );
 

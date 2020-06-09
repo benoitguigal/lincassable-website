@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: "Gotham-Regular";
+  src: url("../fonts/gotham/gotham-regular.otf");
+}
+
+@font-face {
   font-family: "Gotham-Medium";
   src: url("../fonts/gotham/gotham-medium.ttf");
 }

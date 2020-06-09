@@ -8,7 +8,7 @@ import Section from "./section";
 const Advantages = () => (
   <Section>
     <h1 class="header text-left md:text-center md:w-3/4 m-auto">
-      UN OFFRE DE COLLECTE ET DE LAVAGE DE CONTENANTS EN VERRE, EN ALTERNATIVE
+      UNE OFFRE DE COLLECTE ET DE LAVAGE DE CONTENANTS EN VERRE, EN ALTERNATIVE
       AU RECYCLAGE
     </h1>
     <img
@@ -23,8 +23,8 @@ const Advantages = () => (
           La consigne permettrait de réduire les émissions de CO2 de 79% en
           comparaison au recyclage (Étude Deroche - 2009). Elle permet aussi de
           s’attaquer à la pollution plastique et à son impact sur la
-          biodiversité: de nombreuses alternatives consignées pourraient se
-          substituer aux emballages en plastiques: bocaux, yaourts...
+          biodiversité : de nombreuses alternatives consignées pourraient se
+          substituer aux emballages en plastiques : bocaux, yaourts...
         </p>
         <p>
           <a
@@ -37,10 +37,10 @@ const Advantages = () => (
         </p>
       </div>
       <div>
-        <p class="font-medium">Redynamise un tissus économique local</p>
+        <p class="font-medium">Un tissu économique local redynamisé</p>
         <p>
           Grâce à la création d’emplois locaux à travers l’activité de lavage,
-          tri et collecte des bouteille sur le territoire (pas de site de
+          tri et collecte des bouteilles sur le territoire (pas de site de
           recyclage en PACA) et à la valorisation d’acteurs locaux en
           privilégiant les circuits courts et les acteurs de proximité.
         </p>
@@ -50,7 +50,7 @@ const Advantages = () => (
         <p>
           Sensibilisation à l’environnement et participation à sa préservation
           auprès des citoyens, et création de nouvelles habitudes de
-          consommations. Les citoyens sont favorables à ce genre de dispositifs
+          consommation. Les citoyens sont favorables à ce genre de dispositifs
           et avec l’aide de la réglementation il est facile d’arriver à des taux
           de retours importants (90% de taux de retour en Allemagne).
         </p>
