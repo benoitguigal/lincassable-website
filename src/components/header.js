@@ -10,8 +10,8 @@ const Header = () => (
     <div>
       <img src={Logo} class="w-1/2 sm:w-1/4 m-auto mb-4 md:mb-8" alt="Logo" />
       <h2 class="px-10 md:px-0 text-xs md:text-sm text-center max-w-sm m-auto leading-5 md:leading-7">
-        Développement d'une filière de réemploi de contenants en verre en région
-        marseillaise
+        Développement d'une filière de réemploi d'emballages alimentaires en
+        région marseillaise
       </h2>
     </div>
   </header>
