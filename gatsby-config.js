@@ -1,8 +1,15 @@
+
+const siteUrl =
+  process.env.NODE_ENV === "production"
+    ? "https://lincassable.com"
+    : "http://localhost:8000";
+
 module.exports = {
   siteMetadata: {
     title: `L'incassable`,
     description: `Développement d'une filière de réemploi de contenants en verre en région marseillaise`,
-    author: `Benoît Guigal`
+    author: `Benoît Guigal`,
+    url: siteUrl
   },
   pathPrefix: "/lincassable-website",
   plugins: [
@@ -40,7 +47,7 @@ module.exports = {
       options: {
         siteId: "1",
         matomoUrl: "https://lincassable.matomo.cloud/",
-        siteUrl: "https://lincassable.com/"
+        siteUrl
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
