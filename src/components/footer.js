@@ -8,7 +8,7 @@ const Footer = () => (
         <a class="underline" href="mailto:contact@lincassable.com">
           contact@lincassable.com
         </a>
-        <div>4 boulevard Longchamp</div>
+        <div>40 boulevard Voltaire</div>
         <div>13001 Marseille</div>
       </div>
       <div class="mt-5 md:mt-0 max-w-md flex flex-col items-start md:items-end">
