@@ -46,7 +46,7 @@ module.exports = {
       resolve: "gatsby-plugin-matomo",
       options: {
         siteId: "1",
-        matomoUrl: "https://lincassable.matomo.cloud/",
+        matomoUrl: "https://lincassable.matomo.cloud",
         siteUrl
       }
     }
