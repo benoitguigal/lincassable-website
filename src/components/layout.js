@@ -9,14 +9,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import Navbar from "./navbar";
-import Header from "./header";
 import Footer from "./footer";
 
 const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <Header />
       <div>
         <main>{children}</main>
         <Footer />

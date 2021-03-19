@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "gatsby";
 
 const Navbar = () => {
   const [scrollTop, setScrollTop] = useState(0);
@@ -15,18 +16,12 @@ const Navbar = () => {
 
   return (
     <div
-      class={`${style} h-15 fixed w-full overflow-hidden p-3 flex flex-row justify-start items-center`}
+      class={`${style} h-16 fixed w-full overflow-hidden px-10 flex flex-row justify-start items-center space-x-4`}
       id="navbar"
     >
-      <a class="mx-5" href="#home">
-        Home
-      </a>
-      <a class="mx-5" href="#carte">
-        Carte des points de collecte
-      </a>
-      <a class="mx-5" href="#actu">
-        Actualités
-      </a>
+      <Link to="/">Home</Link>
+      <Link to="/carte">Carte des points de collecte</Link>
+      <Link to="/actus">Actualités</Link>
     </div>
   );
 };

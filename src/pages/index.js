@@ -9,10 +9,12 @@ import Vision from "../components/Vision";
 import Advantages from "../components/advantages";
 import Bottles from "../components/bottles";
 import Sector from "../components/sector";
+import Hero from "../components/hero";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <Hero />
     <History />
     <div class="bg-black">
       <img

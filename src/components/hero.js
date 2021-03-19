@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import Logo from "../images/logo.svg";
 
-const Header = () => (
+const Hero = () => (
   <header
     class="bg-my-yellow h-screen flex flex-col justify-center"
     id="header"
@@ -17,12 +17,12 @@ const Header = () => (
   </header>
 );
 
-Header.propTypes = {
+Hero.propTypes = {
   siteDescription: PropTypes.string
 };
 
-Header.defaultProps = {
+Hero.defaultProps = {
   siteDescription: ``
 };
 
-export default Header;
+export default Hero;
