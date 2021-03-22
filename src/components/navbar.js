@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div
-      class={`${style} h-16 fixed w-full overflow-hidden px-10 flex flex-row justify-start items-center space-x-4`}
+      class={`${style} h-12 fixed w-full overflow-hidden px-10 flex flex-row justify-start items-center space-x-4`}
       id="navbar"
     >
       <Link to="/">Home</Link>
