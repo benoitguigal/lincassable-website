@@ -3,12 +3,13 @@ import { PageProps } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import Map from "../components/map";
 
-const Map = (props: PageProps) => (
+const Carte = () => (
   <Layout>
     <SEO title="Carte" />
-    <h1 className="pt-12">Ceci est une carte</h1>
+    <Map />
   </Layout>
 );
 
-export default Map;
+export default Carte;
