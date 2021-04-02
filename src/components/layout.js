@@ -17,7 +17,6 @@ const Layout = ({ children }) => {
       <Navbar />
       <div>
         <main>{children}</main>
-        <Footer />
       </div>
     </>
   );

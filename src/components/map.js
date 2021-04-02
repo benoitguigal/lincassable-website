@@ -7,7 +7,7 @@ mapboxgl.workerClass = MapboxWorker;
 mapboxgl.accessToken =
   "pk.eyJ1IjoiYmVub2l0Z3VpZ2FsIiwiYSI6ImNqdThob2Y5MDA5Zmg0NG4wMHg4Ynl0MHgifQ.CpODeh1akjBOEIXye5JXcQ";
 
-const Map = () => {
+const Map = (props) => {
   const mapContainer = useRef();
   const [lng, setLng] = useState(5.382053);
   const [lat, setLat] = useState(43.301906);
@@ -20,12 +20,13 @@ const Map = () => {
       center: [lng, lat],
       zoom: zoom
     });
+    //map.on("load", () => map.resize());
     return () => map.remove();
   }, []);
 
   return (
-    <div class="h-full">
-      <div class="map-container h-60 pt-12" ref={mapContainer} />
+    <div {...props}>
+      <div class="map-container z-10 h-full" ref={mapContainer} />
     </div>
   );
 };
