@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
+import { useStaticQuery, graphql } from "gatsby";
 import mapboxgl from "mapbox-gl/dist/mapbox-gl-csp";
 import MapboxWorker from "worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker";
 import "mapbox-gl/dist/mapbox-gl.css";
@@ -13,6 +14,20 @@ const Map = (props) => {
   const [lat, setLat] = useState(43.301906);
   const [zoom, setZoom] = useState(9);
 
+  const data = useStaticQuery(graphql`
+    query {
+      allBreweriesJson {
+        edges {
+          node {
+            name
+            lat
+            long
+          }
+        }
+      }
+    }
+  `);
+
   useEffect(() => {
     const map = new mapboxgl.Map({
       container: mapContainer.current,
@@ -20,7 +35,12 @@ const Map = (props) => {
       center: [lng, lat],
       zoom: zoom
     });
-    //map.on("load", () => map.resize());
+    map.on("load", () => map.resize());
+
+    data.allBreweriesJson.edges.forEach(({ node }) => {
+      new mapboxgl.Marker().setLngLat([node.lat, node.long]).addTo(map);
+    });
+
     return () => map.remove();
   }, []);
 
