@@ -28,9 +28,6 @@ const Map = (props) => {
   `);
   const places = data?.allPlacesJson?.edges?.map((edge) => edge.node);
 
-  console.log(map);
-  console.log(places);
-
   useEffect(() => {
     const map = new mapboxgl.Map({
       container: mapContainer.current,
@@ -38,7 +35,7 @@ const Map = (props) => {
       center: [5.382053, 43.301906],
       zoom: 9
     });
-    map.addControl(new mapboxgl.NavigationControl(), "top-right");
+    map.addControl(new mapboxgl.NavigationControl(), "bottom-right");
     map.on("load", () => map.resize());
     setMap(map);
     return () => map.remove();
