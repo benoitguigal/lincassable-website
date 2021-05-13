@@ -10,6 +10,7 @@ import Advantages from "../components/advantages";
 import Bottles from "../components/bottles";
 import Sector from "../components/sector";
 import Hero from "../components/hero";
+import Footer from "../components/footer";
 
 const IndexPage = () => (
   <Layout>
@@ -28,6 +29,7 @@ const IndexPage = () => (
     <Advantages />
     <Bottles />
     <Sector />
+    <Footer />
   </Layout>
 );
 

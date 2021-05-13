@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from "gatsby";
 import IconFacebook from "./icons/facebook";
 import IconTwitter from "./icons/twitter";
-import IconInstagram from "./icons/instagram";
 import classnames from "classnames";
 
 const Navbar = () => {
@@ -27,7 +26,10 @@ const Navbar = () => {
       )}
       id="navbar"
     >
-      <Link to="/">Home</Link>
+      <div class="space-x-4">
+        <Link to="/">Home</Link>
+        {/* <Link to="/carte">Où trouver / rammener des bouteilles ?</Link> */}
+      </div>
       <div class="space-x-4">
         <a href="https://www.facebook.com/lincassableconsigne">
           <span class="hidden md:inline">Facebook</span>
@@ -43,13 +45,6 @@ const Navbar = () => {
             color={scrolling ? "white" : "black"}
           />
         </a>
-        {/* <a href="https://www.instagram.com/lincassable_consigne/">
-          <span class="hidden md:inline">Instagram</span>
-          <IconInstagram
-            class="inline md:hidden"
-            color={scrolling ? "white" : "black"}
-          />
-        </a> */}
       </div>
 
       {/* <Link to="/carte">Carte des points de collecte</Link>
