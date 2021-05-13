@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"98BH":function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),c=n.n(a),l=n("Bl7J"),u=n("vrFN");t.default=function(e){return c.a.createElement(l.a,null,c.a.createElement(u.a,{title:"Actualités"}),c.a.createElement("h1",null,"Ceci est une page actus"))}}}]);
+//# sourceMappingURL=component---src-pages-actus-tsx-80164126522b375b2d6f.js.map
