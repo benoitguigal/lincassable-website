@@ -28,7 +28,7 @@ const Navbar = () => {
     >
       <div class="space-x-4">
         <Link to="/">Home</Link>
-        <Link to="/carte">Où trouver / rammener des bouteilles ?</Link>
+        {/* <Link to="/carte">Où trouver / rammener des bouteilles ?</Link> */}
       </div>
       <div class="space-x-4">
         <a href="https://www.facebook.com/lincassableconsigne">
