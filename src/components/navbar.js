@@ -20,10 +20,18 @@ const Navbar = () => {
 
   return (
     <div
-      class={classnames(
-        style,
-        "h-12 fixed w-full overflow-hidden px-10 flex flex-row justify-between items-center"
-      )}
+      id="navbar"
+      className={classnames(style, "h-12 fixed w-full overflow-hidden")}
+    >
+      <NavbarDesktop scrolling={scrolling} />
+    </div>
+  );
+};
+
+const NavbarDesktop = ({ scrolling }) => {
+  return (
+    <div
+      class="flex flex-row justify-between items-center px-10 h-full"
       id="navbar"
     >
       <div class="space-x-4">
@@ -46,9 +54,6 @@ const Navbar = () => {
           />
         </a>
       </div>
-
-      {/* <Link to="/carte">Carte des points de collecte</Link>
-      <Link to="/actus">Actualités</Link> */}
     </div>
   );
 };
