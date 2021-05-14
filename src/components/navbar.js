@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import IconFacebook from "./icons/facebook";
 import IconTwitter from "./icons/twitter";
 import classnames from "classnames";
+import NavigationMenu from "./icons/navigationMenu";
 
 const Navbar = () => {
   const [scrollTop, setScrollTop] = useState(0);
@@ -24,6 +25,7 @@ const Navbar = () => {
       className={classnames(style, "h-12 fixed w-full overflow-hidden")}
     >
       <NavbarDesktop scrolling={scrolling} />
+      <NavbarMobile scrolling={scrolling} />
     </div>
   );
 };
@@ -31,7 +33,7 @@ const Navbar = () => {
 const NavbarDesktop = ({ scrolling }) => {
   return (
     <div
-      class="flex flex-row justify-between items-center px-10 h-full"
+      class="hidden md:flex flex-row justify-between items-center px-10 h-full "
       id="navbar"
     >
       <div class="space-x-4">
@@ -54,6 +56,22 @@ const NavbarDesktop = ({ scrolling }) => {
           />
         </a>
       </div>
+    </div>
+  );
+};
+
+const NavbarMobile = ({ scrolling }) => {
+  return (
+    <div className="md:hidden h-full flex flex-row items-center px-2">
+      <NavigationMenu role="button" color={scrolling ? "white" : "black"} />
+      {/* <IconFacebook
+        class="inline md:hidden"
+        color={scrolling ? "white" : "black"}
+      />
+      <IconTwitter
+        class="inline md:hidden"
+        color={scrolling ? "white" : "black"}
+      /> */}
     </div>
   );
 };
