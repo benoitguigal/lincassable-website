@@ -6,6 +6,7 @@ const Carte = () => (
   <Layout>
     <SEO title="Carte" />
     <iframe
+      title="Où trouver / rammener mes bouteilles ?"
       className="m-0 p-0 pt-12 h-screen"
       width="100%"
       height="100%"

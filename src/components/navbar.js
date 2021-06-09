@@ -86,7 +86,8 @@ const NavbarMobile = ({ scrolling }) => {
         <MenuIcon
           class="my-2"
           role="button"
-          width="30px"
+          width="2em"
+          height="2em"
           color={scrolling || showMenu ? "white" : "black"}
           onClick={() => setShowMenu(!showMenu)}
         />
