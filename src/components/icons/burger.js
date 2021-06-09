@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function NavigationMenu(props) {
+function IconBurger(props) {
   return (
     <svg
       viewBox="0 0 140 140"
@@ -24,4 +24,4 @@ function NavigationMenu(props) {
   );
 }
 
-export default NavigationMenu;
+export default IconBurger;
