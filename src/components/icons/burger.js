@@ -4,8 +4,8 @@ function IconBurger(props) {
   return (
     <svg
       viewBox="0 0 140 140"
-      height="1.6em"
-      width="1.6em"
+      height="2em"
+      width="2em"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >

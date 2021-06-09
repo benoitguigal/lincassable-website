@@ -7,8 +7,8 @@ function IconClose(props) {
       xmlns="http://www.w3.org/2000/svg"
       fill={props.color ?? "black"}
       stroke={props.color ?? "black"}
-      height="1em"
-      width="1em"
+      height="1.5em"
+      width="1.5em"
       {...props}
     >
       <path
