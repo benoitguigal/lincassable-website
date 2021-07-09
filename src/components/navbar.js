@@ -84,7 +84,7 @@ const NavbarMobile = ({ scrolling }) => {
                   width="1.3em"
                   height="1.3em"
                   class="inline md:hidden"
-                  color="white"
+                  color="#EAEDEC"
                 />
               </a>
               <a href="https://www.facebook.com/lincassableconsigne">
@@ -92,7 +92,7 @@ const NavbarMobile = ({ scrolling }) => {
                   width="1.3em"
                   height="1.3em"
                   class="inline md:hidden"
-                  color="white"
+                  color="#EAEDEC"
                 />
               </a>
               <a href="https://twitter.com/_Lincassable">
@@ -100,7 +100,7 @@ const NavbarMobile = ({ scrolling }) => {
                   width="1.3em"
                   height="1.3em"
                   class="inline md:hidden"
-                  color="white"
+                  color="#EAEDEC"
                 />
               </a>
             </div>

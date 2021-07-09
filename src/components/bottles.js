@@ -1,13 +1,15 @@
 import React from "react";
-import BottlesImage from "../images/bottles.png";
+import IconBouteilles from "./icons/bouteilles";
 import GreenBottleSection from "./yellow-section";
 
 /**
- * Bandeau avec une image de l'ensemble des contenants pris en charge
+ * Bandeau avec une image de bouteilles
  */
 const Bottles = () => (
   <GreenBottleSection>
-    <img src={BottlesImage} class="w-1/3 sm:w-1/6 m-auto" alt="Bottles" />
+    <div class="flex justify-center">
+      <IconBouteilles color="#EAEDEC" width="8em" height="8em" />
+    </div>
   </GreenBottleSection>
 );
 
