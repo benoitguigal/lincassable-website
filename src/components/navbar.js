@@ -8,7 +8,7 @@ import IconBurger from "./icons/burger";
 import IconClose from "./icons/close";
 
 const background = (scrolling) =>
-  scrolling ? "bg-black text-white" : "bg-my-yellow";
+  scrolling ? "bg-black text-white" : "bg-green-bottle";
 
 const Navbar = () => {
   const [scrollTop, setScrollTop] = useState(0);
@@ -33,12 +33,7 @@ const Navbar = () => {
 
 const NavbarDesktop = ({ scrolling }) => {
   return (
-    <div
-      class={classnames(
-        background(scrolling),
-        "h-12 fixed w-full overflow-hidden px-10 hidden md:flex flex-row justify-between items-center"
-      )}
-    >
+    <div class="bg-green-bottle h-12 fixed w-full overflow-hidden px-10 hidden md:flex flex-row justify-between items-center">
       <div class="space-x-6">
         <Link to="/">Accueil</Link>
         <a href="https://faq.lincassable.com">FAQ</a>
@@ -46,25 +41,13 @@ const NavbarDesktop = ({ scrolling }) => {
       </div>
       <div class="space-x-4">
         <a href="https://www.instagram.com/lincassable_consigne/">
-          <span class="hidden md:inline">Instagram</span>
-          <IconInstagram
-            class="inline md:hidden"
-            color={scrolling ? "white" : "black"}
-          />
+          <span>instagram</span>
         </a>
         <a href="https://www.facebook.com/lincassableconsigne">
-          <span class="hidden md:inline">Facebook</span>
-          <IconFacebook
-            class="inline md:hidden"
-            color={scrolling ? "white" : "black"}
-          />
+          <span>facebook</span>
         </a>
         <a href="https://twitter.com/_Lincassable">
-          <span class="hidden md:inline">Twitter</span>
-          <IconTwitter
-            class="inline md:hidden"
-            color={scrolling ? "white" : "black"}
-          />
+          <span>twitter</span>
         </a>
       </div>
     </div>
@@ -77,17 +60,12 @@ const NavbarMobile = ({ scrolling }) => {
   const MenuIcon = showMenu ? IconClose : IconBurger;
 
   return (
-    <div
-      className={classnames(
-        background(scrolling || showMenu),
-        "md:hidden fixed w-full flex flex-row items-center px-2 py-2"
-      )}
-    >
+    <div className="bg-green-bottle md:hidden fixed w-full flex flex-row items-center px-2 py-2">
       <div class="flex flex-col w-full">
         <MenuIcon
           class="my-2"
           role="button"
-          color={scrolling || showMenu ? "white" : "black"}
+          color="#EAEDEC"
           onClick={() => setShowMenu(!showMenu)}
         />
 

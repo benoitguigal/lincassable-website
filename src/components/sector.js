@@ -48,7 +48,7 @@ const Sector = () => (
         </div>
       </div>
       <div class="mt-5 md:mt-0 md:pr-20 md:pl-8">
-        <div class="p-6 border-4 border-my-yellow">
+        <div class="p-6 border-4 border-green-bottle">
           <div>
             Producteurs, distributeurs, consommateurs et autres acteurs engagés,
             vous êtes intéressés pour vous impliquer ou échanger autour de ce

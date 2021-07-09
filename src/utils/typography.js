@@ -3,13 +3,13 @@ const typography = new Typography({
   baseFontSize: "16px",
   baseLineHeight: 1.5,
   headerFontFamily: [
-    "Gotham-Medium",
+    "Decima-Mono-Bold",
     "Helvetica Neue",
     "Segoe UI",
     "Helvetica",
     "Arial",
     "sans-serif"
   ],
-  bodyFontFamily: ["Gotham-Regular", "Georgia", "serif"]
+  bodyFontFamily: ["Decima-Light", "Decima-Bold", "Georgia", "serif"]
 });
 export default typography;

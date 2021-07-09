@@ -1,33 +1,55 @@
-@font-face {
-  font-family: "Gotham-Thin";
-  src: url("../fonts/gotham/gotham-thin.ttf");
-}
 
 @font-face {
-  font-family: "Gotham-Regular";
-  src: url("../fonts/gotham/gotham-regular.otf");
+  font-family: "Decima-Bold";
+  src: url("../fonts/decima/decima-bold.otf");
 }
 
 @font-face {
-  font-family: "Gotham-Medium";
-  src: url("../fonts/gotham/gotham-medium.ttf");
+  font-family: "Decima-Light";
+  src: url("../fonts/decima/decima-light.otf");
 }
 
 @font-face {
-  font-family: "Gotham-Ultra";
-  src: url("../fonts/gotham/gotham-ultra.ttf");
+  font-family: "Decima-Light-Italic";
+  src: url("../fonts/decima/decima-light-italic.otf");
 }
 
-.bg-my-yellow {
-  background-color: #ffef36
+@font-face {
+  font-family: "Decima-Mono-Bold";
+  src: url("../fonts/decima/decima-mono-bold.otf");
 }
 
-.border-my-yellow {
-  border-color: #ffef36;
+@font-face {
+  font-family: "Decima-Mono-Light";
+  src: url("../fonts/decima/decima-mono-light.otf");
+}
+
+@font-face {
+  font-family: "Decima-Regular";
+  src: url("../fonts/decima/decima-regular.otf");
+}
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+  color: #253D39
+}
+
+.bg-green-bottle {
+  background-color: #253D39;
+  color: #EAEDEC;
+}
+
+.border-green-bottle {
+  border-color: #253D39;
 }
 
 .font-medium {
-  font-family: Gotham-Medium, Arial, Helvetica, sans-serif
+  font-family: Decima-Bold, Arial, Helvetica, sans-serif
 }
 
 .header {
@@ -35,8 +57,3 @@
 }
 
 
-@tailwind base;
-
-@tailwind components;
-
-@tailwind utilities;

@@ -1,12 +1,12 @@
 import React from "react";
-import YellowSection from "./yellow-section";
+import GreenBottleSection from "./yellow-section";
 
 /**
  * Ambition du projet
  */
 const Vision = () => (
-  <YellowSection>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 bg-my-yellow ">
+  <GreenBottleSection>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-12 bg-green-bottle">
       <h1 class="header text-left md:text-right">
         L’AMBITION DU PROJET : (RE)DÉVELOPPER UNE FILIÈRE DE RÉEMPLOI DE
         CONTENANTS EN VERRE EN RÉGION MARSEILLAISE
@@ -18,7 +18,7 @@ const Vision = () => (
         mutualisée avec d’autres acteurs sur le territoire.
       </div>
     </div>
-  </YellowSection>
+  </GreenBottleSection>
 );
 
 export default Vision;

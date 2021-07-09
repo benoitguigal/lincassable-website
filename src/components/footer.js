@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => (
-  <footer class="px-16 py-10 bg-my-yellow">
+  <footer class="px-16 py-10 bg-green-bottle">
     <div class="flex flex-col md:flex-row justify-between">
       <div class="text-left">
         <h5>Contact</h5>
