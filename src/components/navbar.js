@@ -3,12 +3,8 @@ import { Link } from "gatsby";
 import IconFacebook from "./icons/facebook";
 import IconTwitter from "./icons/twitter";
 import IconInstagram from "./icons/instagram";
-import classnames from "classnames";
 import IconBurger from "./icons/burger";
 import IconClose from "./icons/close";
-
-const background = (scrolling) =>
-  scrolling ? "bg-black text-white" : "bg-green-bottle";
 
 const Navbar = () => {
   const [scrollTop, setScrollTop] = useState(0);
@@ -21,17 +17,15 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, [scrollTop]);
 
-  const scrolling = scrollTop > 15;
-
   return (
     <div id="navbar">
-      <NavbarDesktop scrolling={scrolling} />
-      <NavbarMobile scrolling={scrolling} />
+      <NavbarDesktop />
+      <NavbarMobile />
     </div>
   );
 };
 
-const NavbarDesktop = ({ scrolling }) => {
+const NavbarDesktop = () => {
   return (
     <div class="bg-green-bottle h-12 fixed w-full overflow-hidden px-10 hidden md:flex flex-row justify-between items-center">
       <div class="space-x-6">
@@ -49,12 +43,15 @@ const NavbarDesktop = ({ scrolling }) => {
         <a href="https://twitter.com/_Lincassable">
           <span>twitter</span>
         </a>
+        <a href="https://www.linkedin.com/company/lincassable/">
+          <span>linkedin</span>
+        </a>
       </div>
     </div>
   );
 };
 
-const NavbarMobile = ({ scrolling }) => {
+const NavbarMobile = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const MenuIcon = showMenu ? IconClose : IconBurger;

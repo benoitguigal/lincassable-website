@@ -19,7 +19,7 @@ const Footer = () => (
           <form action="https://7fd77de6.sibforms.com/serve/MUIEAPDdndtjSNNua5fxnlRa7SKmAo20nw978W_6GQCBVS_mzPM6RFmjG9gJg_PZMweM4BE8WW7SikPZIySAEQtRsFNWPSAYrp3eDyT79AMnBgWqce0jJynznh1M34wWmTpu8lRJ05jj8ONEbxs9cKyhl0rPUASDHBZnQrCypKaYkN5eEJi8TkcHdVRPWVrz7aGh4vK--pZYxjQ4">
             <button
               type="submit"
-              class="px-2 py-1 border-2 border-black font-medium mt-4 max-w-xs text-left md:text-right"
+              class="px-2 py-1 border-2 mt-4 max-w-xs text-left md:text-right flex"
             >
               INSCRIPTION
             </button>

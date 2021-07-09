@@ -1,10 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
 import HeroImg from "../images/hero.svg";
-import IconBouteilles from "./icons/bouteilles";
-import IconFleche from "./icons/fleche";
-import IconPluie from "./icons/pluie";
-import IconVerre from "./icons/verre";
 
 const Hero = () => (
   <header
