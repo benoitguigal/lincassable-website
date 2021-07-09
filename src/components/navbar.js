@@ -39,9 +39,10 @@ const NavbarDesktop = ({ scrolling }) => {
         "h-12 fixed w-full overflow-hidden px-10 hidden md:flex flex-row justify-between items-center"
       )}
     >
-      <div class="space-x-4">
-        <Link to="/">Home</Link>
-        {/* <Link to="/carte">Où trouver / rammener des bouteilles ?</Link> */}
+      <div class="space-x-6">
+        <Link to="/">Accueil</Link>
+        <a href="https://faq.lincassable.com">FAQ</a>
+        <Link to="/carte">Où trouver / rammener des bouteilles ?</Link>
       </div>
       <div class="space-x-4">
         <a href="https://www.instagram.com/lincassable_consigne/">
@@ -93,11 +94,12 @@ const NavbarMobile = ({ scrolling }) => {
         {showMenu && (
           <div class="flex flex-col items-center space-y-3 w-full">
             <Link class="text-sm" to="/">
-              Home
+              Accueil
             </Link>
-            {/* <Link class="text-sm" to="/carte">
+            <a href="https://faq.lincassable.com">FAQ</a>
+            <Link class="text-sm" to="/carte">
               Où trouver / rammener des bouteilles ?
-            </Link> */}
+            </Link>
             <div class="w-full flex flex-row justify-center space-x-5">
               <a href="https://www.instagram.com/lincassable_consigne/">
                 <IconInstagram
