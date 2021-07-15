@@ -31,7 +31,7 @@ const NavbarDesktop = () => {
       <div class="space-x-6">
         <Link to="/">Accueil</Link>
         <a href="https://faq.lincassable.com">FAQ</a>
-        <Link to="/carte">Où trouver / rammener des bouteilles ?</Link>
+        <Link to="/carte">Où trouver / ramener des bouteilles ?</Link>
       </div>
       <div class="space-x-4">
         <a href="https://www.instagram.com/lincassable_consigne/">

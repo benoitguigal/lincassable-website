@@ -10,11 +10,10 @@ const Sector = () => (
       UN RÉSEAU D’ACTEURS ENGAGÉS
     </h1>
     <div class="mt-5 md:mt-20 md:px-20">
-      Le déploiement de cette filière se concentre sur un développement
-      économique local, en favorisant le travail avec les acteurs du territoire
-      (producteurs, distributeurs, collectivités...), la mise en place d'une
-      logistique de proximité, et une implication et coopération forte entre ces
-      différents acteurs
+      Le déploiement de la filière de réemploi participe au développement
+      économique local : L'Incassable favorise les coopérations entre les
+      acteurs du territoire (producteurs, distributeurs et collectivités) et met
+      en place une logistique de proximité.
     </div>
     <div class="mt-5 md:mt-20 flex flex-col md:flex-row items-end">
       <div class="md:pl-20 md:pr-8">

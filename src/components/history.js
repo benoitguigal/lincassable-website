@@ -12,16 +12,17 @@ const History = () => (
         TOUT JETABLE SOUS L'EFFET DE LA PRESSION DES LOBBIES INDUSTRIELS
       </h1>
       <div class="text-left">
-        Des groupes de pression agissent sur la communauté européenne pour
+        « Des groupes de pression agissent sur la communauté européenne pour
         imposer la politique du gaspillage et empêcher tout retour, même modéré,
         à la consigne. Quand les industriels vendent du vin, de l’eau minérale
         ou de la bière, ils vendent non seulement ce produit mais ils vendent
         également un emballage, un emballage qui coûte cher et que l’on jette à
         chaque fois. Très souvent les fabricants de ces produits sont également
-        des fabricants d’emballages.
+        des fabricants d’emballages. »
         <br />
         <a
           class="underline"
+          target="_blank"
           href="https://m.ina.fr/video/S822033_001/pourquoi-avons-nous-abandonne-le-verre-consigne-video.html"
         >
           Pourquoi avons nous abandonné le verre consigné? [Vidéo INA]

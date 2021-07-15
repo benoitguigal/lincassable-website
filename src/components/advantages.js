@@ -24,11 +24,12 @@ const Advantages = () => (
           comparaison au recyclage (Étude Deroche - 2009). Elle permet aussi de
           s’attaquer à la pollution plastique et à son impact sur la
           biodiversité : de nombreuses alternatives consignées pourraient se
-          substituer aux emballages en plastiques : bocaux, yaourts...
+          substituer aux emballages en plastique : bocaux, yaourts...
         </p>
         <p>
           <a
             href="https://podcasts.apple.com/fr/podcast/brune-poirson-sengage-pour-la-consigne-des-bouteilles/id1148855554?i=1000454832139"
+            target="_blank"
             class="underline"
           >
             Brune Poirson s’engage pour la consigne des bouteilles en verre
@@ -39,20 +40,22 @@ const Advantages = () => (
       <div>
         <p class="font-medium">Un tissu économique local redynamisé</p>
         <p>
-          Grâce à la création d’emplois locaux à travers l’activité de lavage,
-          tri et collecte des bouteilles sur le territoire (pas de site de
-          recyclage en PACA) et à la valorisation d’acteurs locaux en
-          privilégiant les circuits courts et les acteurs de proximité.
+          L'Incassable permettra la création d’emplois locaux à travers
+          l’activité de lavage, tri et collecte des bouteilles sur le territoire
+          (pas de site de recyclage en PACA) et à la valorisation d’acteurs
+          locaux en privilégiant les circuits courts et les acteurs de
+          proximité.
         </p>
       </div>
       <div>
         <p class="font-medium">Un impact social positif</p>
         <p>
-          Sensibilisation à l’environnement et participation à sa préservation
-          auprès des citoyens, et création de nouvelles habitudes de
-          consommation. Les citoyens sont favorables à ce genre de dispositifs
-          et avec l’aide de la réglementation il est facile d’arriver à des taux
-          de retours importants (90% de taux de retour en Allemagne).
+          En introduisant de nouvelles habitudes de consommation, la consigne
+          participe à la sensibilisation du grand public sur la préservation de
+          l'environnement. Les citoyens sont favorables à ce genre de
+          dispositifs et, avec l’aide de la réglementation, il est facile
+          d’arriver à des taux de retours importants. En Allemagne, le taux de
+          retour est ainsi de 90%
         </p>
       </div>
     </div>
