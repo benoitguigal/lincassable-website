@@ -18,7 +18,7 @@ const Carte = () => {
         {...iframeProps}
         title="Où trouver / rammener mes bouteilles ?"
         className="hidden md:block m-0 p-0 pt-12 h-screen"
-        src="//umap.openstreetmap.fr/fr/map/lincassable-ou-trouver-rammener-mes-bouteilles_610505?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=false&onLoadPanel=undefined&captionBar=true&fullscreenControl=false"
+        src="//umap.openstreetmap.fr/fr/map/lincassable-ou-trouver-rammener-mes-bouteilles_610505?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=false&onLoadPanel=databrowser&captionBar=true&fullscreenControl=false"
       ></iframe>
       <iframe
         {...iframeProps}
