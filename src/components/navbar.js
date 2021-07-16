@@ -30,8 +30,8 @@ const NavbarDesktop = () => {
     <div class="bg-green-bottle h-12 fixed w-full overflow-hidden px-10 hidden md:flex flex-row justify-between items-center">
       <div class="space-x-6">
         <Link to="/">Accueil</Link>
-        <a href="https://faq.lincassable.com">FAQ</a>
         <Link to="/carte">Où trouver / ramener des bouteilles ?</Link>
+        <a href="https://faq.lincassable.com">FAQ</a>
       </div>
       <div class="space-x-4">
         <a href="https://www.instagram.com/lincassable_consigne/">
@@ -71,10 +71,10 @@ const NavbarMobile = () => {
             <Link class="text-sm" to="/">
               Accueil
             </Link>
-            <a href="https://faq.lincassable.com">FAQ</a>
             <Link class="text-sm" to="/carte">
               Où trouver / rammener des bouteilles ?
             </Link>
+            <a href="https://faq.lincassable.com">FAQ</a>
             <div class="w-full flex flex-row justify-center space-x-5">
               <a href="https://www.instagram.com/lincassable_consigne/">
                 <IconInstagram
