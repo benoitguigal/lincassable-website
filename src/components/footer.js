@@ -1,4 +1,8 @@
 import React from "react";
+import AdemeImg from "../images/partners/ademe.png";
+import CiteoImg from "../images/partners/citeo.png";
+import MetropoleImg from "../images/partners/amp.png";
+import RothschildImg from "../images/partners/rothschild.png";
 
 const Footer = () => (
   <footer class="px-16 py-10 bg-green-bottle">
@@ -26,6 +30,15 @@ const Footer = () => (
           </form>
         </div>
       </div>
+    </div>
+    <hr />
+
+    {/* <h4 class="text-center">Soutiens</h4> */}
+    <div class="flex flex-row justify-center space-x-20 items-center w-full mt-10">
+      <img src={AdemeImg} class="h-16 w-auto" alt="Ademe" />
+      <img src={CiteoImg} class="h-8 w-auto" alt="CITEO" />
+      <img src={MetropoleImg} class="h-16 w-auto" alt="CITEO" />
+      <img src={RothschildImg} class="h-16 w-auto" alt="CITEO" />
     </div>
   </footer>
 );
