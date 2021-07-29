@@ -23,6 +23,7 @@ const History = () => (
         <a
           class="underline"
           target="_blank"
+          rel="noreferrer"
           href="https://m.ina.fr/video/S822033_001/pourquoi-avons-nous-abandonne-le-verre-consigne-video.html"
         >
           Pourquoi avons nous abandonné le verre consigné? [Vidéo INA]

@@ -57,6 +57,7 @@ const Recycling = () => (
             <a
               class="underline"
               target="_blank"
+              rel="noreferrer"
               href="https://www.youtube.com/watch?v=QFMggbBrMk8&feature=youtu.be&t=186"
             >
               Le recyclage du plastique, c’est pas fantastique ! [Vidéo France

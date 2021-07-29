@@ -30,6 +30,7 @@ const Advantages = () => (
           <a
             href="https://podcasts.apple.com/fr/podcast/brune-poirson-sengage-pour-la-consigne-des-bouteilles/id1148855554?i=1000454832139"
             target="_blank"
+            rel="noreferrer"
             class="underline"
           >
             Brune Poirson s’engage pour la consigne des bouteilles en verre
