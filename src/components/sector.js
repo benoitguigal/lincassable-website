@@ -7,57 +7,29 @@ import Section from "./section";
 const Sector = () => (
   <Section>
     <h1 class="header text-left md:text-center md:w-3/4 m-auto">
-      UN RÉSEAU D’ACTEURS ENGAGÉS
+      UN RÉSEAU LOCAL D’ACTEURS ENGAGÉS
     </h1>
-    <div class="mt-5 md:mt-20 md:px-20">
-      Le déploiement de la filière de réemploi participe au développement
-      économique local : L'Incassable favorise les coopérations entre les
-      acteurs du territoire (producteurs, distributeurs et collectivités) et met
-      en place une logistique de proximité.
+    <div class="mt-2 md:mt-5 md:px-20">
+      L’INCASSABLE est une association marseillaise dont l’ambition est
+      d’apporter une solution concrète en matière de réemploi d’emballages
+      alimentaires (bouteilles, bocaux...) à Marseille et dans les
+      Bouches-du-Rhône, et de proposer ainsi une alternative aux emballages à
+      usage unique et très souvent en plastique. Cela se traduit par la mise en
+      place d’infrastructures de collecte et de lavage d’emballages à une
+      échelle locale
     </div>
-    <div class="mt-5 md:mt-20 flex flex-col md:flex-row items-end">
-      <div class="md:pl-20 md:pr-8">
-        <div>
-          <h6>Producteurs</h6>
-          <div>
-            Produits laitiers : lait, yaourts, crème fraiche, faisselle...,
-            miel, soupe, produits du terroir, fruits et légumes transformés,
-            condiments, huiles et vinaigre, eau, vin, jus, sodas, sirop,
-            spiritueux...
-          </div>
-        </div>
-        <br />
-        <div>
-          <h6>Distributeurs</h6>
-          <div>
-            Vente directe, marchés, épiceries bio, épiceries spécialisées dans
-            le vrac, magasins spécialisés (cavistes, épiceries fine), magasins
-            de proximité : superettes, épiceries de quartier, grandes surfaces :
-            super marchés / hyper marchés...
-          </div>
-        </div>
-        <br />
-        <div>
-          <h6>Consommateurs</h6>
-          <span>
-            Des consommateurs conscients des enjeux économiques et
-            environnementaux en jeu, et souhaitant s'impliquer dans une démarche
-            de réemploi de contenants en verre.
-          </span>
-        </div>
-      </div>
-      <div class="mt-5 md:mt-0 md:pr-20 md:pl-8">
-        <div class="p-6 border-4 border-green-bottle">
-          <div>
-            Producteurs, distributeurs, consommateurs et autres acteurs engagés,
-            vous êtes intéressés pour vous impliquer ou échanger autour de ce
-            projet de développement de la consigne du verre à Marseille ?
-          </div>
-          <br />
-          <div>Contactez-nous : </div>
-          <div class="underline font-medium">contact@lincassable.com</div>
-        </div>
-      </div>
+    <div class="mt-2 md:mt-5 md:px-20">
+      L’INCASSABLE expérimente dans un premier temps le réemploi des bouteilles
+      75 cl en verre mises sur le marché par les brasseries artisanales locales
+      sur le territoire de la métropole Aix-Marseille-Provence.
+    </div>
+    <div class="mt-2 md:mt-5 md:px-20">
+      De nombreux acteurs locaux sont engagés dans la démarche : producteurs,
+      distributeurs, collectivités... <br />
+      Retrouvez ici la carte des partenaires de L’INCASSABLE :{" "}
+      <a class="underline" target="_blank" rel="noreferrer" href="/carte">
+        Où trouver / Rammener mes bouteilles
+      </a>
     </div>
   </Section>
 );
