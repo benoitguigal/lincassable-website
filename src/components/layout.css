@@ -4,8 +4,45 @@
 
 @import "../css/typography.css";
 
-div {
-  background: red;
-  color: white;
-  font-family: "Decima-Bold";
+body {
+  font-family: "Decima-Light", georgia, serif;
+  color: #253D39;
+}
+
+.bg-green-bottle {
+  background-color: #253D39;
+  color: #EAEDEC;
+}
+
+.bg-grey {
+  background-color: #D5DBD6;
+  color: #253D39;
+}
+
+.border-green-bottle {
+  border-color: #253D39;
+}
+
+.font-medium {
+  font-family: Decima-Bold, Arial, Helvetica, sans-serif;
+}
+
+.header {
+  font-size: 1.6em;
+}
+
+.videoWrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  /* padding-bottom: 56.25%; */
+  padding-bottom: 52.1%;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

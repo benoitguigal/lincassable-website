@@ -1,13 +1,35 @@
 import * as React from "react";
 import Layout from "../components/layout";
+import SEO from "../components/seo";
+import PlasticBottleImage from "../images/plastic-bottle.png";
+import History from "../components/history";
+import Recycling from "../components/recycling";
+import Vision from "../components/Vision";
+import Advantages from "../components/advantages";
+import Bottles from "../components/bottles";
+import Sector from "../components/sector";
+import Hero from "../components/hero";
+import Footer from "../components/footer";
 
-const IndexPage = () => {
-  return (
-    <Layout>
-      <p className="text-9xl font-bold underline lincassableGreen">
-        I'm making this by following the Gatsby Tutorial.
-      </p>
-    </Layout>
-  );
-};
+const IndexPage = () => (
+  <Layout>
+    <SEO title="Home" />
+    <Hero />
+    <History />
+    <div className="bg-black">
+      <img
+        className="m-auto sm:h-screen"
+        src={PlasticBottleImage}
+        alt="plastic bottle"
+      />
+    </div>
+    <Recycling />
+    <Vision />
+    <Advantages />
+    <Bottles />
+    <Sector />
+    <Footer />
+  </Layout>
+);
+
 export default IndexPage;
