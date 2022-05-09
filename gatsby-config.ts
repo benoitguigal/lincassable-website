@@ -23,7 +23,19 @@ const config: GatsbyConfig = {
     },
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
-    `gatsby-transformer-sharp`
+    "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "L'INCASSABLE",
+        short_name: "L'INCASSABLE",
+        start_url: `/`,
+        background_color: "#253D39",
+        theme_color: "#EAEDEC",
+        display: `standalone`,
+        icon: `src/images/favicon.svg` // This path is relative to the root of the site.
+      }
+    }
   ]
 };
 
