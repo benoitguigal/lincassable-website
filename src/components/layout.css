@@ -23,8 +23,22 @@ body {
   border-color: #253D39;
 }
 
-.font-medium {
+
+.decima-light {
+  font-family: Decima-Light, Arial, Helvetica, sans-serif;
+}
+
+.decima-mono-light {
+  font-family: Decima-Mono-Light, Arial, Helvetica, sans-serif;
+}
+
+.decima-bold {
   font-family: Decima-Bold, Arial, Helvetica, sans-serif;
+}
+
+.decima-mono-bold {
+  font-family: Decima-Mono-Bold, Arial, Helvetica, sans-serif;
+  line-height: 1.25;
 }
 
 .header {

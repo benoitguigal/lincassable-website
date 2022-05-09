@@ -6,7 +6,7 @@ import Section from "./section";
  */
 const Sector = () => (
   <Section>
-    <h1 class="header text-left md:text-center md:w-3/4 m-auto">
+    <h1 class="header text-left md:text-center md:w-3/4 m-auto decima-mono-bold">
       UN RÉSEAU LOCAL D’ACTEURS ENGAGÉS
     </h1>
     <div class="mt-2 md:mt-5 md:px-20 text-center">

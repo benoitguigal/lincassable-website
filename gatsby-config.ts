@@ -2,8 +2,9 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `new`,
-    siteUrl: `https://lincassable.com`
+    title: `L'INCASSABLE`,
+    siteUrl: `https://lincassable.com`,
+    description: `Filière de consigne de bouteilles en verre dans les Bouches-du-Rhône et le Vaucluse`
   },
   plugins: [
     "gatsby-plugin-netlify-cms",

@@ -6,12 +6,12 @@ import Section from "./section";
  */
 const Recycling = () => (
   <Section>
-    <h1 class="header text-left md:text-center md:w-3/4 m-auto">
+    <h1 class="header text-left md:text-center md:w-3/4 m-auto decima-mono-bold">
       AUJOURD’HUI, LES FILIÈRES DE RECYCLAGE SONT LOIN D’ÊTRE SATISFAISANTES
     </h1>
     <div class="mt-5 md:mt-20 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-12">
       <div>
-        <p class="font-medium">Un taux de recyclage très faible du plastique</p>
+        <p class="decima-bold">Un taux de recyclage très faible du plastique</p>
         <p>
           Une bouteille en plastique sur deux est recyclée en France (moins
           d’une sur cinq à Marseille). Et encore la matière plastique obtenue
@@ -29,7 +29,7 @@ const Recycling = () => (
         </p>
       </div>
       <div>
-        <p class="font-medium">Un recyclage du verre très énergivore</p>
+        <p class="decima-bold">Un recyclage du verre très énergivore</p>
         <div>
           A contrario, le verre présente un assez bon taux de recyclage (89%
           d’après CITEO). Néanmoins, le procédé permettant le recyclage du verre
@@ -42,7 +42,7 @@ const Recycling = () => (
         </div>
       </div>
       <div>
-        <p class="font-medium">
+        <p class="decima-bold">
           Un coût pour les collectivités et les consommateurs
         </p>
         <div>

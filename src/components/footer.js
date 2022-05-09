@@ -8,7 +8,7 @@ const Footer = () => (
   <footer class="px-16 py-10 bg-green-bottle">
     <div class="flex flex-col md:flex-row justify-between">
       <div class="text-left">
-        <h5>Contact</h5>
+        <h5 className="decima-bold">Contact</h5>
         <a class="underline" href="mailto:contact@lincassable.com">
           contact@lincassable.com
         </a>
@@ -32,7 +32,6 @@ const Footer = () => (
         </div>
       </div>
     </div>
-    <hr />
 
     {/* <h4 class="text-center">Soutiens</h4> */}
     <div class="flex flex-row justify-center space-x-20 items-center w-full mt-10">

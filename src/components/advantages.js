@@ -7,7 +7,7 @@ import Section from "./section";
  */
 const Advantages = () => (
   <Section>
-    <h1 class="header text-left md:text-center md:w-3/4 m-auto">
+    <h1 class="header text-left md:text-center md:w-3/4 m-auto decima-mono-bold">
       UNE OFFRE DE COLLECTE ET DE LAVAGE DE CONTENANTS EN VERRE, EN ALTERNATIVE
       AU RECYCLAGE
     </h1>
@@ -18,7 +18,7 @@ const Advantages = () => (
     />
     <div class="mt-5 md:mt-20 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-12">
       <div>
-        <p class="font-medium">Un impact environnemental réduit</p>
+        <p class="decima-bold">Un impact environnemental réduit</p>
         <p>
           La consigne permettrait de réduire les émissions de CO2 de 79% en
           comparaison au recyclage (Étude Deroche - 2009). Elle permet aussi de
@@ -39,7 +39,7 @@ const Advantages = () => (
         </p>
       </div>
       <div>
-        <p class="font-medium">Un tissu économique local redynamisé</p>
+        <p class="decima-bold">Un tissu économique local redynamisé</p>
         <p>
           L'Incassable permettra la création d’emplois locaux à travers
           l’activité de lavage, tri et collecte des bouteilles sur le territoire
@@ -49,7 +49,7 @@ const Advantages = () => (
         </p>
       </div>
       <div>
-        <p class="font-medium">Un impact social positif</p>
+        <p class="decima-bold">Un impact social positif</p>
         <p>
           En introduisant de nouvelles habitudes de consommation, la consigne
           participe à la sensibilisation du grand public sur la préservation de

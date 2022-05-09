@@ -8,7 +8,7 @@ import Video from "./video";
 const Vision = () => (
   <GreySection>
     <div class=" gap-4 md:gap-12 mb-10">
-      <h1 class="header text-center">
+      <h1 class="header text-center decima-mono-bold">
         L’AMBITION DE L'INCASSABLE :<br />
         (RE)DÉVELOPPER UNE FILIÈRE LOCALE DE RÉEMPLOI DANS LES BOUCHES-DU-RHÔNE
         ET EN VAUCLUSE
