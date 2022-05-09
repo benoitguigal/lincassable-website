@@ -4,7 +4,7 @@ import SEO from "../components/seo";
 import PlasticBottleImage from "../images/plastic-bottle.png";
 import History from "../components/history";
 import Recycling from "../components/recycling";
-import Vision from "../components/Vision";
+import Vision from "../components/vision";
 import Advantages from "../components/advantages";
 import Bottles from "../components/bottles";
 import Sector from "../components/sector";
