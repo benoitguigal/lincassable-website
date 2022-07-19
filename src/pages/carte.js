@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 const Carte = () => {
   const iframeProps = {
@@ -14,7 +14,7 @@ const Carte = () => {
 
   return (
     <Layout>
-      <SEO title="Carte" />
+      <Seo title="Carte" />
       {/* render different iframe on mobile and desktop*/}
       <iframe
         {...iframeProps}
