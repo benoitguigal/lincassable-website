@@ -14,16 +14,52 @@ const config: GatsbyConfig = {
     "gatsby-plugin-mdx",
     "gatsby-plugin-postcss",
     {
+      // keep as first gatsby-source-filesystem plugin for gatsby image support
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/static/img`,
+        name: "uploads"
+      }
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",
-        path: "./src/pages/"
-      },
-      __key: "pages"
+        path: `${__dirname}/src/pages/`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "content",
+        path: `${__dirname}/src/content/`
+      }
     },
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-relative-images",
+            options: {
+              name: "uploads"
+            }
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 2048
+            }
+          }
+        ]
+      }
+    },
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -37,11 +73,11 @@ const config: GatsbyConfig = {
       }
     },
     {
-      resolve: 'gatsby-plugin-matomo',
+      resolve: "gatsby-plugin-matomo",
       options: {
-        siteId: '1',
-        matomoUrl: 'https://lincassable.matomo.cloud/',
-        siteUrl: 'https://lincassable.com'
+        siteId: "1",
+        matomoUrl: "https://lincassable.matomo.cloud/",
+        siteUrl: "https://lincassable.com"
       }
     }
   ]

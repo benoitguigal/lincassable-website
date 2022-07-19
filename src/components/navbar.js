@@ -29,21 +29,36 @@ const NavbarDesktop = () => {
   return (
     <div class="bg-green-bottle h-12 fixed w-full overflow-hidden px-10 hidden md:flex flex-row justify-between items-center z-40">
       <div class="space-x-6">
-        <Link to="/">Accueil</Link>
-        <Link to="/carte">Où trouver / ramener des bouteilles ?</Link>
-        <a href="https://faq.lincassable.com">FAQ</a>
+        <Link class="no-underline" to="/">
+          Accueil
+        </Link>
+        <Link class="no-underline" to="/carte">
+          Où trouver / ramener des bouteilles ?
+        </Link>
+        <a class="no-underline" href="https://faq.lincassable.com">
+          FAQ
+        </a>
       </div>
       <div class="space-x-4">
-        <a href="https://www.instagram.com/lincassable_consigne/">
+        <a
+          class="no-underline"
+          href="https://www.instagram.com/lincassable_consigne/"
+        >
           <span>instagram</span>
         </a>
-        <a href="https://www.facebook.com/lincassableconsigne">
+        <a
+          class="no-underline"
+          href="https://www.facebook.com/lincassableconsigne"
+        >
           <span>facebook</span>
         </a>
-        <a href="https://twitter.com/_Lincassable">
+        <a class="no-underline" href="https://twitter.com/_Lincassable">
           <span>twitter</span>
         </a>
-        <a href="https://www.linkedin.com/company/lincassable/">
+        <a
+          class="no-underline"
+          href="https://www.linkedin.com/company/lincassable/"
+        >
           <span>linkedin</span>
         </a>
       </div>
@@ -68,15 +83,20 @@ const NavbarMobile = () => {
 
         {showMenu && (
           <div class="flex flex-col items-center space-y-3 w-full">
-            <Link class="text-sm" to="/">
+            <Link class="text-sm no-underline" to="/">
               Accueil
             </Link>
-            <Link class="text-sm" to="/carte">
+            <Link class="text-sm no-underline" to="/carte">
               Où trouver / rammener des bouteilles ?
             </Link>
-            <a href="https://faq.lincassable.com">FAQ</a>
-            <div class="w-full flex flex-row justify-center space-x-5">
-              <a href="https://www.instagram.com/lincassable_consigne/">
+            <a class="text-sm no-underline" href="https://faq.lincassable.com">
+              FAQ
+            </a>
+            <div class="w-full flex flex-row justify-center space-x-5 ">
+              <a
+                class="no-underline"
+                href="https://www.instagram.com/lincassable_consigne/"
+              >
                 <IconInstagram
                   width="1.3em"
                   height="1.3em"
@@ -84,7 +104,10 @@ const NavbarMobile = () => {
                   color="#EAEDEC"
                 />
               </a>
-              <a href="https://www.facebook.com/lincassableconsigne">
+              <a
+                class="no-underline"
+                href="https://www.facebook.com/lincassableconsigne"
+              >
                 <IconFacebook
                   width="1.3em"
                   height="1.3em"
@@ -92,7 +115,7 @@ const NavbarMobile = () => {
                   color="#EAEDEC"
                 />
               </a>
-              <a href="https://twitter.com/_Lincassable">
+              <a class="no-underline" href="https://twitter.com/_Lincassable">
                 <IconTwitter
                   width="1.3em"
                   height="1.3em"
