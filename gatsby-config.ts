@@ -35,6 +35,14 @@ const config: GatsbyConfig = {
         display: `standalone`,
         icon: `src/images/favicon.svg` // This path is relative to the root of the site.
       }
+    },
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '1',
+        matomoUrl: 'https://lincassable.matomo.cloud/',
+        siteUrl: 'https://lincassable.com'
+      }
     }
   ]
 };
