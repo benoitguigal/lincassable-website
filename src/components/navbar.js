@@ -35,9 +35,9 @@ const NavbarDesktop = () => {
         <Link class="no-underline" to="/carte">
           Où trouver / ramener des bouteilles ?
         </Link>
-        <a class="no-underline" href="https://faq.lincassable.com">
+        <Link class="no-underline" to="/faq">
           FAQ
-        </a>
+        </Link>
       </div>
       <div class="space-x-4">
         <a
@@ -89,9 +89,9 @@ const NavbarMobile = () => {
             <Link class="text-sm no-underline" to="/carte">
               Où trouver / rammener des bouteilles ?
             </Link>
-            <a class="text-sm no-underline" href="https://faq.lincassable.com">
+            <Link class="text-sm no-underline" to="/faq">
               FAQ
-            </a>
+            </Link>
             <div class="w-full flex flex-row justify-center space-x-5 ">
               <a
                 class="no-underline"
