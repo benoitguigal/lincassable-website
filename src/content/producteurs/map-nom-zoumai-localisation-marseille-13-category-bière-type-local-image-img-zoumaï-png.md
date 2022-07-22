@@ -1,0 +1,8 @@
+---
+nom: Zoumai
+localisation: Marseille (13)
+category: Bière
+type: Local
+image: /img/zoumaï.png
+url: https://lincassable.gogocarto.fr/map#/fiche/BRASSERIE-ZOUMAI/5/
+---

@@ -8,7 +8,7 @@ backend:
     uploadMedia: "[skip ci] Upload “{{path}}”"
     deleteMedia: "[skip ci] Delete “{{path}}”"
 media_folder: static/img
-public_folder: /public/img
+public_folder: /img
 collections:
   - name: pages
     label: Pages
@@ -19,3 +19,14 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+  - name: producteur
+    label: Producteur
+    folder: "src/content/producteurs"
+    create: true
+    fields:
+      - { label: "Nom", name: "nom", widget: "string" }
+      - { label: "Localisation", name: "localisation", widget: "string" }
+      - { label: "Catégorie", name: "category", widget: "select", options: ["Vin", "Bière", "Jus", "Soda"] }
+      - { label: "Type", name: "type", widget: "select", options: ["Local", "National", "Biocoop"] }
+      - { label: "Image", name: "image", widget: image }
+      - { label: "Lien", name: "url", widget: "string" }
