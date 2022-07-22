@@ -3,6 +3,6 @@ nom: Oé
 localisation: Lyon (69)
 category: Vin
 type: National
-image: /img/oé.png
+image: /img/oe.png
 url: https://oeforgood.com/
 ---
