@@ -1,7 +1,7 @@
 export type ProducteurData = {
   nom: string;
   localisation: string;
-  category: string;
+  categories: string[];
   image: string;
   url: string;
 };
