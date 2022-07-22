@@ -7,11 +7,6 @@ const config: GatsbyConfig = {
     description: `Filière de consigne de bouteilles en verre dans les Bouches-du-Rhône et le Vaucluse`
   },
   plugins: [
-    "gatsby-plugin-postcss",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
-    "gatsby-plugin-mdx",
-    "gatsby-plugin-postcss",
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",
@@ -34,7 +29,6 @@ const config: GatsbyConfig = {
         path: `${__dirname}/src/content/`
       }
     },
-    "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
@@ -61,6 +55,9 @@ const config: GatsbyConfig = {
       }
     },
     "gatsby-plugin-netlify-cms",
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
