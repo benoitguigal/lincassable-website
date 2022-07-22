@@ -1,8 +1,5 @@
 import React from "react";
 import { ProducteurData } from "../type";
-import WineGlass from "../images/wine-glass.png";
-import BeerGlass from "../images/beer-glass.png";
-
 type ProducteurProps = {
   producteur: ProducteurData;
 };
@@ -23,8 +20,12 @@ const Producteur = ({ producteur }: ProducteurProps) => {
         <h3>{producteur.nom}</h3>
         <div>{producteur.localisation}</div>
       </div>
-      <div className="text-xs font-semibold inline-block pt-1 pb-2 px-2 rounded bg-green-bottle uppercase last:mr-0 mr-1">
-        {producteur.category}
+      <div>
+        {producteur.categories.map((category) => (
+          <div className="text-xs font-semibold inline-block pt-1 pb-2 px-2 rounded bg-green-bottle uppercase last:mr-0 mr-1">
+            {category}
+          </div>
+        ))}
       </div>
     </a>
   );

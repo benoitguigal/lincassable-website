@@ -17,7 +17,7 @@ const ProducteursPage = () => {
             frontmatter {
               nom
               localisation
-              category
+              categories
               type
               image
               url

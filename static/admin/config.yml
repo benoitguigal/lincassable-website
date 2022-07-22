@@ -1,5 +1,7 @@
 backend:
   name: git-gateway
+  # name: proxy
+  # proxy_url: http://localhost:8081/api/v1
   branch: master
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
@@ -26,7 +28,7 @@ collections:
     fields:
       - { label: "Nom", name: "nom", widget: "string" }
       - { label: "Localisation", name: "localisation", widget: "string" }
-      - { label: "Catégorie", name: "category", widget: "select", options: ["Vin", "Bière", "Jus", "Soda"] }
+      - { label: "Catégorie", name: "categories", widget: "select", options: ["Vin", "Bière", "Jus", "Cidre", "Pétillant", "Soft"], multiple: true, }
       - { label: "Type", name: "type", widget: "select", options: ["Local", "National", "Biocoop"] }
       - { label: "Image", name: "image", widget: image }
       - { label: "Lien", name: "url", widget: "string" }
