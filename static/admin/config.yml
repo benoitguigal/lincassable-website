@@ -29,5 +29,6 @@ collections:
       - { label: "Nom", name: "nom", widget: "string" }
       - { label: "Localisation", name: "localisation", widget: "string" }
       - { label: "Catégorie", name: "category", widget: "select", options: ["Vin", "Bière", "Jus", "Soda"] }
-      - { label: "Type", name: "type", widget: "select", options: ["Local", "National"] }
+      - { label: "Type", name: "type", widget: "select", options: ["Local", "National", "Biocoop"] }
       - { label: "Image", name: "image", widget: image }
+      - { label: "Lien", name: "url", widget: "string" }
