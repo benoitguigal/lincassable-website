@@ -34,7 +34,7 @@ const Footer = () => (
     </div>
 
     {/* <h4 class="text-center">Soutiens</h4> */}
-    <div class="flex flex-row justify-center space-x-20 items-center w-full mt-10">
+    <div class="flex flex-col md:flex-row justify-center md:space-x-20 space-y-3 items-center w-full mt-10">
       <img src={AdemeImg} class="h-16 w-auto" alt="Ademe" />
       <img src={CiteoImg} class="h-8 w-auto" alt="CITEO" />
       <img src={MetropoleImg} class="h-16 w-auto" alt="CITEO" />
