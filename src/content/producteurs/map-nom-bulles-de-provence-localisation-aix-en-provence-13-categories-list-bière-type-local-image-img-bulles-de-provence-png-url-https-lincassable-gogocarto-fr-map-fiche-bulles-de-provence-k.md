@@ -1,0 +1,9 @@
+---
+nom: Bulles de Provence
+localisation: Aix-en-Provence (13)
+categories:
+  - Bière
+type: Local
+image: /img/bulles-de-provence.png
+url: https://lincassable.gogocarto.fr/map#/fiche/Bulles-de-Provence/K/
+---

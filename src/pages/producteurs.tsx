@@ -11,6 +11,7 @@ const ProducteursPage = () => {
     query {
       allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/producteurs/" } }
+        sort: { fields: [frontmatter___nom] }
       ) {
         edges {
           node {
