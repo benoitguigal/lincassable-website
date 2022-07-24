@@ -1,5 +1,5 @@
 ---
-nom: La Baroude
+nom: Brasserie La Baroude
 localisation: Aix-en-Provence (13)
 categories:
   - Bière

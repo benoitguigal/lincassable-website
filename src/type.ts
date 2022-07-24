@@ -4,4 +4,6 @@ export type ProducteurData = {
   categories: string[];
   image: string;
   url: string;
+  gamme: string;
+  format: string;
 };

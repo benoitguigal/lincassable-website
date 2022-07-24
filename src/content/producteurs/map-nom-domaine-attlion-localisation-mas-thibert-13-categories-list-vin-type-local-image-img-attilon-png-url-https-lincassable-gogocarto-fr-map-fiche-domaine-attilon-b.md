@@ -1,9 +1,13 @@
 ---
-nom: Domaine Attlion
+nom: Domaine Attilon
 localisation: Mas-Thibert (13)
 categories:
   - Vin
 type: Local
 image: /img/attilon.png
 url: https://lincassable.gogocarto.fr/map#/fiche/Domaine-Attilon/b/
+gamme: |
+  Rosé “Le Pitchounet” <br/>
+  Blanc “Les poules rieuses” et “Coquin de sort” <br/>
+  Rouge “Les camarades”
 ---
