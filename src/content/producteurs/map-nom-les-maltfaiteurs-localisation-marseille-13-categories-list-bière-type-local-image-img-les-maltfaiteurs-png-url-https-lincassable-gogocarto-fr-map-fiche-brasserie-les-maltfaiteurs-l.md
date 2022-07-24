@@ -1,5 +1,5 @@
 ---
-nom: Les Maltfaiteurs
+nom: Brasserie Les Maltfaiteurs
 localisation: Marseille (13)
 categories:
   - Bière

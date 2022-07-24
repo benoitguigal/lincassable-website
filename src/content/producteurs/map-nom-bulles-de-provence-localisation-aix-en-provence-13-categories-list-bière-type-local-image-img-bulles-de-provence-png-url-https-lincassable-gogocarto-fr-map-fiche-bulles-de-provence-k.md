@@ -6,4 +6,5 @@ categories:
 type: Local
 image: /img/bulles-de-provence.png
 url: https://lincassable.gogocarto.fr/map#/fiche/Bulles-de-Provence/K/
+format: 75cl
 ---

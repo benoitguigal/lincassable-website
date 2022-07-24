@@ -1,9 +1,11 @@
 ---
-nom: Brasserie Artisanale de Provence (BAP)
+nom: Brasserie Artisanale de Provence
 localisation: Rousset (13)
 categories:
   - Bière
 type: Local
 image: /img/bap.png
 url: https://lincassable.gogocarto.fr/map#/fiche/BRASSERIE-ARTISANALE-DE-PROVENCE/1/
+format: 75cl
+gamme: Blonde Bio 75cl
 ---

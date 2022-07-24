@@ -1,5 +1,5 @@
 ---
-nom: La Plaine
+nom: Brasserie de la Plaine
 localisation: Marseille (13)
 categories:
   - Bière

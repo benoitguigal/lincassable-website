@@ -1,10 +1,10 @@
 import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import Footer from "../components/footer";
+import Layout from "../../components/layout";
+import SEO from "../../components/seo";
+import Footer from "../../components/footer";
 import { useStaticQuery, graphql } from "gatsby";
-import { ProducteurData } from "../type";
-import Producteur from "../components/producteur";
+import { ProducteurData } from "../../type";
+import Producteur from "../../components/producteur";
 
 const ProducteursPage = () => {
   const { allMarkdownRemark } = useStaticQuery(graphql`
@@ -38,7 +38,7 @@ const ProducteursPage = () => {
       <SEO title="Producteurs engagés" />
       <div className="px-5 lg:px-20 2xl:px-60">
         <h1 className="pt-28 md:pt-20 mb-6">Producteurs régionaux</h1>
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 md:grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 gap-4">
           {producteurs
             .filter((p) => p.type === "Local")
             .map((producteur: ProducteurData) => {
@@ -46,7 +46,7 @@ const ProducteursPage = () => {
             })}
         </div>
         <h1 className="my-6">Producteurs ailleurs en France</h1>
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 md:grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 gap-4">
           {producteurs
             .filter((p) => p.type === "National")
             .map((producteur: ProducteurData) => {
@@ -54,7 +54,7 @@ const ProducteursPage = () => {
             })}
         </div>
         <h1 className="my-6">Références Biocoop</h1>
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 md:grid-cols-3 gap-4 mb-10">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 gap-4 mb-10">
           {producteurs
             .filter((p) => p.type === "Biocoop")
             .map((producteur: ProducteurData) => {

@@ -1,5 +1,5 @@
 ---
-nom: Zoumai
+nom: Brasserie Zoumaï
 localisation: Marseille (13)
 categories:
   - Bière
