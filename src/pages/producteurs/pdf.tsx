@@ -33,6 +33,11 @@ const ProducteursPdfPage = () => {
     ({ node }: { node: { frontmatter: ProducteurData } }) => node.frontmatter
   );
 
+  const params = new URLSearchParams(location.search);
+
+  console.log(params);
+  console.log(params.get("biocoop"));
+
   return (
     <Document>
       <div className="px-5">
@@ -62,14 +67,18 @@ const ProducteursPdfPage = () => {
               return <ProducteurPdf producteur={producteur} />;
             })}
         </div>
-        <h2 className="my-6">Références Biocoop</h2>
-        <div className="grid grid-cols-4 gap-4 mb-10">
-          {producteurs
-            .filter((p) => p.type === "Biocoop")
-            .map((producteur: ProducteurData) => {
-              return <ProducteurPdf producteur={producteur} />;
-            })}
-        </div>
+        {params.get("biocoop") === "true" && (
+          <>
+            <h2 className="my-6">Références Biocoop</h2>
+            <div className="grid grid-cols-4 gap-4 mb-10">
+              {producteurs
+                .filter((p) => p.type === "Biocoop")
+                .map((producteur: ProducteurData) => {
+                  return <ProducteurPdf producteur={producteur} />;
+                })}
+            </div>
+          </>
+        )}
       </div>
     </Document>
   );
