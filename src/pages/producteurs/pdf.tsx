@@ -33,10 +33,10 @@ const ProducteursPdfPage = () => {
     ({ node }: { node: { frontmatter: ProducteurData } }) => node.frontmatter
   );
 
-  const params = new URLSearchParams(location.search);
-
-  console.log(params);
-  console.log(params.get("biocoop"));
+  const isBiocoop =
+    typeof window !== "undefined"
+      ? new URLSearchParams(location.search).get("biocoop") === "true"
+      : false;
 
   return (
     <Document>
@@ -67,7 +67,7 @@ const ProducteursPdfPage = () => {
               return <ProducteurPdf producteur={producteur} />;
             })}
         </div>
-        {params.get("biocoop") === "true" && (
+        {isBiocoop && (
           <>
             <h2 className="my-6">Références Biocoop</h2>
             <div className="grid grid-cols-4 gap-4 mb-10">
