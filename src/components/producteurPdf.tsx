@@ -1,4 +1,5 @@
 import React from "react";
+import "./layout.css";
 import { ProducteurData } from "../type";
 
 type ProducteurProps = {
