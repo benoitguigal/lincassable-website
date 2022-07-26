@@ -57,7 +57,6 @@ const config: GatsbyConfig = {
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-postcss",
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -76,6 +75,12 @@ const config: GatsbyConfig = {
         siteId: "1",
         matomoUrl: "https://lincassable.matomo.cloud/",
         siteUrl: "https://lincassable.com"
+      }
+    },
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        excludes: [`/producteurs/pdf`]
       }
     }
   ]
