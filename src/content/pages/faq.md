@@ -86,7 +86,7 @@ title: FAQ
   - Acte la fin progressive de la mise sur le marché d'emballages en plastique à usage unique d'ici en 2040.
 
 </details>
-
+<hr/>
 <details>
   <summary>Les consommateurs sont-ils favorables au retour de la consigne ?</summary>
 
