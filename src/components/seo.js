@@ -43,6 +43,11 @@ function SEO({ description, lang, meta, title }) {
           content: title
         },
         {
+          name: "keywords",
+          content:
+            "consigne réemploi bouteille marseille provence aix vaucluse avignon arles bière vin jus"
+        },
+        {
           property: `og:description`,
           content: metaDescription
         },
