@@ -19,7 +19,7 @@ title: FAQ
   de la prévention des déchets. "Le meilleur déchet est celui qu'on ne produit pas".
 
 
-![Hiérarchie du mode de traitement des déchets](/img/hiérarchie.png)
+![Hiérarchie du mode de traitement des déchets](/img/hierarchie.png)
 
 </details>
 
