@@ -15,7 +15,7 @@ collections:
   - name: pages
     label: Pages
     files:
-      - file: "src/content/faq.md"
+      - file: "src/content/pages/faq.md"
         label: "FAQ"
         name: "faq"
         fields:
