@@ -7,31 +7,21 @@ import LincassableLogo from "../../images/lincassable-logo.png";
 import Pastille from "../../images/pastille.png";
 
 const ProducteursPdfPage = () => {
-  const { allMarkdownRemark } = useStaticQuery(graphql`
+  const { allProducteursYaml } = useStaticQuery(graphql`
     query {
-      allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/producteurs/" } }
-        sort: { fields: [frontmatter___nom] }
-      ) {
-        edges {
-          node {
-            frontmatter {
-              nom
-              localisation
-              gamme
-              format
-              type
-              image
-            }
-          }
+      allProducteursYaml {
+        nodes {
+          nom
+          type
+          image
+          format
+          gamme
         }
       }
     }
   `);
 
-  const producteurs = allMarkdownRemark.edges.map(
-    ({ node }: { node: { frontmatter: ProducteurData } }) => node.frontmatter
-  );
+  const producteurs: ProducteurData[] = allProducteursYaml.nodes;
 
   const isBiocoop =
     typeof window !== "undefined"

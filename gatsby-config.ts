@@ -25,12 +25,22 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "content",
-        path: `${__dirname}/src/content/`
+        name: "pagesContent",
+        path: `${__dirname}/src/content/pages`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "producteurs",
+        path: `${__dirname}/src/content/producteurs`
       }
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    {
+      resolve: `gatsby-transformer-yaml`
+    },
     {
       resolve: "gatsby-transformer-remark",
       options: {

@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
-  # name: proxy
-  # proxy_url: http://localhost:8081/api/v1
+  #name: proxy
+  #proxy_url: http://localhost:8081/api/v1
   branch: master
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
@@ -25,6 +25,8 @@ collections:
     label: Producteur
     folder: "src/content/producteurs"
     create: true
+    identifier_field: nom
+    extension: yml
     fields:
       - { label: "Nom", name: "nom", widget: "string" }
       - { label: "Localisation", name: "localisation", widget: "string" }

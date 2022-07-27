@@ -7,31 +7,22 @@ import { ProducteurData } from "../../type";
 import Producteur from "../../components/producteur";
 
 const ProducteursPage = () => {
-  const { allMarkdownRemark } = useStaticQuery(graphql`
+  const { allProducteursYaml } = useStaticQuery(graphql`
     query {
-      allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/producteurs/" } }
-        sort: { fields: [frontmatter___nom] }
-      ) {
-        edges {
-          node {
-            frontmatter {
-              nom
-              localisation
-              categories
-              type
-              image
-              url
-            }
-          }
+      allProducteursYaml {
+        nodes {
+          nom
+          type
+          localisation
+          categories
+          image
+          url
         }
       }
     }
   `);
 
-  const producteurs = allMarkdownRemark.edges.map(
-    ({ node }: { node: { frontmatter: ProducteurData } }) => node.frontmatter
-  );
+  const producteurs: ProducteurData[] = allProducteursYaml.nodes;
 
   return (
     <Layout>

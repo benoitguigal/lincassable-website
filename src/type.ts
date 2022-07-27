@@ -6,4 +6,5 @@ export type ProducteurData = {
   url: string;
   gamme: string;
   format: string;
+  type: string;
 };
