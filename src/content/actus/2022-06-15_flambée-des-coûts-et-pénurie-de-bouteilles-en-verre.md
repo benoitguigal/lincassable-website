@@ -1,6 +1,6 @@
 ---
 title: Flambée des coûts et pénurie de bouteilles en verre
-date: 2022-07-28T09:00:28.945Z
+date: 2022-06-15T09:00:28.945Z
 image: /img/casier.jpg
 ---
 👉 Les faits : une pénurie de verre sans précédent ralentit la mise en bouteille du vin et met en péril toute la chaîne de distribution. Les augmentations de prix vont de 25% à 50% et les délais de livraison s’allongent. Certains millésimes 2021 ne pourront être mis en bouteille avant le début de l’été.

@@ -1,19 +1,29 @@
 import * as React from "react";
 import { graphql } from "gatsby";
-import Layout from "./layout";
+import Seo from "./seo";
+import Navbar from "./navbar";
 import "./layout.css";
 
 const Actu = ({ data }) => {
   const { markdownRemark } = data;
   const { html } = markdownRemark;
   return (
-    <Layout title={markdownRemark.frontmatter.title}>
-      <div className="md:py-16 py-20 px-10 md:px-28">
-        <h1>{markdownRemark.frontmatter.title}</h1>
-        <img src={markdownRemark.frontmatter.image} alt="Couverture" />
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-      </div>
-    </Layout>
+    <>
+      <Seo title={markdownRemark.frontmatter.title} />
+      <Navbar />
+      <main className="pt-16 md:pt-12">
+        <div className="px-10 md:px-28 xl:px-48 py-10">
+          <h1>{markdownRemark.frontmatter.title}</h1>
+          <img
+            className="w-full h-80 static"
+            style={{ objectFit: "cover" }}
+            src={markdownRemark.frontmatter.image}
+            alt="Couverture"
+          />
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+        </div>
+      </main>
+    </>
   );
 };
 

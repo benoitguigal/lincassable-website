@@ -38,6 +38,9 @@ const NavbarDesktop = () => {
         <Link class="no-underline" to="/faq">
           FAQ
         </Link>
+        <Link class="no-underline" to="/actualites">
+          Actualités
+        </Link>
       </div>
       <div class="space-x-4">
         <a
@@ -93,6 +96,9 @@ const NavbarMobile = () => {
             </Link>
             <Link class="no-underline" to="/faq">
               FAQ
+            </Link>
+            <Link class="no-underline" to="/actualites">
+              Actualités
             </Link>
             <div class="w-full flex flex-row justify-center space-x-5 ">
               <a
