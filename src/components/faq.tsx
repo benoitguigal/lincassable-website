@@ -15,7 +15,7 @@ const Faq = () => {
   const { html } = markdownRemark;
   return (
     <div
-      className="md:py-16 py-20 px-10 md:px-28"
+      className="py-5 px-10 md:px-28 border"
       dangerouslySetInnerHTML={{ __html: html }}
     />
   );

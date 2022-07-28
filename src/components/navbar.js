@@ -27,7 +27,7 @@ const Navbar = () => {
 
 const NavbarDesktop = () => {
   return (
-    <div class="bg-green-bottle h-12 fixed w-full overflow-hidden px-10 hidden md:flex flex-row justify-between items-center z-40">
+    <div class="bg-green-bottle fixed h-12 w-full overflow-hidden px-10 hidden md:flex flex-row justify-between items-center z-40">
       <div class="space-x-6">
         <Link class="no-underline" to="/">
           Accueil
@@ -37,6 +37,9 @@ const NavbarDesktop = () => {
         </Link>
         <Link class="no-underline" to="/faq">
           FAQ
+        </Link>
+        <Link class="no-underline" to="/actualites">
+          Actualités
         </Link>
       </div>
       <div class="space-x-4">
@@ -72,25 +75,30 @@ const NavbarMobile = () => {
   const MenuIcon = showMenu ? IconClose : IconBurger;
 
   return (
-    <div className="bg-green-bottle md:hidden fixed w-full flex flex-row items-center px-2 py-2">
+    <div className="bg-green-bottle md:hidden fixed w-full flex flex-row items-center z-40">
       <div class="flex flex-col w-full">
-        <MenuIcon
-          class="my-2"
-          role="button"
-          color="#EAEDEC"
-          onClick={() => setShowMenu(!showMenu)}
-        />
+        <div class="flex flex-col h-16 justify-center">
+          <MenuIcon
+            className="ml-2"
+            role="button"
+            color="#EAEDEC"
+            onClick={() => setShowMenu(!showMenu)}
+          />
+        </div>
 
         {showMenu && (
-          <div class="flex flex-col items-center space-y-3 w-full">
-            <Link class="text-sm no-underline" to="/">
+          <div class="flex flex-col items-center space-y-3 w-full mb-6 text-xl">
+            <Link class="no-underline" to="/">
               Accueil
             </Link>
-            <Link class="text-sm no-underline" to="/carte">
+            <Link class="no-underline" to="/carte">
               Où trouver / rammener des bouteilles ?
             </Link>
-            <Link class="text-sm no-underline" to="/faq">
+            <Link class="no-underline" to="/faq">
               FAQ
+            </Link>
+            <Link class="no-underline" to="/actualites">
+              Actualités
             </Link>
             <div class="w-full flex flex-row justify-center space-x-5 ">
               <a

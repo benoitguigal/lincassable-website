@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "../components/layout";
-import SEO from "../components/seo";
 import PlasticBottleImage from "../images/plastic-bottle.png";
 import History from "../components/history";
 import Recycling from "../components/recycling";
@@ -9,11 +8,9 @@ import Advantages from "../components/advantages";
 import Bottles from "../components/bottles";
 import Sector from "../components/sector";
 import Hero from "../components/hero";
-import Footer from "../components/footer";
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
+  <Layout title="Home">
     <Hero />
     <History />
     <div className="bg-black">
@@ -28,7 +25,6 @@ const IndexPage = () => (
     <Advantages />
     <Bottles />
     <Sector />
-    <Footer />
   </Layout>
 );
 
