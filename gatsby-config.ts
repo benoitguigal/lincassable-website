@@ -32,6 +32,13 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "actus",
+        path: `${__dirname}/src/content/actus`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "producteurs",
         path: `${__dirname}/src/content/producteurs`
       }

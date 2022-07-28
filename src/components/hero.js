@@ -4,7 +4,7 @@ import HeroImg from "../images/hero.svg";
 
 const Hero = () => (
   <header
-    class="bg-green-bottle h-screen flex flex-col justify-center"
+    class="bg-green-bottle h-screen flex flex-col justify-center relative -top-16 md:-top-12 z-0"
     id="header"
   >
     <div>
