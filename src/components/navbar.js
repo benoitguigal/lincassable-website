@@ -35,8 +35,11 @@ const NavbarDesktop = () => {
         <Link class="no-underline" to="/carte">
           Où trouver / ramener des bouteilles ?
         </Link>
+        <Link class="no-underline" to="/producteurs">
+          Producteurs engagés
+        </Link>
         <Link class="no-underline" to="/faq">
-          FAQ
+          En savoir plus
         </Link>
         <Link class="no-underline" to="/actualites">
           Actualités
@@ -94,8 +97,11 @@ const NavbarMobile = () => {
             <Link class="no-underline" to="/carte">
               Où trouver / rammener des bouteilles ?
             </Link>
+            <Link class="no-underline" to="/producteurs">
+              Producteurs engagés
+            </Link>
             <Link class="no-underline" to="/faq">
-              FAQ
+              En savoir plus
             </Link>
             <Link class="no-underline" to="/actualites">
               Actualités
