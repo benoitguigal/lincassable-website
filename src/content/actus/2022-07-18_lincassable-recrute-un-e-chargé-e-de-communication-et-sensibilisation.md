@@ -3,7 +3,7 @@ title: L'INCASSABLE recrute un.e chargé.e de communication et sensibilisation
 date: 2022-07-18T00:00:00.000Z
 image: /img/recrutement.png
 ---
- ## A PROPOS
+## A PROPOS
 
 Abandonnée depuis les années 70 suite à l’introduction des bouteilles en plastique et l’avènement de la grande distribution, la consigne des bouteilles en verre fait son grand retour en France.
 
@@ -31,6 +31,8 @@ Nous recherchons un ou une volontaire en service civique pour nous accompagner d
 
 En binôme avec la coordinatrice de l'association, qui sera disponible au quotidien pour l’accompagner, la/le volontaire aura pour missions :
 
+
+
 **Rédaction et diffusion de contenu / Community Manager**
 
 **\-** La veille sur les différents sujets d’intérêt de la filière (revue de presse, lectures, réglementation, plaidoyers, études)
@@ -43,11 +45,15 @@ En binôme avec la coordinatrice de l'association, qui sera disponible au quotid
 
 \- La gestion du contenu du site (actualisation de la carte interactive, publication de la revue de presse, mise à jour du catalogue de produits réemployables)
 
+
+
 **Relations presses** :
 
 **\-** Actualisation du dossier de presse et listing presse spécialisée
 
 \- Diffusion du dossier de presse et transmission de contenu aux médias
+
+
 
 **Plaidoyer et sensibilisation :**
 
@@ -56,6 +62,8 @@ Une contribution au plaidoyer pour faire avancer le déploiement de la consigne 
 \- Participation à des événements en lien avec les associations environnementales locales
 
 \- Représentation de l’association auprès des collectivités
+
+
 
 ## PROFIL RECHERCHÉ
 
@@ -66,6 +74,8 @@ Une contribution au plaidoyer pour faire avancer le déploiement de la consigne 
 \- Une maitrise des logiciels de design (Indesign, Illustrator, Photoshop) serait un plus !
 
 \- Nous cherchons avant tout une personne motivée et intéressée par la réduction des déchets et la mobilisation citoyenne
+
+
 
 ## INFORMATIONS COMPLÉMENTAIRES
 
