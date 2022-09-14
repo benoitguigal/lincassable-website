@@ -7,7 +7,6 @@ L'INCASSABLE était invité ce matin à l'émission Plus Verte la Ville sur Radi
 Toutes les semaines, Jillian Mathieu présente des initiatives autour de la Transition écologique à Marseille.\
 \
 Benoit Guigal était interviewé aujourd'hui pour parler des enjeux du retour de la consigne à Marseille. \
-\
 
 
 
