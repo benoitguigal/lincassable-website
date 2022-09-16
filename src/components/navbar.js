@@ -44,6 +44,9 @@ const NavbarDesktop = () => {
         <Link class="no-underline" to="/actualites">
           Actualités
         </Link>
+        <Link class="no-underline" to="/association">
+          L'association
+        </Link>
       </div>
       <div class="space-x-4">
         <a
