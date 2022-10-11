@@ -1,5 +1,5 @@
 ---
-title: "La bière à Marseille : Filières, festival, réemploi"
+title: "La bière à Marseille : filières, festival, réemploi"
 date: 2022-10-10T14:31:00.984Z
 image: /img/markus-spiske-c9kyr7mohgu-unsplash.jpg
 ---
