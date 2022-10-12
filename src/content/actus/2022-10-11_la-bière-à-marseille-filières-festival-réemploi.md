@@ -7,9 +7,11 @@ image: /img/markus-spiske-c9kyr7mohgu-unsplash.jpg
 
 
 
+
+
 ### **Le Collectif Bière de Provence : l’association pour le développement d’une filière brassicole en PACA**
 
-![](/img/bieredeprovence_logo_bonne_qualité.jpeg)
+![](/img/1.png)
 
 Cette association de professionnels, fondée en 2012, a plusieurs objectifs à l’échelle locale : promouvoir les savoir-faire, la création d’emplois et le développement d’une filière brassicole. Son activité s’inscrit dans une volonté de produire une bière la plus locale possible, dans le respect des individus et de l’environnement. Cet objectif est le rêve de tout brasseur, et c’est la raison pour laquelle une vingtaine de brasseries ont adhéré à cette association.
 
@@ -25,7 +27,7 @@ L’environnement marseillais évolue et cherche à se constituer comme une plac
 
 ### **SOUR PASTIS : une association pour faire de Marseille une place forte de la bière**
 
-![](/img/2.png)
+![](/img/3.png)
 
 Un groupe de passionnés de bière a décidé de créer une association afin d’organiser des événements en son honneur. Cette association, c'est [SOUR PASTIS](https://www.facebook.com/sourpastis/).
 
@@ -33,13 +35,9 @@ Leur événement le plus marquant est le Marseille Beer Festival dont la deuxiè
 
 Leurs événements sont à destination des curieux, de ceux qui s’intéressent, des passionnés, et ce, pour un vrai moment de partage. Donc si vous êtes un amoureux de la bière et que vous cherchez à partager votre passion, rapprochez-vous de SOUR PASTIS !
 
-
-
-
-
 ### **SOOFUT : le réemploi de fûts en inox**
 
-![](/img/1.png)
+![](/img/2.png)
 
 [SOOFUT](https://soofut.com/) est une structure nationale qui développe le réemploi de fûts en inox. L’objectif ? Encore et toujours la réduction des déchets. 
 
