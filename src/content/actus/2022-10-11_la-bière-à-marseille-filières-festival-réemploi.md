@@ -37,7 +37,7 @@ Leurs événements sont à destination des curieux, de ceux qui s’intéressent
 
 ### **SOOFUT : le réemploi de fûts en inox**
 
-![](/img/2.png)
+![](/img/sans-titre-3-.png)
 
 [SOOFUT](https://soofut.com/) est une structure nationale qui développe le réemploi de fûts en inox. L’objectif ? Encore et toujours la réduction des déchets. 
 
