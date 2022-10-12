@@ -19,6 +19,8 @@ L’INCASSABLE ainsi que SOOFUT sont membres de ce collectif en accompagnant, tr
 
 L’environnement marseillais évolue et cherche à se constituer comme une place-forte de la bière. Des initiatives innovantes se développent et s’inscrivent dans une démarche durable !
 
+<﻿br/>
+
 ### **SOUR PASTIS : une association pour faire de Marseille une place forte de la bière**
 
 ![](/img/3.png)
@@ -28,6 +30,8 @@ Un groupe de passionnés de bière a décidé de créer une association afin d�
 Leur événement le plus marquant est le Marseille Beer Festival dont la deuxième édition s’est déroulée début septembre. Ce festival a été créé pour mettre à l’honneur la bière créative, qui sort des sentiers battus. En effet, nous avons en France de nombreuses brasseries originales, peu connues, et il serait dommage de passer à côté. “L’idée, ce n’était pas de faire quelque chose de gros, mais de sympa et convivial” m’a confié Adèle, fondatrice de l’association, et ils ont réussi à atteindre leur objectif.
 
 Leurs événements sont à destination des curieux, de ceux qui s’intéressent, des passionnés, et ce, pour un vrai moment de partage. Donc si vous êtes un amoureux de la bière et que vous cherchez à partager votre passion, rapprochez-vous de SOUR PASTIS !
+
+<﻿br/>
 
 ### **SOOFUT : le réemploi de fûts en inox**
 
