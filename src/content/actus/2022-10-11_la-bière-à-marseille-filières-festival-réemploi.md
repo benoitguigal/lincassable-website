@@ -5,6 +5,8 @@ image: /img/markus-spiske-c9kyr7mohgu-unsplash.jpg
 ---
 ## **L’édition 2022 de la Foire de Marseille s’est achevée il y a déjà une semaine** et pour cette occasion, nous avons décidé de mettre en lumière l’univers de la bière marseillaise. En effet, depuis quelques années, la ville a vu se développer de nouvelles brasseries, un festival qui lui est dédié, ainsi qu’une filière de réemploi dont nous faisons partie. Autrement dit, l’air s’est fortement houblonné à Marseille !
 
+<﻿br/>
+
 ### **Le Collectif Bière de Provence : l’association pour le développement d’une filière brassicole en PACA**
 
 ![](/img/1.png)
@@ -16,8 +18,6 @@ De plus, le [Collectif Bière de Provence](https://labieredeprovence.fr/associat
 L’INCASSABLE ainsi que SOOFUT sont membres de ce collectif en accompagnant, triant et proposant aux brasseurs des bouteilles et fûts éligibles au réemploi, toujours dans cette démarche de respect de l’environnement et de création d’une économie circulaire.
 
 L’environnement marseillais évolue et cherche à se constituer comme une place-forte de la bière. Des initiatives innovantes se développent et s’inscrivent dans une démarche durable !
-
-<﻿br/>
 
 ### **SOUR PASTIS : une association pour faire de Marseille une place forte de la bière**
 
