@@ -1,7 +1,7 @@
 ---
 title: "La bière à Marseille : filières, festival, réemploi"
 date: 2022-10-10T14:31:00.984Z
-image: /img/markus-spiske-c9kyr7mohgu-unsplash.jpg
+image: /img/1.png
 ---
 ## **L’édition 2022 de la Foire de Marseille s’est achevée il y a déjà une semaine** et pour cette occasion, nous avons décidé de mettre en lumière l’univers de la bière marseillaise. En effet, depuis quelques années, la ville a vu se développer de nouvelles brasseries, un festival qui lui est dédié, ainsi qu’une filière de réemploi dont nous faisons partie. Autrement dit, l’air s’est fortement houblonné à Marseille ! 
 <br/>
