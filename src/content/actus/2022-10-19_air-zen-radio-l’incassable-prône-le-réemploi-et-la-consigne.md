@@ -4,6 +4,7 @@ date: 2022-10-18T13:19:16.040Z
 image: /img/l-incassablebdef©davidgirard2022-8.jpg
 ---
 ## Benoit Guigual, co-porteur de projet de L’INCASSABLE, intervenait hier sur AIR ZEN Radio pour présenter nos actions sur le territoire de la métropole Aix-Marseille-Provence. 
+
 <br/>
 
 ### Travailler avec des partenaires engagés
@@ -41,3 +42,7 @@ Ainsi, Benoît a pu citer des associations et initiatives qui opèrent, sur des 
 ### Air zen, une radio 100% positive
 
 Il s’agit de la première radio nationale créée en France depuis plus de 20 ans. Elle se démarque des autres étant donné qu’elle propose un contenu 100% positif. Ce choix de contenu est dicté par la complexité croissante de notre société. Ils ont décidé de faire ressortir le positif alors qu’on a pour habitude de se focaliser sur les catastrophes.
+
+<br/>
+
+V﻿ous pouvez aller écouter l'intégralité de l'émission en cliquant [ici](https://www.airzen.fr/marseille-lincassable-prone-le-reemploie-et-la-consigne/).
