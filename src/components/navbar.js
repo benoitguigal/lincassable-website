@@ -109,6 +109,9 @@ const NavbarMobile = () => {
             <Link class="no-underline" to="/actualites">
               Actualités
             </Link>
+            <Link class="no-underline" to="/association">
+              L'association
+            </Link>
             <div class="w-full flex flex-row justify-center space-x-5 ">
               <a
                 class="no-underline"
