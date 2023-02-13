@@ -9,7 +9,7 @@ title: FAQ
 <details>
   <summary>Quelle est la différence entre réemploi et recyclage ?</summary>
 
-* Le recyclage concerne toute opération par laquelle des matériaux extraits de déchets sont retraités, soit pour remplir à nouveau leur fonction initiale, soit pour remplir d'autres fonctions. Le recyclage implique une chaîne d’acteurs parfois longue, incluant l’étape de préparation de la matière extraite du flux de déchet, qui devient alors une matière première de recyclage
+* Le recyclage concerne toute opération par laquelle des matériaux extraits de déchets sont retraités, soit pour remplir à nouveau leur fonction initiale, soit pour remplir d'autres fonctions. Le recyclage implique une chaîne d’acteurs parfois longue, incluant l’étape de préparation de la matière extraite du flux de déchets, qui devient alors une matière première de recyclage
 * Le réemploi désigne toute opération par laquelle des substances, matières ou produits qui ne sont pas des déchets sont utilisés de nouveau pour un usage identique à celui pour lequel ils avaient été conçus
 
   Lorsque l'on jette une bouteille dans un point d'apport volontaire pour que le verre soit ensuite réduit en calcin, puis refondu pour redevenir une bouteille, c'est du recyclage.
@@ -31,7 +31,7 @@ title: FAQ
 
   [Le Monde Diplomatique - COMMENT LES INDUSTRIELS ONT ABANDONNÉ LE SYSTÈME DE LA CONSIGNE](https://drive.google.com/file/d/1EOpCjr5iLHCi5QXOfRdK3h_wwozxKxWY/view?usp=sharing).
 
-  Pour faire face à l'afflux sans précédent d'emballages jetables dans les poubelles, un système de Responsabilité Élargie du Producteur (REP) et des filières de recyclage ont peu à peu été mises en place en France. Aujourd'hui le verre est très bien recyclé en France avec un taux de 88%.
+  Pour faire face à l'afflux sans précédent d'emballages jetables dans les poubelles, un système de Responsabilité Élargie du Producteur (REP) et des filières de recyclage ont peu à peu été mises en place en France. Aujourd'hui, le verre est très bien recyclé en France avec un taux de 88%.
 
 </details>
 
@@ -44,7 +44,7 @@ title: FAQ
   - Les procédés de recyclage sont très énergivores, il faut fondre le calcin de verre à plus de 1000°C pour fabriquer une bouteille neuve en apportant à chaque fois de la matière première. À l'inverse, il suffit de laver une bouteille à 70°C pour la réutiliser.
   - Les matériaux perdent en qualité à chaque cycle, impossible par exemple de fabriquer une bouteille en verre transparent à partir de verre recyclé.
   - Le marketing par les industriels autour du recyclage et du geste de tri entretient l'illusion d'une économie parfaitement circulaire pour cautionner l'utilisation du jetable.
-  - Certains matériaux sont recyclable en théorie mais ne le sont pas en pratique, faute de filière existante. C'est le cas par exemple des fûts en plastique à usage unique. Les metteurs en marché de tels emballages mette en avant le côté "recyclable" pour faire du green washing.
+  - Certains matériaux sont recyclable en théorie mais ne le sont pas en pratique, faute de filière existante. C'est le cas par exemple des fûts en plastique à usage unique. Les metteurs en marché de tels emballages mettent en avant le côté "recyclable" pour faire du green washing.
 
   <br/>
 
@@ -133,7 +133,7 @@ title: FAQ
   <summary>Quelle est la différence entre le Réseau Consigne et France Consigne ?</summary>
   L'INCASSABLE est membre à la fois du <strong><a href="http://www.reseauconsigne.com/">Réseau Consigne</a></strong> et de <strong>France Consigne</strong>.
 
-  - Le <strong><a href="http://www.reseauconsigne.com/">Réseau Consigne</a></strong> est l'association qui fédère tous les professionnel.les du réemploi des emballages en France (tout emballage confondu). Le Réseau Consigne organise chaque année des rencontres techniques et publie des guides pour le passage au réemploi. Le Réseau Consigne se mobilise également faire avancer la législation en faveur du retour de la consigne.
+  - Le <strong><a href="http://www.reseauconsigne.com/">Réseau Consigne</a></strong> est l'association qui fédère tous les professionnels du réemploi des emballages en France (tout emballage confondu). Le Réseau Consigne organise chaque année des rencontres techniques et publie des guides pour le passage au réemploi. Le Réseau Consigne se mobilise également faire avancer la législation en faveur du retour de la consigne.
   - <strong>France Consigne</strong> est un groupement de 10 acteurs en France dont l'objectif est d'apporter des solutions concrètes de réemploi d'emballages au niveau national en s'appuyant sur l'expertise de ses filières locales. L'association représente à elle seule plus de 230 producteurs et 700 points de collecte partenaires et disposent de 5 sites de lavage opérationnels ou en construction. Les membres fondateurs de France Consigne sont Bout à Bout, Rebooteille, Ma Bouteille s'Appelle Reviens, Alpes Consigne, Haut La Consigne, Oc'Consigne, Consign'Up, J'aime mes Bouteilles, La Consigne de Provence et L'INCASSABLE.
 </details>
 
