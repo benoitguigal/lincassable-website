@@ -178,7 +178,7 @@ title: FAQ
 
 <details>
   <summary>Une consigne monétaire est-elle appliquée ?</summary>
-  La consigne monétaire n'est actuellement pas appliquée chez les commerçants partenaires mais nous allons bientôt mener un pilote sur quelques magasins pour ensuite déployer la consigne monétaire à l'ensemble du réseau.
+  Une consigne monétaire est actuellement appliquée dans tous les magasins membres de la filière de L’INCASSABLE. Son montant s’élève à 50 centimes sur les bouteilles de nos producteurs partenaires. 
 </details>
 
 <hr/>
