@@ -18,7 +18,6 @@ title: FAQ
   Le code de l'environnement définit une hiérarchie du mode de traitement des déchets qui donne la priorité aux solutions de réemploi sur les solutions de recyclage. C'est le principe
   de la prévention des déchets. "Le meilleur déchet est celui qu'on ne produit pas".
 
-
 ![Hiérarchie du mode de traitement des déchets](/img/hierarchie.png)
 
 </details>
@@ -41,16 +40,16 @@ title: FAQ
   <summary>Quels sont les écueils du recyclage ? </summary>
 
   Le recyclage en France permet de valoriser un grand nombre d'emballages jetables pour éviter l'enfouissement ou l'incinération. Cependant le système n'est pas parfait :
-  - Les procédés de recyclage sont très énergivores, il faut fondre le calcin de verre à plus de 1000°C pour fabriquer une bouteille neuve en apportant à chaque fois de la matière première. À l'inverse, il suffit de laver une bouteille à 70°C pour la réutiliser.
-  - Les matériaux perdent en qualité à chaque cycle, impossible par exemple de fabriquer une bouteille en verre transparent à partir de verre recyclé.
-  - Le marketing par les industriels autour du recyclage et du geste de tri entretient l'illusion d'une économie parfaitement circulaire pour cautionner l'utilisation du jetable.
-  - Certains matériaux sont recyclable en théorie mais ne le sont pas en pratique, faute de filière existante. C'est le cas par exemple des fûts en plastique à usage unique. Les metteurs en marché de tels emballages mettent en avant le côté "recyclable" pour faire du green washing.
+
+* Les procédés de recyclage sont très énergivores, il faut fondre le calcin de verre à plus de 1000°C pour fabriquer une bouteille neuve en apportant à chaque fois de la matière première. À l'inverse, il suffit de laver une bouteille à 70°C pour la réutiliser.
+* Les matériaux perdent en qualité à chaque cycle, impossible par exemple de fabriquer une bouteille en verre transparent à partir de verre recyclé.
+* Le marketing par les industriels autour du recyclage et du geste de tri entretient l'illusion d'une économie parfaitement circulaire pour cautionner l'utilisation du jetable.
+* Certains matériaux sont recyclable en théorie mais ne le sont pas en pratique, faute de filière existante. C'est le cas par exemple des fûts en plastique à usage unique. Les metteurs en marché de tels emballages mettent en avant le côté "recyclable" pour faire du green washing.
 
   <br/>
 
   Pour aller plus loin :
   ![Recyclage le grand enfumage](/img/recyclage-le-grand-enfumage.jpg)
-
 
 </details>
 
@@ -60,30 +59,29 @@ title: FAQ
   <summary>Quel est le bénéfice environnemental du réemploi et de la consigne ?</summary>
 
   Le réemploi des emballages permet :
-  - D’éviter l’extraction de nouvelles ressources (sable pour le verre, matière fossile pour le plastique). En effet, le recyclage en boucle fermée parfaite n’existe pas, il faut à chaque fois réinjecter des matières premières vierges pour fabriquer de nouveaux emballages. À chaque cycle, une partie de la matière est perdue.
-  - D’éviter la production de déchets et donc les effets néfastes liés aux différents modes de traitement des déchets. Dans le circuit des cafés-hôtels-restaurants où 30 à 40% des boissons sont encore consignées pour réemploi, le réemploi des bouteilles permet d’éviter la production de 500 000 tonnes de déchets par an en France.
-  - D’éviter les déchets sauvages et ainsi les impacts néfastes sur la biodiversité et la santé humaine.
-  - De promouvoir l’agriculture locale et la consommation en circuit court, la performance environnementale des dispositifs de réemploi dépendant, entre autres, des distances de transport.
-</details>
-<hr/>
+
+* D’éviter l’extraction de nouvelles ressources (sable pour le verre, matière fossile pour le plastique). En effet, le recyclage en boucle fermée parfaite n’existe pas, il faut à chaque fois réinjecter des matières premières vierges pour fabriquer de nouveaux emballages. À chaque cycle, une partie de la matière est perdue.
+* D’éviter la production de déchets et donc les effets néfastes liés aux différents modes de traitement des déchets. Dans le circuit des cafés-hôtels-restaurants où 30 à 40% des boissons sont encore consignées pour réemploi, le réemploi des bouteilles permet d’éviter la production de 500 000 tonnes de déchets par an en France.
+* D’éviter les déchets sauvages et ainsi les impacts néfastes sur la biodiversité et la santé humaine.
+* De promouvoir l’agriculture locale et la consommation en circuit court, la performance environnementale des dispositifs de réemploi dépendant, entre autres, des distances de transport.
 
 <details>
   <summary>Existe-t-il des ACV (analyse du cycle de vie) qui démontrent l'intérêt écologique du réemploi ?</summary>
 
-- Une étude de l’ADEME datant de 2018 et analysant 10 dispositifs de réemploi du verre conclut que sur tous les indicateurs et dispositifs étudiés, le système avec réemploi présente une performance environnementale supérieure ou équivalente au système sans réemploi-réutilisation.
-- L’étude Deroche datant de 2009 fait également référence. Elle conclut que le réemploi des bouteilles en verre permet de réduire la consommation d’énergie primaire de 76%, de réduire les émissions de gaz à effet de serre de 79% et de réduire la consommation d’eau de 33% d’eau par rapport au recyclage.
-- Un rapport de 2020 de Zero Waste Europe et Reloop en collaboration avec l’université d’Utrecht qui compile 32 analyses de cycle de vie de 11 emballages différents, conclut que les emballages réemployables produisent beaucoup moins de gaz à effet de serre que leurs équivalents à usage unique. Le rapport précise que les bouteilles en verre réemployables génèrent non seulement 85% d’émissions de GES en moins que leurs équivalents à usage unique, mais également 75% en moins que des bouteilles en plastique, et 57% en moins par rapport à des canettes en aluminium.
+* Une étude de l’ADEME datant de 2018 et analysant 10 dispositifs de réemploi du verre conclut que sur tous les indicateurs et dispositifs étudiés, le système avec réemploi présente une performance environnementale supérieure ou équivalente au système sans réemploi-réutilisation.
+* L’étude Deroche datant de 2009 fait également référence. Elle conclut que le réemploi des bouteilles en verre permet de réduire la consommation d’énergie primaire de 76%, de réduire les émissions de gaz à effet de serre de 79% et de réduire la consommation d’eau de 33% d’eau par rapport au recyclage.
+* Un rapport de 2020 de Zero Waste Europe et Reloop en collaboration avec l’université d’Utrecht qui compile 32 analyses de cycle de vie de 11 emballages différents, conclut que les emballages réemployables produisent beaucoup moins de gaz à effet de serre que leurs équivalents à usage unique. Le rapport précise que les bouteilles en verre réemployables génèrent non seulement 85% d’émissions de GES en moins que leurs équivalents à usage unique, mais également 75% en moins que des bouteilles en plastique, et 57% en moins par rapport à des canettes en aluminium.
 
 </details>
 <hr/>
-
 
 <details>
   <summary>Que dit la loi ?</summary>
 
   La loi AGEC (Anti-gaspillage pour une économie circulaire) :
-  - Fixe aux metteurs en marché un objectif de 10% d'emballages réemployés d'ici 2027 et 5% d'ici 2023. [Voir le décret du 8 avril 2022](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045536300).
-  - Acte la fin progressive de la mise sur le marché d'emballages en plastique à usage unique d'ici en 2040.
+
+* Fixe aux metteurs en marché un objectif de 10% d'emballages réemployés d'ici 2027 et 5% d'ici 2023. [Voir le décret du 8 avril 2022](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045536300).
+* Acte la fin progressive de la mise sur le marché d'emballages en plastique à usage unique d'ici en 2040.
 
 </details>
 <hr/>
@@ -113,12 +111,11 @@ title: FAQ
   <summary>Comment puis-je m'impliquer en tant que citoyen ? </summary>
   En tant que citoyen et consommateur, vous avez un rôle important à jouer dans le déploiement de la filière :
 
-  - Préférer la consommation de boissons locales en emballage réutilisable.
-  - Encourager votre magasin ou producteur de boisson préféré à rejoindre la filière.
-  - Relayer nos posts et nos actus sur les réseaux sociaux.
-  - Adhérer à l'association
-  - Nous aider ponctuellement en tant que bénévole pour des sessions de tri ou de lavage de bouteilles.
-</details>
+* Préférer la consommation de boissons locales en emballage réutilisable.
+* Encourager votre magasin ou producteur de boisson préféré à rejoindre la filière.
+* Relayer nos posts et nos actus sur les réseaux sociaux.
+* Adhérer à l'association
+* Nous aider ponctuellement en tant que bénévole pour des sessions de tri ou de lavage de bouteilles.
 
 <hr/>
 
@@ -133,9 +130,8 @@ title: FAQ
   <summary>Quelle est la différence entre le Réseau Consigne et France Consigne ?</summary>
   L'INCASSABLE est membre à la fois du <strong><a href="http://www.reseauconsigne.com/">Réseau Consigne</a></strong> et de <strong>France Consigne</strong>.
 
-  - Le <strong><a href="http://www.reseauconsigne.com/">Réseau Consigne</a></strong> est l'association qui fédère tous les professionnels du réemploi des emballages en France (tout emballage confondu). Le Réseau Consigne organise chaque année des rencontres techniques et publie des guides pour le passage au réemploi. Le Réseau Consigne se mobilise également faire avancer la législation en faveur du retour de la consigne.
-  - <strong>France Consigne</strong> est un groupement de 10 acteurs en France dont l'objectif est d'apporter des solutions concrètes de réemploi d'emballages au niveau national en s'appuyant sur l'expertise de ses filières locales. L'association représente à elle seule plus de 230 producteurs et 700 points de collecte partenaires et disposent de 5 sites de lavage opérationnels ou en construction. Les membres fondateurs de France Consigne sont Bout à Bout, Rebooteille, Ma Bouteille s'Appelle Reviens, Alpes Consigne, Haut La Consigne, Oc'Consigne, Consign'Up, J'aime mes Bouteilles, La Consigne de Provence et L'INCASSABLE.
-</details>
+* Le <strong><a href="http://www.reseauconsigne.com/">Réseau Consigne</a></strong> est l'association qui fédère tous les professionnels du réemploi des emballages en France (tout emballage confondu). Le Réseau Consigne organise chaque année des rencontres techniques et publie des guides pour le passage au réemploi. Le Réseau Consigne se mobilise également faire avancer la législation en faveur du retour de la consigne.
+* <strong>France Consigne</strong> est un groupement de 10 acteurs en France dont l'objectif est d'apporter des solutions concrètes de réemploi d'emballages au niveau national en s'appuyant sur l'expertise de ses filières locales. L'association représente à elle seule plus de 230 producteurs et 700 points de collecte partenaires et disposent de 5 sites de lavage opérationnels ou en construction. Les membres fondateurs de France Consigne sont Bout à Bout, Rebooteille, Ma Bouteille s'Appelle Reviens, Alpes Consigne, Haut La Consigne, Oc'Consigne, Consign'Up, J'aime mes Bouteilles, La Consigne de Provence et L'INCASSABLE.
 
 <hr/>
 <br/>
@@ -189,7 +185,6 @@ title: FAQ
 </details>
 
 <hr/>
-
 
 <br/>
 
