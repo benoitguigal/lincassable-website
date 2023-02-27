@@ -46,8 +46,6 @@ title: FAQ
 * Le marketing par les industriels autour du recyclage et du geste de tri entretient l'illusion d'une économie parfaitement circulaire pour cautionner l'utilisation du jetable.
 * Certains matériaux sont recyclable en théorie mais ne le sont pas en pratique, faute de filière existante. C'est le cas par exemple des fûts en plastique à usage unique. Les metteurs en marché de tels emballages mettent en avant le côté "recyclable" pour faire du green washing.
 
-  <br/>
-
   Pour aller plus loin :
   ![Recyclage le grand enfumage](/img/recyclage-le-grand-enfumage.jpg)
 
@@ -64,6 +62,9 @@ title: FAQ
 * D’éviter la production de déchets et donc les effets néfastes liés aux différents modes de traitement des déchets. Dans le circuit des cafés-hôtels-restaurants où 30 à 40% des boissons sont encore consignées pour réemploi, le réemploi des bouteilles permet d’éviter la production de 500 000 tonnes de déchets par an en France.
 * D’éviter les déchets sauvages et ainsi les impacts néfastes sur la biodiversité et la santé humaine.
 * De promouvoir l’agriculture locale et la consommation en circuit court, la performance environnementale des dispositifs de réemploi dépendant, entre autres, des distances de transport.
+
+</details>
+<hr/>
 
 <details>
   <summary>Existe-t-il des ACV (analyse du cycle de vie) qui démontrent l'intérêt écologique du réemploi ?</summary>
@@ -85,6 +86,7 @@ title: FAQ
 
 </details>
 <hr/>
+
 <details>
   <summary>Les consommateurs sont-ils favorables au retour de la consigne ?</summary>
 
@@ -116,6 +118,7 @@ title: FAQ
 * Relayer nos posts et nos actus sur les réseaux sociaux.
 * Adhérer à l'association
 * Nous aider ponctuellement en tant que bénévole pour des sessions de tri ou de lavage de bouteilles.
+</details>
 
 <hr/>
 
@@ -132,6 +135,7 @@ title: FAQ
 
 * Le <strong><a href="http://www.reseauconsigne.com/">Réseau Consigne</a></strong> est l'association qui fédère tous les professionnels du réemploi des emballages en France (tout emballage confondu). Le Réseau Consigne organise chaque année des rencontres techniques et publie des guides pour le passage au réemploi. Le Réseau Consigne se mobilise également faire avancer la législation en faveur du retour de la consigne.
 * <strong>France Consigne</strong> est un groupement de 10 acteurs en France dont l'objectif est d'apporter des solutions concrètes de réemploi d'emballages au niveau national en s'appuyant sur l'expertise de ses filières locales. L'association représente à elle seule plus de 230 producteurs et 700 points de collecte partenaires et disposent de 5 sites de lavage opérationnels ou en construction. Les membres fondateurs de France Consigne sont Bout à Bout, Rebooteille, Ma Bouteille s'Appelle Reviens, Alpes Consigne, Haut La Consigne, Oc'Consigne, Consign'Up, J'aime mes Bouteilles, La Consigne de Provence et L'INCASSABLE.
+</details>
 
 <hr/>
 <br/>
