@@ -4,6 +4,4 @@ title: L'INCASSABLE recrute un.e chargé.e de mission réemploi / ingénieur.e
 date: 2023-04-18T08:59:20.570Z
 image: /img/l-incassable-réemploi-bouteilles-verre-recrute-1.png
 ---
-![](/img/capture-d’écran-2023-04-18-à-11.33.41.png)
-
-![](/img/capture-d’écran-2023-04-18-à-11.33.49.png)
+<iframe src="/files/CHARGE.E_DE_MISSION_REEMPLOI_-_INGENIEUR.E_TECHNICO_COMMERCIAL.pdf" width="100%" height="500px"> </iframe>
