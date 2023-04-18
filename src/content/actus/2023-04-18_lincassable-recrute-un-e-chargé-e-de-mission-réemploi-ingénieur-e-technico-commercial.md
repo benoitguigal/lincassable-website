@@ -12,7 +12,7 @@ Les dispositifs de consigne pour réemploi ont disparu dans les années 80 au pr
 
 C’est dans ce contexte que se déploie l’action de L’INCASSABLE, association basée à Marseille qui développe une filière de consigne pour réemploi de bouteilles en verre sur les départements des Bouches-du-Rhône et du Vaucluse. Nous proposons aux producteurs de boissons et magasins partenaires une solution clé en main de collecte, tri et lavage de bouteilles ainsi qu’un accompagnement personnalisé pour le passage à la consigne.
 
-
+<br/>
 
 ## **NOS OBJECTIFS**
 
@@ -24,7 +24,7 @@ C’est dans ce contexte que se déploie l’action de L’INCASSABLE, associati
 
 En deux ans d’existence, ce sont plus de 20 producteurs et 50 points de collecte qui ont rejoint la filière, fruit du travail d’accompagnement des professionnels dans leur transition vers le réemploi. 4 personnes constituent aujourd’hui notre équipe engagée et dynamique.
 
-
+<br/>
 
 ## **M﻿ISSIONS**
 
@@ -32,7 +32,7 @@ En deux ans d’existence, ce sont plus de 20 producteurs et 50 points de collec
 
 Sous la supervision de la coordinatrice de l’association, vous serez en charge d’accompagner les metteurs en marché de boissons dans leur transition vers le réemploi dans l’objectif d’augmenter les gisements de bouteilles réemployables mises sur le marché.
 
-
+<br/>
 
 ### **Accompagner les metteurs en marché (vignerons, artisans brasseurs, arboriculteurs, industriels) dans leur transition vers le réemploi :**
 
@@ -43,7 +43,7 @@ Sous la supervision de la coordinatrice de l’association, vous serez en charge
 * Mener des diagnostics personnalisés, tests de lavage, adaptation des chaînes de production, etc.
 * Coordonner le cadencement des lavages et la revente de bouteilles reconditionnés en respectant la saisonnalité des embouteillages.
 
-
+<br/>
 
 ### **Mener des actions de sensibilisation et sur les enjeux du réemploi auprès des producteurs :**
 
@@ -56,7 +56,7 @@ Sous la supervision de la coordinatrice de l’association, vous serez en charge
 * Assurer une veille technique et réglementaire par la lecture de presse spécialisée, la visite de
   sites de lavage et de lignes de conditionnements.
 
-
+<br/>
 
 ## **P﻿ROFIL RECHERCHÉ**
 
@@ -73,7 +73,7 @@ Lieu de travail : Marseille 13001
 
 Déplacements : à prévoir sur les départements des Bouches-du-Rhône et du Vaucluse Rémunération : Salaire selon profil et expériences + mutuelle et prévoyance
 
-
+<br/>
 
 ## **CANDIDATURE**
 
