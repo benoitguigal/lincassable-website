@@ -20,3 +20,7 @@ De plus, les bouteilles réemployées sont standardisées, c’est-à-dire qu’
 ### Le pictogramme national du réemploi pour assurer l’éligibilité de la bouteille 
 
 Seules les bouteilles arborant le pictogramme national du réemploi pourront être lavées. En effet, la présence du pictogramme assure que la bouteille après lavage respecte les mêmes normes qu’une bouteille neuve. Le pictogramme du réemploi s’utilise à l’échelle nationale et est une initiative de Réseau Consigne, une association qui rassemble des initiatives locales axées sur le réemploi, telles que L’INCASSABLE. Ainsi, nous proposons aux producteurs intéressés un soutien pour sélectionner leurs étiquettes et bouteilles, afin qu'ils puissent obtenir l'admissibilité au pictogramme national du réemploi.
+
+
+
+*A﻿rticle rédigé par Orane Longue*
