@@ -7,7 +7,13 @@ Vous avez peut-être reconnu notre pastille jaune « Je suis consignée » ou 
 
 Les bouteilles réemployables doivent correspondre à un cahier des charges très strict qui répond aux contraintes techniques du réemploi : il faut d'une part que la bouteille elle-même soit considérée comme réemployable, mais aussi que son étiquette soit apte au réemploi. Faisons le point.
 
+<br>
+<br>
+
 ![Bouteilles situées dans les rayon d'un magasin bio. Ces bouteilles sont consignées par L'INCASSABLE, un opérateur de réemploi de bouteilles en verre.](/img/my-project-5-4-.png "Bouteilles consignées par L'INCASSABLE")
+
+<br>
+<br>
 
 ## L'importance de la conception de l'étiquette
 
@@ -22,6 +28,9 @@ Pour que l'étiquette se détache facilement, plusieurs conditions sont nécessa
 
 Ces différents éléments vont faire toute la différence lors du passage de la bouteille dans la laveuse : détacher une étiquette peut prendre une dizaine de minutes contre quelques dizaines de secondes selon sa conception... Et malheureusement, certaines étiquettes (qui ne correspondent pas aux caractéristiques que nous venons de lister) ne partiront jamais complètement au lavage, ce qui empêchera la bouteille d'être réemployée.
 
+<br>
+<br>
+
 ## L'importance du choix de la bouteille
 
 Une bouteille destinée au réemploi doit avant tout être robuste : elle va être transportée, lavée, réembouteillée... de nombreuses fois, il faut donc qu'elle reste intacte le plus longtemps possible même après plusieurs boucles d'utilisation.
@@ -35,6 +44,9 @@ Au final, cette standardisation permet de faire baisser le coût d’une bouteil
 Une gamme standard nationale a donc été élaborée à l'initiative du Réseau Consigne (devenu depuis le Réseau Vrac & Réemploi), afin de proposer un choix de bouteilles aptes au réemploi. Le pictogramme du réemploi permet de les identifier à l'échelle nationale.
 
 ![Pictogramme national du réemploi, il permet de savoir si une bouteille est éligible au réemploi ou non. Autrement dit, savoir si elle peut etre récupérée par une opérateur de réemploi, comme L'INCASSABLE, afin d'etre lavée et redistribuée aux producteurs locaux afin d'etre réemployée. ](/img/pictogramme-national-du-réemploi-l-incassable-.webp "Pictogramme national du réemploi")
+
+<br>
+<br>
 
 ## L'accompagnement des producteurs
 
