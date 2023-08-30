@@ -3,6 +3,8 @@ title: Pourquoi toutes les bouteilles en verre ne sont pas réemployables ?
 date: 2023-08-29T13:28:50.051Z
 image: /img/my-project-1-32-.png
 ---
+<br>
+
 Vous avez peut-être reconnu notre pastille jaune « Je suis consignée » ou même le pictogramme national du réemploi sur vos boissons préférées. Mais toutes les bouteilles en verre ne l’arborent pas. Pourquoi ? Tout simplement parce que tous les emballages en verre ne sont pas (encore) réemployables. Voici quelques éléments pour comprendre les enjeux.
 
 Les bouteilles réemployables doivent correspondre à un cahier des charges très strict qui répond aux contraintes techniques du réemploi : il faut d'une part que la bouteille elle-même soit considérée comme réemployable, mais aussi que son étiquette soit apte au réemploi. Faisons le point.
