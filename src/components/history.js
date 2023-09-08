@@ -8,7 +8,7 @@ const History = () => (
   <Section>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-12">
       <h1 class="header text-left sm:text-right decima-mono-bold">
-        LA CONSIGNE A ÉTÉ ABANDONNÉE DANS LES ANNÉES 60, <br /> AU PROFIT DU
+        LA CONSIGNE A ÉTÉ ABANDONNÉE DANS LES ANNÉES 70, <br /> AU PROFIT DU
         TOUT JETABLE SOUS L'EFFET DE LA PRESSION DES LOBBIES INDUSTRIELS
       </h1>
       <div class="text-left">

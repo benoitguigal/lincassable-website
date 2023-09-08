@@ -19,11 +19,6 @@ const Sector = () => (
       locale.
     </div>
     <div class="mt-2 md:mt-5 md:px-20 text-center">
-      L’INCASSABLE expérimente dans un premier temps le réemploi des bouteilles
-      75 cl en verre mises sur le marché par les brasseries artisanales locales
-      sur le territoire de la métropole Aix-Marseille-Provence.
-    </div>
-    <div class="mt-2 md:mt-5 md:px-20 text-center">
       De nombreux acteurs locaux sont engagés dans la démarche : producteurs,
       distributeurs, collectivités... <br />
       Retrouvez ici la carte des partenaires de L’INCASSABLE :{" "}
