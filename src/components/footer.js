@@ -3,7 +3,6 @@ import AdemeImg from "../images/partners/ademe.png";
 import RegionImg from "../images/partners/region.png";
 import CiteoImg from "../images/partners/citeo.png";
 import MetropoleImg from "../images/partners/amp.png";
-import RothschildImg from "../images/partners/rothschild.png";
 import MacifImg from "../images/partners/macif.png";
 
 const Footer = () => (
