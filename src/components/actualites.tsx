@@ -7,7 +7,7 @@ const Actualites = () => {
     query {
       allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/actus/" } }
-        sort: { fields: fileAbsolutePath, order: DESC }
+        sort: [{ fileAbsolutePath: DESC }]
       ) {
         nodes {
           fileAbsolutePath
@@ -41,7 +41,7 @@ const Actualites = () => {
                 src={image}
                 className="w-full md:h-72 h-28"
                 style={{
-                  objectFit: "cover"
+                  objectFit: "cover",
                 }}
               />
             </div>
