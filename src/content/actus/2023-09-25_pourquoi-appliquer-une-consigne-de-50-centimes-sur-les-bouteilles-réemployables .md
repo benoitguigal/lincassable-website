@@ -1,6 +1,5 @@
 ---
-title: Pourquoi appliquer une consigne de 50 centimes sur les bouteilles
-  réemployables ?
+title: Pourquoi appliquer une consigne sur les bouteilles réemployables ?
 date: 2023-09-25T14:11:24.390Z
 image: /img/l-incassable-bouteille-réemploi-zoumaï.jpg
 ---
