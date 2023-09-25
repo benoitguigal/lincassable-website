@@ -5,15 +5,13 @@ image: /img/l-incassable-bouteille-réemploi-zoumaï.jpg
 ---
 <br>
 
-
-
 ## Vous l’avez vu dans nos magasins partenaires, la consigne est en place depuis le début de l'année 2023. Avec elle, le taux de retour des bouteilles a fortement augmenté, ce qui est une excellente nouvelle : plus le nombre de bouteilles rapportées grandit et plus nos producteurs pourront les réemployer !
 
 <br>
 
 <br>
 
-### La consigne, en quoi ça consiste ? 
+### La consigne, en quoi ça consiste ?
 
 <br>
 
