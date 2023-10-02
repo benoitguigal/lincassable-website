@@ -12,7 +12,7 @@ Les bouteilles réemployables doivent correspondre à un cahier des charges trè
 <br>
 <br>
 
-![Bouteilles situées dans les rayon d'un magasin bio. Ces bouteilles sont consignées par L'INCASSABLE, un opérateur de réemploi de bouteilles en verre.](/img/my-project-5-4-.png "Bouteilles consignées par L'INCASSABLE")
+![Bouteilles situées dans les rayon d'un magasin bio. Ces bouteilles sont consignées par L'INCASSABLE, un opérateur de réemploi de bouteilles en verre.](/img/bouteille-consignee.png "Bouteilles consignées par L'INCASSABLE")
 
 <br>
 <br>
