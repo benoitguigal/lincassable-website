@@ -1,7 +1,7 @@
 ---
 title: "Commencer le Réemploi : quelques conseils pour débuter une vie plus durable"
 date: 2023-11-13T14:54:13.532Z
-image: /img/recycle-57136_1280.jpg
+image: /img/pexels-sarah-chai-7262778.jpg
 ---
 ## À la fin de votre repas, il est probable que vous ne jetiez pas votre assiette à la poubelle. Il vous paraît même normal de la laver pour l’utiliser à nouveau au prochain repas.
 
