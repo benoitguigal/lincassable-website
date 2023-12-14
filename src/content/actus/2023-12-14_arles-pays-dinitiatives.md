@@ -1,6 +1,6 @@
 ---
-title: "Arles, pays d'initiatives "
-date: 2023-12-14T08:57:27.482Z
+title: Arles, pays d'initiatives
+date: 2023-12-14T09:00:10.739Z
 image: /img/baptiste-buisson-5gywyuv25ns-unsplash.jpg
 ---
 <br/>
