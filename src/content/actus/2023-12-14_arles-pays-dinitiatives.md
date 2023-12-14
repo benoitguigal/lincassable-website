@@ -24,7 +24,7 @@ Arlons-y c’est 37 acteurs locaux qui agissent dans les secteurs suivants : 
 
 Leurs valeurs sont proches de la philosophie zéro-déchet : Refuser, Réduire, Relier, Réutiliser, Recycler, Redonner à la Terre, Revendiquer.
 
-Parmi les membres fondateurs de ce collectif on retrouve Bocal&Co, membre de notre filière de réemploi de bouteilles en verre depuis plus d’un an maintenant. Cette épicerie bio, vrac et zéro-déchet fait la guerre aux emballages depuis sa création en 2017 et promeut l’économie circulaire. Il s’agit d’un vrai commerce de proximité dans lequel il est possible de trouver tout ce dont vous avez besoin au quotidien, de l’alimentation aux produits ménagers en passant par la cosmétique, le tout sans emballages inutiles ! 
+Parmi les membres fondateurs de ce collectif on retrouve [Bocal&Co](https://www.bocalandco.fr/), membre de notre filière de réemploi de bouteilles en verre depuis plus d’un an maintenant. Cette épicerie bio, vrac et zéro-déchet fait la guerre aux emballages depuis sa création en 2017 et promeut l’économie circulaire. Il s’agit d’un vrai commerce de proximité dans lequel il est possible de trouver tout ce dont vous avez besoin au quotidien, de l’alimentation aux produits ménagers en passant par la cosmétique, le tout sans emballages inutiles ! 
 
 Retrouvez la liste des membres, l’actualité et la carte du collectif sur leur site : <https://arlons-y.fr/> 
 
