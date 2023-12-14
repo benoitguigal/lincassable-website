@@ -4,7 +4,6 @@ date: 2023-12-14T09:00:10.739Z
 image: /img/baptiste-buisson-5gywyuv25ns-unsplash.jpg
 ---
 <br/>
-<br/>
 
 ## Territoire moteur de la transition écologique et de l’Économie Sociale et Solidaire dans le département des Bouches-du-Rhône, le pays arlésien constitue un espace central dans notre filière. Collectif d’acteurs de la transition écologique, magasins engagés, producteurs de boissons conscients de leur impact : tous créent un espace propice au développement d’initiatives bénéfiques et d’utilité sociale. 
 
