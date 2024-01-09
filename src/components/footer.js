@@ -3,8 +3,8 @@ import AdemeImg from "../images/partners/ademe.png";
 import RegionImg from "../images/partners/region.png";
 import CiteoImg from "../images/partners/citeo.png";
 import MetropoleImg from "../images/partners/amp.png";
-import RothschildImg from "../images/partners/rothschild.png";
 import MacifImg from "../images/partners/macif.png";
+import VilleMarseilleImg from "../images/partners/ville-marseille.png";
 
 const Footer = () => (
   <footer class="px-16 py-10 bg-green-bottle">
@@ -39,8 +39,9 @@ const Footer = () => (
     <div class="flex flex-col md:flex-row justify-center md:space-x-20 space-y-3 items-center w-full mt-10">
       <img src={AdemeImg} class="h-16 w-auto" alt="Ademe" />
       <img src={RegionImg} class="h-16 w-auto" alt="Région Sud" />
-      <img src={CiteoImg} class="h-8 w-auto" alt="CITEO" />
       <img src={MetropoleImg} class="h-16 w-auto" alt="AMP Métropole" />
+      <img src={VilleMarseilleImg} class="h-16 w-auto" alt="Ville Marseille" />
+      <img src={CiteoImg} class="h-8 w-auto" alt="CITEO" />
       <img src={MacifImg} class="h-16 w-auto" alt="Fondation MACIF" />
     </div>
   </footer>

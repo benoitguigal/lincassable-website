@@ -9,6 +9,11 @@ body {
   color: #253D39;
 }
 
+.bg-yellow {
+  background-color: #fceb20;
+  color: #253D39;
+}
+
 .bg-green-bottle {
   background-color: #253D39;
   color: #EAEDEC;
@@ -34,11 +39,12 @@ body {
 
 .decima-bold {
   font-family: Decima-Bold, Arial, Helvetica, sans-serif;
+  letter-spacing: .2rem;
 }
 
 .decima-mono-bold {
   font-family: Decima-Mono-Bold, Arial, Helvetica, sans-serif;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 .header {
@@ -80,6 +86,26 @@ li {
   height: 0;
   /* padding-bottom: 56.25%; */
   padding-bottom: 52.1%;
+}
+
+.button {
+  border: solid 1.5px; 
+  border-color: #253D39; 
+  font-weight: bold;
+}
+
+
+.navLink {
+  text-decoration: none;
+}
+
+.navLink:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navLink__active {
+  font-weight: bold;
 }
 
 .videoWrapper iframe {
