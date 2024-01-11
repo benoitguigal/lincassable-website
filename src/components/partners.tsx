@@ -1,11 +1,11 @@
 import React from "react";
 import { GreySection } from "./section";
-import AdemeImg from "../images/partners/LOGO PARTENAIRE_ADEME_vert.png";
-import RegionImg from "../images/partners/LOGOS PARTENAIRES_Région sud_vert.png";
-import MetropoleImg from "../images/partners/LOGOS PARTENAIRES_AMP_vert.png";
-import MacifImg from "../images/partners/LOGOS PARTENAIRES_FONDATION MACIF_vert.png";
-import VilleMarseilleImg from "../images/partners/LOGO PARTENAIRE_ville de marseille_vert.png";
-import CiteoImg from "../images/partners/LOGO PARTENAIRE_Citeo_vert.png";
+import AdemeImg from "../images/partners/ademe.png";
+import RegionImg from "../images/partners/region.png";
+import MetropoleImg from "../images/partners/metropole.png";
+import MacifImg from "../images/partners/macif.png";
+import VilleMarseilleImg from "../images/partners/ville-marseille.png";
+import CiteoImg from "../images/partners/citeo.png";
 
 const Partners = () => (
   <GreySection>
