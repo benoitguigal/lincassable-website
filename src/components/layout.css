@@ -37,9 +37,13 @@ body {
   font-family: Decima-Mono-Light, Arial, Helvetica, sans-serif;
 }
 
+.decima-regular {
+  font-family: Decima-Regular, Arial, Helvetica, sans-serif ;
+}
+
 .decima-bold {
   font-family: Decima-Bold, Arial, Helvetica, sans-serif;
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
 }
 
 .decima-mono-bold {
@@ -55,20 +59,22 @@ a {
   text-decoration: underline;
 }
 
-
 h1 {
   font-family: Decima-Mono-Bold, Arial, Helvetica, sans-serif;
   font-size: 1.6em;
 }
 
 h2 {
-  font-weight: bold;
+  font-family: Decima-Bold, Arial, Helvetica, sans-serif;
   font-size: 1.4em;
+  letter-spacing: .1rem;
 }
 
 h3 {
-  font-weight: bold;
+  font-family: Decima-Regular, Arial, Helvetica, sans-serif;
   font-size: 1.2em;
+  letter-spacing: .1rem;
+
 }
 
 ul {
@@ -94,6 +100,12 @@ li {
   font-weight: bold;
 }
 
+.button-grey {
+  border: solid 1.5px; 
+  border-color: #EAEDEC; 
+  font-weight: bold;
+}
+
 
 .navLink {
   text-decoration: none;
@@ -106,6 +118,7 @@ li {
 
 .navLink__active {
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .videoWrapper iframe {

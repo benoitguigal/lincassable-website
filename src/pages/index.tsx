@@ -6,6 +6,7 @@ import Recycling from "../components/recycling";
 import Vision from "../components/vision";
 import Advantages from "../components/advantages";
 import Bottles from "../components/bottles";
+import Partners from "../components/partners";
 import Sector from "../components/sector";
 import Hero from "../components/hero";
 
@@ -25,6 +26,7 @@ const IndexPage = () => (
     <Advantages />
     <Bottles />
     <Sector />
+    <Partners />
   </Layout>
 );
 

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import CasierBouteille from "../images/casier-bouteille.png";
+import CasierBouteillePicto from "../images/casier-bouteille-picto.png";
 import LogoBaseline from "../images/logo-baseline.svg";
 import { Link } from "gatsby";
 import { GreySection } from "./section";
@@ -12,7 +12,7 @@ const HeroDesktop = () => (
   >
     <div className="m-auto px-10">
       <div className="flex flex-row space-x-5">
-        <img src={CasierBouteille} className="w-1/2" alt="Logo" />
+        <img src={CasierBouteillePicto} className="w-1/2" alt="Logo" />
         <div className="w-1/2 pr-20">
           <div className="decima-mono-bold text-5xl">
             LE <span className="bg-yellow">RÉEMPLOI</span> <br />
@@ -50,9 +50,9 @@ const HeroMobile = () => (
         Région Sud pour réduire la production de déchets liés aux emballages à
         usage unique.
       </div>
-      <div className="mt-5 m-auto text-xl button align-middle w-fit px-2 py-1">
-        <Link to="/carte" className="relative -top-1 no-underline">
-          Où trouver des bouteilles consignées
+      <div className="mt-5 m-auto text-xl button align-middle text-center w-fit px-2 py-1">
+        <Link to="/carte" className="relative -top-1 no-underline text-center">
+          Où trouver des bouteilles consignées ?
         </Link>
       </div>
     </GreySection>
