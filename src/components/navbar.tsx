@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "gatsby";
 import IconFacebook from "./icons/facebook";
-import IconTwitter from "./icons/twitter";
+import IconLinkedin from "./icons/linkedin";
 import IconInstagram from "./icons/instagram";
 import IconBurger from "./icons/burger";
 import IconClose from "./icons/close";
@@ -156,9 +156,9 @@ const NavbarMobile = () => {
               </a>
               <a
                 className="no-underline"
-                href="https://twitter.com/_Lincassable"
+                href="https://www.linkedin.com/company/lincassable/"
               >
-                <IconTwitter
+                <IconLinkedin
                   width="1.3em"
                   height="1.3em"
                   class="inline md:hidden"
