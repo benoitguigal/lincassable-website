@@ -5,7 +5,7 @@ import RegionImg from "../images/partners/region.png";
 import MetropoleImg from "../images/partners/metropole.png";
 import MacifImg from "../images/partners/macif.png";
 import VilleMarseilleImg from "../images/partners/ville-marseille.png";
-import CiteoImg from "../images/partners/citeo.png";
+import FranceActiveImg from "../images/partners/franceactive.png";
 
 const Partners = () => (
   <GreySection>
@@ -22,7 +22,7 @@ const Partners = () => (
         alt="Ville Marseille"
       />
       <img src={MacifImg} className="h-16 w-auto" alt="Fondation MACIF" />
-      <img src={CiteoImg} className="h-8 w-auto" alt="CITEO" />
+      <img src={FranceActiveImg} className="h-8 w-auto" alt="CITEO" />
     </div>
   </GreySection>
 );
