@@ -23,8 +23,8 @@ const HeroDesktop = () => (
             verre en Région Sud pour réduire la production de déchets liés aux
             emballages à usage unique.
           </div>
-          <div className="mt-10 text-2xl button align-middle w-fit px-2 py-1">
-            <Link to="/carte" className="relative -top-1 no-underline">
+          <div className="mt-10 text-2xl button">
+            <Link to="/carte" className="no-underline decima-regular">
               Où trouver des bouteilles consignées ?
             </Link>
           </div>

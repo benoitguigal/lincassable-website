@@ -69,25 +69,10 @@ const NavbarDesktop = () => {
             L'association
           </Link>
         </div>
-        <div className="lg:space-x-2 xl:space-x-6 xl:text-lg relative -top-1">
-          <a
-            className="no-underline"
-            href="https://www.instagram.com/lincassable_consigne/"
-          >
-            <span>instagram</span>
-          </a>
-          <a
-            className="no-underline"
-            href="https://www.facebook.com/lincassableconsigne"
-          >
-            <span>facebook</span>
-          </a>
-          <a
-            className="no-underline"
-            href="https://www.linkedin.com/company/lincassable/"
-          >
-            <span>linkedin</span>
-          </a>
+        <div className="text-xl button">
+          <Link to="/contact" className="no-underline decima-regular">
+            Contact
+          </Link>
         </div>
       </div>
     </div>
