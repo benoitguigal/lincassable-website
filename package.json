@@ -18,6 +18,7 @@
   "dependencies": {
     "@mdx-js/mdx": "v1",
     "@mdx-js/react": "v1",
+    "@supabase/supabase-js": "^2.39.3",
     "autoprefixer": "^10.4.5",
     "gatsby": "^4.12.1",
     "gatsby-plugin-manifest": "^4.13.0",
