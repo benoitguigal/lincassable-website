@@ -17,7 +17,7 @@ const Producteur = ({ producteur }: ProducteurProps) => {
         alt=""
       />
       <div className="justify-self-start self-end pb-10 w-full">
-        <h3>{producteur.nom}</h3>
+        <h6>{producteur.nom}</h6>
         <div>{producteur.localisation}</div>
       </div>
       <div className="self-start">

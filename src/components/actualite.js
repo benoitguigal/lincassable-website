@@ -11,9 +11,9 @@ const Actu = ({ data }) => {
     <>
       <Seo title={markdownRemark.frontmatter.title} />
       <Navbar />
-      <main className="pt-16 md:pt-12">
+      <main className="pt-16 md:pt-14">
         <div className="px-10 md:px-28 xl:px-48 py-10">
-          <h1>{markdownRemark.frontmatter.title}</h1>
+          <h3>{markdownRemark.frontmatter.title}</h3>
           <img
             className="w-full h-80 static mt-5"
             style={{ objectFit: "cover" }}

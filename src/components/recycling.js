@@ -6,9 +6,9 @@ import Section from "./section";
  */
 const Recycling = () => (
   <Section>
-    <h1 class="header text-left md:text-center md:w-3/4 m-auto decima-mono-bold">
+    <h4 class="text-left md:text-center md:w-3/4 m-auto">
       AUJOURD’HUI, LES FILIÈRES DE RECYCLAGE SONT LOIN D’ÊTRE SATISFAISANTES
-    </h1>
+    </h4>
     <div class="mt-5 md:mt-20 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-12">
       <div>
         <p class="decima-bold">Un taux de recyclage très faible du plastique</p>

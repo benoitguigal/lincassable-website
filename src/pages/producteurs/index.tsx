@@ -24,8 +24,8 @@ const ProducteursPage = () => {
 
   return (
     <Layout title="Producteurs engagés">
-      <div className="px-5 py-5 lg:px-20 2xl:px-60">
-        <h1 className="mb-6">Producteurs régionaux</h1>
+      <div className="px-5 pb-5 pt-20 lg:px-20 2xl:px-60">
+        <h4 className="mb-6">Producteurs régionaux</h4>
         <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 gap-4">
           {producteurs
             .filter((p) => p.type === "Local")
@@ -33,7 +33,7 @@ const ProducteursPage = () => {
               return <Producteur producteur={producteur} />;
             })}
         </div>
-        <h1 className="my-6">Producteurs ailleurs en France</h1>
+        <h4 className="my-6">Producteurs ailleurs en France</h4>
         <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 gap-4">
           {producteurs
             .filter((p) => p.type === "National")
@@ -41,7 +41,7 @@ const ProducteursPage = () => {
               return <Producteur producteur={producteur} />;
             })}
         </div>
-        <h1 className="my-6">Références Biocoop</h1>
+        <h4 className="my-6">Références Biocoop</h4>
         <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 gap-4 mb-10">
           {producteurs
             .filter((p) => p.type === "Biocoop")

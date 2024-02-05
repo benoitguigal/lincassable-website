@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Layout from "../components/layout";
-import { supabase, SUPABASE_KEY } from "../utils/supabaseClient";
+import { supabase } from "../utils/supabaseClient";
 import CasierImg from "../images/casier.jpg";
 
 const ContactPage = () => {
@@ -68,8 +68,12 @@ const ContactPage = () => {
   return (
     <Layout title="Contact">
       <div className="flex">
-        <img src={CasierImg} className="hidden lg:block h-screen" alt="Logo" />
-        <div className="mt-10 mx-20">
+        <img
+          src={CasierImg}
+          className="hidden lg:block h-screen pt-14"
+          alt="Logo"
+        />
+        <div className="mt-10 mx-10 lg:mx-20 pt-14">
           <h1 className="text-4xl">CONTACTEZ-NOUS ! </h1>
           <div>
             Envoyer un email à l'adresse{" "}

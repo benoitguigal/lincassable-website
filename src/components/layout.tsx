@@ -4,13 +4,32 @@ import Navbar from "./navbar";
 import Footer from "./footer";
 import Seo from "./seo";
 
-const Layout = ({ title, children }) => {
+type LayoutProps = {
+  title: string;
+  children: React.ReactNode;
+  showFooter?: boolean;
+};
+
+const Layout = ({ title, children, showFooter = true }: LayoutProps) => {
+  const [showBody, setShowBody] = React.useState(true);
+
   return (
     <>
       <Seo title={title} />
-      <Navbar />
-      <main className="pt-16 md:pt-12">{children}</main>
-      <Footer />
+      <Navbar
+        onShowMobileNavigation={(showMenu) => {
+          // on cache le body quand le menu mobile
+          // s'affiche en pleine page pour éviter d'avoir
+          // un scroll
+          setShowBody(!showMenu);
+        }}
+      />
+      {showBody && (
+        <>
+          <main>{children}</main>
+          {showFooter && <Footer />}
+        </>
+      )}
     </>
   );
 };

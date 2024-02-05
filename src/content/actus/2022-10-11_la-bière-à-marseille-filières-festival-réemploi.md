@@ -3,10 +3,12 @@ title: "La bière à Marseille : filières, festival, réemploi"
 date: 2022-10-10T14:31:00.984Z
 image: /img/1.png
 ---
-## **L’édition 2022 de la Foire de Marseille s’est achevée il y a déjà une semaine** et pour cette occasion, nous avons décidé de mettre en lumière l’univers de la bière marseillaise. En effet, depuis quelques années, la ville a vu se développer de nouvelles brasseries, un festival qui lui est dédié, ainsi qu’une filière de réemploi dont nous faisons partie. Autrement dit, l’air s’est fortement houblonné à Marseille ! 
+
+##### **L’édition 2022 de la Foire de Marseille s’est achevée il y a déjà une semaine** et pour cette occasion, nous avons décidé de mettre en lumière l’univers de la bière marseillaise. En effet, depuis quelques années, la ville a vu se développer de nouvelles brasseries, un festival qui lui est dédié, ainsi qu’une filière de réemploi dont nous faisons partie. Autrement dit, l’air s’est fortement houblonné à Marseille !
+
 <br/>
 
-### **Le Collectif Bière de Provence : l’association pour le développement d’une filière brassicole en PACA**
+###### **Le Collectif Bière de Provence : l’association pour le développement d’une filière brassicole en PACA**
 
 ![](/img/1.png)
 
@@ -20,7 +22,7 @@ L’environnement marseillais évolue et cherche à se constituer comme une plac
 
 <br/>
 
-### **SOUR PASTIS : une association pour faire de Marseille une place forte de la bière**
+###### **SOUR PASTIS : une association pour faire de Marseille une place forte de la bière**
 
 ![](/img/3.png)
 
@@ -32,13 +34,13 @@ Leurs événements sont à destination des curieux, de ceux qui s’intéressent
 
 <br/>
 
-### **SOOFUT : le réemploi de fûts en inox**
+###### **SOOFUT : le réemploi de fûts en inox**
 
 ![](/img/sans-titre-3-.png)
 
-[SOOFUT](https://soofut.com/) est une structure nationale qui développe le réemploi de fûts en inox. L’objectif ? Encore et toujours la réduction des déchets. 
+[SOOFUT](https://soofut.com/) est une structure nationale qui développe le réemploi de fûts en inox. L’objectif ? Encore et toujours la réduction des déchets.
 
-SOOFUT est né d’un constat : la plupart des fûts sont en plastique, et même si en théorie, ils sont recyclables, la réalité est bien différente. En effet, en l’absence de filière de traitement, ils terminent enfouis ou incinérés. 
+SOOFUT est né d’un constat : la plupart des fûts sont en plastique, et même si en théorie, ils sont recyclables, la réalité est bien différente. En effet, en l’absence de filière de traitement, ils terminent enfouis ou incinérés.
 
 L’antenne marseillaise, pilotée par Gorka Voumby M’bys, a vu le jour en octobre 2021. La demande fut si forte sur le territoire marseillais, qu’en quelques mois, 34 brasseries, on rejoint le réseau, se partageant les 2000 fûts en circulation.
 

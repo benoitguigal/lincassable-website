@@ -8,7 +8,7 @@ const Footer = () => (
   <footer className="py-10 bg-green-bottle">
     <div className="grid grid-cols-1 md:grid-cols-3 w-full m-auto md:justify-items-center pl-10 md:pl-0">
       <div>
-        <h3 className="mb-2">RUBRIQUES</h3>
+        <h5 className="mb-2">RUBRIQUES</h5>
         <div>
           <div>
             <Link className="no-underline" to="/carte">
@@ -38,7 +38,7 @@ const Footer = () => (
         </div>
       </div>
       <div>
-        <h3 className="mb-2 mt-5 md:mt-0">CONTACT</h3>
+        <h5 className="mb-2 mt-5 md:mt-0">CONTACT</h5>
         <div>
           <div>40 boulevard Voltaire</div>
           <div>13001 Marseille</div>
@@ -48,7 +48,7 @@ const Footer = () => (
         </div>
       </div>
       <div>
-        <h3 className="mb-2 mt-5 md:mt-0">NOUS SUIVRE</h3>
+        <h5 className="mb-2 mt-5 md:mt-0">NOUS SUIVRE</h5>
         <div>Infolettre du réemploi</div>
         <div className="mt-3 button-grey align-middle w-fit px-2 py-1">
           <a
