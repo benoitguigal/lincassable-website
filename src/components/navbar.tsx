@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "gatsby";
-import IconFacebook from "./icons/facebook";
-import IconLinkedin from "./icons/linkedin";
-import IconInstagram from "./icons/instagram";
 import IconBurger from "./icons/burger";
 import IconClose from "./icons/close";
 
-const Navbar = () => {
+type NavbarProps = {
+  onShowMobileNavigation: (v: boolean) => void;
+};
+
+const Navbar = ({ onShowMobileNavigation }: NavbarProps) => {
   const [scrollTop, setScrollTop] = useState(0);
 
   useEffect(() => {
@@ -20,14 +21,14 @@ const Navbar = () => {
   return (
     <div id="navbar">
       <NavbarDesktop />
-      <NavbarMobile />
+      <NavbarMobile onShowMobileNavigation={onShowMobileNavigation} />
     </div>
   );
 };
 
 const NavbarDesktop = () => {
   return (
-    <div className="invisible lg:visible flex flex-col justify-center fixed w-full h-12 px-10 z-40 bg-grey">
+    <div className="invisible lg:visible flex flex-col justify-center fixed w-full h-14 px-10 z-40 bg-grey">
       <div className="flex justify-between items-center z-40">
         <Link
           className="no-underline decima-mono-bold text-xl xl:text-2xl"
@@ -42,7 +43,7 @@ const NavbarDesktop = () => {
             activeClassName="navLink__active"
             to="/carte"
           >
-            Carte des points de collecte
+            Carte du réseau
           </Link>
           <Link
             className="navLink"
@@ -69,7 +70,7 @@ const NavbarDesktop = () => {
             L'association
           </Link>
         </div>
-        <div className="text-xl button">
+        <div className="xl:text-lg button">
           <Link to="/contact" className="no-underline decima-regular">
             Contact
           </Link>
@@ -79,82 +80,101 @@ const NavbarDesktop = () => {
   );
 };
 
-const NavbarMobile = () => {
+const NavbarMobile = ({ onShowMobileNavigation }: NavbarProps) => {
   const [showMenu, setShowMenu] = useState(false);
 
   const MenuIcon = showMenu ? IconClose : IconBurger;
 
   return (
-    <div className="bg-green-bottle lg:hidden fixed w-full flex flex-row items-center z-40">
-      <div className="flex flex-col w-full">
-        <div className="flex flex-col h-16 justify-center">
+    <>
+      <div
+        className={`lg:hidden fixed h-16 w-full z-40 ${
+          showMenu ? "bg-grey h-screen" : "bg-green-bottle h-16"
+        }`}
+      >
+        <div className="flex flex-row items-center h-full">
           <MenuIcon
             className="ml-2"
             role="button"
-            color="#EAEDEC"
-            onClick={() => setShowMenu(!showMenu)}
+            color={showMenu ? "#253D39" : "#EAEDEC"}
+            onClick={() => {
+              const newShowMenu = !showMenu;
+              setShowMenu(newShowMenu);
+              onShowMobileNavigation(newShowMenu);
+            }}
           />
         </div>
-
-        {showMenu && (
-          <div className="flex flex-col items-center space-y-3 w-full mb-6 text-xl">
-            <Link className="no-underline" to="/">
-              Accueil
-            </Link>
-            <Link className="no-underline" to="/carte">
-              Carte des points de collecte
-            </Link>
-            <Link className="no-underline" to="/producteurs">
-              Producteurs engagés
-            </Link>
-            <Link className="no-underline" to="/faq">
-              En savoir plus
-            </Link>
-            <Link className="no-underline" to="/actualites">
-              Actualités
-            </Link>
-            <Link className="no-underline" to="/association">
-              L'association
-            </Link>
-            <div className="w-full flex flex-row justify-center space-x-5 ">
-              <a
-                className="no-underline"
-                href="https://www.instagram.com/lincassable_consigne/"
-              >
-                <IconInstagram
-                  width="1.3em"
-                  height="1.3em"
-                  class="inline md:hidden"
-                  color="#EAEDEC"
-                />
-              </a>
-              <a
-                className="no-underline"
-                href="https://www.facebook.com/lincassableconsigne"
-              >
-                <IconFacebook
-                  width="1.3em"
-                  height="1.3em"
-                  class="inline md:hidden"
-                  color="#EAEDEC"
-                />
-              </a>
-              <a
-                className="no-underline"
-                href="https://www.linkedin.com/company/lincassable/"
-              >
-                <IconLinkedin
-                  width="1.3em"
-                  height="1.3em"
-                  class="inline md:hidden"
-                  color="#EAEDEC"
-                />
-              </a>
+      </div>
+      {showMenu && (
+        <div className="fixed w-full h-screen bg-grey">
+          <div className="h-full flex flex-col justify-center pl-14">
+            <div>
+              <h5 className="mb-2">
+                <Link
+                  className="navLink uppercase"
+                  activeClassName="navLink__active"
+                  to="/"
+                >
+                  Accueil
+                </Link>
+              </h5>
+              <h5 className="mb-2">
+                <Link
+                  className="navLink uppercase"
+                  activeClassName="navLink__active"
+                  to="/carte"
+                >
+                  Carte du réseau
+                </Link>
+              </h5>
+              <h5 className="mb-2">
+                <Link
+                  className="navLink uppercase"
+                  activeClassName="navLink__active"
+                  to="/producteurs"
+                >
+                  Producteurs engagés
+                </Link>
+              </h5>
+              <h5 className="mb-2">
+                <Link
+                  className="navLink uppercase"
+                  activeClassName="navLink__active"
+                  to="/faq"
+                >
+                  En savoir plus
+                </Link>
+              </h5>
+              <h5 className="mb-2">
+                <Link
+                  className="navLink uppercase"
+                  activeClassName="navLink__active"
+                  to="/actualites"
+                >
+                  Actualités
+                </Link>
+              </h5>
+              <h5 className="mb-10">
+                <Link
+                  className="navLink uppercase"
+                  activeClassName="navLink__active"
+                  to="/association"
+                >
+                  L'association
+                </Link>
+              </h5>
+            </div>
+            <div className="w-full mx-auto">
+              <h5 className="button uppercase">
+                <Link to="/contact" className="no-underline decima-regular">
+                  Contact
+                </Link>
+              </h5>
             </div>
           </div>
-        )}
-      </div>
-    </div>
+        </div>
+      )}
+    </>
   );
 };
 

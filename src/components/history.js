@@ -7,10 +7,10 @@ import Section from "./section";
 const History = () => (
   <Section>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-12">
-      <h1 class="header text-left sm:text-right decima-mono-bold">
+      <h4 class="text-left sm:text-right">
         LA CONSIGNE A ÉTÉ ABANDONNÉE DANS LES ANNÉES 70, <br /> AU PROFIT DU
         TOUT JETABLE SOUS L'EFFET DE LA PRESSION DES LOBBIES INDUSTRIELS
-      </h1>
+      </h4>
       <div class="text-left">
         « Des groupes de pression agissent sur la communauté européenne pour
         imposer la politique du gaspillage et empêcher tout retour, même modéré,

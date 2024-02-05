@@ -7,16 +7,23 @@
 body {
   font-family: "Decima-Light", georgia, serif;
   color: #253D39;
+  /* @tailwind text-base */
+  font-size: 1rem;
+  /* 16px */
+  line-height: 1.5rem;
+  /* 24px */
 }
 
-textarea, input {
+textarea,
+input {
   padding-top: 2px;
   padding-bottom: 6px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
   outline-style: solid;
   outline-width: 1px;
   outline-color: #253D39;
@@ -41,22 +48,23 @@ textarea:focus, input:focus{
   border-color: #253D39;
 }
 
+/* Typographies */
 
 .decima-light {
   font-family: Decima-Light, Arial, Helvetica, sans-serif;
 }
 
-.decima-mono-light {
-  font-family: Decima-Mono-Light, Arial, Helvetica, sans-serif;
-}
-
 .decima-regular {
-  font-family: Decima-Regular, Arial, Helvetica, sans-serif ;
+  font-family: Decima-Regular, Arial, Helvetica, sans-serif;
 }
 
 .decima-bold {
   font-family: Decima-Bold, Arial, Helvetica, sans-serif;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
+}
+
+.decima-mono-light {
+  font-family: Decima-Mono-Light, Arial, Helvetica, sans-serif;
 }
 
 .decima-mono-bold {
@@ -64,38 +72,63 @@ textarea:focus, input:focus{
   line-height: 1.2;
 }
 
-.header {
-  font-size: 1.6em;
-}
-
 a {
   text-decoration: underline;
 }
 
+/* Titres */
+
 h1 {
   font-family: Decima-Mono-Bold, Arial, Helvetica, sans-serif;
-  font-size: 1.6em;
+  /* @tailwind text-5xl */
+  font-size: 3rem; /* 48px */
+  line-height: 3.5rem;
 }
 
 h2 {
-  font-family: Decima-Bold, Arial, Helvetica, sans-serif;
-  font-size: 1.4em;
-  letter-spacing: .1rem;
+  font-family: Decima-Mono-Bold, Arial, Helvetica, sans-serif;
+  /* @tailwind text-4xl */
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem; /* 40px */
 }
 
 h3 {
-  font-family: Decima-Regular, Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
-  letter-spacing: .1rem;
-
+  font-family: Decima-Mono-Bold, Arial, Helvetica, sans-serif;
+  /* @tailwind text-3xl */
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
 }
 
+h4 {
+  font-family: Decima-Mono-Bold, Arial, Helvetica, sans-serif;
+  /* @tailwind text-2xl */
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+}
+
+h5 {
+  /* @tailwind text-xl */
+  font-family: Decima-Bold, Arial, Helvetica, sans-serif;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  letter-spacing: .1rem;
+}
+
+h6 {
+  /* @tailwind text-lg */
+  font-family: Decima-Regular, Arial, Helvetica, sans-serif;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  letter-spacing: .1rem;
+}
+
+
 ul {
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 li {
-  margin-left: 10px;
+  /* margin-left: 10px; */
   list-style-type: circle;
 }
 
@@ -114,7 +147,7 @@ li {
   display: flex;
   align-items: stretch;
   justify-content: center;
-  border-color: #253D39; 
+  border-color: #253D39;
   width: fit-content;
   padding: 2px 6px;
 }
@@ -125,8 +158,8 @@ li {
 }
 
 .button-grey {
-  border: solid 1.5px; 
-  border-color: #EAEDEC; 
+  border: solid 1.5px;
+  border-color: #EAEDEC;
   font-weight: bold;
 }
 
@@ -136,14 +169,13 @@ li {
 }
 
 .navLink:hover {
-  font-weight: bold;
   text-decoration: underline;
 }
 
 .navLink__active {
-  font-weight: bold;
   text-decoration: underline;
 }
+
 
 .videoWrapper iframe {
   position: absolute;

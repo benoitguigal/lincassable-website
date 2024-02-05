@@ -23,7 +23,7 @@ const Actualites = () => {
   `);
 
   return (
-    <div className="py-10 flex flex-col">
+    <div className="py-24 flex flex-col">
       {allMarkdownRemark.nodes.map((markdownRemark, idx) => {
         const { date, title, image } = markdownRemark.frontmatter;
         const basename = markdownRemark.fileAbsolutePath.split("/").pop();
@@ -35,13 +35,13 @@ const Actualites = () => {
             key={idx}
           >
             <div className="text-gray-400">Publié le {date}</div>
-            <h2 className="mb-4">{title}</h2>
+            <h5 className="mb-4">{title}</h5>
             <div>
               <img
                 src={image}
                 className="w-full md:h-72 h-28"
                 style={{
-                  objectFit: "cover"
+                  objectFit: "cover",
                 }}
               />
             </div>

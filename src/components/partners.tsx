@@ -9,9 +9,9 @@ import FranceActiveImg from "../images/partners/franceactive.png";
 
 const Partners = () => (
   <GreySection>
-    <h1 className="header decima-mono-bold md:text-center m-auto uppercase">
+    <h4 className="md:text-center m-auto uppercase">
       Ils soutiennent la filière
-    </h1>
+    </h4>
     <div className="w-full mt-12 grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4 w-full m-auto justify-items-center items-center">
       <img src={AdemeImg} className="h-16 w-auto" alt="Ademe" />
       <img src={RegionImg} className="h-16 w-auto" alt="Région Sud" />

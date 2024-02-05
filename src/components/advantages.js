@@ -7,10 +7,10 @@ import Section from "./section";
  */
 const Advantages = () => (
   <Section>
-    <h1 class="header text-left md:text-center md:w-3/4 m-auto decima-mono-bold">
+    <h4 class="text-left md:text-center md:w-3/4 m-auto">
       UNE OFFRE DE COLLECTE ET DE LAVAGE DE CONTENANTS EN VERRE, EN ALTERNATIVE
       AU RECYCLAGE
-    </h1>
+    </h4>
     <img
       class="mt-5 md:mt-20 mx-auto w-full md:w-3/4"
       src={LoopImage}

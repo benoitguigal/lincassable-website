@@ -4,7 +4,7 @@ import Association from "../components/association";
 
 const AssociationPage = () => {
   return (
-    <Layout title="FAQ">
+    <Layout title="Association">
       <Association />
     </Layout>
   );

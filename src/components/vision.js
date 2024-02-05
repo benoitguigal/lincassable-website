@@ -8,11 +8,11 @@ import Video from "./video";
 const Vision = () => (
   <GreySection>
     <div class=" gap-4 md:gap-12 mb-10">
-      <h1 class="header text-center decima-mono-bold">
+      <h4 class="text-center">
         L’AMBITION DE L'INCASSABLE :<br />
         (RE)DÉVELOPPER UNE FILIÈRE LOCALE DE RÉEMPLOI DANS LES BOUCHES-DU-RHÔNE
         ET EN VAUCLUSE
-      </h1>
+      </h4>
       <div className="mt-2 text-center">
         Fournir, distribuer, collecter, trier, laver, stocker, et redistribuer
         des contenants en verre réemployabes grâce à la mise en place d’un
