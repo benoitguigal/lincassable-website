@@ -1,7 +1,7 @@
 import React from "react";
 
 const Section = ({ children }) => (
-  <div class="px-10 py-10 lg:px-48 lg:py-32">{children}</div>
+  <div class="px-6 py-10 lg:py-16 lg:px-48">{children}</div>
 );
 
 const GreenBottleSection = ({ children }) => (

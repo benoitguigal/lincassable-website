@@ -1,11 +1,11 @@
 import React from "react";
-import Section from "./section";
+import { GreySection } from "./section";
 
 /**
  * Histoire de la consigne et de l'avénèment du plastique
  */
 const History = () => (
-  <Section>
+  <GreySection>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-12">
       <h4 class="text-left sm:text-right">
         LA CONSIGNE A ÉTÉ ABANDONNÉE DANS LES ANNÉES 70, <br /> AU PROFIT DU
@@ -30,7 +30,7 @@ const History = () => (
         </a>
       </div>
     </div>
-  </Section>
+  </GreySection>
 );
 
 export default History;

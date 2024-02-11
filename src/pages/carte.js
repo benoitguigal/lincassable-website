@@ -1,6 +1,4 @@
 import React from "react";
-import Seo from "../components/seo";
-import Navbar from "../components/navbar";
 import Layout from "../components/layout";
 import "../components/layout.css";
 
