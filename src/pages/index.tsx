@@ -14,6 +14,7 @@ import Partners from "../components/partners";
 import Sector from "../components/sector";
 import Hero from "../components/hero";
 import AdemeCitation from "../components/ademe";
+import BouteillesMagasinImage from "../images/bouteilles-magasin.jpg";
 
 const IndexPage = () => (
   <Layout title="Home">
@@ -30,6 +31,13 @@ const IndexPage = () => (
     </div> */}
     <Offer />
     <Consommateurs />
+    <div className="bg-white">
+      <img
+        className="w-full"
+        src={BouteillesMagasinImage}
+        alt="bouteilles consignés"
+      />
+    </div>
     <BoucleReemploi />
     <Recycling />
     <Vision />

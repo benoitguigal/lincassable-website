@@ -8,10 +8,11 @@ const AdemeCitation = () => (
       <img src={GuillemetPictogramme} className="h-10" />
       <div>
         <div className="text-2xl italic">
-          Un emballage en verre réemployable est systématiquement plus
-          avantageux qu’un emballage à usage unique dès la deuxième utilisation
-          effective de l’emballage et pour des distances pouvant aller jusqu’à
-          600 km
+          Sur la plan environnemental, un emballage en verre réemployable est
+          systématiquement plus avantageux qu’un emballage en verre à usage
+          unique dès la deuxième utilisation effective de l’emballage. Le
+          réemploi est globalement favorable pour toutes les distances de
+          transport considérées.
         </div>
         <div className="mt-3 text-xl">
           <a
