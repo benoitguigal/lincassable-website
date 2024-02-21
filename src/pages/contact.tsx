@@ -19,7 +19,8 @@ const ContactPage = () => {
 
   const [loading, setLoading] = useState(false);
 
-  async function onClick() {
+  async function onSubmit(e: any) {
+    e.preventDefault();
     let hasError = false;
     if (!nom) {
       setNomError("Champ requis");
@@ -42,27 +43,39 @@ const ContactPage = () => {
 
     setLoading(true);
 
-    const { error } = await supabase.functions.invoke(
-      "forward-contact-site-web",
-      {
-        body: {
-          nom,
-          email,
-          message,
-        },
-      }
-    );
+    // const { error } = await supabase.functions.invoke(
+    //   "forward-contact-site-web",
+    //   {
+    //     body: {
+    //       nom,
+    //       email,
+    //       message,
+    //     },
+    //   }
+    // );
 
-    if (error) {
-      setError(error.message);
-    } else {
+    const encode = (data: any) => {
+      return Object.keys(data)
+        .map(
+          (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+        )
+        .join("&");
+    };
+
+    try {
+      await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "contact", ...{ nom, email, message } }),
+      });
       setNom("");
       setEmail("");
       setMessage("");
       setError(null);
       setSuccess(true);
+    } catch (err) {
+      setError(error);
     }
-    setLoading(false);
   }
 
   return (
@@ -90,7 +103,13 @@ const ContactPage = () => {
               </div>
             </div>
           ) : (
-            <div className="mt-10">
+            <form
+              name="contact"
+              method="post"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
+              <input type="hidden" name="form-name" value="contact" />
               <div>
                 <label htmlFor="nom" className="block text-xl decima-regular">
                   Nom
@@ -151,16 +170,12 @@ const ContactPage = () => {
                 )}
               </div>
 
-              <button
-                className="my-6 button"
-                onClick={onClick}
-                disabled={loading}
-              >
+              <button className="my-6 button" disabled={loading} type="submit">
                 <div className="text-xl">ENVOYER</div>
               </button>
 
               {error && <div>{error}</div>}
-            </div>
+            </form>
           )}
         </div>
       </div>
