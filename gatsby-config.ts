@@ -33,6 +33,12 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
+        name: "L'INCASSABLE",
+        short_name: "L'INCASSABLE",
+        start_url: `/`,
+        background_color: "#253D39",
+        theme_color: "#EAEDEC",
+        display: `standalone`,
         icon: "src/images/favicon.svg",
       },
     },
@@ -54,6 +60,31 @@ const config: GatsbyConfig = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "pagesContent",
+        path: `./src/content/pages`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "actus",
+        path: `./src/content/actus`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "producteurs",
+        path: `./src/content/producteurs`,
+      },
+    },
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-yaml`,
     },
   ],
 };

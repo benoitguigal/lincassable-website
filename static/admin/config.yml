@@ -1,0 +1,50 @@
+backend:
+  name: git-gateway
+  #name: proxy
+  #proxy_url: http://localhost:8081/api/v1
+  branch: master
+  commit_messages:
+    create: "Create {{collection}} “{{slug}}”"
+    update: "Update {{collection}} “{{slug}}”"
+    delete: "Delete {{collection}} “{{slug}}”"
+    uploadMedia: "[skip ci] Upload “{{path}}”"
+    deleteMedia: "[skip ci] Delete “{{path}}”"
+media_folder: static/img
+public_folder: /img
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - file: "src/content/pages/faq.md"
+        label: "FAQ"
+        name: "faq"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: producteur
+    label: Producteur
+    folder: "src/content/producteurs"
+    create: true
+    identifier_field: nom
+    extension: yml
+    fields:
+      - { label: "Nom", name: "nom", widget: "string" }
+      - { label: "Localisation", name: "localisation", widget: "string" }
+      - { label: "Catégorie", name: "categories", widget: "select", options: ["Vin", "Bière", "Jus", "Cidre", "Pétillant", "Soft"], multiple: true, }
+      - { label: "Type", name: "type", widget: "select", options: ["Local", "National", "Biocoop"] }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Lien", name: "url", widget: "string" }
+      - { label: "Format", name: "format", widget: "string", required: false}
+      - { label: "Gamme", name: "gamme", widget: "markdown", required: false}
+  - name: actu
+    label: Actualité
+    folder: "src/content/actus"
+    create: true
+    extension: md
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Date de publication", name: "date", widget: "datetime"}
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Corps du texte", name: "body", widget: "markdown" }
+

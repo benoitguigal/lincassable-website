@@ -27,7 +27,7 @@ const Navbar: React.FC<NavbarProps> = (props) => {
 
 const NavbarDesktop: React.FC = () => {
   return (
-    <nav className="hidden lg:fixed z-40 h-14  w-full">
+    <nav className="invisible lg:visible fixed z-40 h-14 w-full">
       <div
         className="h-full flex justify-between items-center px-10"
         style={{ ...backgroundColorGrey, ...colorGreen, ...decimaLight }}
