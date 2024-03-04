@@ -3,14 +3,14 @@ import { HeadFC, PageProps } from "gatsby";
 import SEO from "../components/seo";
 import Layout from "../components/layout";
 
-const IndexPage: React.FC<PageProps> = () => {
+const ActualitesPage: React.FC<PageProps> = () => {
   return (
     <Layout>
-      <div>Page d'accueil</div>
+      <div>Actualités</div>
     </Layout>
   );
 };
 
-export default IndexPage;
+export default ActualitesPage;
 
 export const Head: HeadFC = () => <SEO />;
