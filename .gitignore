@@ -3,3 +3,5 @@ node_modules/
 public
 src/gatsby-types.d.ts
 .nvmrc
+yarn-error.log
+.DS_Store

@@ -1,28 +1,33 @@
 import { Link } from "gatsby";
-import React from "react";
+import React, { useState } from "react";
 import {
   linkActiveStyle,
   backgroundColorGrey,
   colorGreen,
   decimaLight,
+  green,
 } from "../styles/theme";
 import { navLinks } from "../utils/navigation";
+import IconClose from "./icons/close";
+import IconBurger from "./icons/burger";
+import classNames from "classnames";
 
 type NavbarProps = {
   onShowMobileNavigation: (showMobileNav: boolean) => void;
 };
 
-const Navbar: React.FC<NavbarProps> = () => {
+const Navbar: React.FC<NavbarProps> = (props) => {
   return (
     <>
       <NavbarDesktop />
+      <NavbarMobile {...props} />
     </>
   );
 };
 
 const NavbarDesktop: React.FC = () => {
   return (
-    <nav className="z-40 h-14 fixed w-full">
+    <nav className="hidden lg:fixed z-40 h-14  w-full">
       <div
         className="h-full flex justify-between items-center px-10"
         style={{ ...backgroundColorGrey, ...colorGreen, ...decimaLight }}
@@ -46,6 +51,58 @@ const NavbarDesktop: React.FC = () => {
         </div>
       </div>
     </nav>
+  );
+};
+
+const NavbarMobile: React.FC<NavbarProps> = ({ onShowMobileNavigation }) => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const MenuIcon = showMenu ? IconClose : IconBurger;
+
+  const mobileNavLinks = [
+    { link: "/", label: "Accueil" },
+    ...navLinks,
+    { link: "/contact", label: "Contact" },
+  ];
+
+  return (
+    <>
+      <nav
+        style={{ ...backgroundColorGrey }}
+        className={classNames("lg:hidden", "fixed", "w-full", "z-50", "h-16")}
+      >
+        <div className="flex flex-row items-center h-16">
+          <MenuIcon
+            className="ml-2"
+            role="button"
+            color={green}
+            onClick={() => {
+              const newShowMenu = !showMenu;
+              setShowMenu(newShowMenu);
+              onShowMobileNavigation(newShowMenu);
+            }}
+          />
+        </div>
+      </nav>
+      {showMenu && (
+        <div
+          style={{ ...backgroundColorGrey }}
+          className="fixed w-full h-screen z-40"
+        >
+          <div className="h-full flex flex-col justify-center pl-14 space-y-1">
+            {mobileNavLinks.map(({ label, link }) => (
+              <Link
+                className="text-2xl"
+                to={link}
+                activeStyle={linkActiveStyle}
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 

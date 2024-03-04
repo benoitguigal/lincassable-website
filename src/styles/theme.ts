@@ -1,9 +1,9 @@
 import { CSSProperties } from "react";
 
 // Couleurs
-const grey = "#EAEDEC";
-const yellow = "#FDEA18";
-const green = "#253D39";
+export const grey = "#D5DBD6";
+export const yellow = "#FDEA18";
+export const green = "#253D39";
 
 export const backgroundColorGrey: CSSProperties = {
   backgroundColor: grey,
