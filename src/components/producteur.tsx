@@ -1,22 +1,11 @@
-import { GatsbyImage } from "gatsby-plugin-image";
+import { graphql } from "gatsby";
 import React from "react";
 
-export type ProducteurData = {
-  nom: string;
-  localisation: string;
-  categories: string[];
-  image: string;
-  url: string;
-  type: string;
-  gamme: string;
-  format: string;
-};
-
 type ProducteurProps = {
-  producteur: ProducteurData;
+  producteur: Queries.ProducteurFragment;
 };
 
-const Producteur = ({ producteur }: ProducteurProps) => {
+const Producteur: React.FC<ProducteurProps> = ({ producteur }) => {
   return (
     <a
       href={producteur.url ?? "#"}
@@ -25,7 +14,7 @@ const Producteur = ({ producteur }: ProducteurProps) => {
     >
       <img
         className="h-48 w-auto md:rounded-none md:rounded-l-lg mr-6 justify-self-end w-full"
-        src={producteur.image}
+        src={producteur.image!}
         alt=""
       />
 
@@ -34,7 +23,7 @@ const Producteur = ({ producteur }: ProducteurProps) => {
         <div>{producteur.localisation}</div>
       </div>
       <div className="self-start">
-        {producteur.categories.map((category) => (
+        {producteur.categories!.map((category) => (
           <div className="text-xs font-semibold inline-block pt-1 pb-2 px-2 rounded bg-green-bottle uppercase last:mr-0 mr-1">
             {category}
           </div>
@@ -45,3 +34,14 @@ const Producteur = ({ producteur }: ProducteurProps) => {
 };
 
 export default Producteur;
+
+export const query = graphql`
+  fragment Producteur on ProducteursYaml {
+    nom
+    type
+    localisation
+    categories
+    image
+    url
+  }
+`;

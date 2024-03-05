@@ -2,25 +2,12 @@ import React from "react";
 import { HeadFC, PageProps, graphql, useStaticQuery } from "gatsby";
 import SEO from "../../components/seo";
 import Layout from "../../components/layout";
-import Producteur, { ProducteurData } from "../../components/producteur";
+import Producteur from "../../components/producteur";
 
-const ProducteursPage: React.FC<PageProps> = () => {
-  const { allProducteursYaml } = useStaticQuery(graphql`
-    query {
-      allProducteursYaml {
-        nodes {
-          nom
-          type
-          localisation
-          categories
-          image
-          url
-        }
-      }
-    }
-  `);
-
-  const producteurs: ProducteurData[] = allProducteursYaml.nodes;
+const ProducteursPage: React.FC<PageProps<Queries.ProducteursPageQuery>> = ({
+  data,
+}) => {
+  const producteurs = data.allProducteursYaml.nodes;
 
   return (
     <Layout>
@@ -29,7 +16,7 @@ const ProducteursPage: React.FC<PageProps> = () => {
         <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 gap-4">
           {producteurs
             .filter((p) => p.type === "Local")
-            .map((producteur: ProducteurData) => {
+            .map((producteur) => {
               return <Producteur producteur={producteur} />;
             })}
         </div>
@@ -37,7 +24,7 @@ const ProducteursPage: React.FC<PageProps> = () => {
         <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 gap-4">
           {producteurs
             .filter((p) => p.type === "National")
-            .map((producteur: ProducteurData) => {
+            .map((producteur) => {
               return <Producteur producteur={producteur} />;
             })}
         </div>
@@ -45,7 +32,7 @@ const ProducteursPage: React.FC<PageProps> = () => {
         <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 gap-4 mb-10">
           {producteurs
             .filter((p) => p.type === "Biocoop")
-            .map((producteur: ProducteurData) => {
+            .map((producteur) => {
               return <Producteur producteur={producteur} />;
             })}
         </div>
@@ -59,3 +46,13 @@ export const Head: HeadFC = () => (
 );
 
 export default ProducteursPage;
+
+export const query = graphql`
+  query ProducteursPage {
+    allProducteursYaml {
+      nodes {
+        ...Producteur
+      }
+    }
+  }
+`;
