@@ -1,5 +1,5 @@
 import React from "react";
-import { HeadFC, PageProps, graphql, useStaticQuery } from "gatsby";
+import { HeadFC, PageProps, graphql } from "gatsby";
 import SEO from "../../components/seo";
 import Layout from "../../components/layout";
 import Producteur from "../../components/producteur";

@@ -1,7 +1,8 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 import { HeadFC, PageProps, graphql, useStaticQuery } from "gatsby";
 import SEO from "../components/seo";
 import Layout from "../components/layout";
+import "../styles/faq.css";
 
 const FAQPage: React.FC<PageProps> = () => {
   const { markdownRemark } = useStaticQuery(graphql`
@@ -13,6 +14,8 @@ const FAQPage: React.FC<PageProps> = () => {
   `);
 
   const { html } = markdownRemark;
+
+  const style: CSSProperties = {};
 
   return (
     <Layout>
