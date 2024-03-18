@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import React from "react";
 import CasierBouteillePicto from "../images/casier-bouteille-picto.png";
 import LogoMobile from "../images/logo-mobile.png";
-
 import { Link } from "gatsby";
 import { GreySection } from "./section";
 
