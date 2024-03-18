@@ -1,6 +1,7 @@
 import { CSSProperties } from "react";
 
 // Couleurs
+//export const grey = "#EAEDEB";
 export const grey = "#D5DBD6";
 export const yellow = "#FDEA18";
 export const green = "#253D39";
@@ -58,8 +59,13 @@ export const decimaMonoLight: CSSProperties = {
 
 // Internal links
 
-export const linkActiveStyle: CSSProperties = {
+export const navLinkActiveStyle: CSSProperties = {
   textDecoration: "underline",
+};
+
+export const linkStyle: CSSProperties = {
+  textDecoration: "underline",
+  fontStyle: "italic",
 };
 
 // Buttons

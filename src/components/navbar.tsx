@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React, { useState } from "react";
 import {
-  linkActiveStyle,
+  navLinkActiveStyle,
   backgroundColorGrey,
   colorGreen,
   decimaLight,
@@ -33,19 +33,19 @@ const NavbarDesktop: React.FC = () => {
         style={{ ...backgroundColorGrey, ...colorGreen, ...decimaLight }}
       >
         <div>
-          <Link to="/" activeStyle={linkActiveStyle}>
+          <Link to="/" activeStyle={navLinkActiveStyle}>
             Accueil
           </Link>
         </div>
         <div className="flex lg:space-x-2 xl:space-x-6">
           {navLinks.map(({ label, link }) => (
-            <Link to={link} activeStyle={linkActiveStyle}>
+            <Link to={link} activeStyle={navLinkActiveStyle}>
               {label}
             </Link>
           ))}
         </div>
         <div>
-          <Link to="/contact" activeStyle={linkActiveStyle}>
+          <Link to="/contact" activeStyle={navLinkActiveStyle}>
             Contact
           </Link>
         </div>
@@ -94,7 +94,7 @@ const NavbarMobile: React.FC<NavbarProps> = ({ onShowMobileNavigation }) => {
               <Link
                 className="text-2xl"
                 to={link}
-                activeStyle={linkActiveStyle}
+                activeStyle={navLinkActiveStyle}
               >
                 {label}
               </Link>
