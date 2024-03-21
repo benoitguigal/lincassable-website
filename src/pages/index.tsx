@@ -9,6 +9,10 @@ import { backgroundColorGrey, decimaMonoBold } from "../styles/theme";
 import Join from "../components/home/join";
 import Loop from "../components/home/loop";
 import Testimony from "../components/home/testimony";
+import Ecology from "../components/home/ecology";
+import Indicateurs from "../components/home/indicateurs";
+import Reglementation from "../components/home/reglementation";
+import Accompagnement from "../components/home/accompagnement";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -29,7 +33,11 @@ const IndexPage: React.FC<PageProps> = () => {
         </div>
       </Section>
       <Join />
+      <Ecology />
       <Loop />
+      <Indicateurs />
+      <Reglementation />
+      <Accompagnement />
       <Testimony />
     </Layout>
   );
