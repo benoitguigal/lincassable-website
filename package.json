@@ -1,9 +1,9 @@
 {
-  "name": "l-incassable",
+  "name": "lincassable-website",
   "version": "1.0.0",
   "private": true,
-  "description": "l-incassable",
-  "author": "benoitguigal",
+  "description": "lincassable-website",
+  "author": "Benoit Guigal",
   "keywords": [
     "gatsby"
   ],
@@ -16,35 +16,32 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@mdx-js/mdx": "v1",
-    "@mdx-js/react": "v1",
-    "@supabase/supabase-js": "^2.39.3",
-    "autoprefixer": "^10.4.5",
-    "gatsby": "^4.12.1",
-    "gatsby-plugin-manifest": "^4.13.0",
-    "gatsby-plugin-matomo": "^0.13.0",
-    "gatsby-plugin-netlify-cms": "^6.12.1",
-    "gatsby-plugin-postcss": "^5.12.1",
-    "gatsby-plugin-react-helmet": "^5.12.1",
-    "gatsby-plugin-sharp": "^4.12.1",
-    "gatsby-plugin-sitemap": "^5.19.0",
-    "gatsby-remark-images": "^6.19.0",
-    "gatsby-remark-relative-images": "1.1.1",
-    "gatsby-source-filesystem": "^4.12.1",
-    "gatsby-transformer-remark": "^5.19.0",
-    "gatsby-transformer-sharp": "^4.13.0",
-    "gatsby-transformer-yaml": "^4.19.0",
+    "@mdx-js/react": "^3.0.1",
+    "@sindresorhus/slugify": "^2.2.1",
+    "autoprefixer": "^10.4.18",
+    "classnames": "^2.5.1",
+    "gatsby": "^5.13.3",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-mdx": "^5.13.1",
+    "gatsby-plugin-netlify-cms": "^7.12.1",
+    "gatsby-plugin-postcss": "^6.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-plugin-sitemap": "^6.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-remark": "^6.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "gatsby-transformer-yaml": "^5.13.1",
     "netlify-cms-app": "^2.15.72",
-    "postcss": "^8.4.12",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "tailwindcss": "^3.1.6"
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
-    "@types/node": "^17.0.23",
-    "@types/react": "^17.0.44",
-    "@types/react-dom": "^17.0.15",
-    "typescript": "^4.6.3"
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3"
   }
 }

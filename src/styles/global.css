@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Decima-Bold";
+  src: url("/fonts/decima/decima-bold.otf");
+}
+
+@font-face {
+  font-family: "Decima-Light";
+  src: url("/fonts/decima/decima-light.otf");
+}
+
+@font-face {
+  font-family: "Decima-Light-Italic";
+  src: url("/fonts/decima/decima-light-italic.otf");
+}
+
+@font-face {
+  font-family: "Decima-Mono-Bold";
+  src: url("/fonts/decima/decima-mono-bold.otf");
+}
+
+@font-face {
+  font-family: "Decima-Mono-Light";
+  src: url("/fonts/decima/decima-mono-light.otf");
+}
+
+@font-face {
+  font-family: "Decima-Regular";
+  src: url("/fonts/decima/decima-regular.otf");
+}
+
+
+body {
+  font-family: "Decima-Light", georgia, serif;
+  color: #253D39;
+
+  background-color: "#EAEDEB";
+  /* @tailwind text-base */
+  font-size: 1rem;
+  /* 16px */
+  line-height: 1.5rem;
+  /* 24px */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Titres */
+
+h1 {
+  font-family: Decima-Bold, Arial, Helvetica, sans-serif;
+  /* @tailwind text-5xl */
+  font-size: 3rem; /* 48px */
+  line-height: 3.5rem;
+}
+
+h2 {
+  font-family: Decima-Bold, Arial, Helvetica, sans-serif;
+  /* @tailwind text-4xl */
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem; /* 40px */
+}
+
+h3 {
+  font-family: Decima-Bold, Arial, Helvetica, sans-serif;
+  /* @tailwind text-3xl */
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+}
+
+h4 {
+  font-family: Decima-Bold, Arial, Helvetica, sans-serif;
+  /* @tailwind text-2xl */
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+}
+
+h5 {
+  /* @tailwind text-xl */
+  font-family: Decima-Bold, Arial, Helvetica, sans-serif;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  letter-spacing: .1rem;
+}
+
+h6 {
+  /* @tailwind text-lg */
+  font-family: Decima-Regular, Arial, Helvetica, sans-serif;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  letter-spacing: .1rem;
+}
+
+

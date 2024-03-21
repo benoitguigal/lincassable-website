@@ -1,102 +1,81 @@
-import React, { useEffect, useState } from "react";
 import { Link } from "gatsby";
-import IconBurger from "./icons/burger";
+import React, { useState } from "react";
+import {
+  navLinkActiveStyle,
+  backgroundColorGrey,
+  colorGreen,
+  decimaLight,
+  green,
+} from "../styles/theme";
+import { navLinks } from "../utils/navigation";
 import IconClose from "./icons/close";
+import IconBurger from "./icons/burger";
+import classNames from "classnames";
 
 type NavbarProps = {
-  onShowMobileNavigation: (v: boolean) => void;
+  onShowMobileNavigation: (showMobileNav: boolean) => void;
 };
 
-const Navbar = ({ onShowMobileNavigation }: NavbarProps) => {
-  const [scrollTop, setScrollTop] = useState(0);
-
-  useEffect(() => {
-    const onScroll = (e) => {
-      setScrollTop(e.target.documentElement.scrollTop);
-    };
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
-  }, [scrollTop]);
-
+const Navbar: React.FC<NavbarProps> = (props) => {
   return (
-    <div id="navbar">
+    <>
       <NavbarDesktop />
-      <NavbarMobile onShowMobileNavigation={onShowMobileNavigation} />
-    </div>
+      <NavbarMobile {...props} />
+    </>
   );
 };
 
-const NavbarDesktop = () => {
+const NavbarDesktop: React.FC = () => {
   return (
-    <div className="invisible lg:visible flex flex-col justify-center fixed w-full h-14 px-10 z-40 bg-grey">
-      <div className="flex justify-between items-center z-40">
-        <Link
-          className="no-underline decima-mono-bold text-xl xl:text-2xl"
-          to="/"
-          activeClassName="no-underline decima-mono-bold text-xl xl:text-2xl relative top-1"
-        >
-          L'INCASSABLE
-        </Link>
-        <div className="flex lg:space-x-2 xl:space-x-6 xl:text-lg relative -top-1">
-          <Link
-            className="navLink"
-            activeClassName="navLink__active"
-            to="/carte"
-          >
-            Carte du réseau
-          </Link>
-          <Link
-            className="navLink"
-            activeClassName="navLink__active"
-            to="/producteurs"
-          >
-            Producteurs engagés
-          </Link>
-          <Link className="navLink" activeClassName="navLink__active" to="/faq">
-            En savoir plus
-          </Link>
-          <Link
-            className="navLink"
-            activeClassName="navLink__active"
-            to="/actualites"
-          >
-            Actualités
-          </Link>
-          <Link
-            className="navLink"
-            activeClassName="navLink__active"
-            to="/association"
-          >
-            L'association
+    <nav className="invisible lg:visible fixed z-40 h-14 w-full">
+      <div
+        className="h-full flex justify-between items-center px-10"
+        style={{ ...backgroundColorGrey, ...colorGreen, ...decimaLight }}
+      >
+        <div>
+          <Link to="/" activeStyle={navLinkActiveStyle}>
+            Accueil
           </Link>
         </div>
-        <div className="xl:text-lg button">
-          <Link to="/contact" className="no-underline decima-regular">
+        <div className="flex lg:space-x-2 xl:space-x-6">
+          {navLinks.map(({ label, link }) => (
+            <Link to={link} activeStyle={navLinkActiveStyle}>
+              {label}
+            </Link>
+          ))}
+        </div>
+        <div>
+          <Link to="/contact" activeStyle={navLinkActiveStyle}>
             Contact
           </Link>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
-const NavbarMobile = ({ onShowMobileNavigation }: NavbarProps) => {
+const NavbarMobile: React.FC<NavbarProps> = ({ onShowMobileNavigation }) => {
   const [showMenu, setShowMenu] = useState(false);
 
   const MenuIcon = showMenu ? IconClose : IconBurger;
 
+  const mobileNavLinks = [
+    { link: "/", label: "Accueil" },
+    ...navLinks,
+    { link: "/contact", label: "Contact" },
+  ];
+
   return (
     <>
-      <div
-        className={`lg:hidden fixed h-16 w-full z-40 ${
-          showMenu ? "bg-grey h-screen" : "bg-green-bottle h-16"
-        }`}
+      <nav
+        style={{ ...backgroundColorGrey }}
+        className={classNames("lg:hidden", "fixed", "w-full", "z-50", "h-16")}
       >
-        <div className="flex flex-row items-center h-full">
+        <div className="flex flex-row items-center h-16">
           <MenuIcon
             className="ml-2"
             role="button"
-            color={showMenu ? "#253D39" : "#EAEDEC"}
+            color={green}
             onClick={() => {
               const newShowMenu = !showMenu;
               setShowMenu(newShowMenu);
@@ -104,73 +83,22 @@ const NavbarMobile = ({ onShowMobileNavigation }: NavbarProps) => {
             }}
           />
         </div>
-      </div>
+      </nav>
       {showMenu && (
-        <div className="fixed w-full h-screen bg-grey">
-          <div className="h-full flex flex-col justify-center pl-14">
-            <div>
-              <h5 className="mb-2">
-                <Link
-                  className="navLink uppercase"
-                  activeClassName="navLink__active"
-                  to="/"
-                >
-                  Accueil
-                </Link>
-              </h5>
-              <h5 className="mb-2">
-                <Link
-                  className="navLink uppercase"
-                  activeClassName="navLink__active"
-                  to="/carte"
-                >
-                  Carte du réseau
-                </Link>
-              </h5>
-              <h5 className="mb-2">
-                <Link
-                  className="navLink uppercase"
-                  activeClassName="navLink__active"
-                  to="/producteurs"
-                >
-                  Producteurs engagés
-                </Link>
-              </h5>
-              <h5 className="mb-2">
-                <Link
-                  className="navLink uppercase"
-                  activeClassName="navLink__active"
-                  to="/faq"
-                >
-                  En savoir plus
-                </Link>
-              </h5>
-              <h5 className="mb-2">
-                <Link
-                  className="navLink uppercase"
-                  activeClassName="navLink__active"
-                  to="/actualites"
-                >
-                  Actualités
-                </Link>
-              </h5>
-              <h5 className="mb-10">
-                <Link
-                  className="navLink uppercase"
-                  activeClassName="navLink__active"
-                  to="/association"
-                >
-                  L'association
-                </Link>
-              </h5>
-            </div>
-            <div className="w-full mx-auto">
-              <h5 className="button uppercase">
-                <Link to="/contact" className="no-underline decima-regular">
-                  Contact
-                </Link>
-              </h5>
-            </div>
+        <div
+          style={{ ...backgroundColorGrey }}
+          className="fixed w-full h-screen z-40"
+        >
+          <div className="h-full flex flex-col justify-center pl-14 space-y-1">
+            {mobileNavLinks.map(({ label, link }) => (
+              <Link
+                className="text-2xl"
+                to={link}
+                activeStyle={navLinkActiveStyle}
+              >
+                {label}
+              </Link>
+            ))}
           </div>
         </div>
       )}
