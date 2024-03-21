@@ -8,6 +8,7 @@ import Section from "../components/section";
 import { backgroundColorGrey, decimaMonoBold } from "../styles/theme";
 import Join from "../components/home/join";
 import Loop from "../components/home/loop";
+import Testimony from "../components/home/testimony";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -29,6 +30,7 @@ const IndexPage: React.FC<PageProps> = () => {
       </Section>
       <Join />
       <Loop />
+      <Testimony />
     </Layout>
   );
 };

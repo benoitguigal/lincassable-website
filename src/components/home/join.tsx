@@ -16,7 +16,7 @@ const Join: React.FC = () => {
             height={pictogrammeHeight}
           />
           <h5 className="mt-3">PRODUCTEURS</h5>
-          <div className="w-2/3 md:w-full">
+          <div className="w-full">
             Nous facilitons le passage au réemploi des producteurs et
             industriels du territoire grâce à un accompagnement personnalisé et
             un service de collecte et lavage clé en main.
@@ -29,7 +29,7 @@ const Join: React.FC = () => {
             height={pictogrammeHeight}
           />
           <h5 className="mt-3">MAGASINS</h5>
-          <div className="w-2/3 md:w-full">
+          <div className="w-full">
             Nous accompagnons les enseignes de l’alimentaire qui souhaitent
             mettre en place un système de consigne pour réemploi en magasin.
           </div>
@@ -41,7 +41,7 @@ const Join: React.FC = () => {
             height={pictogrammeHeight}
           />
           <h5 className="mt-3">CONSOMMATEURS</h5>
-          <div className="w-2/3 md:w-full">
+          <div className="w-full">
             Engagez-vous pour l’environnement et la réduction des déchets en
             rapportant vos bouteilles consignées au plus près de chez vous.
           </div>
