@@ -21,11 +21,13 @@ const Mission: React.FC = () => {
             </Link>
           </div>
         </div>
-        <StaticImage
-          class="hidden lg:block"
-          alt="Casier et bouteille"
-          src="../../images/home/casier_bouteille.png"
-        />
+        <div>
+          <StaticImage
+            class="hidden lg:block"
+            alt="Casier et bouteille"
+            src="../../images/home/casier_bouteille.png"
+          />
+        </div>
       </div>
     </Section>
   );

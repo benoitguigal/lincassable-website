@@ -38,9 +38,20 @@ const LoopStep: React.FC<LoopStepProps> = ({ pictoSrc, photoSrc }) => {
       onMouseLeave={() => setHover(false)}
     >
       <img
-        className="m-auto w-full h-full max-w-64"
+        className={classNames(
+          "m-auto w-full h-full max-w-64",
+          hover ? "hidden" : "block"
+        )}
         alt="magasin"
-        src={hover ? photoSrc : pictoSrc}
+        src={pictoSrc}
+      />
+      <img
+        className={classNames(
+          "m-auto w-full h-full max-w-64",
+          hover ? "block" : "hidden"
+        )}
+        alt="magasin"
+        src={photoSrc}
       />
     </div>
   );
