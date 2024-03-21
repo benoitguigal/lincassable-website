@@ -15,8 +15,6 @@ const FAQPage: React.FC<PageProps> = () => {
 
   const { html } = markdownRemark;
 
-  const style: CSSProperties = {};
-
   return (
     <Layout>
       <div

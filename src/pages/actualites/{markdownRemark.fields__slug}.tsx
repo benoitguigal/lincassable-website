@@ -1,4 +1,4 @@
-import { HeadFC, PageProps, graphql, navigate } from "gatsby";
+import { HeadFC, PageProps, graphql } from "gatsby";
 import React from "react";
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
@@ -7,9 +7,6 @@ import "../../styles/actualite.css";
 const Actualite: React.FC<PageProps<Queries.ActualiteQuery>> = ({ data }) => {
   const actu = data.markdownRemark;
 
-  if (!actu?.fileAbsolutePath?.includes("actus")) {
-    navigate("/404");
-  }
   return (
     <Layout>
       <main className="pt-16 md:pt-14">
