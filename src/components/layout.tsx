@@ -1,21 +1,17 @@
-import "./layout.css";
-import * as React from "react";
+import React from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import Seo from "./seo";
 
 type LayoutProps = {
-  title: string;
-  children: React.ReactNode;
   showFooter?: boolean;
+  children: React.ReactNode;
 };
 
-const Layout = ({ title, children, showFooter = true }: LayoutProps) => {
+const Layout: React.FC<LayoutProps> = ({ showFooter = true, children }) => {
   const [showBody, setShowBody] = React.useState(true);
 
   return (
     <>
-      <Seo title={title} />
       <Navbar
         onShowMobileNavigation={(showMenu) => {
           // on cache le body quand le menu mobile
@@ -25,10 +21,10 @@ const Layout = ({ title, children, showFooter = true }: LayoutProps) => {
         }}
       />
       {showBody && (
-        <>
-          <main>{children}</main>
+        <div className="flex flex-col space-between min-h-screen">
+          <main className="grow">{children}</main>
           {showFooter && <Footer />}
-        </>
+        </div>
       )}
     </>
   );
