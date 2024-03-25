@@ -1,26 +1,31 @@
 import React, { CSSProperties } from "react";
-import { green } from "../styles/theme";
-import classNames from "classnames";
+import { decimaMonoBold, green, lightGrey } from "../styles/theme";
 
 const circleStyle: CSSProperties = {
   borderRadius: "50%",
-  display: "inline-block",
+  backgroundColor: green,
+  display: "flex",
+  justifyContent: "center" /* Centre le contenu horizontalement */,
+  alignItems: "center" /* Centre le contenu verticalement */,
 };
 
 type CircleProps = {
   size: number;
+  text?: string;
+  fontSize?: number;
 };
 
-const Circle: React.FC<CircleProps> = ({ size }) => {
+const Circle: React.FC<CircleProps> = ({ size, text, fontSize = 25 }) => {
   return (
     <div
       style={{
         ...circleStyle,
         height: size,
         width: size,
-        backgroundColor: green,
       }}
-    ></div>
+    >
+      <p style={{ color: lightGrey, ...decimaMonoBold, fontSize }}>{text}</p>
+    </div>
   );
 };
 

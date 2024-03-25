@@ -41,7 +41,6 @@ const Ecology: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 mt-12 lg:space-x-10 space-y-10 lg:space-y-0">
         <div>
           <h3>LE RÉEMPLOI DES EMBALLAGES PERMET DE :</h3>
-
           <div
             style={{
               paddingLeft: padding,

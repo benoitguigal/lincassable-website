@@ -1,8 +1,8 @@
 import { CSSProperties } from "react";
 
 // Couleurs
-//export const grey = "#EAEDEB";
 export const grey = "#D5DBD6";
+export const lightGrey = "#EAEDEB";
 export const yellow = "#FDEA18";
 export const green = "#253D39";
 
@@ -20,6 +20,10 @@ export const backgroundColorGreen: CSSProperties = {
 
 export const colorGrey: CSSProperties = {
   color: grey,
+};
+
+export const colorLigthGrey: CSSProperties = {
+  color: lightGrey,
 };
 
 export const colorYellow: CSSProperties = {

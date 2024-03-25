@@ -13,6 +13,7 @@ import Ecology from "../components/home/ecology";
 import Indicateurs from "../components/home/indicateurs";
 import Reglementation from "../components/home/reglementation";
 import Accompagnement from "../components/home/accompagnement";
+import Fonctionnement from "../components/home/fonctionnement";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -34,6 +35,10 @@ const IndexPage: React.FC<PageProps> = () => {
       </Section>
       <Join />
       <Ecology />
+      <Fonctionnement />
+      <Section style={{ ...backgroundColorGrey }}>
+        <div></div>
+      </Section>
       <Loop />
       <Indicateurs />
       <Reglementation />
