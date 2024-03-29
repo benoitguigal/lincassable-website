@@ -1,6 +1,7 @@
 import React, { ReactNode, useEffect, useState } from "react";
 import Section from "../section";
 import { backgroundColorYellow } from "../../styles/theme";
+import { graphql } from "gatsby";
 
 const GOGOCARTO_API_URL =
   "https://lincassable.gogocarto.fr/api/elements.json?categories=4";
@@ -8,18 +9,24 @@ const GOGOCARTO_API_URL =
 type IndicateurProps = {
   label: string | ReactNode;
   indicateur: number;
+  unit?: string;
 };
 
-const Indicateur: React.FC<IndicateurProps> = ({ label, indicateur }) => {
+const Indicateur: React.FC<IndicateurProps> = ({ label, indicateur, unit }) => {
   return (
     <div className="flex flex-col items-center">
-      <h1>{indicateur}</h1>
+      <h1>
+        {indicateur}
+        {unit && " " + unit}
+      </h1>
       <h4 className="uppercase text-center mt-3">{label}</h4>
     </div>
   );
 };
 
-const Indicateurs: React.FC = () => {
+const Indicateurs: React.FC<Queries.IndicateursFragment> = ({
+  collected_bottles,
+}) => {
   const [pointsDeCollecteNumber, setpointsDeCollecteNumber] = useState(0);
 
   useEffect(() => {
@@ -46,10 +53,35 @@ const Indicateurs: React.FC = () => {
     fetchData();
   }, []);
 
+  const wasteTonnes =
+    (collected_bottles! *
+      // poids moyen d'une bouteilles en kg
+      0.5) /
+    1000.0;
+
   return (
     <Section style={{ ...backgroundColorYellow }}>
       <h1 className="w-full text-center">NOTRE ACTION EN CHIFFRES</h1>
-      <div className="flex flex-col lg:flex-row">
+      <div className="flex flex-col md:flex-row justify-between w-full md:w-4/5 pt-16 m-auto space-y-6 md:space-y-0">
+        <Indicateur
+          label={
+            <>
+              De déchets <br />
+              évités
+            </>
+          }
+          indicateur={wasteTonnes}
+          unit="T"
+        />
+        <Indicateur
+          label={
+            <>
+              Bouteilles <br />
+              collectées
+            </>
+          }
+          indicateur={collected_bottles!}
+        />
         {pointsDeCollecteNumber && (
           <Indicateur
             label={
@@ -67,3 +99,9 @@ const Indicateurs: React.FC = () => {
 };
 
 export default Indicateurs;
+
+export const query = graphql`
+  fragment Indicateurs on WebsiteYaml {
+    collected_bottles
+  }
+`;

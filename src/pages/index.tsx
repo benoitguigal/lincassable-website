@@ -1,5 +1,5 @@
 import React from "react";
-import { HeadFC, PageProps } from "gatsby";
+import { HeadFC, PageProps, graphql } from "gatsby";
 import SEO from "../components/seo";
 import Layout from "../components/layout";
 import Hero from "../components/home/hero";
@@ -14,8 +14,9 @@ import Indicateurs from "../components/home/indicateurs";
 import Reglementation from "../components/home/reglementation";
 import Accompagnement from "../components/home/accompagnement";
 import Fonctionnement from "../components/home/fonctionnement";
+import Partners from "../components/home/partners";
 
-const IndexPage: React.FC<PageProps> = () => {
+const IndexPage: React.FC<PageProps<Queries.HomePageQuery>> = ({ data }) => {
   return (
     <Layout>
       <Hero />
@@ -40,10 +41,11 @@ const IndexPage: React.FC<PageProps> = () => {
         <div></div>
       </Section>
       <Loop />
-      <Indicateurs />
+      <Indicateurs collected_bottles={data.websiteYaml!.collected_bottles!} />
       <Reglementation />
       <Accompagnement />
       <Testimony />
+      <Partners />
     </Layout>
   );
 };
@@ -51,3 +53,11 @@ const IndexPage: React.FC<PageProps> = () => {
 export default IndexPage;
 
 export const Head: HeadFC = () => <SEO />;
+
+export const query = graphql`
+  query HomePage {
+    websiteYaml {
+      ...Indicateurs
+    }
+  }
+`;

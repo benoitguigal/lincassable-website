@@ -82,6 +82,13 @@ const config: GatsbyConfig = {
         path: `./src/content/producteurs`,
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "website",
+        path: `./src/content/website`,
+      },
+    },
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-transformer-yaml`,

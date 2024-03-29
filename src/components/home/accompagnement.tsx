@@ -10,7 +10,7 @@ const Accompagnement: React.FC = () => {
   return (
     <Section style={{ ...backgroundColorGrey }}>
       <div className="flex flex-col lg:flex-row lg:space-x-20 space-y-10 lg:space-y-0 lg:justify-center">
-        <div className="max-w-32">
+        <div className="max-w-32 m-auto">
           <StaticImage
             className="shrink-0"
             src="../../images/home/picto_reemploi.png"
