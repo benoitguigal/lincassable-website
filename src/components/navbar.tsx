@@ -38,8 +38,8 @@ const NavbarDesktop: React.FC = () => {
           </Link>
         </div>
         <div className="flex lg:space-x-2 xl:space-x-6">
-          {navLinks.map(({ label, link }) => (
-            <Link to={link} activeStyle={navLinkActiveStyle}>
+          {navLinks.map(({ label, link }, idx) => (
+            <Link to={link} key={idx} activeStyle={navLinkActiveStyle}>
               {label}
             </Link>
           ))}
@@ -90,8 +90,9 @@ const NavbarMobile: React.FC<NavbarProps> = ({ onShowMobileNavigation }) => {
           className="fixed w-full h-screen z-40"
         >
           <div className="h-full flex flex-col justify-center pl-14 space-y-1">
-            {mobileNavLinks.map(({ label, link }) => (
+            {mobileNavLinks.map(({ label, link }, idx) => (
               <Link
+                key={idx}
                 className="text-2xl"
                 to={link}
                 activeStyle={navLinkActiveStyle}

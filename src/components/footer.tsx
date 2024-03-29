@@ -14,8 +14,10 @@ const Footer: React.FC = () => {
         <div>
           <h5 className="mb-2">RUBRIQUES</h5>
           <div className="flex flex-col">
-            {navLinks.map(({ label, link }) => (
-              <Link to={link}>{label}</Link>
+            {navLinks.map(({ label, link }, idx) => (
+              <Link to={link} key={idx}>
+                {label}
+              </Link>
             ))}
           </div>
         </div>
