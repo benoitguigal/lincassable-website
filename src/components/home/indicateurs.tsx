@@ -1,7 +1,12 @@
 import React, { ReactNode, useEffect, useState } from "react";
 import Section from "../section";
-import { backgroundColorYellow } from "../../styles/theme";
+import {
+  backgroundColorYellow,
+  decimaBold,
+  titleMargin,
+} from "../../styles/theme";
 import { graphql } from "gatsby";
+import CountUp from "react-countup";
 
 const GOGOCARTO_API_URL =
   "https://lincassable.gogocarto.fr/api/elements.json?categories=4";
@@ -9,17 +14,42 @@ const GOGOCARTO_API_URL =
 type IndicateurProps = {
   label: string | ReactNode;
   indicateur: number;
+  decimal?: number;
   unit?: string;
 };
 
-const Indicateur: React.FC<IndicateurProps> = ({ label, indicateur, unit }) => {
+const Indicateur: React.FC<IndicateurProps> = ({
+  label,
+  indicateur,
+  decimal,
+  unit,
+}) => {
   return (
     <div className="flex flex-col items-center">
-      <h1>
-        {indicateur}
-        {unit && " " + unit}
-      </h1>
-      <h4 className="uppercase text-center mt-3">{label}</h4>
+      <CountUp
+        start={0}
+        end={indicateur}
+        delay={0}
+        duration={1}
+        enableScrollSpy
+        scrollSpyOnce
+        separator="."
+        useEasing={false}
+        suffix={unit && " " + unit}
+      >
+        {({ countUpRef }) => (
+          <h2>
+            <span ref={countUpRef} />
+          </h2>
+        )}
+      </CountUp>
+
+      <div
+        style={{ ...decimaBold }}
+        className="uppercase text-center mt-3 text-xl"
+      >
+        {label}
+      </div>
     </div>
   );
 };
@@ -61,8 +91,19 @@ const Indicateurs: React.FC<Queries.IndicateursFragment> = ({
 
   return (
     <Section style={{ ...backgroundColorYellow }}>
-      <h1 className="w-full text-center">NOTRE ACTION EN CHIFFRES</h1>
-      <div className="flex flex-col md:flex-row justify-between w-full md:w-4/5 pt-16 m-auto space-y-6 md:space-y-0">
+      <h2 style={{ ...titleMargin }} className="w-full text-center">
+        NOTRE ACTION EN CHIFFRES
+      </h2>
+      <div className="flex flex-col md:flex-row justify-between w-full md:w-4/5 m-auto space-y-6 md:space-y-0">
+        <Indicateur
+          label={
+            <>
+              Bouteilles <br />
+              collectées
+            </>
+          }
+          indicateur={collected_bottles!}
+        />
         <Indicateur
           label={
             <>
@@ -72,15 +113,6 @@ const Indicateurs: React.FC<Queries.IndicateursFragment> = ({
           }
           indicateur={wasteTonnes}
           unit="T"
-        />
-        <Indicateur
-          label={
-            <>
-              Bouteilles <br />
-              collectées
-            </>
-          }
-          indicateur={collected_bottles!}
         />
         {pointsDeCollecteNumber && (
           <Indicateur

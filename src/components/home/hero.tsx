@@ -1,6 +1,5 @@
-import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
-import { backgroundColorGrey } from "../../styles/theme";
+import { backgroundColorGreen } from "../../styles/theme";
 import HeroImg from "../../images/home/hero.png";
 import HeroImgMobile from "../../images/home/hero_mobile.png";
 
@@ -8,7 +7,7 @@ const HeroDesktop: React.FC = () => {
   return (
     <header
       className="hidden md:block h-screen"
-      style={{ ...backgroundColorGrey }}
+      style={{ ...backgroundColorGreen }}
     >
       <img
         alt="Le réemploi c'est du solide"
@@ -22,7 +21,7 @@ const HeroDesktop: React.FC = () => {
 const HeroMobile: React.FC = () => (
   <header
     className="flex md:hidden flex-col justify-center h-screen"
-    style={{ ...backgroundColorGrey }}
+    style={{ ...backgroundColorGreen }}
     id="header"
   >
     <div>

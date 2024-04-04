@@ -3,20 +3,19 @@ import Section from "../section";
 import { backgroundColorGrey, linkStyle } from "../../styles/theme";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
+import PictogrammeRemploi from "../../images/home/picto_reemploi.png";
 
 linkStyle;
 
 const Accompagnement: React.FC = () => {
   return (
     <Section style={{ ...backgroundColorGrey }}>
-      <div className="flex flex-col lg:flex-row lg:space-x-20 space-y-10 lg:space-y-0 lg:justify-center">
-        <div className="max-w-32 m-auto">
-          <StaticImage
-            className="shrink-0"
-            src="../../images/home/picto_reemploi.png"
-            alt="Pictogramme réemploi"
-          />
-        </div>
+      <div className="flex flex-col lg:flex-row gap-x-10 gap-y-6 lg:justify-center lg:items-center">
+        <img
+          className="max-w-32 m-auto lg:m-0"
+          src={PictogrammeRemploi}
+          alt="Pictogramme réemploi"
+        />
         <div className="text-center lg:text-left">
           <h1>ON VOUS ACCOMPAGNE</h1>
           <div className="mt-6">

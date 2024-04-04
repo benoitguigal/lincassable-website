@@ -1,15 +1,10 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import Section from "../section";
-import {
-  decimaBold,
-  decimaMonoBold,
-  green,
-  lightGrey,
-  linkStyle,
-} from "../../styles/theme";
+import { decimaBold, linkStyle } from "../../styles/theme";
 import { Link } from "gatsby";
 import Circle from "../circle";
+import BouteillePastilleImg from "../../images/home/bouteille_pastille.png";
 
 const pictogrammeSize = 90;
 
@@ -42,32 +37,32 @@ const Fonctionnement: React.FC = () => {
   return (
     <Section>
       <div className="flex flex-col-reverse lg:flex-row lg:space-x-12 lg:w-4/5 m-auto">
-        <div className="hidden lg:block">
-          <StaticImage
-            alt="bouteille avec pastille consigne"
-            src="../../images/home/bouteille_pastille.png"
-            height={1500}
-          />
-        </div>
-        <div className="lg:hidden flex justify-center mt-10">
-          <StaticImage
-            alt="bouteille avec pastille consigne"
-            src="../../images/home/bouteille_pastille.png"
-            height={400}
-          />
-        </div>
+        <img
+          className="h-80 lg:h-96 shrink-0 w-auto m-auto mt-10 lg:m-0 mt"
+          src={BouteillePastilleImg}
+          alt="bouteille avec pastille consigne"
+        />
         <div>
-          <h1>COMMENT ÇA FONCTIONNE ?</h1>
+          <h2>COMMENT ÇA FONCTIONNE ?</h2>
           <div className="mt-10 text-xl" style={{ ...decimaBold }}>
             C'est facile
           </div>
           <div className="mt-6">
-            Agnatum ut ides rat eveliquossit dionsed el exces conecep rovit, to
-            esecepu daerion sequatisRum ad que cus cullab il illaut faccum
-            faccuptatem libusandit vendam, alique nonsed que alit, seditae
-            ctiat.Vatuius bon habemniris hus consitustrem consus, Catilin
-            vehenti entrac res? Horimis nos inte fauc fit occi sum P. Efactum
-            prem, vivatorditi poervidem
+            La boucle du réemploi repose sur le geste des consommateurs qui
+            privilégient la consommation de boissons en bouteilles réemployables
+            et les rapporte en magasin pour réemploi. Les bouteilles
+            réemployables sont identifiables grâce à un pictogramme national du
+            réemploi, que l’on peut retrouver sur les étiquettes de nos
+            producteurs partenaires. Ce pictogramme garanti que le producteur a
+            été labellisé et que c’est bouteilles sont certifiées pour le
+            réemploi. Afin d’identifier plus facilement les bouteilles
+            consignées dans les rayons de nos magasins partenaires, une pastille
+            jaune « Je suis consignées » est également apposées sur les
+            bouteilles. Une consigne de 0,50 euros sera payée, pour les
+            bouteilles portant la pastille jaune. Ce montant sera remboursé lors
+            du retour des bouteilles consignées en magasin. Les bouteilles,
+            après consommations, doivent être rincées et retournées sans
+            bouchons dans les magasins points de collecte partenaires.
           </div>
           <div className="mt-6">
             <Link to="/producteurs" style={{ ...linkStyle }}>

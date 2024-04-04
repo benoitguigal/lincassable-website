@@ -3,14 +3,25 @@ import Section from "../section";
 import LudovicPoster from "../../images/home/videos/ludovic.png";
 import NathaliePoster from "../../images/home/videos/nathalie.png";
 import SalemPoster from "../../images/home/videos/salem.png";
+import classNames from "classnames";
+import { titleMargin } from "../../styles/theme";
+
+const videoClassName = classNames(["h-96", "md:h-auto"]);
 
 const Testimony: React.FC = () => {
   return (
     <Section>
-      <h1>ILS PARLENT DE LEUR ENGAGEMENT</h1>
-      <div className="flex flex-col lg:flex-row  lg:justify-center lg:space-x-6 space-y-6 lg:space-y-0 mt-12">
-        <div className="m-auto lg:m-0">
-          <video preload="auto" poster={LudovicPoster} controls>
+      <h2 style={{ ...titleMargin }} className="text-center">
+        ILS PARLENT DE LEUR ENGAGEMENT
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-4 lg:gap-x-8 xl:gap-x-12 gap-y-10">
+        <div className="m-auto md:m-0">
+          <video
+            className={videoClassName}
+            preload="auto"
+            poster={LudovicPoster}
+            controls
+          >
             <source
               src="https://lincassable-website.s3.fr-par.scw.cloud/videos/ludovic_compressed.mp4"
               type="video/mp4"
@@ -18,7 +29,12 @@ const Testimony: React.FC = () => {
           </video>
         </div>
         <div className="m-auto lg:m-0">
-          <video preload="auto" poster={NathaliePoster} controls>
+          <video
+            className={videoClassName}
+            preload="auto"
+            poster={NathaliePoster}
+            controls
+          >
             <source
               src="https://lincassable-website.s3.fr-par.scw.cloud/videos/nathalie_compressed.mp4"
               type="video/mp4"
@@ -26,7 +42,12 @@ const Testimony: React.FC = () => {
           </video>
         </div>
         <div className="m-auto lg:m-0">
-          <video preload="auto" poster={SalemPoster} controls>
+          <video
+            className={videoClassName}
+            preload="auto"
+            poster={SalemPoster}
+            controls
+          >
             <source
               src="https://lincassable-website.s3.fr-par.scw.cloud/videos/salem_compressed.mp4"
               type="video/mp4"

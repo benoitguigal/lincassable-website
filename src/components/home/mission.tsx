@@ -9,14 +9,14 @@ const Mission: React.FC = () => {
     <Section>
       <div className="flex flex-col lg:flex-row space-y-10 lg:space-y-0 lg:space-x-16">
         <div className="lg:w-1/2 mx-auto">
-          <h1>CONSIGNE DE BOUTEILLES</h1>
-          <div className="text-xl mt-6">
+          <h2>CONSIGNE DE BOUTEILLES</h2>
+          <div className="mt-6 text-xl">
             L’INCASSABLE développe une filière de réemploi de contenants en
             verre en Région Sud pour réduire la production de déchets liés aux
             emballages à usage unique.
           </div>
           <div className="mt-6">
-            <Link className="text-xl" style={{ ...linkStyle }} to="/carte">
+            <Link style={{ ...linkStyle }} to="/carte">
               Trouver des bouteilles consignées
             </Link>
           </div>
@@ -25,6 +25,8 @@ const Mission: React.FC = () => {
           <StaticImage
             alt="Casier et bouteille"
             src="../../images/home/casier_bouteille.png"
+            loading="eager"
+            placeholder="none"
           />
         </div>
       </div>

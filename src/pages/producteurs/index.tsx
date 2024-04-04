@@ -3,6 +3,7 @@ import { HeadFC, PageProps, graphql } from "gatsby";
 import SEO from "../../components/seo";
 import Layout from "../../components/layout";
 import Producteur from "../../components/producteur";
+import { navHeight } from "../../styles/theme";
 
 const ProducteursPage: React.FC<PageProps<Queries.ProducteursPageQuery>> = ({
   data,
@@ -11,8 +12,11 @@ const ProducteursPage: React.FC<PageProps<Queries.ProducteursPageQuery>> = ({
 
   return (
     <Layout>
-      <div className="px-5 pb-5 pt-20 lg:px-20 2xl:px-60">
-        <h4 className="mb-6">Producteurs régionaux</h4>
+      <div
+        style={{ paddingTop: navHeight }}
+        className="px-5 pb-5 lg:px-20 2xl:px-60"
+      >
+        <h4 className="mb-6 mt-6">Producteurs régionaux</h4>
         <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 gap-4">
           {producteurs
             .filter((p) => p.type === "Local")

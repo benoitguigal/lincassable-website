@@ -10,6 +10,10 @@ export const backgroundColorGrey: CSSProperties = {
   backgroundColor: grey,
 };
 
+export const backgroundColorLightGrey: CSSProperties = {
+  backgroundColor: lightGrey,
+};
+
 export const backgroundColorYellow: CSSProperties = {
   backgroundColor: yellow,
 };
@@ -79,3 +83,11 @@ export const greyButton: CSSProperties = {
   borderColor: grey,
   fontWeight: "bold",
 };
+
+// Titres
+export const titleMargin: CSSProperties = {
+  marginBottom: "4rem",
+};
+
+//
+export const navHeight = "3rem";

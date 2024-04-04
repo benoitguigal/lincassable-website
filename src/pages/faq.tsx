@@ -3,6 +3,7 @@ import { HeadFC, PageProps, graphql, useStaticQuery } from "gatsby";
 import SEO from "../components/seo";
 import Layout from "../components/layout";
 import "../styles/faq.css";
+import { navHeight } from "../styles/theme";
 
 const FAQPage: React.FC<PageProps> = () => {
   const { markdownRemark } = useStaticQuery(graphql`
@@ -18,7 +19,8 @@ const FAQPage: React.FC<PageProps> = () => {
   return (
     <Layout>
       <div
-        className="pb-5 pt-20 px-10 md:px-28 border"
+        style={{ paddingTop: navHeight }}
+        className="pb-5 mt-6 px-10 md:px-28 border"
         dangerouslySetInnerHTML={{ __html: html }}
       />
     </Layout>

@@ -5,7 +5,7 @@ import Layout from "../components/layout";
 import Hero from "../components/home/hero";
 import Mission from "../components/home/mission";
 import Section from "../components/section";
-import { backgroundColorGrey, decimaMonoBold } from "../styles/theme";
+import { backgroundColorLightGrey, decimaMonoBold } from "../styles/theme";
 import Join from "../components/home/join";
 import Loop from "../components/home/loop";
 import Testimony from "../components/home/testimony";
@@ -15,31 +15,27 @@ import Reglementation from "../components/home/reglementation";
 import Accompagnement from "../components/home/accompagnement";
 import Fonctionnement from "../components/home/fonctionnement";
 import Partners from "../components/home/partners";
+import BandeauBouteilles from "../images/home/bandeau_bouteilles.jpg";
 
 const IndexPage: React.FC<PageProps<Queries.HomePageQuery>> = ({ data }) => {
   return (
     <Layout>
       <Hero />
       <Mission />
-      <Section style={{ ...backgroundColorGrey }}>
+      <Section style={{ ...backgroundColorLightGrey }}>
         <div className="flex justify-center">
-          <div
-            className="flex flex-col lg:flex-row lg:space-x-10 space-y-4 lg:space-y-0 justify-center"
-            style={{ ...decimaMonoBold }}
-          >
-            <div className="text-5xl">COLLECTER</div>
-            <div className="text-5xl">TRIER</div>
-            <div className="text-5xl">LAVER</div>
-            <div className="text-5xl">RÉEMPLOYER</div>
+          <div className="flex flex-col gap-2" style={{ ...decimaMonoBold }}>
+            <div className="text-4xl text-center">COLLECTER</div>
+            <div className="text-4xl text-center">TRIER</div>
+            <div className="text-4xl text-center">LAVER</div>
+            <div className="text-4xl text-center">RÉEMPLOYER</div>
           </div>
         </div>
       </Section>
       <Join />
       <Ecology />
       <Fonctionnement />
-      <Section style={{ ...backgroundColorGrey }}>
-        <div></div>
-      </Section>
+      <img className="w-full" src={BandeauBouteilles} alt="Bouteilles" />
       <Loop />
       <Indicateurs collected_bottles={data.websiteYaml!.collected_bottles!} />
       <Reglementation />

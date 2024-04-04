@@ -1,10 +1,10 @@
 import React from "react";
 import Section from "../section";
 import { StaticImage } from "gatsby-plugin-image";
-import { decimaBold, green, linkStyle } from "../../styles/theme";
+import { decimaBold, green, linkStyle, titleMargin } from "../../styles/theme";
 import Circle from "../circle";
 
-const circleSize = 60;
+const circleSize = 50;
 const padding = circleSize / 2;
 
 type BulletPointProps = {
@@ -16,11 +16,9 @@ const BulletPoint: React.FC<BulletPointProps> = ({ text, date }) => {
   return (
     <div className="flex space-x-6 lg:space-x-6 items-start mt-10">
       <div>
-        <Circle size={circleSize} text={date} fontSize={18} />
+        <Circle size={circleSize} text={date} fontSize={14} />
       </div>
-      <div className="lg:text-xl">
-        <div>{text}</div>
-      </div>
+      <div>{text}</div>
     </div>
   );
 };
@@ -28,10 +26,10 @@ const BulletPoint: React.FC<BulletPointProps> = ({ text, date }) => {
 const Reglementation: React.FC = () => {
   return (
     <Section>
-      <h1 className="w-full text-center">
+      <h2 style={{ ...titleMargin }} className="w-full text-center">
         VERS UNE GÉNÉRALISATION DU RÉEMPLOI EN FRANCE
-      </h1>
-      <h3 className="mt-10">LA LOI AGEC</h3>
+      </h2>
+      <h4>LA LOI AGEC</h4>
       <div className="mt-4">
         La loi AGEC (anti-gaspillage pour une économie circulaire) vise à sortir
         progressivement du plastique à usage unique et à favoriser le réemploi
@@ -41,7 +39,7 @@ const Reglementation: React.FC = () => {
         mettre sur le marché annuellement d’ici à 2027, soit 2 milliards
         d’emballages par an.
       </div>
-      <h3 className="mt-10">OBJECTIFS FIXÉS PAR LA LOI</h3>
+      <h4 className="mt-10">OBJECTIFS FIXÉS PAR LA LOI</h4>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 mt-4 lg:space-x-6 space-y-16 lg:space-y-0">
         <div style={{ paddingLeft: padding }}>
@@ -70,6 +68,8 @@ const Reglementation: React.FC = () => {
           <StaticImage
             alt="Hiérarchie du mode de traitement des déchets"
             src="../../images/home/hierarchie_traitement_dechets.png"
+            loading="eager"
+            placeholder="none"
           />
           <a
             style={{ ...linkStyle }}

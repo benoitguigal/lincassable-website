@@ -1,11 +1,16 @@
 import { Link } from "gatsby";
-import React, { useState } from "react";
+import React, { CSSProperties, useState } from "react";
 import {
   navLinkActiveStyle,
   backgroundColorGrey,
   colorGreen,
   decimaLight,
   green,
+  backgroundColorGreen,
+  colorGrey,
+  grey,
+  decimaMonoLight,
+  navHeight,
 } from "../styles/theme";
 import { navLinks } from "../utils/navigation";
 import IconClose from "./icons/close";
@@ -25,26 +30,33 @@ const Navbar: React.FC<NavbarProps> = (props) => {
   );
 };
 
+const menuItemStyle: CSSProperties = {
+  paddingBottom: "0.65rem",
+};
+
 const NavbarDesktop: React.FC = () => {
   return (
-    <nav className="invisible lg:visible fixed z-40 h-14 w-full">
+    <nav
+      style={{ height: navHeight }}
+      className="invisible lg:visible fixed z-40 w-full"
+    >
       <div
         className="h-full flex justify-between items-center px-10"
-        style={{ ...backgroundColorGrey, ...colorGreen, ...decimaLight }}
+        style={{ ...backgroundColorGreen, ...colorGrey, ...decimaLight }}
       >
-        <div>
+        <div style={{ ...menuItemStyle, fontWeight: "bold" }}>
           <Link to="/" activeStyle={navLinkActiveStyle}>
             Accueil
           </Link>
         </div>
-        <div className="flex lg:space-x-2 xl:space-x-6">
+        <div style={{ ...menuItemStyle }} className="flex lg:space-x-6">
           {navLinks.map(({ label, link }, idx) => (
             <Link to={link} key={idx} activeStyle={navLinkActiveStyle}>
               {label}
             </Link>
           ))}
         </div>
-        <div>
+        <div style={{ ...menuItemStyle, fontWeight: "bold" }}>
           <Link to="/contact" activeStyle={navLinkActiveStyle}>
             Contact
           </Link>
@@ -68,14 +80,14 @@ const NavbarMobile: React.FC<NavbarProps> = ({ onShowMobileNavigation }) => {
   return (
     <>
       <nav
-        style={{ ...backgroundColorGrey }}
+        style={{ ...backgroundColorGreen, ...colorGrey }}
         className={classNames("lg:hidden", "fixed", "w-full", "z-50", "h-16")}
       >
         <div className="flex flex-row items-center h-16">
           <MenuIcon
             className="ml-2"
             role="button"
-            color={green}
+            color={grey}
             onClick={() => {
               const newShowMenu = !showMenu;
               setShowMenu(newShowMenu);
@@ -86,7 +98,7 @@ const NavbarMobile: React.FC<NavbarProps> = ({ onShowMobileNavigation }) => {
       </nav>
       {showMenu && (
         <div
-          style={{ ...backgroundColorGrey }}
+          style={{ ...backgroundColorGreen, ...colorGrey }}
           className="fixed w-full h-screen z-40"
         >
           <div className="h-full flex flex-col justify-center pl-14 space-y-1">

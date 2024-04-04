@@ -2,6 +2,7 @@ import React, { IframeHTMLAttributes } from "react";
 import { HeadFC, PageProps } from "gatsby";
 import SEO from "../components/seo";
 import Layout from "../components/layout";
+import { navHeight } from "../styles/theme";
 
 const iframeProps: IframeHTMLAttributes<HTMLIFrameElement> = {
   width: "100%",
@@ -18,9 +19,10 @@ const CartePage: React.FC<PageProps> = () => {
       <div className="flex flex-col items-stretch h-screen">
         {/* render different iframe on mobile and desktop*/}
         <iframe
+          style={{ paddingTop: navHeight }}
           {...iframeProps}
           title="Carte du réseau"
-          className="hidden md:block m-0 h-full pt-14"
+          className="hidden md:block m-0 h-full"
           src="https://lincassable.gogocarto.fr/annuaire?iframe=1&noheader=1#/carte/@43.69,5.53,9z?cat=all"
         ></iframe>
         <div className="md:hidden h-screen pt-16">
