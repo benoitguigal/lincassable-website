@@ -78,8 +78,8 @@ const Ecology: React.FC = () => {
           </div>
           <blockquote className="text-3xl" cite="ademe">
             Un emballage en verre réemployable est plus avantageux sur le plan
-            environnemental qu'un emabllage en verre à usage unique dès la
-            deuxième utilisation effective de l'emballage
+            environnemental qu'un emballage en verre à usage unique dès la
+            deuxième utilisation effective de l'emballage.
           </blockquote>
           <div className="text-right">
             <StaticImage

@@ -7,7 +7,7 @@ import { linkStyle } from "../../styles/theme";
 const Mission: React.FC = () => {
   return (
     <Section>
-      <div className="flex space-x-16">
+      <div className="flex flex-col lg:flex-row space-y-10 lg:space-y-0 lg:space-x-16">
         <div className="lg:w-1/2 mx-auto">
           <h1>CONSIGNE DE BOUTEILLES</h1>
           <div className="text-xl mt-6">
@@ -23,7 +23,6 @@ const Mission: React.FC = () => {
         </div>
         <div>
           <StaticImage
-            class="hidden lg:block"
             alt="Casier et bouteille"
             src="../../images/home/casier_bouteille.png"
           />
