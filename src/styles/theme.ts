@@ -48,6 +48,7 @@ const decimaMonoBoldFont = "Decima-Mono-Bold";
 const decimaBoldFont = "Decima-Bold";
 const decimaLightFont = "Decima-Light";
 const decimaMonoLightFont = "Decima-Mono-Light";
+const decimaRegularFont = "Decima-Regular";
 
 export const decimaMonoBold: CSSProperties = {
   fontFamily: decimaMonoBoldFont,
@@ -63,6 +64,10 @@ export const decimaLight: CSSProperties = {
 
 export const decimaMonoLight: CSSProperties = {
   fontFamily: decimaMonoLightFont,
+};
+
+export const decimaRegular: CSSProperties = {
+  fontFamily: decimaRegularFont,
 };
 
 // Internal links

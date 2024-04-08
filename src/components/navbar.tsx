@@ -80,10 +80,13 @@ const NavbarMobile: React.FC<NavbarProps> = ({ onShowMobileNavigation }) => {
   return (
     <>
       <nav
-        style={{ ...backgroundColorGreen, ...colorGrey }}
-        className={classNames("lg:hidden", "fixed", "w-full", "z-50", "h-16")}
+        style={{ ...backgroundColorGreen, ...colorGrey, height: navHeight }}
+        className={classNames("lg:hidden", "fixed", "w-full", "z-50")}
       >
-        <div className="flex flex-row items-center h-16">
+        <div
+          className="flex flex-row items-center"
+          style={{ height: navHeight }}
+        >
           <MenuIcon
             className="ml-2"
             role="button"
