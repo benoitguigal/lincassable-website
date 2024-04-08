@@ -25,7 +25,10 @@ const CartePage: React.FC<PageProps> = () => {
           className="hidden md:block m-0 h-full"
           src="https://lincassable.gogocarto.fr/annuaire?iframe=1&noheader=1#/carte/@43.69,5.53,9z?cat=all"
         ></iframe>
-        <div className="md:hidden h-screen pt-16">
+        <div
+          className="md:hidden h-screen pt-16"
+          style={{ paddingTop: navHeight }}
+        >
           <iframe
             {...iframeProps}
             title="Carte du réseau (mobile)"

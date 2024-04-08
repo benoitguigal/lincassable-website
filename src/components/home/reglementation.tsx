@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "../section";
 import { StaticImage } from "gatsby-plugin-image";
-import { decimaBold, green, linkStyle, titleMargin } from "../../styles/theme";
+import { green, linkStyle, titleMargin } from "../../styles/theme";
 import Circle from "../circle";
 
 const circleSize = 50;
@@ -51,7 +51,7 @@ const Reglementation: React.FC = () => {
               />
               <BulletPoint
                 date="2024"
-                text="Production des premiers emabllages standardisés pour le réemploi."
+                text="Production des premiers emballages standardisés pour le réemploi."
               />
               <BulletPoint
                 date="2027"

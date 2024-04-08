@@ -16,6 +16,7 @@ import Accompagnement from "../components/home/accompagnement";
 import Fonctionnement from "../components/home/fonctionnement";
 import Partners from "../components/home/partners";
 import BandeauBouteilles from "../images/home/bandeau_bouteilles.jpg";
+import BandeauBouteillesMobile from "../images/home/bandeau_bouteilles_mobile.jpg";
 
 const IndexPage: React.FC<PageProps<Queries.HomePageQuery>> = ({ data }) => {
   return (
@@ -35,7 +36,16 @@ const IndexPage: React.FC<PageProps<Queries.HomePageQuery>> = ({ data }) => {
       <Join />
       <Ecology />
       <Fonctionnement />
-      <img className="w-full" src={BandeauBouteilles} alt="Bouteilles" />
+      <img
+        className="w-full hidden md:block"
+        src={BandeauBouteilles}
+        alt="Bouteilles"
+      />
+      <img
+        className="w-full block md:hidden"
+        src={BandeauBouteillesMobile}
+        alt="Bouteilles"
+      />
       <Loop />
       <Indicateurs collected_bottles={data.websiteYaml!.collected_bottles!} />
       <Reglementation />

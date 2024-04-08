@@ -8,31 +8,6 @@ import BouteillePastilleImg from "../../images/home/bouteille_pastille.png";
 
 const pictogrammeSize = 90;
 
-// type CircleProps = {
-//   text: string;
-//   size: number;
-// };
-
-// const Circle: React.FC<CircleProps> = ({ size, text }) => {
-//   return (
-//     <div
-//       style={{
-//         width: size,
-//         height: size,
-//         borderRadius: "50%" /* Crée un cercle */,
-//         backgroundColor: green,
-//         display: "flex",
-//         justifyContent: "center" /* Centre le contenu horizontalement */,
-//         alignItems: "center" /* Centre le contenu verticalement */,
-//       }}
-//     >
-//       <p className="text-2xl" style={{ color: lightGrey, ...decimaMonoBold }}>
-//         {text}
-//       </p>
-//     </div>
-//   );
-// };
-
 const Fonctionnement: React.FC = () => {
   return (
     <Section>
