@@ -156,4 +156,6 @@ const ContactPage: React.FC<PageProps> = () => {
 
 export default ContactPage;
 
-export const Head: HeadFC = () => <SEO />;
+export const Head: HeadFC = () => (
+  <SEO title="L'INCASSABLE | Contact" pathname="/contact" />
+);
