@@ -30,12 +30,23 @@ collections:
     fields:
       - { label: "Nom", name: "nom", widget: "string" }
       - { label: "Localisation", name: "localisation", widget: "string" }
-      - { label: "Catégorie", name: "categories", widget: "select", options: ["Vin", "Bière", "Jus", "Cidre", "Pétillant", "Soft"], multiple: true, }
-      - { label: "Type", name: "type", widget: "select", options: ["Local", "National", "Biocoop"] }
+      - {
+          label: "Catégorie",
+          name: "categories",
+          widget: "select",
+          options: ["Vin", "Bière", "Jus", "Cidre", "Pétillant", "Soft"],
+          multiple: true,
+        }
+      - {
+          label: "Type",
+          name: "type",
+          widget: "select",
+          options: ["Local", "National", "Biocoop"],
+        }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Lien", name: "url", widget: "string" }
-      - { label: "Format", name: "format", widget: "string", required: false}
-      - { label: "Gamme", name: "gamme", widget: "markdown", required: false}
+      - { label: "Format", name: "format", widget: "string", required: false }
+      - { label: "Gamme", name: "gamme", widget: "markdown", required: false }
   - name: actu
     label: Actualité
     folder: "src/content/actus"
@@ -44,7 +55,19 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     fields:
       - { label: "Titre", name: "title", widget: "string" }
-      - { label: "Date de publication", name: "date", widget: "datetime"}
+      - { label: "Date de publication", name: "date", widget: "datetime" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Corps du texte", name: "body", widget: "markdown" }
-
+  - name: website
+    label: Contenu site
+    files:
+      - file: "src/content/website/home.yml"
+        name: "home"
+        extension: yml
+        label: "Page d'accueil"
+        fields:
+          - {
+              label: Nombre de bouteilles collectées,
+              name: "collected_bottles",
+              widget: "number",
+            }

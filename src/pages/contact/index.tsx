@@ -1,99 +1,161 @@
 import React from "react";
+import { HeadFC, PageProps } from "gatsby";
+import SEO from "../../components/seo";
 import Layout from "../../components/layout";
-import CasierImg from "../../images/casier.jpg";
+import {
+  decimaRegular,
+  green,
+  grey,
+  linkStyle,
+  navHeight,
+} from "../../styles/theme";
+import Section from "../../components/section";
+import { Button, ConfigProvider, Input } from "antd";
 
-export const ContactLayout = ({ children }) => {
+const { TextArea } = Input;
+
+const ContactPage: React.FC<PageProps> = () => {
   return (
-    <Layout title="Contact">
-      <div className="flex">
-        <img
-          src={CasierImg}
-          className="hidden lg:block h-screen pt-14"
-          alt="Logo"
-        />
-        <div className="mt-10 mx-10 lg:mx-20 pt-14">
-          <h1 className="text-4xl">CONTACTEZ-NOUS ! </h1>
-          <div>
-            Envoyer un email à l'adresse{" "}
-            <a className="italic" href="mailto:contact@lincassable.com">
-              contact@lincassable.com
-            </a>{" "}
-            ou remplir le formulaire ci-dessous.
+    <Layout>
+      <ConfigProvider
+        theme={{
+          token: { borderRadius: 0 },
+          components: {
+            Input: {
+              colorPrimary: green,
+              colorBorder: grey,
+              activeBorderColor: green,
+              hoverBorderColor: green,
+              colorText: green,
+            },
+            Button: {
+              defaultColor: green,
+              defaultBorderColor: grey,
+              defaultActiveColor: green,
+              defaultActiveBorderColor: green,
+              defaultHoverColor: green,
+              defaultHoverBorderColor: green,
+              fontFamily: "Decima-Regular",
+            },
+          },
+        }}
+      >
+        <div style={{ paddingTop: navHeight }}>
+          <div className="w-4/5 m-auto">
+            <h1 className="uppercase text-center mt-10">Contactez-nous</h1>
+            <div className="mt-10 text-center">
+              Une question ? Besoin d’un renseignement ?
+            </div>
+            <div className="mt-4 text-center">
+              Contactez nous via ce formulaire de contact ou directement à
+              l’adresse <br />
+              <a style={{ ...linkStyle }} href="mailto:contact@lincassable.com">
+                contact@lincassable.com
+              </a>
+            </div>
           </div>
-          {children}
+          <Section>
+            <form
+              className="w-full lg:w-1/2 m-auto"
+              name="contact"
+              action="/contact/success"
+              method="post"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
+              {/* Required for form detection by Netlify */}
+              <input type="hidden" name="form-name" value="contact" />
+
+              <div>
+                <label
+                  style={{ ...decimaRegular }}
+                  htmlFor="name"
+                  className="block text-xl decima-regular"
+                >
+                  Nom
+                </label>
+                <Input
+                  id="name"
+                  type="text"
+                  name="name"
+                  required
+                  size="large"
+                  className="mt-2"
+                />
+              </div>
+              <div className="mt-6">
+                <label
+                  htmlFor="email"
+                  style={{ ...decimaRegular }}
+                  className="block text-xl"
+                >
+                  Adresse mail
+                </label>
+                <Input
+                  id="email"
+                  name="email"
+                  type="email"
+                  required
+                  size="large"
+                  className="mt-2"
+                />
+              </div>
+
+              <div className="mt-6">
+                <label
+                  htmlFor="subject"
+                  style={{ ...decimaRegular }}
+                  className="block text-xl"
+                >
+                  Sujet
+                </label>
+                <Input
+                  id="subject"
+                  type="text"
+                  name="subject"
+                  required
+                  size="large"
+                  className="mt-2"
+                />
+              </div>
+
+              <div className="mt-6">
+                <label
+                  htmlFor="message"
+                  style={{ ...decimaRegular }}
+                  className="block  text-xl"
+                >
+                  Message
+                </label>
+
+                <TextArea
+                  id="message"
+                  name="message"
+                  required
+                  autoSize={{ minRows: 10, maxRows: 20 }}
+                  className="h-52 mt-2"
+                />
+              </div>
+
+              <div className="w-full flex mt-10">
+                <Button
+                  htmlType="submit"
+                  className="m-auto decima-bold"
+                  size="large"
+                >
+                  <span className="text-xl">Envoyer</span>
+                </Button>
+              </div>
+            </form>
+          </Section>
         </div>
-      </div>
+      </ConfigProvider>
     </Layout>
   );
 };
 
-const ContactPage = () => {
-  return (
-    <ContactLayout>
-      <form
-        className="mt-10"
-        name="contact"
-        action="/contact/success"
-        method="post"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-      >
-        {/* Required for form detection by Netlify */}
-        <input type="hidden" name="form-name" value="contact" />
-        <div>
-          <label htmlFor="name" className="block text-xl decima-regular">
-            Nom
-          </label>
-          <input
-            type="text"
-            name="name"
-            required
-            className="border border-2 border-green-bottle w-full mt-2"
-          />
-        </div>
-        <div className="mt-5">
-          <label htmlFor="email" className="block text-xl decima-regular">
-            Adresse e-mail
-          </label>
-          <input
-            id="email"
-            name="email"
-            type="email"
-            required
-            className="border border-2 border-green-bottle w-full mt-2"
-          />
-        </div>
-
-        <div className="mt-5">
-          <label htmlFor="subject" className="block text-xl decima-regular">
-            Sujet
-          </label>
-          <input
-            type="text"
-            name="subject"
-            required
-            className="border border-2 border-green-bottle w-full mt-2"
-          />
-        </div>
-
-        <div className="mt-5">
-          <label htmlFor="message" className="block  text-xl decima-regular">
-            Message
-          </label>
-
-          <textarea
-            name="message"
-            required
-            className="border border-2 border-green-bottle w-full h-52 mt-2"
-          />
-        </div>
-
-        <button className="my-6 button" type="submit">
-          <div className="text-xl">ENVOYER</div>
-        </button>
-      </form>
-    </ContactLayout>
-  );
-};
-
 export default ContactPage;
+
+export const Head: HeadFC = () => (
+  <SEO title="L'INCASSABLE | Contact" pathname="/contact" />
+);
