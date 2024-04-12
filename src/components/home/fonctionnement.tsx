@@ -23,21 +23,16 @@ const Fonctionnement: React.FC = () => {
             C'est facile
           </div>
           <div className="mt-6">
-            La boucle du réemploi repose sur le geste des consommateurs qui
-            privilégient la consommation de boissons en bouteilles réemployables
-            et les rapporte en magasin pour réemploi. Les bouteilles
-            réemployables sont identifiables grâce à un pictogramme national du
-            réemploi, que l’on peut retrouver sur les étiquettes de nos
-            producteurs partenaires. Ce pictogramme garanti que le producteur a
-            été labellisé et que c’est bouteilles sont certifiées pour le
-            réemploi. Afin d’identifier plus facilement les bouteilles
-            consignées dans les rayons de nos magasins partenaires, une pastille
-            jaune « Je suis consignées » est également apposées sur les
-            bouteilles. Une consigne de 0,50 euros sera payée, pour les
-            bouteilles portant la pastille jaune. Ce montant sera remboursé lors
-            du retour des bouteilles consignées en magasin. Les bouteilles,
-            après consommations, doivent être rincées et retournées sans
-            bouchons dans les magasins points de collecte partenaires.
+            Les bouteilles éligibles au réemploi sont identifiables grâce à un
+            pictogramme national que l’on retrouve sur les étiquettes de nos
+            producteurs partenaires. Ce pictogramme garantit que ces bouteilles
+            sont bien certifiées pour le réemploi et pourront être lavées et
+            réutilisées. Une pastille jaune « Je suis consignée » est également
+            apposée sur les bouteilles : une consigne de 0,50 euros sera payée
+            pour les bouteilles portant cette pastille. Ce montant sera
+            remboursé lors du retour des bouteilles en magasin. Après
+            consommation, les bouteilles doivent être rincées et retournées sans
+            bouchon dans les magasins partenaires.
           </div>
           <div className="mt-6">
             <Link to="/producteurs" style={{ ...linkStyle }}>
