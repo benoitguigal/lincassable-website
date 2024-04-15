@@ -56,7 +56,6 @@ const SimpleNavItem: React.FC<
         ...(hover ? navLinkActiveStyle : {}),
       }}
       to={link}
-      partiallyActive={true}
       activeStyle={navLinkActiveStyle}
       {...props}
     >

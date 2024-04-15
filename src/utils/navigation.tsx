@@ -8,7 +8,7 @@ export type NavItemProps = {
 
 export const navItems: NavItemProps[] = [
   {
-    label: "Rejoindre le réseau",
+    label: "Rejoindre la filière",
     children: [
       {
         label: "Producteurs",

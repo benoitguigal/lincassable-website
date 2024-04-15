@@ -1,19 +1,20 @@
 import React from "react";
-import Section from "../section";
 import {
   backgroundColorLightGrey,
+  colorLigthGrey,
   linkStyle,
   titleMargin,
-} from "../../styles/theme";
-import QuoteOpenPictogramme from "../../images/home/quote_open.png";
-import QuoteClosePictogramme from "../../images/home/quote_close.png";
-import BulletPoint from "../bullet-point";
+} from "../../../styles/theme";
+import Section from "../../section";
+import BulletPoint from "../../bullet-point";
+import QuoteOpenPictogramme from "../../../images/home/quote_open.png";
+import QuoteClosePictogramme from "../../../images/home/quote_close.png";
 
-const Ecology: React.FC = () => {
+const Benefices: React.FC = () => {
   return (
     <Section style={{ ...backgroundColorLightGrey }}>
-      <h2 style={{ ...titleMargin }} className="text-center">
-        UNE NÉCESSITÉ ÉCOLOGIQUE ET ÉCONOMIQUE
+      <h2 style={{ ...titleMargin }} className="uppercase text-center">
+        Les bénéfices du réemploi
       </h2>
       <div className="flex flex-col lg:flex-row gap-2 lg:gap-10 lg:justify-between">
         <img
@@ -22,9 +23,8 @@ const Ecology: React.FC = () => {
           src={QuoteOpenPictogramme}
         />
         <blockquote className="text-xl text-center" cite="ademe">
-          Un emballage en verre réemployable est plus avantageux sur le plan
-          environnemental qu'un emballage en verre à usage unique dès la
-          deuxième utilisation effective de l'emballage.
+          L’utilisation d’une bouteille en verre peut représenter 30% à 40% de
+          l’empreinte carbone d’une bouteille de vin ou de bière !
         </blockquote>
         <img
           className="w-12 lg:w-auto lg:h-16 self-end"
@@ -43,32 +43,39 @@ const Ecology: React.FC = () => {
         }
       >
         <div className="text-center  w-full md:w-2/3 xl:w-1/2 m-auto mt-5">
-          ADEME : Évaluation environnementale de la consigne pour le réemploi
-          des emballages en verre en France.
+          Lorem ipsum
         </div>
       </a>
       <div className="mt-16">
         <div className="text-center">
-          Le réemploi des emballages présente des avantages écologiques et
-          économiques dans un contexte d’inflation des prix et de raréfaction
-          des matières premieres. Ainsi, le réemploi, en alternative au
-          recyclage, permet de :
+          Le passage au réemploi des bouteilles permet pour les producteurs et
+          indsutriels de la boisson de :
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-x-10 xl:gap-x-16 gap-y-6 mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-5 lg:gap-x-10 xl:gap-x-16 gap-y-6 mt-10">
           <BulletPoint
             number="1"
-            primaryText="Réduire l’empreinte environnementale"
-            secondaryText="des emballages"
+            primaryText="Réduire la production de déchets"
+            secondaryText="liée à leur activité"
           />
           <BulletPoint
             number="2"
-            primaryText="Réduire les déchets sauvages"
-            secondaryText="par la mise en place d’un système de consignation"
+            primaryText="Répondre à la demande"
+            secondaryText="des consommateurs"
           />
           <BulletPoint
             number="3"
             primaryText="Sécuriser des approvisionnements"
             secondaryText="et améliorer la résilience alimentaire des territoires"
+          />
+          <BulletPoint
+            number="4"
+            primaryText="Soutenir une économie locale"
+            secondaryText="et favoriser les circuits courts"
+          />
+          <BulletPoint
+            number="5"
+            primaryText="Anticiper la législation"
+            secondaryText="(Loi AGEC)"
           />
         </div>
       </div>
@@ -76,4 +83,4 @@ const Ecology: React.FC = () => {
   );
 };
 
-export default Ecology;
+export default Benefices;

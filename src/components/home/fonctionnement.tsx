@@ -13,7 +13,7 @@ const Fonctionnement: React.FC = () => {
     <Section>
       <div className="flex flex-col-reverse lg:flex-row lg:space-x-12 lg:w-4/5 m-auto">
         <img
-          className="h-80 lg:h-96 shrink-0 w-auto m-auto mt-10 lg:m-0 mt"
+          className="h-80 lg:h-96 shrink-0 w-auto m-auto mt-10 lg:m-0"
           src={BouteillePastilleImg}
           alt="bouteille avec pastille consigne"
         />
