@@ -20,7 +20,7 @@ const Accompagnement: React.FC = () => {
             souhaitez faire financer ? <br /> L’INCASSABLE vous accompagne.
           </div>
           <div className="mt-6">
-            <Link style={{ ...linkStyle }} to="/">
+            <Link style={{ ...linkStyle }} to="/contact">
               Contactez-nous
             </Link>
           </div>

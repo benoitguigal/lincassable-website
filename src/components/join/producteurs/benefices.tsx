@@ -37,13 +37,14 @@ const Benefices: React.FC = () => {
         style={{ ...linkStyle }}
         target="_blank"
         href={
-          "https://librairie.ademe.fr/dechets-economie-circulaire/" +
-          "6359-evaluation-environnementale-de-la-consigne-pour-le-" +
-          "reemploi-des-emballages-en-verre-en-france.html"
+          "https://www.liberation.fr/societe/" +
+          "les-bouteilles-de-vin-en-verre-sont-une-aberration-ecologique" +
+          "-20221001_HNKFTTWBIRHKZF5CQDOI4NY2XA/"
         }
       >
         <div className="text-center  w-full md:w-2/3 xl:w-1/2 m-auto mt-5">
-          Lorem ipsum
+          Libération - « Les bouteilles de vin en verre [jetables] sont une
+          aberration écologique »
         </div>
       </a>
       <div className="mt-16">
@@ -51,7 +52,7 @@ const Benefices: React.FC = () => {
           Le passage au réemploi des bouteilles permet pour les producteurs et
           indsutriels de la boisson de :
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-5 lg:gap-x-10 xl:gap-x-16 gap-y-6 mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-x-10 xl:gap-x-16 gap-y-6 mt-10">
           <BulletPoint
             number="1"
             primaryText="Réduire la production de déchets"
@@ -69,11 +70,6 @@ const Benefices: React.FC = () => {
           />
           <BulletPoint
             number="4"
-            primaryText="Soutenir une économie locale"
-            secondaryText="et favoriser les circuits courts"
-          />
-          <BulletPoint
-            number="5"
             primaryText="Anticiper la législation"
             secondaryText="(Loi AGEC)"
           />

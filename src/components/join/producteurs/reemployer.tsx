@@ -28,7 +28,7 @@ const ReemployerItem: React.FC<ReemployerItemProps> = ({
       >
         <Circle text={numero} size={30} fontSize={18} />
       </div>
-      <div className="font-bold">{title}</div>
+      <div className="font-bold mt-2">{title}</div>
       <div>{description}</div>
     </div>
   );
@@ -71,26 +71,26 @@ const Reemployer: React.FC = () => {
         l'agro-alimentaire dans leur transition vers le réemploi et fournissons
         un service clé en main pour le réemploi de leurs bouteilles :
       </div>
-      <div className="hidden md:grid mt-16 grid-cols-5 w-full items-stretch gap-10">
-        <div className="col-span-2 flex flex-col justify-between">
+      <div className="hidden lg:grid mt-16 grid-cols-5 w-full justify-center gap-10">
+        <div className="col-span-2 flex flex-col justify-between my-20 xl:pl-12">
           <ReemployerItem align="right" {...content[0]} />
           <ReemployerItem align="right" {...content[1]} />
         </div>
-        <div className="w-full">
-          <img
-            className="h-80 lg:h-96 shrink-0 w-auto m-auto mt-10"
-            src={BouteillePastilleImg}
-            alt="bouteille avec pastille consigne"
-          />
-        </div>
-        <div className="col-span-2 flex flex-col justify-between">
+
+        <img
+          className="h-96 shrink-0 w-auto m-auto mt-10"
+          src={BouteillePastilleImg}
+          alt="bouteille avec pastille consigne"
+        />
+
+        <div className="col-span-2 flex flex-col justify-between my-20 xl:pr-12">
           <ReemployerItem align="left" {...content[2]} />
           <ReemployerItem align="left" {...content[3]} />
         </div>
       </div>
-      <div className="md:hidden mt-16  flex flex-col gap-y-5">
+      <div className="lg:hidden mt-16 flex flex-col gap-y-10">
         <img
-          className="h-80 lg:h-96 shrink-0 w-auto m-auto mb-6"
+          className="h-80 shrink-0 w-auto m-auto mb-6"
           src={BouteillePastilleImg}
           alt="bouteille avec pastille consigne"
         />

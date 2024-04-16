@@ -38,11 +38,11 @@ const MiseEnPlace: React.FC = () => {
   return (
     <Section style={{ ...backgroundColorLightGrey }}>
       <h2 className="uppercase text-center" style={{ ...titleMargin }}>
-        Mise en place du réemploi de ses bouteilles
+        Mise en place du réemploi de vos bouteilles
       </h2>
       <div className="text-center">
-        La mise en place du réemploi de ses bouteilles implique pour le
-        producteur de se conformer à certains standards techniques :
+        La mise en place du réemploi de vos bouteilles implique de vous
+        conformer à certains standards techniques :
       </div>
       <div className="hidden md:grid grid-cols-5 mt-16 w-full">
         <div className="col-span-2 flex gap-5 h-full items-center">

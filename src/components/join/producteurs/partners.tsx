@@ -12,7 +12,7 @@ import { linkStyle, titleMargin } from "../../../styles/theme";
 import classNames from "classnames";
 import { Link } from "gatsby";
 
-const logoClassName = classNames(["w-40", "h-auto"]);
+const logoClassName = classNames(["w-32", "h-auto"]);
 
 const Partners: React.FC = () => {
   return (
@@ -20,7 +20,7 @@ const Partners: React.FC = () => {
       <h2 className="uppercase text-center" style={{ ...titleMargin }}>
         Producteurs partenaires
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-16 justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-16 justify-items-center items-center">
         <img
           className={logoClassName}
           src={LogoBrasserieLaPlaine}
@@ -63,11 +63,13 @@ const Partners: React.FC = () => {
           alt="Bulles de Provence"
         />
       </div>
-      <Link to="/producteurs" style={{ ...linkStyle }} className="mt-16">
-        <div className="text-center">
-          Découvrez notre catalogue de boissons consignées
-        </div>
-      </Link>
+      <div className="mt-16">
+        <Link to="/producteurs" style={{ ...linkStyle }}>
+          <div className="text-center">
+            Découvrez notre catalogue de boissons consignées
+          </div>
+        </Link>
+      </div>
     </Section>
   );
 };
