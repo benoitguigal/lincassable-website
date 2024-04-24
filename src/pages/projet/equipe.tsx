@@ -4,6 +4,7 @@ import Layout from "../../components/layout";
 import { navHeight } from "../../styles/theme";
 import Section from "../../components/section";
 import EquipeMember from "../../components/equipe-member";
+import RejoinezNous from "../../components/projet/equipe/rejoignez";
 
 const Equipe: React.FC<PageProps<Queries.EquipePageQuery>> = ({ data }) => {
   const members = data.allEquipeYaml.nodes;
@@ -24,6 +25,7 @@ const Equipe: React.FC<PageProps<Queries.EquipePageQuery>> = ({ data }) => {
             ))}
           </div>
         </Section>
+        <RejoinezNous />
       </div>
     </Layout>
   );
