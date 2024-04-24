@@ -27,7 +27,7 @@ const MagasinsJoinPage: React.FC<PageProps> = () => {
       >
         <div className="flex gap-5 justify-center items-center">
           <img
-            className="h-9 relative top-3"
+            className="h-9 relative top-3 hidden md:visible"
             src={PictoMagasin}
             alt="Pictogramme producteur"
           />

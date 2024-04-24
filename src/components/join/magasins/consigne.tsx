@@ -9,7 +9,7 @@ const Consigne: React.FC = () => {
       <h2 style={{ ...titleMargin }} className="text-center uppercase">
         La consigne monétaire
       </h2>
-      <div className="grid grid-cols-3 items-center justify-center">
+      <div className="lg:w-4/5 m-auto flex flex-col md:flex-row  gap-x-20 gap-y-10 md:justify-center md:items-center">
         <div>
           <img
             className="max-w-28 h-auto m-auto lg:m-0"
@@ -27,7 +27,7 @@ const Consigne: React.FC = () => {
           <div className="mt-4">
             La consigne monétaire permet de valoriser auprès des consommateurs
             le coût environnemental d’une bouteille. C’est aussi un réel levier
-            pour améliorer les taux de retour des bouteilles en magasins.
+            pour améliorer les taux de retour des bouteilles en magasin.
           </div>
         </div>
       </div>

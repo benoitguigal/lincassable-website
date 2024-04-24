@@ -7,6 +7,7 @@ import LogoLaCommedienne from "../../../images/rejoindre/producteurs/partners/la
 import LogoBrasserieZoumai from "../../../images/rejoindre/producteurs/partners/brasserie_zoumai.png";
 import LogoLesMaltfaiteurs from "../../../images/rejoindre/producteurs/partners/les_maltfaiteurs.png";
 import LogoJulienDeLembisque from "../../../images/rejoindre/producteurs/partners/julien_de_lembisque.png";
+import LogoMontirius from "../../../images/rejoindre/producteurs/partners/montirius.jpg";
 import LogoBullesDeProvence from "../../../images/rejoindre/producteurs/partners/bulles_de_provence.png";
 import { linkStyle, titleMargin } from "../../../styles/theme";
 import classNames from "classnames";
@@ -54,8 +55,8 @@ const Partners: React.FC = () => {
         />
         <img
           className={logoClassName}
-          src={LogoJulienDeLembisque}
-          alt="L'Abri"
+          src={LogoMontirius}
+          alt="Domaine Montirius"
         />
         <img
           className={logoClassName}

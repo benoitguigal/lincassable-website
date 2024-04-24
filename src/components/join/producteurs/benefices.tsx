@@ -42,17 +42,17 @@ const Benefices: React.FC = () => {
           "-20221001_HNKFTTWBIRHKZF5CQDOI4NY2XA/"
         }
       >
-        <div className="text-center  w-full md:w-2/3 xl:w-1/2 m-auto mt-5">
+        <div className="text-center  w-full md:w-2/3 xl:w-1/2 m-auto mt-2">
           Libération - « Les bouteilles de vin en verre [jetables] sont une
           aberration écologique »
         </div>
       </a>
       <div className="mt-16">
         <div className="text-center">
-          Le passage au réemploi des bouteilles permet pour les producteurs et
-          indsutriels de la boisson de :
+          L’intérêt du passage au réemploi, pour les producteurs et industriels
+          de la boisson :
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-x-10 xl:gap-x-16 gap-y-6 mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-x-10 xl:gap-x-16 gap-y-6 mt-10 justify-items-center">
           <BulletPoint
             number="1"
             primaryText="Réduire la production de déchets"

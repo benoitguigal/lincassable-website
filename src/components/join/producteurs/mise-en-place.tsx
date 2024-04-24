@@ -9,8 +9,8 @@ const Standard: React.FC = () => (
   <div>
     <div className="font-bold">Bouteilles standardisées</div>
     <div>
-      bouteille spécifique pour le réemploi par typologie de boisson selon des
-      standards nationaux
+      Bouteille spécifique pour le réemploi par typologie de boisson selon des
+      standards nationaux.
     </div>
   </div>
 );
@@ -19,8 +19,8 @@ const Communication: React.FC = () => (
   <div>
     <div className="font-bold">Communication spécifique</div>
     <div>
-      pictogramme national du réemploi sur les bouteilles et vignette pour la
-      consigne
+      Pictogramme national du réemploi intégré sur les étiquettes et pastille de
+      consignation L'INCASSABLE.
     </div>
   </div>
 );
@@ -29,7 +29,10 @@ const Etiquette: React.FC = () => (
   <div className="text-left">
     <div>
       <div className="font-bold">Étiquettes adaptées</div>
-      <div>qui s’enlèvent au lavage</div>
+      <div>
+        Caractéristiques techniques du papier, de l'adhésif et de l'impression
+        permettant un retrait des étiquettes lors du lavage.
+      </div>
     </div>
   </div>
 );
@@ -41,8 +44,9 @@ const MiseEnPlace: React.FC = () => {
         Mise en place du réemploi de vos bouteilles
       </h2>
       <div className="text-center">
-        La mise en place du réemploi de vos bouteilles implique de vous
-        conformer à certains standards techniques :
+        La mise en place du réemploi de ses bouteilles implique pour le
+        producteur de se conformer à certains standards techniques qui
+        concernent le choix de ses matières sèches :
       </div>
       <div className="hidden md:grid grid-cols-5 mt-16 w-full">
         <div className="col-span-2 flex gap-5 h-full items-center">

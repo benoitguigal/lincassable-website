@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
         <div>
           <h5 className="mb-2 mt-5 md:mt-0">CONTACT</h5>
           <div>
-            <div>40 boulevard Voltaire</div>
+            <div>134 boulevard Longchamp</div>
             <div>13001 Marseille</div>
           </div>
           <div>

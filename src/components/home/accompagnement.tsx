@@ -16,8 +16,9 @@ const Accompagnement: React.FC = () => {
         <div className="text-center lg:text-left">
           <h2>ON VOUS ACCOMPAGNE</h2>
           <div className="mt-6">
-            Vous êtes metteur en marché et avez un projet de réemploi que vous
-            souhaitez faire financer ? <br /> L’INCASSABLE vous accompagne.
+            Vous êtes metteur en marché et avez un projet de réemploi ? <br />{" "}
+            L’INCASSABLE peut vous accompagner dans cette démarche et son
+            financement.
           </div>
           <div className="mt-6">
             <Link style={{ ...linkStyle }} to="/contact">
