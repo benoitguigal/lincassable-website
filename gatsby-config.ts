@@ -85,6 +85,13 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "equipe",
+        path: `./src/content/equipe`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "website",
         path: `./src/content/website`,
       },

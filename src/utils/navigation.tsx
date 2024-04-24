@@ -25,7 +25,11 @@ export const navItems: NavItemProps[] = [
     ],
   },
   { label: "Carte du réseau", link: "/carte" },
-  { label: "Producteurs engagés", link: "/producteurs" },
+  { label: "Catalogue", link: "/producteurs" },
+  {
+    label: "L'INCASSABLE",
+    children: [{ label: "L'équipe", link: "/projet/equipe" }],
+  },
   { label: "En savoir plus", link: "/faq" },
   { label: "Actualités", link: "/actualites" },
 ];
