@@ -9,7 +9,7 @@ type EquipeMemberProps = {
 const EquipeMember: React.FC<EquipeMemberProps> = ({ member }) => {
   return (
     <div>
-      <div className="flex flex-col items-center text-center gap-y-2">
+      <div className="flex flex-col items-center text-center gap-y-1">
         <img className="w-52" src={member.photo!} alt={member.nom!} />
         <h4>{member.nom}</h4>
         <div>{member.fonction}</div>
