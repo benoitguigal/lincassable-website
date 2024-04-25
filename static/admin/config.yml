@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
-  #name: proxy
-  #proxy_url: http://localhost:8081/api/v1
+  # name: proxy
+  # proxy_url: http://localhost:8081/api/v1
   branch: master
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
@@ -47,6 +47,36 @@ collections:
       - { label: "Lien", name: "url", widget: "string" }
       - { label: "Format", name: "format", widget: "string", required: false }
       - { label: "Gamme", name: "gamme", widget: "markdown", required: false }
+  - name: equipe
+    label: Membre de l'équipe
+    folder: "src/content/equipe"
+    create: true
+    identifier_field: nom
+    extension: yml
+    fields:
+      - { label: "Nom", name: "nom", widget: "string" }
+      - { label: "Ordre", name: "ordre", widget: "number" }
+      - {
+          label: "Fonction",
+          name: "fonction",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Email", name: "email", widget: "string", required: false }
+      - { label: "Photo", name: "photo", widget: "image", required: false }
+      - {
+          label: "Contrat",
+          name: "type",
+          widget: "select",
+          options: ["CDI", "Alternant", "Benevole"],
+        }
+      - { label: "Date entrée", name: "date_entree", widget: "datetime" }
+      - {
+          label: "Date sortie",
+          name: "date_sortie",
+          widget: "datetime",
+          required: false,
+        }
   - name: actu
     label: Actualité
     folder: "src/content/actus"
