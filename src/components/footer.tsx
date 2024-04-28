@@ -14,11 +14,24 @@ const Footer: React.FC = () => {
         <div>
           <h5 className="mb-2">RUBRIQUES</h5>
           <div className="flex flex-col">
-            {navItems.map(({ label, link }, idx) => (
-              <Link to={link} key={idx}>
-                {label}
-              </Link>
-            ))}
+            {navItems.flatMap(({ label, link, children }, idx) => {
+              if (link) {
+                return [
+                  <Link to={link} key={idx}>
+                    {label}
+                  </Link>,
+                ];
+              }
+              return (children ?? []).map(
+                ({ label: childLabel, link: childLink }, idxChild) => {
+                  return (
+                    <Link to={childLink} key={idxChild}>
+                      {childLabel}
+                    </Link>
+                  );
+                }
+              );
+            })}
           </div>
         </div>
         <div>

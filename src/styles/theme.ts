@@ -46,7 +46,7 @@ export const colorWhite: CSSProperties = {
 
 const decimaMonoBoldFont = "Decima-Mono-Bold";
 const decimaBoldFont = "Decima-Bold";
-const decimaLightFont = "Decima-Light";
+export const decimaLightFont = "Decima-Light";
 const decimaMonoLightFont = "Decima-Mono-Light";
 const decimaRegularFont = "Decima-Regular";
 

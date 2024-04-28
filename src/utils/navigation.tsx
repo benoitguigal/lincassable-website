@@ -24,8 +24,8 @@ export const navItems: NavItemProps[] = [
       },
     ],
   },
-  { label: "Carte du réseau", link: "/carte" },
-  { label: "Catalogue", link: "/producteurs" },
+  { label: "Bouteilles consignées", link: "/producteurs" },
+  { label: "Carte des points de vente", link: "/carte" },
   {
     label: "L'INCASSABLE",
     children: [
@@ -33,6 +33,11 @@ export const navItems: NavItemProps[] = [
       { label: "L'équipe", link: "/projet/equipe" },
     ],
   },
-  { label: "En savoir plus", link: "/faq" },
-  { label: "Actualités", link: "/actualites" },
+  {
+    label: "En savoir plus",
+    children: [
+      { label: "Actualités", link: "/actualites" },
+      { label: "FAQ", link: "/faq" },
+    ],
+  },
 ];

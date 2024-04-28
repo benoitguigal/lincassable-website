@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
+import { ConfigProvider } from "antd";
+import { decimaLightFont, green, grey, yellow } from "../styles/theme";
 
 type LayoutProps = {
   showFooter?: boolean;
@@ -11,7 +13,37 @@ const Layout: React.FC<LayoutProps> = ({ showFooter = true, children }) => {
   const [showBody, setShowBody] = React.useState(true);
 
   return (
-    <>
+    <ConfigProvider
+      theme={{
+        token: {
+          borderRadius: 0,
+          colorPrimary: green,
+          fontFamily: decimaLightFont,
+        },
+        components: {
+          Input: {
+            colorPrimary: green,
+            colorBorder: grey,
+            activeBorderColor: green,
+            hoverBorderColor: green,
+            colorText: green,
+          },
+          Button: {
+            defaultColor: green,
+            defaultBorderColor: grey,
+            defaultActiveColor: green,
+            defaultActiveBorderColor: green,
+            defaultHoverColor: green,
+            defaultHoverBorderColor: green,
+            fontFamily: "Decima-Regular",
+          },
+          Timeline: {
+            dotBg: green,
+            dotBorderWidth: 5,
+          },
+        },
+      }}
+    >
       <Navbar
         onShowMobileNavigation={(showMenu) => {
           // on cache le body quand le menu mobile
@@ -26,7 +58,7 @@ const Layout: React.FC<LayoutProps> = ({ showFooter = true, children }) => {
           {showFooter && <Footer />}
         </div>
       )}
-    </>
+    </ConfigProvider>
   );
 };
 

@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
-  # name: proxy
-  # proxy_url: http://localhost:8081/api/v1
+  #name: proxy
+  #proxy_url: http://localhost:8081/api/v1
   branch: master
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
@@ -70,11 +70,19 @@ collections:
           widget: "select",
           options: ["CDI", "Alternant", "Benevole"],
         }
-      - { label: "Date entrée", name: "date_entree", widget: "datetime" }
+      - {
+          label: "Date entrée",
+          name: "date_entree",
+          widget: "datetime",
+          date_format: "YYYY",
+          default: "",
+        }
       - {
           label: "Date sortie",
           name: "date_sortie",
           widget: "datetime",
+          date_format: "YYYY",
+          default: "",
           required: false,
         }
   - name: actu
@@ -88,6 +96,21 @@ collections:
       - { label: "Date de publication", name: "date", widget: "datetime" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Corps du texte", name: "body", widget: "markdown" }
+  - name: timeline
+    label: Contenu de la frise chronologique
+    folder: "src/content/timeline"
+    create: true
+    identifier_field: timeline
+    extension: yml
+    fields:
+      - {
+          label: "Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "MMMM YY",
+          default: "",
+        }
+      - { label: "Événement", name: "event", widget: "string" }
   - name: website
     label: Contenu site
     files:
