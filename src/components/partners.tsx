@@ -53,10 +53,8 @@ const Partners: React.FC<PartnersProps> = ({
       </div>
       {link && (
         <div className="mt-6">
-          <Link to="/producteurs" style={{ ...linkStyle }}>
-            <div className="text-center">
-              Découvrez notre catalogue de boissons consignées
-            </div>
+          <Link to={link.to} style={{ ...linkStyle }}>
+            <div className="text-center">{link.text}</div>
           </Link>
         </div>
       )}
