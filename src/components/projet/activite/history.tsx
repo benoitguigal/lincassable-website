@@ -9,18 +9,20 @@ import "dayjs/locale/fr";
 dayjs.locale("fr");
 
 const History: React.FC<Queries.HistoryFragment> = ({ allTimelineYaml }) => {
-  const timelineItems: TimelineItemProps[] = allTimelineYaml.nodes.map(
-    (timelineItem) => ({
-      label: (
-        <div className="text-lg relative -top-1" style={decimaBold}>
-          {dayjs(timelineItem.date).format("MMMM YYYY")}
-        </div>
-      ),
-      children: (
-        <div className="text-lg relative -top-1">{timelineItem.event}</div>
-      ),
-    })
+  const sorted = [...allTimelineYaml.nodes].sort(
+    (t1, t2) => new Date(t1.date!).getTime() - new Date(t2.date!).getTime()
   );
+
+  const timelineItems: TimelineItemProps[] = sorted.map((timelineItem) => ({
+    label: (
+      <div className="text-lg relative -top-1" style={decimaBold}>
+        {dayjs(timelineItem.date).format("MMMM YYYY")}
+      </div>
+    ),
+    children: (
+      <div className="text-lg relative -top-1">{timelineItem.event}</div>
+    ),
+  }));
 
   return (
     <Section>
