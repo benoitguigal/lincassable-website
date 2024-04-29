@@ -62,14 +62,16 @@ const content: Pick<ReemployerItemProps, "title" | "description" | "numero">[] =
 const Reemployer: React.FC = () => {
   return (
     <Section>
-      <h2 className="uppercase text-center mb-10">Réemployer ses bouteilles</h2>
+      <h2 style={titleMargin} className="uppercase text-center">
+        Réemployer ses bouteilles
+      </h2>
 
-      <div className="text-xl text-center">
+      <div className="text-center">
         Nous accompagnons les producteurs de boissons et industriels de
         l'agro-alimentaire dans leur transition vers le réemploi et fournissons
         un service clé en main pour le réemploi de leurs bouteilles :
       </div>
-      <div className="hidden lg:grid mt-16 grid-cols-5 w-full justify-center gap-10">
+      <div className="hidden lg:grid mt-6 grid-cols-5 w-full justify-center gap-10">
         <div className="col-span-2 flex flex-col justify-between my-20 xl:pl-12">
           <ReemployerItem align="right" {...content[0]} />
           <ReemployerItem align="right" {...content[1]} />

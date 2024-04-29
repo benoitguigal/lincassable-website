@@ -14,6 +14,7 @@ import Benefices from "../../components/join/magasins/benefices";
 import MiseEnPlace from "../../components/join/magasins/mise-en-place";
 import Partners from "../../components/join/magasins/partners";
 import PictoMagasin from "../../images/rejoindre/magasins/picto_magasin_gris.png";
+import Accompagnement from "../../components/home/accompagnement";
 
 const MagasinsJoinPage: React.FC<PageProps> = () => {
   return (
@@ -39,6 +40,7 @@ const MagasinsJoinPage: React.FC<PageProps> = () => {
       <Benefices />
       <MiseEnPlace />
       <Partners />
+      <Accompagnement type="distributeur" />
     </Layout>
   );
 };

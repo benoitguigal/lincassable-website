@@ -54,7 +54,7 @@ export const FonctionnementStepByStep: React.FC = () => {
         <div className="mt-4">
           <StaticImage
             alt="Je suis consignée"
-            src="../../images/home/picto_consigne.png"
+            src="../../images/home/picto_reemploi.png"
             height={pictogrammeSize}
           />
         </div>

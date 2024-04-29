@@ -68,7 +68,7 @@ const DevenirPointDeCollecte: React.FC = () => {
   return (
     <Section>
       <h2 className="text-center uppercase">Devenir Point de Collecte</h2>
-      <div className="text-xl text-center mt-10">
+      <div className="text-center mt-10">
         Les distributeurs ont un rôle clé au sein de la filière de réemploi, en
         constituant un maillage de points de collecte et en valorisant des
         producteurs locaux dans leurs rayons. L’INCASSABLE propose un service

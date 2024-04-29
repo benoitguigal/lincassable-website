@@ -37,7 +37,7 @@ const ProducteursJoinPage: React.FC<PageProps> = () => {
       </div>
       <MiseEnPlace />
       <Partners />
-      <Accompagnement />
+      <Accompagnement type="producteur" />
     </Layout>
   );
 };

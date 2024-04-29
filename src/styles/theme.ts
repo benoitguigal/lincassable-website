@@ -91,7 +91,7 @@ export const greyButton: CSSProperties = {
 
 // Titres
 export const titleMargin: CSSProperties = {
-  marginBottom: "4rem",
+  marginBottom: "3.2rem",
 };
 
 //
