@@ -16,6 +16,7 @@ const ProducteursPage: React.FC<PageProps<Queries.ProducteursPageQuery>> = ({
         style={{ paddingTop: navHeight }}
         className="px-5 pb-5 lg:px-20 2xl:px-60"
       >
+        <h1 className="uppercase text-center mt-16">Catalogue</h1>
         <h2 className="mb-16 mt-28 uppercase">Producteurs régionaux</h2>
         <div className="grid md:grid-cols-2 xl:grid-cols-3 grid-rows-1 gap-4">
           {producteurs

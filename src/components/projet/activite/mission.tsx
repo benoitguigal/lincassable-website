@@ -22,7 +22,7 @@ const Mission: React.FC = () => {
         <div className="col-span-2">
           Réduire la production de déchets liés aux emballages à usage unique
           grâce au développement et à la coordination d’une filière de réemploi
-          de bouteilles en verre en Région SUD
+          de bouteilles en verre en Région Sud Provence-Alpes-Côte d'Azur
         </div>
         <h2 className="uppercase md:justify-self-end md:text-right relative -top-1 mt-12 md:mt-0">
           Nos <br />
@@ -39,8 +39,8 @@ const Mission: React.FC = () => {
           </div>
           <h4 className="mt-4">Local</h4>
           <div>
-            Une économie plus résiliente grâce au circuit-court et aux acteurs
-            locaux.
+            Une économie plus résiliente grâce aux circuits courts et aux
+            acteurs du territoire.
           </div>
         </div>
       </div>

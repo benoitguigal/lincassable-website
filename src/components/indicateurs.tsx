@@ -1,10 +1,10 @@
 import React, { ReactNode, useEffect, useState } from "react";
-import Section from "../section";
+import Section from "./section";
 import {
   backgroundColorYellow,
   decimaBold,
   titleMargin,
-} from "../../styles/theme";
+} from "../styles/theme";
 import { graphql } from "gatsby";
 import CountUp from "react-countup";
 

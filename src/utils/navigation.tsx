@@ -25,7 +25,7 @@ export const navItems: NavItemProps[] = [
     ],
   },
   { label: "Bouteilles consignées", link: "/producteurs" },
-  { label: "Carte des points de vente", link: "/carte" },
+  { label: "Carte du réseau", link: "/carte" },
   {
     label: "L'INCASSABLE",
     children: [
