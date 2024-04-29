@@ -1,4 +1,4 @@
-import { HeadFC, PageProps } from "gatsby";
+import { HeadFC, PageProps, graphql } from "gatsby";
 import React from "react";
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
@@ -8,10 +8,13 @@ import BandeauBouteille from "../../images/rejoindre/producteurs/bandeau-bouteil
 import Benefices from "../../components/join/producteurs/benefices";
 import MiseEnPlace from "../../components/join/producteurs/mise-en-place";
 import Accompagnement from "../../components/home/accompagnement";
-import Partners from "../../components/join/producteurs/partners";
+import ProducteurPartners from "../../components/join/producteurs/partners";
 import PictoProducteur from "../../images/rejoindre/producteurs/picto_producteurs_gris.png";
+import Partners from "../../components/partners";
 
-const ProducteursJoinPage: React.FC<PageProps> = () => {
+const ProducteursJoinPage: React.FC<
+  PageProps<Queries.ProducteursJoinPageQuery>
+> = ({ data }) => {
   return (
     <Layout>
       <div
@@ -36,7 +39,15 @@ const ProducteursJoinPage: React.FC<PageProps> = () => {
         <img className="w-full" src={BandeauBouteille} alt="Bouteilles" />
       </div>
       <MiseEnPlace />
-      <Partners />
+      <Partners
+        allPartnersYaml={data.allPartnersYaml}
+        title="Producteurs partenaires"
+        type="producteur"
+        link={{
+          to: "/producteurs",
+          text: "Découvrez le catalogue de boissons consignées",
+        }}
+      />
       <Accompagnement type="producteur" />
     </Layout>
   );
@@ -50,3 +61,9 @@ export const Head: HeadFC = () => (
 );
 
 export default ProducteursJoinPage;
+
+export const query = graphql`
+  query ProducteursJoinPage {
+    ...Partners
+  }
+`;
