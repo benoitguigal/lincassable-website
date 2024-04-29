@@ -93,6 +93,13 @@ const config: GatsbyConfig = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "timeline",
+        path: `./src/content/partners`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "timeline",
         path: `./src/content/timeline`,
       },
     },

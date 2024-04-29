@@ -18,7 +18,7 @@ const Equipe: React.FC<PageProps<Queries.EquipePageQuery>> = ({ data }) => {
   return (
     <Layout>
       <div style={{ paddingTop: navHeight }}>
-        <h1 className="uppercase text-center mt-16">L'équipe</h1>
+        <h1 className="uppercase text-center mt-16">équipe</h1>
         <Section>
           <div className="m-auto grid grid-cols-1 lg:grid-cols-3 place-content-center gap-x-16 gap-y-16 max-w-4xl">
             {sortedMembers.map((member) => (
@@ -36,7 +36,7 @@ const Equipe: React.FC<PageProps<Queries.EquipePageQuery>> = ({ data }) => {
 export default Equipe;
 
 export const Head: HeadFC = () => (
-  <SEO title="L'INCASSABLE | L'équipe" pathname="/projet/equipe" />
+  <SEO title="L'INCASSABLE | Notre équipe" pathname="/projet/equipe" />
 );
 
 export const query = graphql`

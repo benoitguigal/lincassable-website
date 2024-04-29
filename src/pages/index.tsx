@@ -14,7 +14,7 @@ import Indicateurs from "../components/indicateurs";
 import Reglementation from "../components/home/reglementation";
 import Accompagnement from "../components/home/accompagnement";
 import Fonctionnement from "../components/home/fonctionnement";
-import Partners from "../components/home/partners";
+import Partners from "../components/partners";
 import BandeauBouteilles from "../images/home/bandeau_bouteilles.jpg";
 import BandeauBouteillesMobile from "../images/home/bandeau_bouteilles_mobile.jpg";
 import CollecterTrierReemployer from "../components/collecter-trier";
@@ -43,7 +43,11 @@ const IndexPage: React.FC<PageProps<Queries.HomePageQuery>> = ({ data }) => {
       <Reglementation />
       <Accompagnement />
       <Testimony />
-      <Partners />
+      <Partners
+        allPartnersYaml={data.allPartnersYaml}
+        title="Ils soutiennent la filière"
+        type="financier"
+      />
     </Layout>
   );
 };
@@ -57,5 +61,6 @@ export const query = graphql`
     websiteYaml {
       ...Indicateurs
     }
+    ...Partners
   }
 `;

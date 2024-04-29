@@ -1,7 +1,7 @@
 backend:
-  #name: git-gateway
-  name: proxy
-  proxy_url: http://localhost:8081/api/v1
+  name: git-gateway
+  #name: proxy
+  #proxy_url: http://localhost:8081/api/v1
   branch: master
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
@@ -111,6 +111,23 @@ collections:
           default: "",
         }
       - { label: "Événement", name: "event", widget: "string" }
+  - name: partenaires
+    label: Partenaire
+    folder: "src/content/partners"
+    create: true
+    identifier_field: partners
+    extension: yml
+    fields:
+      - { label: "Nom", name: "nom", widget: "string" }
+      - { label: "Ordre", name: "ordre", widget: "number" }
+      - { label: "Logo", name: "logo", widget: "image" }
+      - { label: "Lien", name: "lien", widget: "string" }
+      - {
+          label: "Type",
+          name: "type",
+          widget: "select",
+          options: ["financier", "accompagnement", "reseau", "logistique"],
+        }
   - name: website
     label: Contenu site
     files:
