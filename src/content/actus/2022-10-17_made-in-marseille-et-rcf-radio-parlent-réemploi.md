@@ -2,7 +2,7 @@
 title: "Made In Marseille : le retour du réemploi dans la région marseillaise"
 date: 2022-10-17T09:38:27.536Z
 image: /img/lincassable-entrepôt-vitrolle00001.jpeg
-miniature: /img/5.made-in-marseille.jpg
+miniature: /img/5-made-in-marseille.jpg
 ---
 
 ##### Filière de réemploi, visite de notre entrepôt, éligibilité des bouteilles en verre, lieux de collecte et de distribution… Ce reportage vous donnera les clés pour découvrir ou redécouvrir L’INCASSABLE. 

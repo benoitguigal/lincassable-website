@@ -20,7 +20,7 @@ const Partenaires: React.FC<PageProps<Queries.PartenairesPageQuery>> = ({
         <Partners
           allPartnersYaml={data.allPartnersYaml}
           type="accompagnement"
-          title="Ils accompagnent"
+          title="Ils nous accompagnent"
         />
         <Partners
           allPartnersYaml={data.allPartnersYaml}

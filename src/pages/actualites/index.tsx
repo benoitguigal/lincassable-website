@@ -13,7 +13,7 @@ const ActualitesPage: React.FC<PageProps<Queries.ActualitesPageQuery>> = ({
 
   return (
     <Layout>
-      <div style={{ paddingTop: navHeight }}>
+      <div style={{ paddingTop: navHeight }} className="mb-16">
         <h1 className="text-center uppercase mb-16 mt-16">Actualités</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center place-content-center max-w-4xl m-auto">
           {allMarkdownRemark.nodes.map((markdownRemark) => {

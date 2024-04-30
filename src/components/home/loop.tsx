@@ -105,7 +105,9 @@ const Arrow: React.FC<ArrowContainerProps> = ({ type, className }) => {
 const Loop: React.FC = () => {
   return (
     <Section>
-      <h2 style={{ ...titleMargin }}>LA BOUCLE DU RÉEMPLOI</h2>
+      <h2 style={{ ...titleMargin }} className="text-center">
+        LA BOUCLE DU RÉEMPLOI
+      </h2>
       <div className="grid grid-cols-11">
         {/* Ligne 1 */}
         <LoopStep pictoSrc={PictoProducteur} photoSrc={PhotoProducteur} />

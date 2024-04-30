@@ -4,7 +4,6 @@ import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import "../../styles/actualite.css";
 import { decimaBold, navHeight } from "../../styles/theme";
-import Section from "../../components/section";
 
 const Actualite: React.FC<PageProps<Queries.ActualiteQuery>> = ({ data }) => {
   const actu = data.markdownRemark;

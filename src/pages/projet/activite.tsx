@@ -7,7 +7,6 @@ import Mission from "../../components/projet/activite/mission";
 import CasierBouteilleDesktop from "../../images/projet/activite/casier_bouteille_desktop.jpg";
 import CasierBouteilleMobile from "../../images/projet/activite/casier_bouteille_mobile.jpeg";
 import { navHeight } from "../../styles/theme";
-import CollecterTrierReemployer from "../../components/collecter-trier";
 import Indicateurs from "../../components/indicateurs";
 import Activite from "../../components/projet/activite/activite";
 
@@ -30,9 +29,8 @@ const ActivitePage: React.FC<PageProps<Queries.ActivitePageQuery>> = ({
           alt="Casier et bouteille"
         />
         <Activite />
-        <CollecterTrierReemployer />
-        <History allTimelineYaml={data.allTimelineYaml} />
         <Indicateurs collected_bottles={data.websiteYaml!.collected_bottles!} />
+        <History allTimelineYaml={data.allTimelineYaml} />
       </div>
     </Layout>
   );

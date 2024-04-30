@@ -2,7 +2,7 @@
 title: Plus verte la ville
 date: 2022-04-14T13:00:46.877Z
 image: /img/plus-verte-la-ville.png
-miniature: /img/1.jm-radio.png
+miniature: /img/1-jm-radio.png
 ---
 L'INCASSABLE était invité ce matin à l'émission Plus Verte la Ville sur Radio JM !\
 Toutes les semaines, Jillian Mathieu présente des initiatives autour de la Transition écologique à Marseille.\

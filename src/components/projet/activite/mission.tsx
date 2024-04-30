@@ -29,18 +29,17 @@ const Mission: React.FC = () => {
           valeurs
         </h2>
         <div className="col-span-2">
-          <h4>Engagement</h4>
           <div>
-            Une société plus juste et moins consommatrice de ressources.
+            <span className="font-bold">Engagement</span> : une société plus
+            juste et moins consommatrice de ressources.
           </div>
-          <h4 className="mt-4">Coopération</h4>
           <div>
-            Entre les acteurs du territoire pour réduire la quantité de déchets.
+            <span className="font-bold">Coopération</span> : entre les acteurs
+            du territoire pour réduire la quantité de déchets.
           </div>
-          <h4 className="mt-4">Local</h4>
           <div>
-            Une économie plus résiliente grâce aux circuits courts et aux
-            acteurs du territoire.
+            <span className="font-bold">Local</span> : une économie plus
+            résiliente grâce aux circuits courts et aux acteurs du territoire.
           </div>
         </div>
       </div>

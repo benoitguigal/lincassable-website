@@ -2,7 +2,7 @@
 title: RCF RADIO aborde le sujet du réemploi
 date: 2022-10-17T13:05:09.276Z
 image: /img/sans-titre-7-.png
-miniature: /img/6.-rcf-commune-planète.jpg
+miniature: /img/6-rcf-commune-planete.jpg
 ---
 
 ##### Benoit, co-porteur de projet de L’INCASSABLE, était sur le plateau de RCF RADIO pour s’exprimer sur l’action de l’association sur le territoire. Ce podcast permet de comprendre la vision de ces porteurs de projets qui agissent pour le réemploi.

@@ -2,7 +2,7 @@
 title: Consignez-moi, ou comment visibiliser la nécessité du réemploi
 date: 2023-05-03T07:14:23.008Z
 image: /img/l-incassable-réemploi-consigne-consignez-moi.png
-miniature: /img/13.-consignés-moi.png
+miniature: /img/13-consigne-et-moi.png
 ---
 
 ##### Le mardi 21 février, Zero Waste Paris lançait une action de visibilisation de nos déchets en verre dans les rayons des supermarchés. Très vite, cette action a été relayée par l’ensemble des antennes de l’association, devenant le mouvement “consignez-moi”. Ce dernier fait suite à l’annonce d’une concertation sur la consigne pour recyclage des bouteilles en PET.
