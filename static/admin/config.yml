@@ -95,6 +95,7 @@ collections:
       - { label: "Titre", name: "title", widget: "string" }
       - { label: "Date de publication", name: "date", widget: "datetime" }
       - { label: "Image", name: "image", widget: "image" }
+      - { label: "Miniature", name: "miniature", widget: "image" }
       - { label: "Corps du texte", name: "body", widget: "markdown" }
   - name: timeline
     label: Contenu de la frise chronologique
@@ -126,7 +127,15 @@ collections:
           label: "Type",
           name: "type",
           widget: "select",
-          options: ["financier", "accompagnement", "reseau", "logistique"],
+          options:
+            [
+              "producteur",
+              "distributeur",
+              "financier",
+              "accompagnement",
+              "reseau",
+              "logistique",
+            ],
         }
   - name: website
     label: Contenu site

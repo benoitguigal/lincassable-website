@@ -8,7 +8,6 @@ import BandeauBouteille from "../../images/rejoindre/producteurs/bandeau-bouteil
 import Benefices from "../../components/join/producteurs/benefices";
 import MiseEnPlace from "../../components/join/producteurs/mise-en-place";
 import Accompagnement from "../../components/home/accompagnement";
-import ProducteurPartners from "../../components/join/producteurs/partners";
 import PictoProducteur from "../../images/rejoindre/producteurs/picto_producteurs_gris.png";
 import Partners from "../../components/partners";
 

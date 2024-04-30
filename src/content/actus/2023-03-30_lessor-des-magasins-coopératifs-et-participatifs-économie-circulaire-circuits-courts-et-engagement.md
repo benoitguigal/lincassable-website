@@ -3,6 +3,7 @@ title: "L'essor des magasins coopératifs et participatifs : économie circulair
   circuits courts et engagement !"
 date: 2023-03-30T13:18:50.367Z
 image: /img/l-incassable-réemploi-magasins-partenaires-magasin-participatif-coopératif.png
+miniature: /img/10.-magasin-coopératifs.png
 ---
 
 ##### Depuis quelques années, des magasins participatifs et coopératifs fleurissent dans tout le pays. À l’intérieur, vous n’y trouverez pas de salariés, ni de clients, mais des coopérateurs qui donnent de leur temps dans un projet de consommation qui correspond à leurs valeurs. Ils valorisent et développent de nouveaux modes de consommation, allant à contre-courant des grandes enseignes.

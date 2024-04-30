@@ -20,7 +20,7 @@ const Equipe: React.FC<PageProps<Queries.EquipePageQuery>> = ({ data }) => {
       <div style={{ paddingTop: navHeight }}>
         <h1 className="uppercase text-center mt-16">équipe</h1>
         <Section>
-          <div className="m-auto grid grid-cols-1 lg:grid-cols-3 place-content-center gap-x-16 gap-y-16 max-w-4xl">
+          <div className="m-auto grid grid-cols-1 lg:grid-cols-3 gap-x-16 gap-y-16 max-w-4xl">
             {sortedMembers.map((member) => (
               <EquipeMember member={member} />
             ))}

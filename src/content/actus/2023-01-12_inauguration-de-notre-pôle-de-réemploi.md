@@ -2,6 +2,7 @@
 title: Inauguration de notre pôle de réemploi
 date: 2023-01-12T08:18:24.000Z
 image: /img/l-incassable-pôle-de-réemploi-de-bouteilles.png
+miniature: /img/8.inauguration.png
 ---
 **Nous sommes fiers d'avoir inauguré le 7 décembre 2022 notre pôle de réemploi ! Ce dernier, que nous partageons avec SOOFUT (opérateur de réemploi de fûts en inox), est situé à Vitrolles dans les locaux de MAIN FORTE (entreprise d’insertion par le transport).**
 

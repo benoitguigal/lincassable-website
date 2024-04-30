@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
   return (
     <footer
       style={{ ...backgroundColorGreen, ...colorWhite }}
-      className="py-10"
+      className="py-10 mt-16"
     >
       <div className="grid grid-cols-1 md:grid-cols-3 w-full m-auto md:justify-items-center pl-10 md:pl-0">
         <div>

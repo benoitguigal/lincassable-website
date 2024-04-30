@@ -3,21 +3,27 @@ import React from "react";
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import "../../styles/actualite.css";
+import { decimaBold, navHeight } from "../../styles/theme";
+import Section from "../../components/section";
 
 const Actualite: React.FC<PageProps<Queries.ActualiteQuery>> = ({ data }) => {
   const actu = data.markdownRemark;
 
   return (
     <Layout>
-      <main className="pt-16 md:pt-14">
+      <main style={{ paddingTop: navHeight }}>
+        <div className="px-6 md:px-32 lg:px-56 xl:px-72 2xl:px-96 pb-20 pt-14">
+          <h1 style={decimaBold} className="text-center uppercase">
+            {actu!.frontmatter!.title}
+          </h1>
+        </div>
+        <img
+          className="w-full h-80"
+          style={{ objectFit: "cover" }}
+          src={actu!.frontmatter!.image!}
+          alt="Couverture"
+        />
         <div className="px-10 md:px-28 xl:px-48 py-10">
-          <h3>{actu!.frontmatter!.title}</h3>
-          <img
-            className="w-full h-80 static mt-5"
-            style={{ objectFit: "cover" }}
-            src={actu!.frontmatter!.image!}
-            alt="Couverture"
-          />
           <div
             className="content mt-10 w-full"
             dangerouslySetInnerHTML={{ __html: actu!.html! }}
