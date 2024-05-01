@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "../../section";
 import { backgroundColorLightGrey, linkStyle } from "../../../styles/theme";
-import PictoPluie from "../../../images/projet/equipe/picto_pluie.png";
+import PictoReemploi from "../../../images/projet/equipe/picto_reemploi.png";
 import { Link } from "gatsby";
 
 const RejoinezNous: React.FC = () => {
@@ -11,7 +11,7 @@ const RejoinezNous: React.FC = () => {
         <div className="flex flex-col lg:flex-row gap-x-10 gap-y-6 lg:justify-center lg:items-center">
           <img
             className="max-w-20 m-auto lg:m-0"
-            src={PictoPluie}
+            src={PictoReemploi}
             alt="Pictogramme pluie"
           />
           <div className="text-center lg:text-left">

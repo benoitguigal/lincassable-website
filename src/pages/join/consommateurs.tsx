@@ -12,7 +12,7 @@ import Insructions from "../../components/join/consommateurs/instructions";
 const MagasinsJoinPage: React.FC<PageProps> = () => {
   return (
     <Layout>
-      <div
+      {/* <div
         style={{
           ...backgroundColorGreen,
           ...colorLigthGrey,
@@ -27,7 +27,7 @@ const MagasinsJoinPage: React.FC<PageProps> = () => {
           />
           <h1 className="uppercase text-center">Consommateurs</h1>
         </div>
-      </div>
+      </div> */}
       <RapportezVosBouteilles />
       <img
         className="w-full lg:hidden"

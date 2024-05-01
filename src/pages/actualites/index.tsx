@@ -2,7 +2,6 @@ import React from "react";
 import { HeadFC, PageProps, graphql } from "gatsby";
 import SEO from "../../components/seo";
 import Layout from "../../components/layout";
-import slugify from "@sindresorhus/slugify";
 import ActualiteCard from "../../components/actualite-card";
 import { navHeight } from "../../styles/theme";
 

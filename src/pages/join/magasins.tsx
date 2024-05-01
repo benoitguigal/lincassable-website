@@ -16,7 +16,7 @@ const MagasinsJoinPage: React.FC<PageProps<Queries.MagasinsJoinPageQuery>> = ({
 }) => {
   return (
     <Layout>
-      <div
+      {/* <div
         style={{
           ...backgroundColorGreen,
           ...colorLigthGrey,
@@ -31,7 +31,7 @@ const MagasinsJoinPage: React.FC<PageProps<Queries.MagasinsJoinPageQuery>> = ({
           />
           <h1 className="uppercase text-center">Magasins</h1>
         </div>
-      </div>
+      </div> */}
       <DevenirPointDeCollecte />
       <Consigne />
       <Benefices />

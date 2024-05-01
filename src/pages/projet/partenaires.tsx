@@ -11,7 +11,6 @@ const Partenaires: React.FC<PageProps<Queries.PartenairesPageQuery>> = ({
   return (
     <Layout>
       <div style={{ paddingTop: navHeight }}>
-        <h1 className="uppercase text-center mt-16">Nos partenaires</h1>
         <Partners
           allPartnersYaml={data.allPartnersYaml}
           type="financier"

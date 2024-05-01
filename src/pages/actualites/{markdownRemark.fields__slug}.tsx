@@ -3,15 +3,23 @@ import React from "react";
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import "../../styles/actualite.css";
-import { decimaBold, navHeight } from "../../styles/theme";
+import {
+  colorGrey,
+  decimaBold,
+  navHeight,
+  titleMargin,
+} from "../../styles/theme";
+import classNames from "classnames";
+
+const paddings = "px-6 md:px-32 lg:px-56 xl:px-72 2xl:px-96";
 
 const Actualite: React.FC<PageProps<Queries.ActualiteQuery>> = ({ data }) => {
   const actu = data.markdownRemark;
 
   return (
     <Layout>
-      <main style={{ paddingTop: navHeight }}>
-        <div className="px-6 md:px-32 lg:px-56 xl:px-72 2xl:px-96 pb-20 pt-14">
+      <main style={{ paddingTop: navHeight }} className="mb-16">
+        <div className={classNames(paddings, "pt-14", "pb-20")}>
           <h1 style={decimaBold} className="text-center uppercase">
             {actu!.frontmatter!.title}
           </h1>
@@ -22,9 +30,10 @@ const Actualite: React.FC<PageProps<Queries.ActualiteQuery>> = ({ data }) => {
           src={actu!.frontmatter!.image!}
           alt="Couverture"
         />
-        <div className="px-10 md:px-28 xl:px-48 py-10">
+        <div className={paddings}>
+          <div className="mt-10">Le {actu?.frontmatter?.date}</div>
           <div
-            className="content mt-10 w-full"
+            className="content mt-6 w-full"
             dangerouslySetInnerHTML={{ __html: actu!.html! }}
           />
         </div>
@@ -52,7 +61,7 @@ export const query = graphql`
         slug
       }
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD.MM.YYYY", locale: "fr")
         image
         title
       }

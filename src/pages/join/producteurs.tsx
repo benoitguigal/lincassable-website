@@ -16,7 +16,7 @@ const ProducteursJoinPage: React.FC<
 > = ({ data }) => {
   return (
     <Layout>
-      <div
+      {/* <div
         style={{
           ...backgroundColorGreen,
           ...colorLigthGrey,
@@ -31,7 +31,7 @@ const ProducteursJoinPage: React.FC<
           />
           <h1 className="uppercase text-center">Producteurs</h1>
         </div>
-      </div>
+      </div> */}
       <Reemployer />
       <Benefices />
       <div className="px-6 md:px-24 lg:px-32 xl:px-56 2xl:px-72 py-6">

@@ -5,7 +5,7 @@ import { FonctionnementStepByStep } from "../../home/fonctionnement";
 const RapportezVosBouteilles: React.FC = () => {
   return (
     <Section>
-      <h1 className="uppercase text-center">Rapportez vos bouteilles</h1>
+      <h2 className="uppercase text-center">Rapportez vos bouteilles</h2>
       <div className="mt-10 text-center">
         Equas con et hiliaspedi reped que comnim dollupt aturio. Eliquis repero
         odit eossitati velesci psamet am rescia dolup- tate dus sundaeraes repe
