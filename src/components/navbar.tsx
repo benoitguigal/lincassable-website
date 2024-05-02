@@ -69,12 +69,16 @@ const DropDownNavItem: React.FC<NavItemProps> = ({ label, children }) => {
 
   return (
     <div
-      className="text-center flex flex-col"
+      className="flex flex-col"
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
       <div style={menuItemStyle}>
-        <div style={menuLabelStyle}>{label}</div>
+        <div
+          style={{ ...menuLabelStyle, ...(hover ? navLinkActiveStyle : {}) }}
+        >
+          {label}
+        </div>
       </div>
       <div
         style={{

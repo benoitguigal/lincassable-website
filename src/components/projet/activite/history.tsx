@@ -15,13 +15,11 @@ const History: React.FC<Queries.HistoryFragment> = ({ allTimelineYaml }) => {
 
   const timelineItems: TimelineItemProps[] = sorted.map((timelineItem) => ({
     label: (
-      <div className="text-lg relative -top-1" style={decimaBold}>
+      <div className="relative -top-1" style={decimaBold}>
         {dayjs(timelineItem.date).format("MMMM YYYY")}
       </div>
     ),
-    children: (
-      <div className="text-lg relative -top-1">{timelineItem.event}</div>
-    ),
+    children: <div className="relative -top-1">{timelineItem.event}</div>,
   }));
 
   return (
