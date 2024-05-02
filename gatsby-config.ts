@@ -6,6 +6,7 @@ const config: GatsbyConfig = {
     siteUrl: `https://lincassable.com`,
     description: `Filière de consigne de bouteilles en verre en Région Sud Provence-Alpes-Côte d'Azur`,
     image: "/lincassable.png",
+    logo: "/logo.png",
     keywords: [
       "consigne",
       "réemploi",

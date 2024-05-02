@@ -7,6 +7,7 @@ type MetadataProps = {
       description: string;
       keywords: string[];
       image: string;
+      logo: string;
       siteUrl: string;
     };
   };
@@ -21,6 +22,7 @@ export const useSiteMetadata = () => {
           description
           keywords
           image
+          logo
           siteUrl
         }
       }

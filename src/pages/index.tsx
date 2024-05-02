@@ -4,8 +4,6 @@ import SEO from "../components/seo";
 import Layout from "../components/layout";
 import Hero from "../components/home/hero";
 import Mission from "../components/home/mission";
-import Section from "../components/section";
-import { backgroundColorLightGrey, decimaMonoBold } from "../styles/theme";
 import Join from "../components/home/join";
 import Loop from "../components/home/loop";
 import Testimony from "../components/home/testimony";
