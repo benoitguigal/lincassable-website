@@ -41,7 +41,7 @@ const Ecology: React.FC = () => {
           <div className="text-center">
             Le réemploi des emballages présente des avantages écologiques et
             économiques dans un contexte d’inflation des prix et de raréfaction
-            des matières premieres. Ainsi, le réemploi, en alternative au
+            des matières premières. Ainsi, le réemploi, en alternative au
             recyclage, permet de :
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-x-10 xl:gap-x-16 gap-y-6 mt-10">
