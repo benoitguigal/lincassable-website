@@ -1,5 +1,6 @@
 import { graphql } from "gatsby";
 import React from "react";
+import { backgroundColorGrey, decimaBold } from "../styles/theme";
 
 type ProducteurProps = {
   producteur: Queries.ProducteurFragment;
@@ -19,12 +20,17 @@ const Producteur: React.FC<ProducteurProps> = ({ producteur }) => {
       />
 
       <div className="justify-self-start self-end pb-10 w-full">
-        <h6>{producteur.nom}</h6>
+        <h6 style={decimaBold} className="uppercase">
+          {producteur.nom}
+        </h6>
         <div>{producteur.localisation}</div>
       </div>
       <div className="self-start">
         {producteur.categories!.map((category) => (
-          <div className="text-xs font-semibold inline-block pt-1 pb-2 px-2 rounded bg-green-bottle uppercase last:mr-0 mr-1">
+          <div
+            style={backgroundColorGrey}
+            className="text-xs font-semibold inline-block pt-1 pb-2 px-2 rounded bg-green-bottle uppercase last:mr-0 mr-1"
+          >
             {category}
           </div>
         ))}

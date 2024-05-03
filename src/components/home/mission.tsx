@@ -11,7 +11,7 @@ const Mission: React.FC = () => {
         <div className="lg:w-1/2 mx-auto">
           <h2>CONSIGNE DE BOUTEILLES</h2>
           <div className="mt-6 text-xl">
-            L’INCASSABLE développe une filière de réemploi de contenants en
+            L’INCASSABLE développe une filière de réemploi de bouteilles en
             verre en Région Sud pour réduire la production de déchets liés aux
             emballages à usage unique.
           </div>

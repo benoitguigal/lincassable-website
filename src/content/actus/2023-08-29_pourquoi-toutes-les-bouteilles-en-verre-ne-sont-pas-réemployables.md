@@ -2,6 +2,7 @@
 title: Pourquoi toutes les bouteilles en verre ne sont pas réemployables ?
 date: 2023-08-29T13:28:50.051Z
 image: /img/my-project-1-32-.png
+miniature: /img/14-bouteilles-reemployables.jpg
 ---
 
 <br>

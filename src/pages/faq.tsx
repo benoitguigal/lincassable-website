@@ -27,8 +27,8 @@ const FAQPage: React.FC<PageProps> = () => {
   );
 };
 
-export const Head: HeadFC = () => (
-  <SEO title="L'INCASSABLE | En savoir plus" pathname="/faq" />
+export const Head: HeadFC = ({ location }) => (
+  <SEO title="L'INCASSABLE | FAQ" pathname={location.pathname} />
 );
 
 export default FAQPage;

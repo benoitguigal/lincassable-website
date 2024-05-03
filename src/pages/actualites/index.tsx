@@ -2,7 +2,8 @@ import React from "react";
 import { HeadFC, PageProps, graphql } from "gatsby";
 import SEO from "../../components/seo";
 import Layout from "../../components/layout";
-import slugify from "@sindresorhus/slugify";
+import ActualiteCard from "../../components/actualite-card";
+import { navHeight } from "../../styles/theme";
 
 const ActualitesPage: React.FC<PageProps<Queries.ActualitesPageQuery>> = ({
   data,
@@ -11,34 +12,13 @@ const ActualitesPage: React.FC<PageProps<Queries.ActualitesPageQuery>> = ({
 
   return (
     <Layout>
-      <div className="py-24 flex flex-col">
-        {allMarkdownRemark.nodes.map((markdownRemark, idx) => {
-          const { date, title, image } = markdownRemark!.frontmatter!;
-          const slug = markdownRemark.fields?.slug;
-          return (
-            <a
-              className="m-auto no-underline cursor-pointer w-4/5 md:w-1/2 xl:w-2/5 mb-5"
-              // Gatsby utilise slugify en interne pour générer les urls à partir du
-              // composant template {markdownRemark.fields__slug}
-              href={`/actualites/${slugify(slug!)}`}
-              key={idx}
-            >
-              <div className="text-gray-400">Publié le {date}</div>
-              <h5 className="mb-4">{title}</h5>
-              <div>
-                <img
-                  src={image!}
-                  className="w-full md:h-72 h-28"
-                  style={{
-                    objectFit: "cover",
-                  }}
-                />
-              </div>
-              <div>{markdownRemark.excerpt}</div>
-              <hr className="mt-5" />
-            </a>
-          );
-        })}
+      <div style={{ paddingTop: navHeight }} className="mb-16">
+        <h1 className="text-center uppercase mb-16 mt-16">Actualités</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center place-content-center max-w-4xl m-auto">
+          {allMarkdownRemark.nodes.map((markdownRemark) => {
+            return <ActualiteCard {...markdownRemark} />;
+          })}
+        </div>
       </div>
     </Layout>
   );
@@ -46,8 +26,8 @@ const ActualitesPage: React.FC<PageProps<Queries.ActualitesPageQuery>> = ({
 
 export default ActualitesPage;
 
-export const Head: HeadFC = () => (
-  <SEO title="L'INCASSABLE - Actualités" pathname="/actus" />
+export const Head: HeadFC = ({ location }) => (
+  <SEO title="L'INCASSABLE | Actualités" pathname={location.pathname} />
 );
 
 export const query = graphql`
@@ -57,16 +37,7 @@ export const query = graphql`
       sort: { fileAbsolutePath: DESC }
     ) {
       nodes {
-        fileAbsolutePath
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "DD MMM YYYY", locale: "fr")
-          title
-          image
-        }
-        excerpt(pruneLength: 400)
+        ...ActualiteCard
       }
     }
   }

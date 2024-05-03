@@ -1,6 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
-import { navLinks } from "../utils/navigation";
+import { navItems } from "../utils/navigation";
 import { backgroundColorGreen, colorWhite, greyButton } from "../styles/theme";
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -14,17 +14,30 @@ const Footer: React.FC = () => {
         <div>
           <h5 className="mb-2">RUBRIQUES</h5>
           <div className="flex flex-col">
-            {navLinks.map(({ label, link }, idx) => (
-              <Link to={link} key={idx}>
-                {label}
-              </Link>
-            ))}
+            {navItems.flatMap(({ label, link, children }, idx) => {
+              if (link) {
+                return [
+                  <Link to={link} key={idx}>
+                    {label}
+                  </Link>,
+                ];
+              }
+              return (children ?? []).map(
+                ({ label: childLabel, link: childLink }, idxChild) => {
+                  return (
+                    <Link to={childLink} key={idxChild}>
+                      {childLabel}
+                    </Link>
+                  );
+                }
+              );
+            })}
           </div>
         </div>
         <div>
           <h5 className="mb-2 mt-5 md:mt-0">CONTACT</h5>
           <div>
-            <div>40 boulevard Voltaire</div>
+            <div>134 boulevard Longchamp</div>
             <div>13001 Marseille</div>
           </div>
           <div>

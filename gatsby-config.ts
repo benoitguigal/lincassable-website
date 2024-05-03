@@ -6,6 +6,7 @@ const config: GatsbyConfig = {
     siteUrl: `https://lincassable.com`,
     description: `Filière de consigne de bouteilles en verre en Région Sud Provence-Alpes-Côte d'Azur`,
     image: "/lincassable.png",
+    logo: "/logo.png",
     keywords: [
       "consigne",
       "réemploi",
@@ -21,6 +22,12 @@ const config: GatsbyConfig = {
       "jus",
     ],
   },
+  headers: [
+    {
+      source: "/files/*",
+      headers: [{ key: "X-Frame-Options", value: "SAMEORIGIN" }],
+    },
+  ],
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
   // Learn more at: https://gatsby.dev/graphql-typegen
@@ -80,6 +87,27 @@ const config: GatsbyConfig = {
       options: {
         name: "producteurs",
         path: `./src/content/producteurs`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "equipe",
+        path: `./src/content/equipe`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "timeline",
+        path: `./src/content/partners`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "timeline",
+        path: `./src/content/timeline`,
       },
     },
     {

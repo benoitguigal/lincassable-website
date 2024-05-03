@@ -2,6 +2,7 @@
 title: Pourquoi appliquer une consigne sur les bouteilles réemployables ?
 date: 2023-09-26T07:09:28.948Z
 image: /img/l-incassable-bouteille-réemploi-zoumaï.jpg
+miniature: /img/pastille_consigne.png
 ---
 
 <br>

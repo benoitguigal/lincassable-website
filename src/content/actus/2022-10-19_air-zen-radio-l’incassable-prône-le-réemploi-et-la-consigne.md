@@ -2,6 +2,7 @@
 title: "AIR ZEN RADIO : L’INCASSABLE prône le réemploi et la consigne"
 date: 2022-10-18T13:19:16.040Z
 image: /img/l-incassablebdef©davidgirard2022-8.jpg
+miniature: /img/7-airzen-radio.png
 ---
 
 ##### Benoit Guigual, co-porteur de projet de L’INCASSABLE, intervenait hier sur AIR ZEN Radio pour présenter nos actions sur le territoire de la métropole Aix-Marseille-Provence. 
