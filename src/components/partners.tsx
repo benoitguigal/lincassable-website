@@ -16,6 +16,7 @@ type PartnerType =
 type PartnersProps = Queries.PartnersFragment & {
   title: string;
   type: PartnerType;
+  bw?: boolean;
   link?: {
     to: string;
     text: string;
@@ -28,6 +29,7 @@ const Partners: React.FC<PartnersProps> = ({
   allPartnersYaml,
   title,
   type,
+  bw = false,
   link,
 }) => {
   const partners = allPartnersYaml.nodes.filter((p) => p.type === type);
@@ -47,7 +49,7 @@ const Partners: React.FC<PartnersProps> = ({
           <img
             className={logoClassName}
             alt={partner.nom!}
-            src={partner.logo!}
+            src={bw ? partner.logo_bw! : partner.logo!}
           />
         ))}
       </div>
@@ -72,6 +74,7 @@ export const query = graphql`
         nom
         ordre
         logo
+        logo_bw
       }
     }
   }

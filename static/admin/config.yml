@@ -101,7 +101,7 @@ collections:
     label: Contenu de la frise chronologique
     folder: "src/content/timeline"
     create: true
-    identifier_field: timeline
+    identifier_field: event
     extension: yml
     fields:
       - {
@@ -111,7 +111,7 @@ collections:
           date_format: "MMMM YY",
           default: "",
         }
-      - { label: "Événement", name: "event", widget: "string" }
+      - { label: "Événement", name: "event", widget: "text" }
   - name: partenaires
     label: Partenaire
     folder: "src/content/partners"
@@ -122,6 +122,12 @@ collections:
       - { label: "Nom", name: "nom", widget: "string" }
       - { label: "Ordre", name: "ordre", widget: "number" }
       - { label: "Logo", name: "logo", widget: "image" }
+      - {
+          label: "Logo Noir et Blanc",
+          name: "logo_bw",
+          widget: "image",
+          required: false,
+        }
       - { label: "Lien", name: "lien", widget: "string" }
       - {
           label: "Type",

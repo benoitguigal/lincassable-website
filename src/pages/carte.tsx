@@ -43,6 +43,6 @@ const CartePage: React.FC<PageProps> = () => {
 
 export default CartePage;
 
-export const Head: HeadFC = () => (
-  <SEO title="L'INCASSABLE | Carte du réseau" pathname="/carte" />
+export const Head: HeadFC = ({ location }) => (
+  <SEO title="L'INCASSABLE | Carte du réseau" pathname={location.pathname} />
 );

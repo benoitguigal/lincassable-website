@@ -29,9 +29,9 @@ export const navItems: NavItemProps[] = [
   {
     label: "L'INCASSABLE",
     children: [
-      { label: "Notre activité", link: "/projet/activite" },
-      { label: "Notre équipe", link: "/projet/equipe" },
-      { label: "Nos partenaires", link: "/projet/partenaires" },
+      { label: "Le projet", link: "/projet" },
+      { label: "L'équipe", link: "/projet/equipe" },
+      { label: "Les partenaires", link: "/projet/partenaires" },
     ],
   },
   {

@@ -44,10 +44,10 @@ const Actualite: React.FC<PageProps<Queries.ActualiteQuery>> = ({ data }) => {
 
 export default Actualite;
 
-export const Head: HeadFC<Queries.ActualiteQuery> = ({ data }) => (
+export const Head: HeadFC<Queries.ActualiteQuery> = ({ data, location }) => (
   <SEO
     title={`L'INCASSABLE | ${data.markdownRemark?.frontmatter?.title}`}
-    pathname={`/actus/${data.markdownRemark?.fields?.slug}/`}
+    pathname={location.pathname}
   />
 );
 

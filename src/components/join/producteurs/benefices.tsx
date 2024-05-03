@@ -18,8 +18,8 @@ const Benefices: React.FC = () => {
         <div className="flex flex-col lg:flex-row gap-2 lg:gap-10 lg:justify-center">
           <blockquote style={decimaBold} className="text-center" cite="ademe">
             « Les emballages représentent 30% à 40% de l’empreinte carbone d'un
-            domaine viticole. La fabrication des bouteilles en verre explique la
-            majeure partie de cet impact. »
+            domaine viticole. Le recours aux bouteilles en verre à usage unique
+            explique la majeure partie de cet impact. »
           </blockquote>
         </div>
         <a

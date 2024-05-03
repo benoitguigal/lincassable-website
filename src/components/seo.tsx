@@ -35,7 +35,7 @@ const SEO: React.FC<SEOProps> = ({
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "L'INCASSABLE",
-    logo: seo.image,
+    logo: seo.logo,
     url: seo.url,
   };
 

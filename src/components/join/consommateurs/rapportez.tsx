@@ -7,10 +7,12 @@ const RapportezVosBouteilles: React.FC = () => {
     <Section>
       <h2 className="uppercase text-center">Rapportez vos bouteilles</h2>
       <div className="mt-10 text-center">
-        Equas con et hiliaspedi reped que comnim dollupt aturio. Eliquis repero
-        odit eossitati velesci psamet am rescia dolup- tate dus sundaeraes repe
-        labora simolor estint fugiae. Imusapiet aperum eseque voluptatint,
-        eturehenihil et
+        C’est facile ! Les bouteilles éligibles au réemploi sont identifiables
+        grâce au pictogramme national intégré sur les étiquettes de nos
+        producteurs partenaires et une pastille jaune « Je suis consignée ».
+        Après consommation, vous avez simplement à ramener ces bouteilles dans
+        un des magasins du réseau. Elle seront collectées, lavées puis
+        réemployées.
       </div>
       <FonctionnementStepByStep />
     </Section>

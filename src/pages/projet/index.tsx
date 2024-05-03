@@ -16,7 +16,7 @@ const ActivitePage: React.FC<PageProps<Queries.ActivitePageQuery>> = ({
   return (
     <Layout>
       <div style={{ paddingTop: navHeight }}>
-        <h1 className="uppercase text-center mt-16">activité</h1>
+        <h1 className="uppercase text-center mt-16">Le Projet</h1>
         <Mission />
         <img
           className="hidden md:block"
@@ -38,8 +38,8 @@ const ActivitePage: React.FC<PageProps<Queries.ActivitePageQuery>> = ({
 
 export default ActivitePage;
 
-export const Head: HeadFC = () => (
-  <SEO title="L'INCASSABLE | Notre activité" pathname="/projet/activite" />
+export const Head: HeadFC = ({ location }) => (
+  <SEO title="L'INCASSABLE | Le projet" pathname={location.pathname} />
 );
 
 export const query = graphql`

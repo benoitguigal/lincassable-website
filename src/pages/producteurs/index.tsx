@@ -47,8 +47,11 @@ const ProducteursPage: React.FC<PageProps<Queries.ProducteursPageQuery>> = ({
   );
 };
 
-export const Head: HeadFC = () => (
-  <SEO title="L'INCASSABLE | Producteurs engagés" pathname="/producteurs" />
+export const Head: HeadFC = ({ location }) => (
+  <SEO
+    title="L'INCASSABLE | Producteurs engagés"
+    pathname={location.pathname}
+  />
 );
 
 export default ProducteursPage;

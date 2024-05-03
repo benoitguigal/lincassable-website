@@ -1,5 +1,6 @@
 nom: ADEME
 ordre: 1
-logo: /img/ademe.png
+logo: /img/ademe_couleur.png
+logo_bw: /img/ademe.png
 lien: https://www.ademe.fr/
 type: financier

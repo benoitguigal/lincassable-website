@@ -57,7 +57,7 @@ const Insructions: React.FC = () => {
               présence de ce pictogramme garantit que les bouteilles qui le
               portent font bien partie de la gamme standard L’INCASSABLE, et que
               leurs étiquettes ont été adaptées selon le cahier des charges de
-              l’Incassable (notamment avec des étiquettes qui partent au
+              l’INCASSABLE (notamment avec des étiquettes qui partent au
               lavage). Les autres bouteilles qui ne portent pas le pictogramme
               ne sont malheureusement pas aptes au réemploi : leurs étiquettes
               ne sont pas lessivables, et les bouteilles ne sont pas forcément
@@ -135,7 +135,7 @@ const Insructions: React.FC = () => {
               <br />
               <br />
               <Link to="/carte" style={linkStyle}>
-                Découvrez la carte des points de collecte
+                Découvrez la carte du réseau
               </Link>
             </div>
           }

@@ -45,6 +45,7 @@ const IndexPage: React.FC<PageProps<Queries.HomePageQuery>> = ({ data }) => {
         allPartnersYaml={data.allPartnersYaml}
         title="Ils soutiennent la filière"
         type="financier"
+        bw={true}
       />
     </Layout>
   );

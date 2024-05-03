@@ -26,8 +26,8 @@ const ActualitesPage: React.FC<PageProps<Queries.ActualitesPageQuery>> = ({
 
 export default ActualitesPage;
 
-export const Head: HeadFC = () => (
-  <SEO title="L'INCASSABLE | Actualités" pathname="/actus" />
+export const Head: HeadFC = ({ location }) => (
+  <SEO title="L'INCASSABLE | Actualités" pathname={location.pathname} />
 );
 
 export const query = graphql`

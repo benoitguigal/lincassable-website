@@ -10,10 +10,10 @@ const Mission: React.FC = () => {
           ambition
         </h2>
         <div className="col-span-2">
-          Faciliter le passage au réemploi en accompagnant les acteurs lo- caux
-          dans leur transition vers le réemploi et en sensibilisant les ci-
-          toyens pour encourager des habitudes de consommation plus ver-
-          tueuses.
+          Faciliter le passage au réemploi en accompagnant les acteurs du
+          territoire dans leur transition vers le réemploi et en sensibilisant
+          les citoyens pour encourager des habitudes de consommation plus
+          vertueuses.
         </div>
         <h2 className="uppercase md:justify-self-end md:text-right relative -top-1 mt-12 md:mt-0">
           Notre <br />

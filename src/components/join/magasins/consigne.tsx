@@ -6,9 +6,6 @@ import PastilleConsigne from "../../../images/rejoindre/magasins/pastille_consig
 const Consigne: React.FC = () => {
   return (
     <Section style={{ ...backgroundColorLightGrey }}>
-      <h2 style={{ ...titleMargin }} className="text-center uppercase">
-        La consigne monétaire
-      </h2>
       <div className="lg:w-4/5 m-auto flex flex-col md:flex-row  gap-x-20 gap-y-10 md:justify-center md:items-center">
         <div>
           <img
@@ -18,6 +15,9 @@ const Consigne: React.FC = () => {
           />
         </div>
         <div className="col-span-2">
+          <h2 style={{ ...titleMargin }} className="uppercase">
+            La consigne monétaire
+          </h2>
           <div>
             Une consigne monétaire de 0,50€ est appliquée sur l’ensemble des
             bouteilles consignées vendues dans les magasins partenaires. Elle

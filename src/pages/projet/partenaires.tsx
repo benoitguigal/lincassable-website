@@ -11,7 +11,7 @@ const Partenaires: React.FC<PageProps<Queries.PartenairesPageQuery>> = ({
   return (
     <Layout>
       <div style={{ paddingTop: navHeight }}>
-        <h1 className="text-center mt-16">PARTENAIRES</h1>
+        <h1 className="text-center mt-16 uppercase">Les partenaires</h1>
         <Partners
           allPartnersYaml={data.allPartnersYaml}
           type="financier"
@@ -39,8 +39,8 @@ const Partenaires: React.FC<PageProps<Queries.PartenairesPageQuery>> = ({
 
 export default Partenaires;
 
-export const Head: HeadFC = () => (
-  <SEO title="L'INCASSABLE | Nos partenaires" pathname="/projet/partenaires" />
+export const Head: HeadFC = ({ location }) => (
+  <SEO title="L'INCASSABLE | Les partenaires" pathname={location.pathname} />
 );
 
 export const query = graphql`
