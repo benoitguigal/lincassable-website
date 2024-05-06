@@ -27,6 +27,7 @@ const Layout: React.FC<LayoutProps> = ({ showFooter = true, children }) => {
             activeBorderColor: green,
             hoverBorderColor: green,
             colorText: green,
+            activeShadow: undefined,
           },
           Button: {
             defaultColor: green,

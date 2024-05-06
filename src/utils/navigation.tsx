@@ -38,6 +38,7 @@ export const navItems: NavItemProps[] = [
     label: "En savoir plus",
     children: [
       { label: "Actualités", link: "/actualites" },
+      { label: "Infolettre", link: "/infolettre" },
       { label: "FAQ", link: "/faq" },
     ],
   },

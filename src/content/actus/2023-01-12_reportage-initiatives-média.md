@@ -3,6 +3,8 @@ title: Reportage - Initiatives Média
 date: 2023-01-12T13:00:02.153Z
 image: /img/l-incassable-réemploi-de-bouteille-bouches-du-rhône-vaucluse.png
 miniature: /img/9-initiatives-media.png
+categories:
+  - Presse
 ---
 **“Ça me posait un problème d’aller casser des bouteilles qui sont en très bon état”** (Franck, L’Abri)
 
