@@ -1,4 +1,3 @@
-import Meta from "antd/es/card/Meta";
 import { Link, graphql } from "gatsby";
 import React from "react";
 import {
@@ -49,6 +48,7 @@ export const query = graphql`
       title
       image
       miniature
+      categories
     }
   }
 `;

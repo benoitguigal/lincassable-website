@@ -97,6 +97,12 @@ collections:
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Miniature", name: "miniature", widget: "image" }
       - { label: "Corps du texte", name: "body", widget: "markdown" }
+      - {
+          label: "Catégories",
+          hint: "Liste de catégories séparées par des virgules",
+          name: "categories",
+          widget: "list",
+        }
   - name: timeline
     label: Contenu de la frise chronologique
     folder: "src/content/timeline"

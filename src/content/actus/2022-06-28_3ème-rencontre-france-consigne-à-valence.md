@@ -3,6 +3,8 @@ title: 3ème rencontre France Consigne à Valence
 date: 2022-06-28T13:53:09.485Z
 image: /img/france-consigne.jpg
 miniature: /img/3-rencontre-france-consigne.png
+categories:
+  - Événement
 ---
 
 

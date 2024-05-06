@@ -15,13 +15,13 @@ const Footer: React.FC = () => {
     >
       <div className="grid grid-cols-1 md:grid-cols-3 w-full m-auto md:justify-items-center pl-10 md:pl-0">
         <div>
-          <h5 className="mb-2">RUBRIQUES</h5>
+          <h5>RUBRIQUES</h5>
           <div className="flex flex-col">
             {navItems.map(({ label, link, children }, idx) => {
               if (link) {
                 return [
                   <Link to={link} key={idx}>
-                    {label}
+                    <span>{label}</span>
                   </Link>,
                 ];
               }
@@ -47,6 +47,15 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div>
+          <h5 className="mb-2 mt-5 md:mt-0">INFOLETTRE</h5>
+          {/* <div>Infolettre du réemploi</div> */}
+          <div>Suivez l'actualité du réemploi et de la filière : </div>
+          <MailchimpSubscribe
+            url={MAILCHIMP_URL}
+            render={(props) => <InfolettreFormSmall {...props} />}
+          />
+        </div>
+        <div>
           <h5 className="mb-2 mt-5 md:mt-0">CONTACT</h5>
           <div>
             <div>134 boulevard Longchamp</div>
@@ -55,7 +64,7 @@ const Footer: React.FC = () => {
           <div>
             <div>contact@lincassable.com</div>
           </div>
-          <div className="mt-4">Réseaux Sociaux</div>
+          <div className="mt-4">Réseaux sociaux</div>
           <div className="flex space-x-4 mt-2">
             <a
               className="no-underline"
@@ -88,15 +97,6 @@ const Footer: React.FC = () => {
               />
             </a>
           </div>
-        </div>
-        <div>
-          <h5 className="mb-2 mt-5 md:mt-0">INFOLETTRE</h5>
-          {/* <div>Infolettre du réemploi</div> */}
-
-          <MailchimpSubscribe
-            url={MAILCHIMP_URL}
-            render={(props) => <InfolettreFormSmall {...props} />}
-          />
         </div>
       </div>
     </footer>
