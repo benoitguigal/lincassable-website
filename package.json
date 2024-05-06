@@ -16,7 +16,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "preload-fonts": "gatsby-preload-fonts"
   },
   "dependencies": {
     "@mdx-js/react": "^3.0.1",
@@ -31,6 +32,7 @@
     "gatsby-plugin-mdx": "^5.13.1",
     "gatsby-plugin-netlify-cms": "^7.12.1",
     "gatsby-plugin-postcss": "^6.13.1",
+    "gatsby-plugin-preload-fonts": "^4.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-plugin-sitemap": "^6.13.1",
     "gatsby-source-filesystem": "^5.13.1",

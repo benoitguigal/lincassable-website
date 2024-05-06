@@ -121,6 +121,7 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-transformer-yaml`,
     },
+    `gatsby-plugin-preload-fonts`,
   ],
 };
 
