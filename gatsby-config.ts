@@ -122,6 +122,14 @@ const config: GatsbyConfig = {
       resolve: `gatsby-transformer-yaml`,
     },
     `gatsby-plugin-preload-fonts`,
+    {
+      resolve: "gatsby-plugin-matomo",
+      options: {
+        siteId: "1",
+        matomoUrl: "https://lincassable.matomo.cloud/",
+        siteUrl: "https://lincassable.com",
+      },
+    },
   ],
 };
 
