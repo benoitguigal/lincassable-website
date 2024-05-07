@@ -1,4 +1,4 @@
-import { PageProps } from "gatsby";
+import { HeadFC, PageProps } from "gatsby";
 import React from "react";
 import Layout from "../components/layout";
 import { navHeight } from "../styles/theme";
@@ -6,6 +6,7 @@ import Section from "../components/section";
 import InfolettreForm from "../components/forms/infolettre-form";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 import { MAILCHIMP_URL } from "../utils/mailchimp";
+import SEO from "../components/seo";
 
 const Infolettre: React.FC<PageProps> = () => {
   return (
@@ -28,5 +29,9 @@ const Infolettre: React.FC<PageProps> = () => {
     </Layout>
   );
 };
+
+export const Head: HeadFC = ({ location }) => (
+  <SEO title="L'INCASSABLE | Infolettre" pathname={location.pathname} />
+);
 
 export default Infolettre;

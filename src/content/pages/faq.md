@@ -105,7 +105,7 @@ D'après une étude IPSOS pour Boissons Rafraîchissantes de France, 9 français
 
 <details>
   <summary>Quels territoires sont couverts par L'INCASSABLE ?</summary>
-  L'INCASSABLE intervient sur les départements des Bouches-du-Rhône (13) et du Vaucluse (84) en coordination avec d'autres projets partenaires : La Consigne de Provence, Ma Bouteille S'appelle Reviens et Oc'Consigne. Nos bureaux sont à Marseille dans le quartier de Vauban.
+  L'INCASSABLE intervient sur les départements des Bouches-du-Rhône (13) et du Vaucluse (84) en coordination avec d'autres projets partenaires : La Consigne de Provence, Ma Bouteille S'appelle Reviens et Oc'Consigne. Nos bureaux sont situés dans le 1er arrondissement de Marseille.
 </details>
 
 <hr/>
