@@ -1,8 +1,8 @@
 import React from "react";
 import Section from "../section";
-import LudovicPoster from "../../images/home/videos/ludovic.png";
-import NathaliePoster from "../../images/home/videos/nathalie.png";
-import SalemPoster from "../../images/home/videos/salem.png";
+import LudovicPoster from "../../images/home/videos/ludovic.jpg";
+import NathaliePoster from "../../images/home/videos/nathalie.jpg";
+import SalemPoster from "../../images/home/videos/salem.jpg";
 import classNames from "classnames";
 import { titleMargin } from "../../styles/theme";
 
