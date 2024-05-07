@@ -97,6 +97,9 @@ const Footer: React.FC = () => {
               />
             </a>
           </div>
+          <div className="mt-4">
+            <Link to="/mentions-legales">Mentions légales</Link>
+          </div>
         </div>
       </div>
     </footer>
