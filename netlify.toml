@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/img/:file"
+  to = "/.netlify/images?url=/img/:file"
+  status = 200
+
+[[redirects]]
+  from = "/static/*"
+  to = "/.netlify/images?url=/static/:splat"
+  status = 200
