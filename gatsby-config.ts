@@ -33,9 +33,8 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
-    "gatsby-plugin-netlify-cms",
+    "gatsby-plugin-decap-cms",
     "gatsby-plugin-postcss",
-    "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
@@ -50,8 +49,6 @@ const config: GatsbyConfig = {
       },
     },
     "gatsby-plugin-mdx",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -117,6 +114,9 @@ const config: GatsbyConfig = {
         path: `./src/content/website`,
       },
     },
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-transformer-yaml`,
