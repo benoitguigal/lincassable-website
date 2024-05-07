@@ -38,7 +38,7 @@ const Benefices: React.FC = () => {
             L’intérêt du passage au réemploi, pour les producteurs et
             industriels de la boisson :
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-x-10 xl:gap-x-16 gap-y-6 mt-10 justify-items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-x-10 xl:gap-x-16 gap-y-6 mt-10 lg:justify-items-center">
             <BulletPoint
               number="1"
               primaryText="Réduire la production de déchets"

@@ -9,7 +9,7 @@ import PhotoMagasin from "../../images/home/loop/magasins_img_alt.jpg";
 import PhotoProducteur from "../../images/home/loop/producteurs_img_alt.jpeg";
 import PhotoConsommateur from "../../images/home/loop/consommateurs_img_alt.jpg";
 import PhotoCollecte from "../../images/home/loop/collecte_img.jpg";
-import PhotoLavage from "../../images/home/loop/lavage_img.png";
+import PhotoLavage from "../../images/home/loop/lavage_img.jpg";
 import ArrowRight from "../../images/home/loop/right.png";
 import ArrowLeft from "../../images/home/loop/left.png";
 import ArrowUp from "../../images/home/loop/up.png";

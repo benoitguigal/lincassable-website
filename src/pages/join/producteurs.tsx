@@ -4,7 +4,7 @@ import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import { navHeight } from "../../styles/theme";
 import Reemployer from "../../components/join/producteurs/reemployer";
-import BandeauBouteille from "../../images/rejoindre/producteurs/bandeau-bouteilles.png";
+import BandeauBouteille from "../../images/rejoindre/producteurs/bandeau-bouteilles.jpg";
 import Benefices from "../../components/join/producteurs/benefices";
 import MiseEnPlace from "../../components/join/producteurs/mise-en-place";
 import Accompagnement from "../../components/home/accompagnement";
