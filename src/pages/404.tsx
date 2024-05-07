@@ -1,49 +1,31 @@
-import * as React from "react"
-import { Link, HeadFC, PageProps } from "gatsby"
-
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
+import * as React from "react";
+import { HeadFC, PageProps } from "gatsby";
+import SEO from "../components/seo";
+import Layout from "../components/layout";
+import { navHeight } from "../styles/theme";
+import CasierImg from "../images/404.jpg";
+import { StaticImage } from "gatsby-plugin-image";
 
 const NotFoundPage: React.FC<PageProps> = () => {
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  )
-}
+    <Layout>
+      <div style={{ paddingTop: navHeight }}>
+        <h1 className="text-center uppercase mt-10">Cette page n'existe pas</h1>
+        <div className="m-auto w-96 mt-20 mb-20">
+          <StaticImage
+            src="../images/404.jpg"
+            alt="casier"
+            placeholder="blurred"
+          />
+        </div>
+        {/* <img className="m-auto mt-20 w-96 mb-20" src={CasierImg} alt="casier" /> */}
+      </div>
+    </Layout>
+  );
+};
 
-export default NotFoundPage
+export default NotFoundPage;
 
-export const Head: HeadFC = () => <title>Not found</title>
+export const Head: HeadFC = ({ location }) => (
+  <SEO pathname={location.pathname} />
+);
