@@ -57,7 +57,8 @@ collections:
           label: "Image",
           name: "image",
           widget: "image",
-          media_library: { config: { max_file_size: 200000 } },
+          media_library: { config: { max_file_size: 100000 } },
+          hint: "Hauteur 192px",
         }
       - { label: "Lien", name: "url", widget: "string" }
       - { label: "Format", name: "format", widget: "string", required: false }
