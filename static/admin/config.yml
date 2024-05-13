@@ -84,7 +84,8 @@ collections:
           name: "photo",
           widget: "image",
           required: false,
-          media_library: { config: { max_file_size: 300000 } },
+          media_library: { config: { max_file_size: 100000 } },
+          hint: "Format carré 208px",
         }
       - {
           label: "Contrat",
@@ -121,12 +122,14 @@ collections:
           name: "image",
           widget: "image",
           media_library: { config: { max_file_size: 500000 } },
+          hint: "Hauteur 320px",
         }
       - {
           label: "Miniature",
           name: "miniature",
           widget: "image",
           media_library: { config: { max_file_size: 100000 } },
+          hint: "Format carré 240px",
         }
       - { label: "Corps du texte", name: "body", widget: "markdown" }
       - {
