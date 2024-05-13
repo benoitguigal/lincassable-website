@@ -1,4 +1,4 @@
-#local_backend: true # npx decap-server
+# local_backend: true # npx decap-server
 backend:
   name: git-gateway
   branch: master
@@ -57,7 +57,8 @@ collections:
           label: "Image",
           name: "image",
           widget: "image",
-          media_library: { config: { max_file_size: 200000 } },
+          media_library: { config: { max_file_size: 100000 } },
+          hint: "Hauteur 192px",
         }
       - { label: "Lien", name: "url", widget: "string" }
       - { label: "Format", name: "format", widget: "string", required: false }
@@ -83,7 +84,8 @@ collections:
           name: "photo",
           widget: "image",
           required: false,
-          media_library: { config: { max_file_size: 300000 } },
+          media_library: { config: { max_file_size: 100000 } },
+          hint: "Format carré 208px",
         }
       - {
           label: "Contrat",
@@ -120,12 +122,14 @@ collections:
           name: "image",
           widget: "image",
           media_library: { config: { max_file_size: 500000 } },
+          hint: "Hauteur 320px",
         }
       - {
           label: "Miniature",
           name: "miniature",
           widget: "image",
           media_library: { config: { max_file_size: 100000 } },
+          hint: "Format carré 240px",
         }
       - { label: "Corps du texte", name: "body", widget: "markdown" }
       - {
@@ -153,8 +157,8 @@ collections:
     label: Partenaire
     folder: "src/content/partners"
     create: true
-    identifier_field: partners
     extension: yml
+    sortable_fields: ["nom", "type"]
     fields:
       - { label: "Nom", name: "nom", widget: "string" }
       - { label: "Ordre", name: "ordre", widget: "number" }

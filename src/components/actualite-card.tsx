@@ -21,7 +21,6 @@ const ActualiteCard: React.FC<Queries.ActualiteCardFragment> = ({
         ...backgroundColorLightGrey,
         border: "solid 1px",
         borderColor: lightGrey,
-        //height: "28rem",
         width: "15rem",
       }}
     >
