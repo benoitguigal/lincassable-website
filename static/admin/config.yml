@@ -1,4 +1,4 @@
-#local_backend: true # npx decap-server
+# local_backend: true # npx decap-server
 backend:
   name: git-gateway
   branch: master
@@ -157,8 +157,8 @@ collections:
     label: Partenaire
     folder: "src/content/partners"
     create: true
-    identifier_field: partners
     extension: yml
+    sortable_fields: ["nom", "type"]
     fields:
       - { label: "Nom", name: "nom", widget: "string" }
       - { label: "Ordre", name: "ordre", widget: "number" }
