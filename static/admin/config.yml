@@ -87,6 +87,7 @@ collections:
           media_library: { config: { max_file_size: 100000 } },
           hint: "Format carré 208px",
         }
+      - { label: "Linkedin", name: "linkedin", widget: "string" }
       - {
           label: "Contrat",
           name: "type",
