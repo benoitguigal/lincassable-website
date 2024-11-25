@@ -4,7 +4,7 @@ date: 2024-07-09T15:47:00.000Z
 image: /img/identité-visuelle_logo_l-incassable_avec-baseline-picto_vert_fond-gris.png
 miniature: /img/l-incassable-recrute.png
 categories:
-  - Rectrutement
+  - Recrutement
 ---
 **DESCRIPTIF DU POSTE** 
 
