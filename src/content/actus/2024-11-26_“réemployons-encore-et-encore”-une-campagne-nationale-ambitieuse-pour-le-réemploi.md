@@ -9,7 +9,7 @@ categories:
 ---
 <br>
 
-##### Une grande première en France : une campagne d’envergure dédiée au réemploi des emballages a vu le jour en novembre 2024. Portée par [Citeo](https://www.citeo.com), entreprise à mission spécialisée dans la réduction des impacts environnementaux des emballages, cette initiative met en lumière trois pratiques : ***le vrac, les recharges et les emballages consignés*.** 
+##### Une grande première en France : une campagne d’envergure dédiée au réemploi des emballages a vu le jour en novembre 2024. Portée par [Citeo](https://www.citeo.com), entreprise à mission spécialisée dans la réduction des impacts environnementaux des emballages, cette initiative met en lumière trois pratiques : ***le vrac, les recharges et les emballages consignés*.**
 
 <br>
 
@@ -23,10 +23,10 @@ categories:
 
 S’adressant au grand public, la campagne “***[Réemployons encore et encore](https://v2.citeo.com/consommateurs-citoyens/encore-et-encore/?mtm_source=CRMONLR&mtm_medium=ONLR18&mtm_campaign=novembre2024)***” comprend : 
 
-*  **\-   [Un spot TV](https://youtu.be/4M1SSX0jnxo?si=S3ZFvLcbZJvxVvlY)** diffusé sur les grandes chaînes nationales,
-*  **\-   [Une déclinaison de quatre vidéos](https://www.youtube.com/playlist?list=PL_R5WljYpsrL_6Z5smxzy5_IbRogPcsyP)**, axées sur les pratiques du vrac, des recharges et de la consigne,
-*  **\-   Des contenus informatifs et ludiques** sur le site de Citeo,
-*  **\-   Une présence active sur les réseaux sociaux**, tels qu’Instagram et Tik Tok.
+* **\-    [Un spot TV](https://youtu.be/4M1SSX0jnxo?si=S3ZFvLcbZJvxVvlY)** diffusé sur les grandes chaînes nationales,
+* **\-    [Une déclinaison de quatre vidéos](https://www.youtube.com/playlist?list=PL_R5WljYpsrL_6Z5smxzy5_IbRogPcsyP)**, axées sur les pratiques du vrac, des recharges et de la consigne,
+* **\-    Des contenus informatifs et ludiques** sur le site de Citeo,
+* **\-    Une présence active sur les réseaux sociaux**, tels qu’Instagram et Tik Tok.
 
 <br>
 
@@ -54,7 +54,7 @@ L’ambition est de changer d’échelle ***en passant du territorial au nationa
 
 <br>
 
-Avec cette campagne, l’ambition est de ***massifier la pratique des emballages consignés en fédérant toutes les parties prenantes du réemploi***.
+\######Avec cette campagne, l’ambition est de massifier la pratique des emballages consignés en fédérant toutes les parties prenantes du réemploi.
 
 <br>
 
@@ -66,7 +66,7 @@ En 2023, Citeo a réuni autour de la table une centaine de structures, parmi les
 
 <br>
 
-Leur mission : concevoir un dispositif de réemploi national et mutualisé pour les emballages **en grande surface**. 
+\######Leur mission : concevoir un dispositif de réemploi national et mutualisé pour les emballages **en grande surface**. 
 
 <br>
 
@@ -76,15 +76,17 @@ Leur mission : concevoir un dispositif de réemploi national et mutualisé pour 
 
 À partir de mai 2025, 16 millions de Français·es pourront rapporter leurs bocaux et bouteilles en verre en supermarché. Une gamme d’emballages standardisés a été développée, **optimisant chaque étape de la boucle du réemploi :** récupération, collecte, transport, tri, lavage. 
 
+<br>
+
 ![Format emballages verre standardisés ReUse Citeo expérimentation régionale](https://bo.citeo.com/sites/default/files/styles/header_template/public/2024-07/Emballages%20standards%20-%206%20ref%20dispo%20d%C3%A8s%202025.jpg?itok=e_aEpOsr "Format des bouteilles et bocaux en verre standardisés par Citeo pour l'expérimentation régionale")
 
 <br>
 
-L’expérimentation prévoit notamment l’***installation d’automates de déconsignation en magasin***, qui récupèrent les contenants consignés en échange d’un bon d’achat. 
+L’expérimentation prévoit notamment l**’installation d’automates de déconsignation en magasin**, qui récupèrent les contenants consignés en échange d’un bon d’achat. 
 
 <br>
 
-Ces régions serviront de tremplin pour un déploiement national. Sur le long terme, ***2 milliards d’emballages réemployables devraient circuler et 7000 automates de déconsignation seront installés.*** 
+\######Ces régions serviront de tremplin pour un déploiement national. Sur le long terme, 2 milliards d’emballages réemployables devraient circuler et 7000 automates de déconsignation seront installés. 
 
 <br>
 
