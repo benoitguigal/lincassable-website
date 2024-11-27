@@ -46,7 +46,7 @@ Tandis que ramener ses emballages consignés en France est perçu comme une prat
 
 <br>
 
-À commencer par ***une volonté politique affirmée d’atteindre les objectifs fixés par la [loi AGEC](https://www.ecologie.gouv.fr/loi-anti-gaspillage-economie-circulaire)*** : 10% d’emballages réemployés d’ici 2027, une réduction de 20% des emballages plastiques à usage unique fin 2025, en vue de les supprimer totalement d’ici 2040. 
+À commencer par **une volonté politique affirmée d’atteindre les objectifs fixés par la [loi AGEC](https://www.ecologie.gouv.fr/loi-anti-gaspillage-economie-circulaire)** : 10% d’emballages réemployés d’ici 2027, une réduction de 20% des emballages plastiques à usage unique fin 2025, en vue de les supprimer totalement d’ici 2040. 
 
 <br>
 
@@ -54,7 +54,7 @@ L’ambition est de changer d’échelle ***en passant du territorial au nationa
 
 <br>
 
-\######Avec cette campagne, l’ambition est de massifier la pratique des emballages consignés en fédérant toutes les parties prenantes du réemploi.
+###### Avec cette campagne, l’ambition est de massifier la pratique des emballages consignés en fédérant toutes les parties prenantes du réemploi.
 
 <br>
 
@@ -66,7 +66,7 @@ En 2023, Citeo a réuni autour de la table une centaine de structures, parmi les
 
 <br>
 
-\######Leur mission : concevoir un dispositif de réemploi national et mutualisé pour les emballages **en grande surface**. 
+###### Leur mission : concevoir un dispositif de réemploi national et mutualisé pour les emballages **en grande surface**.
 
 <br>
 
@@ -74,7 +74,7 @@ En 2023, Citeo a réuni autour de la table une centaine de structures, parmi les
 
 <br>
 
-À partir de mai 2025, 16 millions de Français·es pourront rapporter leurs bocaux et bouteilles en verre en supermarché. Une gamme d’emballages standardisés a été développée, **optimisant chaque étape de la boucle du réemploi :** récupération, collecte, transport, tri, lavage. 
+À partir de mai 2025, 16 millions de Français·es pourront rapporter leurs bocaux et bouteilles en verre en supermarché. Une gamme d’emballages standardisés a été développée (voir ci-dessous), **optimisant chaque étape de la boucle du réemploi :** récupération, collecte, transport, tri, lavage. 
 
 <br>
 
@@ -82,11 +82,11 @@ En 2023, Citeo a réuni autour de la table une centaine de structures, parmi les
 
 <br>
 
-L’expérimentation prévoit notamment l**’installation d’automates de déconsignation en magasin**, qui récupèrent les contenants consignés en échange d’un bon d’achat. 
+L’expérimentation prévoit notamment l’installation d’automates de déconsignation en magasin, qui récupèrent les contenants consignés en échange d’un bon d’achat. 
 
 <br>
 
-\######Ces régions serviront de tremplin pour un déploiement national. Sur le long terme, 2 milliards d’emballages réemployables devraient circuler et 7000 automates de déconsignation seront installés. 
+###### Ces régions serviront de tremplin pour un déploiement national. Sur le long terme, 2 milliards d’emballages réemployables devraient circuler et 7000 automates de déconsignation seront installés.
 
 <br>
 
@@ -98,4 +98,4 @@ En tant qu’acteur clé de la consigne en Région Sud, L’INCASSABLE suit avec
 
 <br>
 
-Avec ses 5,2 millions d’habitants, la Région Sud joue un rôle clé dans le futur déploiement du réemploi. Si l’expérimentation actuelle évalue à 25 millions de bouteilles réemployées par an dans les régions pilotes, on peut espérer un volume de ***7,7 millions de bouteilles en PACA*** dès la première année d’activation.
+Avec ses 5,2 millions d’habitants, la Région Sud joue un rôle clé dans le futur déploiement du réemploi. Si l’expérimentation actuelle évalue à 25 millions de bouteilles réemployées par an dans les régions pilotes, on peut espérer un volume de ###### 7,7 millions de bouteilles en PACA dès la première année d’activation.
