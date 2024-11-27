@@ -46,11 +46,11 @@ Tandis que ramener ses emballages consignés en France est perçu comme une prat
 
 <br>
 
-À commencer par **une volonté politique affirmée d’atteindre les objectifs fixés par la [loi AGEC](https://www.ecologie.gouv.fr/loi-anti-gaspillage-economie-circulaire)** : 10% d’emballages réemployés d’ici 2027, une réduction de 20% des emballages plastiques à usage unique fin 2025, en vue de les supprimer totalement d’ici 2040. 
+À commencer par **[une volonté politique affirmée d’atteindre les objectifs fixés par la loi AGEC](https://www.ecologie.gouv.fr/loi-anti-gaspillage-economie-circulaire)** : 10% d’emballages réemployés d’ici 2027, une réduction de 20% des emballages plastiques à usage unique fin 2025, en vue de les supprimer totalement d’ici 2040. 
 
 <br>
 
-L’ambition est de changer d’échelle ***en passant du territorial au national***. Aujourd’hui, c’est tout un écosystème local qui œuvre au réemploi des bouteilles consignées : les dispositifs sont portés par les membres du réseau [France Consigne](https://franceconsigne.fr/) tels que L’INCASSABLE, en collaboration étroite avec les partenaires logistiques, avec les producteurs du territoire, ainsi qu’avec des magasins privilégiant les circuits courts (magasins bio, épiceries coopératives ou associatives…) 
+L’ambition est de changer d’échelle *en passant du territorial au national*. Aujourd’hui, c’est tout un écosystème local qui œuvre au réemploi des bouteilles consignées : les dispositifs sont portés par les membres du réseau [France Consigne](https://franceconsigne.fr/) tels que L’INCASSABLE, en collaboration étroite avec les partenaires logistiques, avec les producteurs du territoire, ainsi qu’avec des magasins privilégiant les circuits courts (magasins bio, épiceries coopératives ou associatives…) 
 
 <br>
 
@@ -62,7 +62,7 @@ L’ambition est de changer d’échelle ***en passant du territorial au nationa
 
 <br>
 
-En 2023, Citeo a réuni autour de la table une centaine de structures, parmi lesquelles ***des distributeurs*** (Carrefour, Intermarché, Biocoop…), ***des marques majeures*** (Coca-Cola, Danone, Heineken…), ***des opérateurs et verriers***, et ***les fédérations et associations*** ([Réseau Vrac & Réemploi](https://reseauvracetreemploi.org/), France Consigne…).
+En 2023, Citeo a réuni autour de la table une centaine de structures, parmi lesquelles **des distributeurs** (Carrefour, Intermarché, Biocoop…), **des marques majeures** (Coca-Cola, Danone, Heineken…), **des opérateurs et verriers**, et **les fédérations et associations** ([Réseau Vrac & Réemploi](https://reseauvracetreemploi.org/), France Consigne…).
 
 <br>
 
@@ -76,13 +76,13 @@ En 2023, Citeo a réuni autour de la table une centaine de structures, parmi les
 
 À partir de mai 2025, 16 millions de Français·es pourront rapporter leurs bocaux et bouteilles en verre en supermarché. Une gamme d’emballages standardisés a été développée (voir ci-dessous), **optimisant chaque étape de la boucle du réemploi :** récupération, collecte, transport, tri, lavage. 
 
+L’expérimentation prévoit notamment l’installation d’automates de déconsignation en magasin, qui récupèrent les contenants consignés en échange d’un bon d’achat. 
+
 <br>
 
 ![Format emballages verre standardisés ReUse Citeo expérimentation régionale](https://bo.citeo.com/sites/default/files/styles/header_template/public/2024-07/Emballages%20standards%20-%206%20ref%20dispo%20d%C3%A8s%202025.jpg?itok=e_aEpOsr "Format des bouteilles et bocaux en verre standardisés par Citeo pour l'expérimentation régionale")
 
-<br>
 
-L’expérimentation prévoit notamment l’installation d’automates de déconsignation en magasin, qui récupèrent les contenants consignés en échange d’un bon d’achat. 
 
 <br>
 
@@ -98,4 +98,4 @@ En tant qu’acteur clé de la consigne en Région Sud, L’INCASSABLE suit avec
 
 <br>
 
-Avec ses 5,2 millions d’habitants, la Région Sud joue un rôle clé dans le futur déploiement du réemploi. Si l’expérimentation actuelle évalue à 25 millions de bouteilles réemployées par an dans les régions pilotes, on peut espérer un volume de ###### 7,7 millions de bouteilles en PACA dès la première année d’activation.
+Avec ses 5,2 millions d’habitants, la Région Sud joue un rôle clé dans le futur déploiement du réemploi. Si l’expérimentation actuelle évalue à 25 millions de bouteilles réemployées par an dans les régions pilotes, on peut espérer un volume de 7,7 millions de bouteilles en PACA dès la première année d’activation.
