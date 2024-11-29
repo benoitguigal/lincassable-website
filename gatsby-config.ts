@@ -1,5 +1,11 @@
 import type { GatsbyConfig } from "gatsby";
 
+if (process.env.NODE_ENV === "development") {
+  require("dotenv").config({
+    path: `.env.${process.env.NODE_ENV}`,
+  });
+}
+
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `L'INCASSABLE`,
@@ -105,13 +111,6 @@ const config: GatsbyConfig = {
       options: {
         name: "timeline",
         path: `./src/content/timeline`,
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "website",
-        path: `./src/content/website`,
       },
     },
     "gatsby-plugin-image",

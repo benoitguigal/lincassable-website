@@ -191,16 +191,3 @@ collections:
               "logistique",
             ],
         }
-  - name: website
-    label: Contenu site
-    files:
-      - file: "src/content/website/home.yml"
-        name: "home"
-        extension: yml
-        label: "Page d'accueil"
-        fields:
-          - {
-              label: Nombre de bouteilles collectées,
-              name: "collected_bottles",
-              widget: "number",
-            }
