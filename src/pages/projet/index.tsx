@@ -29,7 +29,7 @@ const ActivitePage: React.FC<PageProps<Queries.ActivitePageQuery>> = ({
           alt="Casier et bouteille"
         />
         <Activite />
-        <Indicateurs collected_bottles={data.websiteYaml!.collected_bottles!} />
+        <Indicateurs />
         <History allTimelineYaml={data.allTimelineYaml} />
       </div>
     </Layout>
@@ -45,8 +45,5 @@ export const Head: HeadFC = ({ location }) => (
 export const query = graphql`
   query ActivitePage {
     ...History
-    websiteYaml {
-      ...Indicateurs
-    }
   }
 `;

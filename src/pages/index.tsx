@@ -37,7 +37,7 @@ const IndexPage: React.FC<PageProps<Queries.HomePageQuery>> = ({ data }) => {
         alt="Bouteilles"
       />
       <Loop />
-      <Indicateurs collected_bottles={data.websiteYaml!.collected_bottles!} />
+      <Indicateurs />
       <Reglementation />
       <Accompagnement />
       <Testimony />
@@ -57,9 +57,6 @@ export const Head: HeadFC = () => <SEO />;
 
 export const query = graphql`
   query HomePage {
-    websiteYaml {
-      ...Indicateurs
-    }
     ...Partners
   }
 `;

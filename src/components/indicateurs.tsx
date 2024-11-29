@@ -7,9 +7,7 @@ import {
 } from "../styles/theme";
 import { graphql } from "gatsby";
 import CountUp from "react-countup";
-
-const GOGOCARTO_API_URL =
-  "https://lincassable.gogocarto.fr/api/elements.json?categories=4";
+import { supabaseClient } from "../utils/supabaseClient";
 
 type IndicateurProps = {
   label: string | ReactNode;
@@ -54,40 +52,34 @@ const Indicateur: React.FC<IndicateurProps> = ({
   );
 };
 
-const Indicateurs: React.FC<Queries.IndicateursFragment> = ({
-  collected_bottles,
-}) => {
-  const [pointsDeCollecteNumber, setpointsDeCollecteNumber] = useState(0);
+const Indicateurs: React.FC = () => {
+  const [pointsDeCollecteCount, setPointsDeCollecteCount] = useState(0);
+
+  const [bouteillesCollecteCount, setBouteillesCollecteCount] = useState(0);
 
   useEffect(() => {
-    // Fonction pour effectuer la requête à l'API
-    const fetchData = async () => {
-      try {
-        // Effectuer la requête à l'API avec fetch
-        const response = await fetch(GOGOCARTO_API_URL);
-        // Vérifier si la réponse est OK
-        if (!response.ok) {
-          throw new Error(
-            "Erreur lors de la récupération des données de l'API"
-          );
-        }
-        // Convertir la réponse en JSON
-        const res = await response.json();
-        const data = res.data;
-        // Mettre à jour l'état avec les données de l'API
-        setpointsDeCollecteNumber(data.length);
-      } catch (error) {
-        console.error(error);
+    supabaseClient.rpc("get_total_bouteilles_collecte").then((r) => {
+      if (r.data) {
+        setBouteillesCollecteCount(r.data);
       }
-    };
-    fetchData();
-  }, []);
+    });
+  });
+
+  useEffect(() => {
+    supabaseClient.rpc("get_point_de_collecte_count").then((r) => {
+      if (r.data) {
+        setPointsDeCollecteCount(r.data);
+      }
+    });
+  });
 
   const wasteTonnes =
-    (collected_bottles! *
-      // poids moyen d'une bouteilles en kg
-      0.5) /
-    1000.0;
+    bouteillesCollecteCount > 0
+      ? (bouteillesCollecteCount *
+          // poids moyen d'une bouteilles en kg
+          0.5) /
+        1000.0
+      : 0;
 
   return (
     <Section style={{ ...backgroundColorYellow }}>
@@ -95,26 +87,31 @@ const Indicateurs: React.FC<Queries.IndicateursFragment> = ({
         NOTRE ACTION EN CHIFFRES
       </h2>
       <div className="flex flex-col md:flex-row justify-between w-full md:w-4/5 m-auto space-y-6 md:space-y-0">
-        <Indicateur
-          label={
-            <>
-              Bouteilles <br />
-              collectées
-            </>
-          }
-          indicateur={collected_bottles!}
-        />
-        <Indicateur
-          label={
-            <>
-              De déchets <br />
-              évités
-            </>
-          }
-          indicateur={wasteTonnes}
-          unit="T"
-        />
-        {pointsDeCollecteNumber && (
+        {bouteillesCollecteCount && (
+          <>
+            <Indicateur
+              label={
+                <>
+                  Bouteilles <br />
+                  collectées
+                </>
+              }
+              indicateur={bouteillesCollecteCount!}
+            />
+            <Indicateur
+              label={
+                <>
+                  De déchets <br />
+                  évités
+                </>
+              }
+              indicateur={wasteTonnes}
+              unit="T"
+            />
+          </>
+        )}
+
+        {pointsDeCollecteCount && (
           <Indicateur
             label={
               <>
@@ -122,7 +119,7 @@ const Indicateurs: React.FC<Queries.IndicateursFragment> = ({
                 partenaires
               </>
             }
-            indicateur={pointsDeCollecteNumber}
+            indicateur={pointsDeCollecteCount}
           />
         )}
       </div>
@@ -131,9 +128,3 @@ const Indicateurs: React.FC<Queries.IndicateursFragment> = ({
 };
 
 export default Indicateurs;
-
-export const query = graphql`
-  fragment Indicateurs on WebsiteYaml {
-    collected_bottles
-  }
-`;
