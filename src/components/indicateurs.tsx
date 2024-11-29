@@ -115,8 +115,8 @@ const Indicateurs: React.FC = () => {
           <Indicateur
             label={
               <>
-                Magasins <br />
-                partenaires
+                Points de <br />
+                collecte
               </>
             }
             indicateur={pointsDeCollecteCount}
