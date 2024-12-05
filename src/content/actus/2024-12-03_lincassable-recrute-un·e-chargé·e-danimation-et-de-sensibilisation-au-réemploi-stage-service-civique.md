@@ -7,4 +7,6 @@ miniature: /img/11-lincassable-recrute.jpg
 categories:
   - Recrutement
 ---
+.
+
 <iframe style="margin:auto;" src="/files/STAGE-SERVICE-CIVIQUE-CHARGE.E-DE-SENSIBILISATION-ET-ANIMATION-REEMPLOI-JANVIER%202025.pdf" width="60%" height="1000px"> </iframe>
