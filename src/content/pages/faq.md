@@ -105,27 +105,19 @@ D'après une étude IPSOS pour Boissons Rafraîchissantes de France, 9 français
 
 <details>
   <summary>Quels territoires sont couverts par L'INCASSABLE ?</summary>
-  L'INCASSABLE intervient sur les départements des Bouches-du-Rhône (13) et du Vaucluse (84) en coordination avec d'autres projets partenaires : La Consigne de Provence, Ma Bouteille S'appelle Reviens et Oc'Consigne. Nos bureaux sont situés dans le 1er arrondissement de Marseille.
+  L'INCASSABLE intervient sur les départements des Bouches-du-Rhône (13) et du Vaucluse (84) et depuis 2025 dans les Hautes-Alpes (04) et Alpes-de-Haute-Provence (05). Nos bureaux  sont situés dans le 1er arrondissement de Marseille et nous coopérons avec des partenaires tels que La Consigne de Provence, Ma Bouteille S'appelle Reviens et Oc'Consigne.
 </details>
 
 <hr/>
 
 <details>
-  <summary>Comment puis-je m'impliquer en tant que citoyen ? </summary>
-  En tant que citoyen et consommateur, vous avez un rôle important à jouer dans le déploiement de la filière :
+  <summary>Comment puis-je m'impliquer en tant que citoyen.ne ? </summary>
+  En tant que citoyen.ne et consommateur.ice, vous avez un rôle important à jouer dans le déploiement de la filière :
 
 - Préférer la consommation de boissons locales en emballage réutilisable.
-- Encourager votre magasin ou producteur de boisson préféré à rejoindre la filière.
+- Encourager votre magasin ou producteur de boisson préférée à rejoindre la filière.
 - Relayer nos posts et nos actus sur les réseaux sociaux.
-- Adhérer à l'association
 - Nous aider ponctuellement en tant que bénévole pour des sessions de tri ou de lavage de bouteilles.
-</details>
-
-<hr/>
-
-<details>
-  <summary>Comment adhérer à l'association ? </summary>
-  Vous pouvez nous soutenir financièrement en adhérant à l'association sur <a href="https://www.helloasso.com/associations/l-incassable" >HelloAsso</a>.
 </details>
 
 <hr/>
@@ -135,7 +127,7 @@ D'après une étude IPSOS pour Boissons Rafraîchissantes de France, 9 français
   L'INCASSABLE est membre à la fois du <strong><a href="http://www.reseauconsigne.com/">Réseau Consigne</a></strong> et de <strong>France Consigne</strong>.
 
 - Le <strong><a href="http://www.reseauconsigne.com/">Réseau Consigne</a></strong> est l'association qui fédère tous les professionnels du réemploi des emballages en France (tout emballage confondu). Le Réseau Consigne organise chaque année des rencontres techniques et publie des guides pour le passage au réemploi. Le Réseau Consigne se mobilise également faire avancer la législation en faveur du retour de la consigne.
-- <strong>France Consigne</strong> est un groupement de 10 acteurs en France dont l'objectif est d'apporter des solutions concrètes de réemploi d'emballages au niveau national en s'appuyant sur l'expertise de ses filières locales. L'association représente à elle seule plus de 230 producteurs et 700 points de collecte partenaires et disposent de 5 sites de lavage opérationnels ou en construction. Les membres fondateurs de France Consigne sont Bout à Bout, Rebooteille, Ma Bouteille s'Appelle Reviens, Alpes Consigne, Haut La Consigne, Oc'Consigne, Consign'Up, J'aime mes Bouteilles, La Consigne de Provence et L'INCASSABLE.
+- <strong>France Consigne</strong> est un groupement de 11 acteurs en France dont l'objectif est d'apporter des solutions concrètes de réemploi d'emballages au niveau national en s'appuyant sur l'expertise de ses filières locales. L'association représente à elle seule plus de 650 producteurs et 1350 points de collecte partenaires et disposent de 5 sites de lavage opérationnels ou en construction. Les membres fondateurs de France Consigne sont Bout à Bout, Rebooteille, Ma Bouteille s'Appelle Reviens, Alpes Consigne, Haut La Consigne, Oc'Consigne, Consign'Up, J'aime mes Bouteilles, La Consigne de Provence, Distro, Pampa Consigne et L'INCASSABLE.
 </details>
 
 <hr/>
@@ -199,7 +191,7 @@ Les bouteilles éligibles au réemploi sont reconnaissables grâce au Pictogramm
 
 <details>
   <summary>Où les bouteilles sont-elles lavées ?</summary>
-  Les bouteilles collectées sont lavées chez notre partenaire Ma Bouteille S’appelle Reviens, implanté à côté de Valence (26) et qui est équipé d’une unité de lavage professionnelle répondant aux normes d’hygiène requises.
+Les bouteilles collectées sont lavées chez nos partenaires Ma Bouteille S’appelle Reviens (implanté à côté de Valence (26)) et Oc' Consigne (implanté vers Montpellier (34)). Ces partenaires sont équipés d’unités de lavage professionnelles répondant aux normes d’hygiène requises.
 </details>
 
 <hr/>
