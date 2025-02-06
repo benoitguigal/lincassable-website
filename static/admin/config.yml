@@ -150,7 +150,7 @@ collections:
           label: "Date",
           name: "date",
           widget: "datetime",
-          date_format: "MMMM YY",
+          date_format: "YYYY-MM-DD",
           default: "",
         }
       - { label: "Événement", name: "event", widget: "text" }
