@@ -12,9 +12,9 @@ L’activité de réemploi et de consigne de L’INCASSABLE est en pleine croiss
 
 <br>
 
-Cet outil de pilotage permet une gestion globale de la filière et la traçabilité de ses flux logistiques, visant à optimiser l’activité et l’impact environnemental (notamment lié au transport). Il assure en temps réel le suivi des opérations et permet une meilleure coordination entre les différents opérateurs de la filière.
+Cet outil de pilotage permet une gestion globale de la filière et la traçabilité de ses flux logistiques, visant à optimiser l’activité et l’impact environnemental (notamment lié au transport). Il assure en temps réel le suivi des opérations et permet une meilleure coordination entre les différents opérateurs de la filière. Le logiciel est actuellement utilisé pour piloter la logistique de L’INCASSABLE, filière du réemploi opérant en Région Sud (départements 13, 84, 04 et 05) avec plus d’une centaine de points de collecte et cinq transporteurs partenaires pour couvrir le territoire. Tester et confronter l’outil aux réalités du terrain étant la meilleure façon pour répondre aux besoins du métier. 
 
-Le logiciel est actuellement utilisé pour piloter la logistique de L’INCASSABLE, filière du réemploi opérant en Région Sud (départements 13, 84, 04 et 05) avec plus d’une centaine de points de collecte et cinq transporteurs partenaires pour couvrir le territoire. Tester et confronter l’outil aux réalités du terrain étant la meilleure façon pour répondre aux besoins du métier. 
+<br>
 
 À terme, l'outil pourrait être proposé aux opérateurs nationaux du réemploi, dans une perspective d’harmonisation des pratiques de l’écosystème.
 
@@ -50,13 +50,11 @@ Cette fonctionnalité permet de répertorier sur une carte l’ensemble des poin
 
 <br>
 
-Une fois la base de données constituée et cartographiée, l’outil centralise les mouvements de stock et suit précisément les flux de bouteilles, de casiers et de palox. En assurant la traçabilité des flux, il permet une meilleure coordination logistique et une gestion optimisée des opérations.
-
-Les acteurs de la boucle du réemploi (opérateurs, transporteurs, producteurs, distributeurs) disposent des accès et fonctionnalités adaptés à leurs besoins. 
+Une fois la base de données constituée et cartographiée, l’outil centralise les mouvements de stock et suit précisément les flux de bouteilles, de casiers et de palox. En assurant la traçabilité des flux, il permet une meilleure coordination logistique et une gestion optimisée des opérations. Les acteurs de la boucle du réemploi (opérateurs, transporteurs, producteurs, distributeurs) disposent des accès et fonctionnalités adaptés à leurs besoins. 
 
 <br>
 
-###### Déclencher une collecte de bouteilles via le formulaire.
+###### Déclencher une collecte de bouteilles via le formulaire :
 
 Les points de collecte (magasins et producteurs) peuvent déclencher une collecte via un formulaire en ligne. La demande est prise en charge par l’opérateur puis transmise au transporteur.
 
@@ -66,7 +64,7 @@ Pour être informé en temps réel des demandes entrantes, le formulaire se conn
 
 <br>
 
-###### Générer automatiquement des bons de tournées
+###### Générer automatiquement des bons de tournées :
 
 En se basant sur les demandes des points de collecte et les données géographiques, le bon de tournée est automatiquement généré et adressé au transporteur. Après une tournée, le bon signé est téléversé sur la plateforme par le transporteur.
 
@@ -74,8 +72,40 @@ En se basant sur les demandes des points de collecte et les données géographiq
 
 <br>
 
-###### Automatiser les emails pour notifier la prochaine collecte
+###### Automatiser les emails pour notifier la prochaine collecte :
 
 Lorsque la collecte est validée, programmée ou reportée, le point de collecte reçoit un email automatique du transporteur via l’outil. L’email comporte les informations du transporteur, l’horaire ou encore les détails de l’accès pour ainsi garantir le même niveau d’information entre chaque interlocuteur.
 
 ![](/img/email-outil-gestion-reemploi-bouteilles-lincassable.png)
+
+
+
+<br>
+
+# 3. Anticiper les collectes de bouteilles pour optimiser les flux logistiques
+
+<br>
+
+Le volet “Prévisions” permet d’anticiper la collecte des bouteilles. Grâce à un modèle prédictif alimenté par l’historique des tournées réalisées, le rythme des collectes antérieures et sur les données de flux, l’outil génère une planification optimisée des prochains transports. Le module estime ainsi les futures collectes avec les informations de date et de tournée. À terme, les demandes de collecte seront automatiquement adressées au transporteur qui prendra en charge la tournée. 
+
+<br>
+
+Une meilleure anticipation des collectes permet d’améliorer la gestion des flux en évitant que les bouteilles soient immobilisées plus de six mois ou que les casiers ne débordent dans les magasins aux surfaces restreintes. 
+
+![](/img/previsions-outil-gestion-reemploi-bouteilles-lincassable.png)
+
+# 4. Suivre et analyser l’activité de la filière de réemploi
+
+<br>
+
+L’outil “Tableau de bord” offre une vision globale de l’activité et des indicateurs de la filière. Volet indispensable pour piloter son activité et sa performance, les données sont mises à jour en temps réel. 
+
+![](/img/tableau-bord-outil-gestion-reemploi-bouteilles-lincassable.png)
+
+La production automatisée des indicateurs basée sur les flux de notre activité permet de fiabiliser et d’optimiser l’analyse de nos résultats. 
+
+<br>
+
+<br>
+
+###### Conçu pour répondre à nos besoins en tant qu’opérateur du réemploi, le logiciel métier permet d’optimiser notre activité et de limiter l’impact environnemental lié au transport. Si vous aussi acteur du réemploi, souhaitez déployer l’outil pour votre activité, contactez l’équipe L’INCASSABLE : contact@lincassable.com
