@@ -109,6 +109,10 @@ L’outil “Tableau de bord” offre une vision globale de l’activité et des
 <br>
 
 Conçu pour répondre à nos besoins en tant qu’opérateur du réemploi, le logiciel métier permet d’optimiser notre activité et de limiter l’impact environnemental lié au transport. 
+
+
+<br>
+
 <br>
 
 ###### Si vous aussi, acteurs et actrices du réemploi, souhaitez déployer l’outil pour votre activité, contactez l’équipe L’INCASSABLE : contact@lincassable.com
