@@ -1,7 +1,7 @@
 ---
 title: Piloter la filière
 date: 2025-02-17T09:18:00.000Z
-image: /img/banniere-outil-gestion-reemploi-bouteilles-lincassable.png
+image: /img/banniere-2-outil-gestion-reemploi-bouteilles-lincassable.png
 miniature: /img/miniature-outil-gestion-reemploi-bouteilles-lincassable.jpg
 ---
 L’activité de réemploi et de consigne de L’INCASSABLE est en pleine croissance : +100 000 bouteilles collectées en 2024 (+53% par rapport à 2023), 130 magasins et producteurs partenaires sur le territoire, une extension de notre périmètre d’intervention en passant de 2 à 4 départements début 2025.
@@ -32,6 +32,8 @@ Ce projet est en partie soutenu par la Région Sud dans le cadre de l’appel à
 
 Être opérateur de réemploi c’est être un peu géographe : d’ailleurs les murs de notre bureau sont tapissés de cartes IGN. L’étape primordiale de cartographie du territoire implique de :
 
+<br>
+
 \- S’approprier la complexité d’un territoire,
 
 \- Identifier les bassins de consommation et d’habitation,
@@ -41,6 +43,8 @@ Ce projet est en partie soutenu par la Région Sud dans le cadre de l’appel à
 \- Développer le maillage du territoire avec les points de collecte,
 
 \- Centraliser les données et informations des opérateurs,... 
+
+<br>
 
 Cette fonctionnalité permet de répertorier sur une carte l’ensemble des points de collecte de la filière (c’est-à-dire les magasins partenaires, les producteurs, les centres de tri, de massification et de lavage). 
 
@@ -56,9 +60,7 @@ Une fois la base de données constituée et cartographiée, l’outil centralise
 
 ###### Déclencher une collecte de bouteilles via le formulaire :
 
-Les points de collecte (magasins et producteurs) peuvent déclencher une collecte via un formulaire en ligne. La demande est prise en charge par l’opérateur puis transmise au transporteur.
-
-Pour être informé en temps réel des demandes entrantes, le formulaire se connecte à une messagerie interne telle que Slack ou Teams. 
+Les points de collecte (magasins et producteurs) peuvent déclencher une collecte via un formulaire en ligne. La demande est prise en charge par l’opérateur puis transmise au transporteur. Pour être informé en temps réel des demandes entrantes, le formulaire se connecte à une messagerie interne telle que Slack ou Teams. 
 
 ![](/img/formulaire-outil-gestion-reemploi-bouteilles-lincassable.png)
 
@@ -78,8 +80,6 @@ Lorsque la collecte est validée, programmée ou reportée, le point de collecte
 
 ![](/img/email-outil-gestion-reemploi-bouteilles-lincassable.png)
 
-
-
 <br>
 
 # 3. Anticiper les collectes de bouteilles pour optimiser les flux logistiques
@@ -98,11 +98,11 @@ Une meilleure anticipation des collectes permet d’améliorer la gestion des fl
 
 <br>
 
-L’outil “Tableau de bord” offre une vision globale de l’activité et des indicateurs de la filière. Volet indispensable pour piloter son activité et sa performance, les données sont mises à jour en temps réel. 
+L’outil “Tableau de bord” offre une vision globale de l’activité et des indicateurs de la filière. Volet indispensable pour piloter son activité et sa performance, les données sont mises à jour en temps réel. La production automatisée des indicateurs basée sur les flux de notre activité permet de fiabiliser et d’optimiser l’analyse de nos résultats. 
 
 ![](/img/tableau-bord-outil-gestion-reemploi-bouteilles-lincassable.png)
 
-La production automatisée des indicateurs basée sur les flux de notre activité permet de fiabiliser et d’optimiser l’analyse de nos résultats. 
+
 
 <br>
 
@@ -111,4 +111,4 @@ La production automatisée des indicateurs basée sur les flux de notre activit�
 Conçu pour répondre à nos besoins en tant qu’opérateur du réemploi, le logiciel métier permet d’optimiser notre activité et de limiter l’impact environnemental lié au transport. 
 <br>
 
-###### Si vous aussi acteur du réemploi, souhaitez déployer l’outil pour votre activité, contactez l’équipe L’INCASSABLE : contact@lincassable.com
+###### Si vous aussi, acteurs et actrices du réemploi, souhaitez déployer l’outil pour votre activité, contactez l’équipe L’INCASSABLE : contact@lincassable.com
