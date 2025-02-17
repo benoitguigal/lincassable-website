@@ -24,6 +24,8 @@ Ce projet est en partie soutenu par la Région Sud dans le cadre de l’appel à
 
 ###### Découvrez les fonctionnalités phares de notre logiciel métier, un outil innovant pour le réemploi des bouteilles.
 
+![](/img/cartographie-outil-gestion-reemploi-bouteilles-lincassable.png)
+
 # 1. Cartographier les points des collecte du périmètre d’intervention
 
 <br>
@@ -41,8 +43,6 @@ Ce projet est en partie soutenu par la Région Sud dans le cadre de l’appel à
 \- Centraliser les données et informations des opérateurs,... 
 
 Cette fonctionnalité permet de répertorier sur une carte l’ensemble des points de collecte de la filière (c’est-à-dire les magasins partenaires, les producteurs, les centres de tri, de massification et de lavage). 
-
-![](/img/cartographie-outil-gestion-reemploi-bouteilles-lincassable.png)
 
 ![](/img/ajout-point-outil-gestion-reemploi-bouteilles-lincassable.png)
 
@@ -108,4 +108,7 @@ La production automatisée des indicateurs basée sur les flux de notre activit�
 
 <br>
 
-###### Conçu pour répondre à nos besoins en tant qu’opérateur du réemploi, le logiciel métier permet d’optimiser notre activité et de limiter l’impact environnemental lié au transport. Si vous aussi acteur du réemploi, souhaitez déployer l’outil pour votre activité, contactez l’équipe L’INCASSABLE : contact@lincassable.com
+Conçu pour répondre à nos besoins en tant qu’opérateur du réemploi, le logiciel métier permet d’optimiser notre activité et de limiter l’impact environnemental lié au transport. 
+<br>
+
+###### Si vous aussi acteur du réemploi, souhaitez déployer l’outil pour votre activité, contactez l’équipe L’INCASSABLE : contact@lincassable.com
