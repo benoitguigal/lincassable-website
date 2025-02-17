@@ -1,7 +1,7 @@
 ---
 title: Piloter la filière
 date: 2025-02-17T09:18:00.000Z
-image: /img/banniere-outil-gestion-reemploi-bouteilles-lincassable.jpg
+image: /img/banniere-outil-gestion-reemploi-bouteilles-lincassable.png
 miniature: /img/miniature-outil-gestion-reemploi-bouteilles-lincassable.jpg
 ---
 L’activité de réemploi et de consigne de L’INCASSABLE est en pleine croissance : +100 000 bouteilles collectées en 2024 (+53% par rapport à 2023), 130 magasins et producteurs partenaires sur le territoire, une extension de notre périmètre d’intervention en passant de 2 à 4 départements début 2025.
@@ -42,9 +42,9 @@ Ce projet est en partie soutenu par la Région Sud dans le cadre de l’appel à
 
 Cette fonctionnalité permet de répertorier sur une carte l’ensemble des points de collecte de la filière (c’est-à-dire les magasins partenaires, les producteurs, les centres de tri, de massification et de lavage). 
 
-![](/img/cartographie-outil-gestion-reemploi-bouteilles-lincassable.jpg)
+![](/img/cartographie-outil-gestion-reemploi-bouteilles-lincassable.png)
 
-![](/img/ajouter-point-outil-gestion-reemploi-bouteilles-lincassable.jpg)
+![](/img/ajout-point-outil-gestion-reemploi-bouteilles-lincassable.png)
 
 # 2. Fluidifier la communication entre les acteurs du réemploi
 
@@ -62,7 +62,7 @@ Les points de collecte (magasins et producteurs) peuvent déclencher une collect
 
 Pour être informé en temps réel des demandes entrantes, le formulaire se connecte à une messagerie interne telle que Slack ou Teams. 
 
-![](/img/formulaire-outil-gestion-reemploi-bouteilles-lincassable.jpg)
+![](/img/formulaire-outil-gestion-reemploi-bouteilles-lincassable.png)
 
 <br>
 
@@ -70,7 +70,7 @@ Pour être informé en temps réel des demandes entrantes, le formulaire se conn
 
 En se basant sur les demandes des points de collecte et les données géographiques, le bon de tournée est automatiquement généré et adressé au transporteur. Après une tournée, le bon signé est téléversé sur la plateforme par le transporteur.
 
-![](/img/bon-tournee-outil-gestion-reemploi-bouteilles-lincassable.jpg)
+![](/img/bon-tournee-outil-gestion-reemploi-bouteilles-lincassable.png)
 
 <br>
 
@@ -78,4 +78,4 @@ En se basant sur les demandes des points de collecte et les données géographiq
 
 Lorsque la collecte est validée, programmée ou reportée, le point de collecte reçoit un email automatique du transporteur via l’outil. L’email comporte les informations du transporteur, l’horaire ou encore les détails de l’accès pour ainsi garantir le même niveau d’information entre chaque interlocuteur.
 
-![](/img/email-outil-gestion-reemploi-bouteilles-lincassable.jpg)
+![](/img/email-outil-gestion-reemploi-bouteilles-lincassable.png)
