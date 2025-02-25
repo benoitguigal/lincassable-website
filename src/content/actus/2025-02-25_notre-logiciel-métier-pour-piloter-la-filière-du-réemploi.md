@@ -9,7 +9,6 @@ categories:
 ---
 L’activité de réemploi et de consigne de L’INCASSABLE est en pleine croissance : +100 000 bouteilles collectées en 2024 (+53% par rapport à 2023), 130 magasins et producteurs partenaires sur le territoire, une extension de notre périmètre d’intervention en passant de 2 à 4 départements début 2025.
 
-
 <br>
 
 ##### Pour accompagner cette montée en puissance de la filière, nous avons développé un logiciel métier innovant, conçu spécialement pour les acteurs du réemploi : collecteurs, transporteurs, distributeurs et trieurs.
@@ -19,12 +18,10 @@ Cet outil de pilotage permet une gestion globale de la filière et la traçabili
 
 Le logiciel est actuellement utilisé pour piloter la logistique de L’INCASSABLE, filière du réemploi opérant en Région Sud (départements 13, 84, 04 et 05) avec plus d’une centaine de points de collecte et cinq transporteurs partenaires pour couvrir le territoire. Tester et confronter l’outil aux réalités du terrain étant la meilleure façon de répondre aux besoins du métier.
 
-
 <br>
 
 À terme, l'outil pourrait être proposé aux opérateurs nationaux du réemploi, dans une perspective d’harmonisation des pratiques de l’écosystème.
-Ce projet est en partie soutenu par la [Région Sud](https://www.maregionsud.fr/) dans le cadre de l’appel à projet du [Réseau Vrac et Réemploi](https://reseauvracetreemploi.org/reseau-consigne/?lang=fr), qui permet d’accompagner le passage à l’échelle et la croissance des volumes de la filière.
-
+Ce projet est en partie soutenu par la [Région Sud](https://www.maregionsud.fr/) dans le cadre de l’appel à projet ["Vrac et Consigne"](https://www.maregionsud.fr/vos-aides/detail/vrac-et-consigne), qui permet d’accompagner le passage à l’échelle et la croissance des volumes de la filière.
 
 <br>
 
@@ -35,7 +32,6 @@ Ce projet est en partie soutenu par la [Région Sud](https://www.maregionsud.fr/
 # 1. Cartographier les points de collecte du périmètre d’intervention
 
 <br>
-
 
 Être opérateur de réemploi, c’est être un peu géographe : d’ailleurs, les murs de notre bureau sont tapissés de cartes IGN. L’étape primordiale de cartographie du territoire implique de :
 
@@ -49,7 +45,6 @@ Ce projet est en partie soutenu par la [Région Sud](https://www.maregionsud.fr/
 
 \- Centraliser les données et informations des opérateurs,...
 
-
 <br>
 
 Cette fonctionnalité permet de répertorier sur une carte l’ensemble des points de collecte de la filière (c’est-à-dire les magasins partenaires, les producteurs, les centres de tri, de massification et de lavage).
@@ -62,9 +57,7 @@ Cette fonctionnalité permet de répertorier sur une carte l’ensemble des poin
 
 <br>
 
-
 Une fois la base de données constituée et cartographiée, l’outil centralise les mouvements de stock et suit précisément les flux de bouteilles, de casiers et de palox. En assurant la traçabilité des flux, il permet une meilleure coordination logistique et une gestion optimisée des opérations. Les acteurs de la boucle du réemploi (opérateurs, transporteurs, producteurs, distributeurs) disposent des accès et fonctionnalités adaptés à leurs besoins.
-
 
 <br>
 
@@ -99,12 +92,9 @@ Lorsque la collecte est validée, programmée ou reportée, le point de collecte
 
 <br>
 
-
 Le volet “Prévisions” permet d’anticiper la collecte des bouteilles. Grâce à un modèle prédictif alimenté par l’historique des tournées réalisées, le rythme des collectes antérieures et sur les données de flux, l’outil génère une planification optimisée des prochains transports. Le module estime ainsi les futures collectes avec les informations de date et de tournée. À terme, les demandes de collecte seront automatiquement adressées au transporteur qui prendra en charge la tournée.
 
-
 <br>
-
 
 Une meilleure anticipation des collectes permet d’améliorer la gestion des flux en évitant que les bouteilles soient immobilisées plus de six mois ou que les casiers ne débordent dans les magasins aux surfaces restreintes.
 
@@ -112,11 +102,7 @@ Une meilleure anticipation des collectes permet d’améliorer la gestion des fl
 
 # 4. Suivre et analyser l’activité de la filière de réemploi
 
-
-
 <br>
-
-
 
 L’outil “Tableau de bord” offre une vision globale de l’activité et des indicateurs de la filière. Volet indispensable pour piloter son activité et sa performance, les données sont mises à jour en temps réel. La production automatisée des indicateurs basée sur les flux de notre activité permet de fiabiliser et d’optimiser l’analyse de nos résultats.
 
