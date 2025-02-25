@@ -5,6 +5,7 @@ image: /img/banniere-2-outil-gestion-reemploi-bouteilles-lincassable.png
 miniature: /img/miniature-outil-gestion-reemploi-bouteilles-lincassable.jpg
 categories:
   - Filière
+  - ""
 ---
 L’activité de réemploi et de consigne de L’INCASSABLE est en pleine croissance : +100 000 bouteilles collectées en 2024 (+53% par rapport à 2023), 130 magasins et producteurs partenaires sur le territoire, une extension de notre périmètre d’intervention en passant de 2 à 4 départements début 2025.
 
