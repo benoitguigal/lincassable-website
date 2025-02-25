@@ -17,13 +17,13 @@ L’activité de réemploi et de consigne de L’INCASSABLE est en pleine croiss
 <br>
 Cet outil de pilotage permet une gestion globale de la filière et la traçabilité de ses flux logistiques, visant à optimiser l’activité et l’impact environnemental (notamment lié au transport). Il assure en temps réel le suivi des opérations et permet une meilleure coordination entre les différents opérateurs de la filière.
 
-Le logiciel est actuellement utilisé pour piloter la logistique de L’INCASSABLE, filière du réemploi opérant en Région Sud (départements 13, 84, 04 et 05) avec plus d’une centaine de points de collecte et cinq transporteurs partenaires pour couvrir le territoire. Tester et confronter l’outil aux réalités du terrain étant la meilleure façon pour répondre aux besoins du métier.
+Le logiciel est actuellement utilisé pour piloter la logistique de L’INCASSABLE, filière du réemploi opérant en Région Sud (départements 13, 84, 04 et 05) avec plus d’une centaine de points de collecte et cinq transporteurs partenaires pour couvrir le territoire. Tester et confronter l’outil aux réalités du terrain étant la meilleure façon de répondre aux besoins du métier.
 
 
 <br>
 
 À terme, l'outil pourrait être proposé aux opérateurs nationaux du réemploi, dans une perspective d’harmonisation des pratiques de l’écosystème.
-Ce projet est en partie soutenu par la Région Sud dans le cadre de l’appel à projet Vrac et Consigne, qui permet d’accompagner le passage à l’échelle et la croissance des volumes de la filière.
+Ce projet est en partie soutenu par la [Région Sud](https://www.maregionsud.fr/) dans le cadre de l’appel à projet du [Réseau Vrac et Réemploi](https://reseauvracetreemploi.org/reseau-consigne/?lang=fr), qui permet d’accompagner le passage à l’échelle et la croissance des volumes de la filière.
 
 
 <br>
@@ -32,12 +32,12 @@ Ce projet est en partie soutenu par la Région Sud dans le cadre de l’appel à
 
 ![cartographie outil gestion activité réemploi bouteille consigne ](/img/cartographie-outil-gestion-reemploi-bouteilles-lincassable.png "Cartographie logiciel métier réemploi")
 
-# 1. Cartographier les points des collecte du périmètre d’intervention
+# 1. Cartographier les points de collecte du périmètre d’intervention
 
 <br>
 
 
-Être opérateur de réemploi c’est être un peu géographe : d’ailleurs les murs de notre bureau sont tapissés de cartes IGN. L’étape primordiale de cartographie du territoire implique de :
+Être opérateur de réemploi, c’est être un peu géographe : d’ailleurs, les murs de notre bureau sont tapissés de cartes IGN. L’étape primordiale de cartographie du territoire implique de :
 
 \- S'approprier la complexité d'un territoire,
 
