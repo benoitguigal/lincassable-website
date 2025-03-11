@@ -70,7 +70,7 @@ Les points de collecte (magasins et producteurs) peuvent déclencher une collect
 [](/img/formulaire-outil-gestion-reemploi-bouteilles-lincassable.png)
 <br>
 
-###### Générer automatiquement des bons de tournées :
+###### Générer automatiquement des bons de tournée :
 
 En se basant sur les demandes des points de collecte et les données géographiques, le bon de tournée est automatiquement généré et adressé au transporteur. Après une tournée, le bon signé est téléversé sur la plateforme par le transporteur.
 
