@@ -4,6 +4,8 @@ title: Interview radio par La Forêt des Possibles - et si on arrêtait de casse
 date: 2025-03-11T13:33:00.000Z
 image: /img/banniere-foret-des-possibles.jpg
 miniature: /img/foret-des-possibles-miniature.png
+categories:
+  - Presse
 ---
 # Le réemploi à l'ère du "tout jetable" - et si on arrêtait de casser les bouteilles ?
 
