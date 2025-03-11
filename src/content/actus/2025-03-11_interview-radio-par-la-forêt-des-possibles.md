@@ -17,6 +17,8 @@ Chaque semaine, [La Forêt des Possibles](https://www.linkedin.com/company/larbr
 
 ![équipe INCASSABLE avec Forêt des Possibles (Radio Galère)](/img/foret-des-possibles-l-incassable-radio-galere.jpeg "équipe INCASSABLE avec Forêt des Possibles chez Radio Galère")
 
+<br>
+
 En janvier 2025, Lisa Tichané et Benoît Guigal, ont répondu à l'invitation et aux questions d'Elissa Guyon, animatrice de la Forêt des Possibles. 
 
 <br>
@@ -30,5 +32,7 @@ Merci à l'équipe de la Forêt des Possibles pour l'invitation et pour cette é
 <br>
 
 ###### Émission à réécouter sur [Spotify](https://open.spotify.com/episode/1XVRIka5B6ZsV9a8n16CQ2) ou sur [le site de Radio Galère](https://radiogalere.org/emission/eco-forum/la-foret-des-possibles-du-29-01-25).
+
+<br>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1XVRIka5B6ZsV9a8n16CQ2?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
