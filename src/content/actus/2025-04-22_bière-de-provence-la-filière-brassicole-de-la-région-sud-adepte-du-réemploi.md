@@ -10,7 +10,10 @@ categories:
 ##### En Région Sud, la filière brassicole se structure autour de valeurs fortes : production artisanale, ancrage local et engagement environnemental. C’est dans cet esprit que [La Bière de Provence](https://labieredeprovence.fr/association), qui fédère une trentaine de brasseries provençales, a convié L’INCASSABLE lors de son assemblée générale en mars 2025.
 
 <br>
-# Un réseau régional pour promouvoir la bière artisanale en Région Sud
+
+# 
+Un réseau régional pour promouvoir la bière artisanale en Région Sud
+
 <br>
 Créée en 2012 à l’initiative de brasseries pionnières comme [La Brasserie de La Plaine](https://www.brasseriedelaplaine.fr/), l’association Bière de Provence accompagne les professionnel·les brassicoles en Provence-Alpes-Côte-d’Azur. 
 <br>
@@ -46,7 +49,9 @@ Dans ce contexte économique tendu, l’enjeu est clair : renforcer la résilien
 # Le réemploi de bouteilles : un levier d’avenir pour les brasseries
 
 <br>
-C’est dans cette optique que L’INCASSABLE a été convié à présenter son dispositif de réemploi auprès des adhérent·es de l’association. Au programme : présentation de la solution de réemploi, discussion sur les modalités techniques et logistiques, retours d’expérience et perspectives de développement.
+C’est dans cette optique que L’INCASSABLE a été convié à présenter son dispositif de réemploi auprès des adhérent·es de l’association.
+
+Au programme : présentation de la solution de réemploi, discussion sur les modalités techniques et logistiques, retours d’expérience et perspectives de développement.
 <br>
 L’essor du réemploi en Région Sud repose sur plusieurs facteurs clés :
 
