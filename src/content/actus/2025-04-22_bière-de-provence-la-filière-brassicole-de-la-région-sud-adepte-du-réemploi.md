@@ -35,6 +35,8 @@ Tout comme L’INCASSABLE, la Bière de Provence impulse une démarche collectiv
 
 ###### La promotion du réemploi s’inscrit dans une démarche coopérative avec pour objectif commun : rendre la solution de réemploi accessible aux brasseries artisanales de Provence.
 
+![adhérents bière de provence assemblée générale 2025 filière brassicole](/img/biere-de-provence-assemblee-generale-mars-2025.png "Photo des adhérents de la Bière de Provence lors de l'Assemblée Générale 2025")
+
 Alors que la bière artisanale représente 8% de part de marché en France, les brasseries artisanales font face à plusieurs défis. 
 <br>
 Lors de notre rencontre avec Oscar, salarié de l’association Bière de Provence ainsi que brasseur chez [Sapristi à Salon-de-Provence](https://www.biere-sapristi.fr/), nous avons échangé sur les difficultés qui touchent la profession : saturation du marché, hausse des coûts de production, concurrence des industriels développant une offre au packaging “artisanal”...\
@@ -60,6 +62,12 @@ L’essor du réemploi en Région Sud repose sur plusieurs facteurs clés :
 \- Les soutiens financiers activables auprès des pouvoirs publics, afin de rendre économiquement viable l’investissement dans le réemploi,
 
 \- La volonté des producteurs de s’inscrire dans une démarche engagée et de réduire leur impact environnemental.
+
+
+
+![Filière brassicole agriculture blé bière](/img/biere-de-provence-filiere-bassicole-provence-2.png "Bière de Provence dans un champ de blé")
+
+
 <br>
 
 # Vers une filière brassicole durable en Provence
@@ -70,6 +78,8 @@ En fédérant les brasseries artisanales de la région, l’association Bière d
 Face aux enjeux actuels, il s’agit désormais de massifier les volumes, mutualiser les ressources et ancrer durablement cette pratique sur le territoire.
 <br>
 La rencontre avec les brasseries adhérentes confirme une volonté commune de construire des filières locales, durables et résilientes.  
+
+![Bière de Provence événement fête de la bière oktoberfest](/img/biere-de-provence-lincassable-filiere-région-sud.png "Stand Bière de Provence lors d'un événement")
 
 # Prochain événement : Oktoberfest à Salon-de-Provence
 
