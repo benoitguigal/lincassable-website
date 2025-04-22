@@ -31,7 +31,7 @@ Aujourd’hui, elle structure ses actions autour de cinq axes majeurs :
 \- Le développement économique.
 <br>
 <br>
-Parmi les 130 brasseries existantes en PACA, 26 ont rejoint le collectif de la Bière de Provence et 9 ont adopté le réemploi avec L’INCASSABLE : [BASP](https://basp05.com/), [Bière de la Durance](https://bieredeladurance.com/), [Bière de la Rade](https://www.bieredelarade.com/), [Brasserie de la Plaine](https://www.brasseriedelaplaine.fr/), [Brasserie des Maltfaiteur](https://www.lesmaltfaiteurs.com/)s, [Brasserie La Baroude](www.brasserielabaroude.fr), [Brasserie La Comédienne](https://www.lacomedienne.beer/), [Brasserie la Pagaille](https://www.brasserielapagaille.com/), [Brasserie Zoumaï](https://www.brasseriezoumai.fr/).
+Parmi les 130 brasseries existantes en PACA, 26 ont rejoint le collectif de la Bière de Provence et six ont adopté le réemploi avec L’INCASSABLE : [BASP](https://basp05.com/)[](https://bieredeladurance.com/),[](https://www.bieredelarade.com/) [Brasserie de la Plaine](https://www.brasseriedelaplaine.fr/)[](https://www.lesmaltfaiteurs.com/), [Brasserie La Baroude](www.brasserielabaroude.fr), [Brasserie La Comédienne](https://www.lacomedienne.beer/), [Brasserie la Pagaille](https://www.brasserielapagaille.com/), [Brasserie Zoumaï](https://www.brasseriezoumai.fr/).
 <br>
 <br>
 
@@ -45,7 +45,7 @@ Parmi les 130 brasseries existantes en PACA, 26 ont rejoint le collectif de la B
 ###### Alors que la bière artisanale représente 8% de part de marché en France, les brasseries artisanales font face à plusieurs défis.
 
 <br>
-Lors de notre rencontre avec Oscar, salarié de l’association Bière de Provence ainsi que brasseur chez [Sapristri à Salon-de-Provence](https://www.biere-sapristi.fr), nous avons échangé sur les difficultés qui touchent la profession : saturation du marché, hausse des coûts de production, concurrence des industriels développant une offre au packaging “artisanal”...
+Lors de notre rencontre avec Oscar, salarié de l’association Bière de Provence ainsi que brasseur chez \[Sapristi à Salon-de-Provence](https://www.biere-sapristi.fr), nous avons échangé sur les difficultés qui touchent la profession : saturation du marché, hausse des coûts de production, concurrence des industriels développant une offre au packaging “artisanal”...
 <br>
 
 Dans ce contexte économique tendu, l’enjeu est clair : renforcer la résilience de la filière brassicole en mutualisant les forces et en faisant évoluer les pratiques vers un modèle plus vertueux.
@@ -85,7 +85,6 @@ La rencontre avec les brasseries adhérentes confirme une volonté commune de co
 ![Bière de Provence événement fête de la bière oktoberfest](/img/biere-de-provence-lincassable-filiere-région-sud.png "Stand Bière de Provence lors d'un événement")
 
 <br>
-
 
 ##### Prochain événement : Oktoberfest à Salon-de-Provence
 
