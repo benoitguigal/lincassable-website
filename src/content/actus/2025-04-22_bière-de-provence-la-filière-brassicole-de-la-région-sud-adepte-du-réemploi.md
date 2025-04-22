@@ -17,6 +17,7 @@ categories:
 Créée en 2012 à l’initiative de brasseries pionnières comme la Brasserie de La Plaine, l’association Bière de Provence accompagne les professionnel·les brassicoles en Provence-Alpes-Côte-d’Azur.
 
 <br>
+
 Aujourd’hui, elle structure ses actions autour de cinq axes majeurs :
 
 \- Le soutien à la filière agricole,
@@ -41,10 +42,10 @@ Parmi les 130 brasseries existantes en PACA, 26 ont rejoint le collectif de la B
 ![adhérents bière de provence assemblée générale 2025 filière brassicole](/img/biere-de-provence-assemblee-generale-mars-2025.png "Photo des adhérents de la Bière de Provence lors de l'Assemblée Générale 2025")
 <br>
 
-Alors que la bière artisanale représente 8% de part de marché en France, les brasseries artisanales font face à plusieurs défis.
+###### Alors que la bière artisanale représente 8% de part de marché en France, les brasseries artisanales font face à plusieurs défis.
 
 <br>
-Lors de notre rencontre avec Oscar, salarié de l’association Bière de Provence ainsi que brasseur chez \\[Sapristi à Salon-de-Provence](https://www.biere-sapristi.fr/), nous avons échangé sur les difficultés qui touchent la profession : saturation du marché, hausse des coûts de production, concurrence des industriels développant une offre au packaging “artisanal”...\
+Lors de notre rencontre avec Oscar, salarié de l’association Bière de Provence ainsi que brasseur chez [Sapristri à Salon-de-Provence](https://www.biere-sapristi.fr), nous avons échangé sur les difficultés qui touchent la profession : saturation du marché, hausse des coûts de production, concurrence des industriels développant une offre au packaging “artisanal”...
 <br>
 
 Dans ce contexte économique tendu, l’enjeu est clair : renforcer la résilience de la filière brassicole en mutualisant les forces et en faisant évoluer les pratiques vers un modèle plus vertueux.
@@ -84,7 +85,9 @@ La rencontre avec les brasseries adhérentes confirme une volonté commune de co
 ![Bière de Provence événement fête de la bière oktoberfest](/img/biere-de-provence-lincassable-filiere-région-sud.png "Stand Bière de Provence lors d'un événement")
 
 <br>
-# Prochain événement : Oktoberfest à Salon-de-Provence
+
+
+##### Prochain événement : Oktoberfest à Salon-de-Provence
 
 <br>
 Rendez-vous les 18, 19 et 20 octobre 2025 pour l’Oktoberfest à Salon-de-Provence, à l’initiative de Bière de Provence. Une grande fête sur la place Morgan qui mettra à l’honneur les bières des adhérents avec des dégustations, des ateliers de brassage et bien sûr des concerts.
@@ -92,7 +95,6 @@ Rendez-vous les 18, 19 et 20 octobre 2025 pour l’Oktoberfest à Salon-de-Prove
 <br>
 <br>
 
-######
-Vous êtes producteur de bière ou travaillez au sein d’une brasserie artisanale en Région Sud ?
+###### Vous êtes producteur de bière ou travaillez au sein d’une brasserie artisanale en Région Sud ?
 
 ###### Notre équipe vous accompagne pour intégrer le réemploi dans votre activité. Écrivez-nous à contact@lincassable.com
