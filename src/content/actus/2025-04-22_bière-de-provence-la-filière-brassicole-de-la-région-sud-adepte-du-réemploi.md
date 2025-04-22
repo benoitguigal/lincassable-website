@@ -11,11 +11,10 @@ categories:
 
 <br>
 
-# 
-Un réseau régional pour promouvoir la bière artisanale en Région Sud
+# Un réseau régional pour promouvoir la bière artisanale en Région Sud
 
 <br>
-Créée en 2012 à l’initiative de brasseries pionnières comme [La Brasserie de La Plaine](https://www.brasseriedelaplaine.fr/), l’association Bière de Provence accompagne les professionnel·les brassicoles en Provence-Alpes-Côte-d’Azur. 
+Créée en 2012 à l’initiative de brasseries pionnières comme [La Brasserie de La Plaine](https://www.brasseriedelaplaine.fr), l’association Bière de Provence accompagne les professionnel·les brassicoles en Provence-Alpes-Côte-d’Azur. 
 <br>
 Aujourd’hui, elle structure ses actions autour de cinq axes majeurs :
 
@@ -29,22 +28,22 @@ Aujourd’hui, elle structure ses actions autour de cinq axes majeurs :
 
 \- Le développement économique.
 <br>
+<br>
 Parmi les 130 brasseries existantes en PACA, 26 ont rejoint le collectif de la Bière de Provence et 9 ont adopté le réemploi avec L’INCASSABLE : [BASP](https://basp05.com/), [Bière de la Durance](https://bieredeladurance.com/), [Bière de la Rade](https://www.bieredelarade.com/), [Brasserie de la Plaine](https://www.brasseriedelaplaine.fr/), [Brasserie des Maltfaiteur](https://www.lesmaltfaiteurs.com/)s, [Brasserie La Baroude](www.brasserielabaroude.fr), [Brasserie La Comédienne](https://www.lacomedienne.beer/), [Brasserie la Pagaille](https://www.brasserielapagaille.com/), [Brasserie Zoumaï](https://www.brasseriezoumai.fr/). 
 <br>
-Tout comme L’INCASSABLE, la Bière de Provence impulse une démarche collective basée sur des valeurs communes (l’ancrage local, l’engagement, l’artisanat). 
 
-###### La promotion du réemploi s’inscrit dans une démarche coopérative avec pour objectif commun : rendre la solution de réemploi accessible aux brasseries artisanales de Provence.
+###### Tout comme L’INCASSABLE, la Bière de Provence impulse une démarche collective basée sur des valeurs communes (l’ancrage local, l’engagement, l’artisanat). La promotion du réemploi s’inscrit dans une démarche coopérative avec pour objectif commun : rendre la solution de réemploi accessible aux brasseries artisanales de Provence.
+
+<br>
 
 ![adhérents bière de provence assemblée générale 2025 filière brassicole](/img/biere-de-provence-assemblee-generale-mars-2025.png "Photo des adhérents de la Bière de Provence lors de l'Assemblée Générale 2025")
-
+<br>
 Alors que la bière artisanale représente 8% de part de marché en France, les brasseries artisanales font face à plusieurs défis. 
 <br>
 Lors de notre rencontre avec Oscar, salarié de l’association Bière de Provence ainsi que brasseur chez [Sapristi à Salon-de-Provence](https://www.biere-sapristi.fr/), nous avons échangé sur les difficultés qui touchent la profession : saturation du marché, hausse des coûts de production, concurrence des industriels développant une offre au packaging “artisanal”...\
 <br>
 
-###### 
 Dans ce contexte économique tendu, l’enjeu est clair : renforcer la résilience de la filière brassicole en mutualisant les forces et en faisant évoluer les pratiques vers un modèle plus vertueux.
-
 
 <br>
 
@@ -63,10 +62,7 @@ L’essor du réemploi en Région Sud repose sur plusieurs facteurs clés :
 
 \- La volonté des producteurs de s’inscrire dans une démarche engagée et de réduire leur impact environnemental.
 
-
-
 ![Filière brassicole agriculture blé bière](/img/biere-de-provence-filiere-bassicole-provence-2.png "Bière de Provence dans un champ de blé")
-
 
 <br>
 
