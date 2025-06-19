@@ -45,7 +45,7 @@ Parmi les 130 brasseries existantes en PACA, 26 ont rejoint le collectif de la B
 ###### Alors que la bière artisanale représente 8% de part de marché en France, les brasseries artisanales font face à plusieurs défis.
 
 <br>
-Lors de notre rencontre avec Oscar, salarié de l’association Bière de Provence ainsi que brasseur chez \[Sapristi à Salon-de-Provence](https://www.biere-sapristi.fr), nous avons échangé sur les difficultés qui touchent la profession : saturation du marché, hausse des coûts de production, concurrence des industriels développant une offre au packaging “artisanal”...
+Lors de notre rencontre avec Oscar, salarié de l’association Bière de Provence ainsi que brasseur chez [Sapristi à Salon-de-Provence](https://www.biere-sapristi.fr), nous avons échangé sur les difficultés qui touchent la profession : saturation du marché, hausse des coûts de production, concurrence des industriels développant une offre au packaging “artisanal”...
 <br>
 
 Dans ce contexte économique tendu, l’enjeu est clair : renforcer la résilience de la filière brassicole en mutualisant les forces et en faisant évoluer les pratiques vers un modèle plus vertueux.
