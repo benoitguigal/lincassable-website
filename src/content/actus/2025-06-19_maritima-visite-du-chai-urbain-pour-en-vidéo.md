@@ -1,7 +1,7 @@
 ---
 title: 'Maritima : visite du chai urbain "POUR" en vidéo'
 date: 2025-06-19T11:04:00.000Z
-image: /img/l-inc-site-web-banniere-blog-groupe.jpg
+image: /img/l-inc-site-web-banniere-blog-pour-groupe-2.jpg
 miniature: /img/maritima-miniature.png
 categories:
   - Presse
@@ -10,7 +10,9 @@ categories:
 
 <br>
 
-Lors de la visite de son site de production situé dans le 1er arrondissement de Marseille, Nathalie Cornec a allié dégustation de vins et sensibilisation au réemploi. Vigneronne ayant fondé son activité sur le respect de l’environnement, elle a rejoint la filière de réemploi L’INCASSABLE début 2023. Le choix du réemploi est aujourd’hui une évidence pour elle. Devant le groupe venu visiter son atelier, elle explique que le recyclage des bouteilles en verre, 
+Lors de la visite de son site de production situé dans le 1er arrondissement de Marseille, Nathalie Cornec a allié dégustation de vins et sensibilisation au réemploi. Vigneronne ayant fondé son activité sur le respect de l’environnement, elle a rejoint la filière de réemploi L’INCASSABLE début 2023. Le choix du réemploi est aujourd’hui une évidence pour elle. Devant le groupe venu visiter son atelier, elle explique que le recyclage des bouteilles en verre : 
+
+<br>
 
 ###### “C’est un peu comme si à la fin d’un repas, on cassait notre assiette pour la refaire”
 
