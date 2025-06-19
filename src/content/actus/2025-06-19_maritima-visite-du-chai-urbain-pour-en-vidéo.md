@@ -34,7 +34,7 @@ Au national, une dynamique à grande échelle a vu le jour en juin 2025. L’exp
 
 <br>
 Des efforts de communication et de réglementation permettront d’accélérer le passage à la consigne. Bientôt, nous pourrons dire au revoir aux bouteilles à la mer : nos territoires seront devenus résilients !
-
+<br>
 <br>
 
 ###### Retrouvez l’article complet de Maritima : [lire l’article](https://maritima.fr/actualites/environnement/marseille/7572/consigne-des-bouteilles-en-verre-a-marseille-on-na-pas-attendu)
