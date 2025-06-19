@@ -18,6 +18,9 @@ Lors de la visite de son site de production situé dans le 1er arrondissement de
 
 L’engouement pour le réemploi touche les producteurs, comme en témoigne la fondatrice de POUR : “La première année, j’ai eu une demi-palette, c'est-à-dire à peu près 600 bouteilles qui sont revenues en réemploi. L’année suivante, j’ai eu une palette ; et cette année, j’ai eu deux palettes !”. La sensation de participer à une filière émergente est une belle contrepartie pour leur engagement dans la filière. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zHQGYr1BNek?si=u32AYkqj86f7y8I3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 Chaque année, notre filière en Région Sud gagne en maturité, avec la diversification des producteurs, l’extension du réseau de vente et de collecte, et des performances techniques de plus en plus optimisées. Dès 2027, L’INCASSABLE compte dépasser le million de bouteilles réemployées par an. Tout cela, sans jamais oublier l’importance des petits producteurs locaux et du circuit court.
 
 
