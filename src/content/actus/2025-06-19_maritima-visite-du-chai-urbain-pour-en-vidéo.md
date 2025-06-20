@@ -10,7 +10,7 @@ categories:
 
 <br>
 
-Lors de la visite de son site de production situé dans le 1er arrondissement de Marseille, Nathalie Cornec a allié dégustation de vins et sensibilisation au réemploi. Vigneronne ayant fondé son activité sur le respect de l’environnement, elle a rejoint la filière de réemploi L’INCASSABLE début 2023. Le choix du réemploi est aujourd’hui une évidence pour elle. Devant le groupe venu visiter son atelier, elle explique que le recyclage des bouteilles en verre : 
+Lors de la visite de son site de production situé dans le 1er arrondissement de Marseille, Nathalie Cornec a allié dégustation de vins et sensibilisation au réemploi. Productrice de vin ayant fondé son activité sur le respect de l’environnement, elle a rejoint la filière de réemploi L’INCASSABLE début 2023. Le choix du réemploi est aujourd’hui une évidence pour elle. Devant le groupe venu visiter son atelier, elle explique que le recyclage des bouteilles en verre : 
 
 <br>
 
