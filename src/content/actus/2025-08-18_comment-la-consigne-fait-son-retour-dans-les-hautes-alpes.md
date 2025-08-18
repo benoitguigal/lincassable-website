@@ -8,7 +8,7 @@ categories:
 ---
 ## « C’est toute une filière qu’il faut faire sortir de terre ».
 
-Radio libre dans les Hautes-Alpes depuis 1983, \[ram05](https://ram05.fr/) sort un article sur le retour de la consigne dans le département alpin. 
+Radio libre dans les Hautes-Alpes depuis 1983, [ram05](https://ram05.fr/) sort un article sur le retour de la consigne dans le département alpin. 
 <br>Un article complet qui donne la parole aux différents maillons de la boucle du réemploi sur le territoire, dont :
 <br>- Lisa Tichané, directrice adjointe de [L'INCASSABLE](https://lincassable.com/)
 
