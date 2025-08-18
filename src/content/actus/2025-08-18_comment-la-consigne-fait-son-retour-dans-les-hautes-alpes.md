@@ -1,7 +1,7 @@
 ---
 title: Comment la consigne fait son retour dans les Hautes-Alpes
 date: 2025-08-18T16:09:00.000Z
-image: /img/visuel-ram-05-modifié.jpg
+image: /img/visuel-ram-05-modifié-modifié.jpg
 miniature: /img/ram05.png
 categories:
   - Presse
