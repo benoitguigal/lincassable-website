@@ -8,12 +8,14 @@ categories:
 ---
 ## « C’est toute une filière qu’il faut faire sortir de terre ».
 
-<br>
-Radio libre dans les Hautes-Alpes depuis 1983, [ram05](https://ram05.fr/) sort un article sur le retour de la consigne dans le département alpin. 
-<br>
+Radio libre dans les Hautes-Alpes depuis 1983, \[ram05](https://ram05.fr/) sort un article sur le retour de la consigne dans le département alpin. 
+
+
+
 
 Un article complet qui donne la parole aux différents maillons de la boucle du réemploi sur le territoire, dont :
-<br>
+
+
 
 \- Lisa Tichané, directrice adjointe de [L'INCASSABLE](https://lincassable.com/)
 
@@ -22,5 +24,11 @@ Un article complet qui donne la parole aux différents maillons de la boucle du 
 \- Maxime Aerts, vigneron [Les Raisins Suspendus](https://www.les-raisins-suspendus.fr/)
 
 \- Sébastien Merle, responsable du [magasin Biocoop La Graine de Lin à Embrun](https://lagrainedelin.biocoop.net/)
+
+
+
+
+
+
 
 Article à lire et à écouter dans son intégralité [ici](https://ram05.fr/cest-toute-une-filiere-quil-fait-faire-sortir-de-terre-comment-la-consigne-fait-son-retour-dans-les-hautes-alpes).
