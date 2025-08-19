@@ -43,4 +43,4 @@ Un article complet qui donne la parole aux différents maillons de la boucle du 
 
 <br> 
 
-Article à lire et à écouter dans son intégralité [ici](https://ram05.fr/cest-toute-une-filiere-quil-fait-faire-sortir-de-terre-comment-la-consigne-fait-son-retour-dans-les-hautes-alpes).
+[Article à lire et à écouter dans son intégralité ici](https://ram05.fr/cest-toute-une-filiere-quil-fait-faire-sortir-de-terre-comment-la-consigne-fait-son-retour-dans-les-hautes-alpes).
