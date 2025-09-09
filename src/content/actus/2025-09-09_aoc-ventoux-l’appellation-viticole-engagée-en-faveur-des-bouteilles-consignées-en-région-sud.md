@@ -30,6 +30,8 @@ Une feuille de route qui s’articule autour de trois axes à horizon 2030 :
 2. Réduire son impact carbone et s’adapter aux changements climatiques
 3. Transmettre un savoir-faire culturel et développer l’œnotourisme
 
+![AOC Ventoux Souleyrol Chateau Unang ](/img/aoc-ventoux-souleyrol-chateau-unang-norman-kergoat-.jpg "AOC Ventoux Souleyrol Chateau Unang (Crédit photo : Norman Kergoat)")
+
 # Réemploi du verre : la première solution pour réduire son empreinte carbone en tant que professionnel du vin
 
 Pour répondre à ce deuxième engagement (réduire l’empreinte carbone de la filière), l’AOC Ventoux a réalisé son Bilan Carbone® avec le soutien de l’ADEME. Le constat est frappant : 30% à 40% de l’empreinte carbone est imputable aux bouteilles en verre. 
