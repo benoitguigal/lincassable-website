@@ -48,6 +48,8 @@ Plusieurs producteur·ices ont déjà sauté le pas, à l’image des Terrasses 
 
 En tant que structure au service des caves particulières et des coopératives, l’AOC Ventoux joue un rôle clé de prescription. Cela s’est concrétisé avec des rencontres et séminaires durant lesquels les producteur·ices ont pu témoigner de leurs motivations à adopter le réemploi, lever certains freins et échanger sur les bonnes pratiques du métier. 
 
+![Conteneur massification réemploi coopération extérieur 84](/img/conteneur-massification-réemploi-coopération-extérieur-84.jpeg "Conteneur massification réemploi Vaucluse")
+
 # Un conteneur pour accélérer le réemploi du verre dans la filière viticole
 
 “Je n’ai pas la place de stocker des bouteilles vides, ni le temps de les collecter”. C’est un des premiers freins exprimés par les producteur·ices.  
@@ -66,6 +68,8 @@ En profitant de ce transport, la collecte des bouteilles n’entraîne pas d’�
 À noter que ce conteneur peut accueillir les bouteilles réemployables hors AOC Ventoux. Vigneron·nes et brasseries artisanales du Vaucluse et du sud de la Drôme peuvent également y amener leurs bouteilles pour réemploi. 
 
 Un projet pilote qui accélère concrètement le réemploi sur le territoire du “Géant de Provence” : cette dynamique collective permet d’augmenter le volume de bouteilles réemployées et ainsi de répondre à son engagement de réduire l’impact carbone de la filière. 
+
+![Conteneur massification réemploi coopération extérieur 84](/img/conteneur-massification-réemploi-inauguration-vaucluse.jpeg "Inauguration du conteneur massification réemploi de bouteilles Vaucluse")
 
 Inauguration du conteneur de massification en juin 2025 avec, de gauche à droite, Benjamin Cordonnier (Ma Bouteille s’appelle Reviens), Stéphane Saurel (Les Terrasses d’Eole), Thomas Oui (Vins Labadens), Vanessa Veyrier (Domaine Souleyrol), Jacqueline Bouyac (Présidente de la CoVe), Frédéric Chaudière (Président de l’AOC Ventoux et Domaine Pesquié) et Cléa Deborde (L’INCASSABLE)
 
