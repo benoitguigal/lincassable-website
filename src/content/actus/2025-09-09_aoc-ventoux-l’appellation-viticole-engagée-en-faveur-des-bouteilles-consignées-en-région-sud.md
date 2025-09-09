@@ -19,6 +19,8 @@ Aujourd’hui, l’AOC Ventoux se positionne comme un syndicat vigneron au servi
 
 Depuis 2020, elle s’engage dans une démarche RSE innovante et collective. En réunissant les membres de la filière, des temps de co-construction ont permis de dessiner une feuille de route ambitieuse pour lancer la transition écologique et sociale de l’appellation. 
 
+![Atelier de co-construction raison d'être AOC Ventoux](/img/atelier-co-construction-raison-d-être-aoc-ventoux.jpg "Atelier de co-construction de la raison d'être AOC Ventoux (Crédit photo : Norman Kergoat)")
+
 En 2021, l’AOC Ventoux devient la première appellation à se doter d’une raison d’être : une boussole pour orienter la stratégie de développement des vigneron·nes. 
 “Réunis pour partager, protéger et cultiver le sommet du vivant”
 
