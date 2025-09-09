@@ -14,7 +14,11 @@ categories:
 ##### C’est ce qui lui vaut son appellation “fraîche”, tout en étant le climat le plus tardif du sud de la Vallée du Rhône : l’AOC Ventoux, qui a célébré ses 50 ans en 2023, offre un vin aromatique et tourné vers l’avenir.
 
 <br>
-# L’AOC Ventoux innove et trace la voie d’une filière viticole durable et responsable 
+
+# 
+L’AOC Ventoux innove et trace la voie d’une filière viticole durable et responsable 
+
+
 <br>
 Le rôle d’une AOC est de garantir la production d’un vin (ou d’un fromage) selon une origine géographique et un savoir-faire spécifique. Pour obtenir cette certification, les vigneron·nes doivent répondre à un cahier des charges rigoureux : terroir, cépages autorisés, mode de culture, maturité des raisins…  
 <br>
@@ -51,9 +55,16 @@ Plusieurs producteur·ices ont déjà sauté le pas, à l’image des Terrasses 
 <br>
 En tant que structure au service des caves particulières et des coopératives, l’AOC Ventoux joue un rôle clé de prescription. Cela s’est concrétisé avec des rencontres et séminaires durant lesquels les producteur·ices ont pu témoigner de leurs motivations à adopter le réemploi, lever certains freins et échanger sur les bonnes pratiques du métier. 
 <br>
-!\\[Conteneur massification réemploi coopération extérieur 84](/img/conteneur-massification-réemploi-coopération-extérieur-84.jpeg "Conteneur massification réemploi Vaucluse")
+
+![Conteneur massification réemploi coopération extérieur 84](/img/conteneur-massification-réemploi-coopération-extérieur-84.jpeg "Conteneur massification réemploi Vaucluse 2025")
+
+
 <br>
-# Un conteneur pour accélérer le réemploi du verre dans la filière viticole
+
+# 
+Un conteneur pour accélérer le réemploi du verre dans la filière viticole
+
+
 <br>
 “Je n’ai pas la place de stocker des bouteilles vides, ni le temps de les collecter”. C’est un des premiers freins exprimés par les producteur·ices.  
 <br>
