@@ -90,4 +90,6 @@ Un projet pilote qui accélère concrètement le réemploi sur le territoire du 
 <br>
 Inauguration du conteneur de massification en juin 2025 avec, de gauche à droite, Benjamin Cordonnier (Ma Bouteille s’appelle Reviens), Stéphane Saurel (Les Terrasses d’Eole), Thomas Oui (Vins Labadens), Vanessa Veyrier (Domaine Souleyrol), Jacqueline Bouyac (Présidente de la CoVe), Frédéric Chaudière (Président de l’AOC Ventoux et Domaine Pesquié) et Cléa Deborde (L’INCASSABLE)
 <br>
-##### Vous êtes producteur de vin et vous vous intéressez au réemploi ? Contactez notre équipe pour en savoir plus : contact@lincassable.com
+
+###### 
+Vous êtes producteur de vin et vous vous intéressez au réemploi ? Contactez notre équipe pour en savoir plus : contact@lincassable.com
