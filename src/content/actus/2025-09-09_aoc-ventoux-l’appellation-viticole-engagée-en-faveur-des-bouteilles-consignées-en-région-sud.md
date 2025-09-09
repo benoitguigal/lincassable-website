@@ -24,7 +24,6 @@ Depuis 2020, elle s’engage dans une démarche RSE innovante et collective. En 
 
 ![Atelier de co-construction raison d'être AOC Ventoux](/img/atelier-co-construction-raison-d-être-aoc-ventoux.jpg "Atelier de co-construction de la raison d'être AOC Ventoux (Crédit photo : Norman Kergoat)")
 
-
 <br>
 En 2021, l’AOC Ventoux devient la première appellation à se doter d’une raison d’être : une boussole pour orienter la stratégie de développement des vigneron·nes. 
 “Réunis pour partager, protéger et cultiver le sommet du vivant”
@@ -52,7 +51,7 @@ Plusieurs producteur·ices ont déjà sauté le pas, à l’image des Terrasses 
 <br>
 En tant que structure au service des caves particulières et des coopératives, l’AOC Ventoux joue un rôle clé de prescription. Cela s’est concrétisé avec des rencontres et séminaires durant lesquels les producteur·ices ont pu témoigner de leurs motivations à adopter le réemploi, lever certains freins et échanger sur les bonnes pratiques du métier. 
 <br>
-!\[Conteneur massification réemploi coopération extérieur 84](/img/conteneur-massification-réemploi-coopération-extérieur-84.jpeg "Conteneur massification réemploi Vaucluse")
+!\\[Conteneur massification réemploi coopération extérieur 84](/img/conteneur-massification-réemploi-coopération-extérieur-84.jpeg "Conteneur massification réemploi Vaucluse")
 <br>
 # Un conteneur pour accélérer le réemploi du verre dans la filière viticole
 <br>
@@ -72,7 +71,11 @@ En profitant de ce transport, la collecte des bouteilles n’entraîne pas d’�
 <br>
 Un projet pilote qui accélère concrètement le réemploi sur le territoire du “Géant de Provence” : cette dynamique collective permet d’augmenter le volume de bouteilles réemployées et ainsi de répondre à son engagement de réduire l’impact carbone de la filière. 
 <br>
-!\[Conteneur massification réemploi coopération extérieur 84](/img/conteneur-massification-réemploi-inauguration-vaucluse.jpeg "Inauguration du conteneur massification réemploi de bouteilles Vaucluse")
+
+![Conteneur massification réemploi coopération extérieur 84](/img/conteneur-massification-réemploi-inauguration-vaucluse.jpeg "Inauguration du conteneur massification réemploi de bouteilles Vaucluse juin 2025")
+
+
+
 <br>
 Inauguration du conteneur de massification en juin 2025 avec, de gauche à droite, Benjamin Cordonnier (Ma Bouteille s’appelle Reviens), Stéphane Saurel (Les Terrasses d’Eole), Thomas Oui (Vins Labadens), Vanessa Veyrier (Domaine Souleyrol), Jacqueline Bouyac (Présidente de la CoVe), Frédéric Chaudière (Président de l’AOC Ventoux et Domaine Pesquié) et Cléa Deborde (L’INCASSABLE)
 <br>
