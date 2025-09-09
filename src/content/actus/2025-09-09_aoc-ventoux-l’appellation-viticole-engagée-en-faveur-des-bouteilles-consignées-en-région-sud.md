@@ -24,8 +24,6 @@ Depuis 2020, elle s’engage dans une démarche RSE innovante et collective. En 
 
 ![Atelier de co-construction raison d'être AOC Ventoux](/img/atelier-co-construction-raison-d-être-aoc-ventoux.jpg "Atelier de co-construction de la raison d'être AOC Ventoux (Crédit photo : Norman Kergoat)")
 
-![]()
-
 
 <br>
 En 2021, l’AOC Ventoux devient la première appellation à se doter d’une raison d’être : une boussole pour orienter la stratégie de développement des vigneron·nes. 
