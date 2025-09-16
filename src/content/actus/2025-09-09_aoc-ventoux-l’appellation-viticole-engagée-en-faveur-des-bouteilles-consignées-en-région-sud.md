@@ -15,25 +15,20 @@ categories:
 
 <br>
 
-\#L’AOC Ventoux innove et trace la voie d’une filière viticole durable et responsable 
+# L’AOC Ventoux innove et trace la voie d’une filière viticole durable et responsable 
 
 <br>
 Le rôle d’une AOC est de garantir la production d’un vin (ou d’un fromage) selon une origine géographique et un savoir-faire spécifique. Pour obtenir cette certification, les vigneron·nes doivent répondre à un cahier des charges rigoureux : terroir, cépages autorisés, mode de culture, maturité des raisins…  
 
-
 <br>
-
 
 Aujourd’hui, l’AOC Ventoux se positionne comme un syndicat vigneron au service des producteurs et productrices. L’appellation fédère 14 caves coopératives, 119 caves particulières et 9 vinificateurs sur un territoire de 5400 hectares regroupant deux parcs naturels régionaux, le Mont Ventoux, le Luberon et deux réserves de biosphère UNESCO.
 
-
 <br>
-
 
 Depuis 2020, elle s’engage dans une démarche RSE innovante et collective. En réunissant les membres de la filière, des temps de co-construction ont permis de dessiner une feuille de route ambitieuse pour lancer la transition écologique et sociale de l’appellation. 
 
 <br>
-
 
 ![Atelier de co-construction raison d'être AOC Ventoux](/img/atelier-co-construction-raison-d-être-aoc-ventoux.jpg "Atelier de co-construction de la raison d'être AOC Ventoux (Crédit photo : Norman Kergoat)")
 
@@ -42,23 +37,21 @@ En 2021, l’AOC Ventoux devient la première appellation à se doter d’une ra
 
 <br>
 
-######“Réunis pour partager, protéger et cultiver le sommet du vivant”
+###### “Réunis pour partager, protéger et cultiver le sommet du vivant”
 
 <br>
 
 Une feuille de route qui s’articule autour de trois axes à horizon 2030 :
 
-1) Protéger le vivant et valoriser la biodiversité des forêts et des sols
-2) Réduire son impact carbone et s’adapter aux changements climatiques
-3) Transmettre un savoir-faire culturel et développer l’œnotourisme
-
-   <br>
+1. Protéger le vivant et valoriser la biodiversité des forêts et des sols
+2. Réduire son impact carbone et s’adapter aux changements climatiques
+3. Transmettre un savoir-faire culturel et développer l’œnotourisme
 
    ![AOC Ventoux Souleyrol Chateau Unang ](/img/aoc-ventoux-souleyrol-chateau-unang-norman-kergoat-.jpg "AOC Ventoux Souleyrol Chateau Unang (Crédit photo : Norman Kergoat)")
- 
+
   <br>
 
-#Réemploi du verre : la première solution pour réduire son empreinte carbone en tant que professionnel du vin
+# Réemploi du verre : la première solution pour réduire son empreinte carbone en tant que professionnel du vin
 
 <br>
 
@@ -87,7 +80,7 @@ En tant que structure au service des caves particulières et des coopératives, 
 
 <br>
 
-#Un conteneur pour accélérer le réemploi du verre dans la filière viticole
+# Un conteneur pour accélérer le réemploi du verre dans la filière viticole
 
 <br>
 “Je n’ai pas la place de stocker des bouteilles vides, ni le temps de les collecter”. C’est un des premiers freins exprimés par les producteur·ices.  
@@ -102,7 +95,7 @@ Un projet qui prend la forme d’un conteneur de massification installé à Beau
 
 <br>
 
-######L’objectif : faciliter l’engagement des vigneron·nes locaux dans la démarche de réemploi en supprimant les contraintes de stockage et de collecte, et mutualiser les ressources entre les acteur·ices. 
+\######L’objectif : faciliter l’engagement des vigneron·nes locaux dans la démarche de réemploi en supprimant les contraintes de stockage et de collecte, et mutualiser les ressources entre les acteur·ices. 
 
 <br>
 
@@ -122,7 +115,6 @@ Un projet pilote qui accélère concrètement le réemploi sur le territoire du 
 
 <br>
 
-
 ![Conteneur massification réemploi coopération extérieur 84](/img/conteneur-massification-réemploi-inauguration-vaucluse.jpeg "Inauguration du conteneur massification réemploi de bouteilles Vaucluse juin 2025")
 
 <br>
@@ -131,4 +123,4 @@ Inauguration du conteneur de massification en juin 2025 avec, de gauche à droit
 
 <br>
 
-######Vous êtes producteur de vin et vous vous intéressez au réemploi ? Contactez notre équipe pour en savoir plus : contact@lincassable.com
+###### Vous êtes producteur de vin et vous vous intéressez au réemploi ? Contactez notre équipe pour en savoir plus : contact@lincassable.com
