@@ -32,6 +32,8 @@ Depuis 2020, elle s’engage dans une démarche RSE innovante et collective. En 
 
 ![Atelier de co-construction raison d'être AOC Ventoux](/img/atelier-co-construction-raison-d-être-aoc-ventoux.jpg "Atelier de co-construction de la raison d'être AOC Ventoux (Crédit photo : Norman Kergoat)")
 
+*© Norman Kergoat* 
+
 <br>
 En 2021, l’AOC Ventoux devient la première appellation à se doter d’une raison d’être : une boussole pour orienter la stratégie de développement des vigneron·nes. 
 
@@ -43,13 +45,17 @@ En 2021, l’AOC Ventoux devient la première appellation à se doter d’une ra
 
 Une feuille de route qui s’articule autour de trois axes à horizon 2030 :
 
-1. Protéger le vivant et valoriser la biodiversité des forêts et des sols
-2. Réduire son impact carbone et s’adapter aux changements climatiques
-3. Transmettre un savoir-faire culturel et développer l’œnotourisme
+1) Protéger le vivant et valoriser la biodiversité des forêts et des sols
 
-   ![AOC Ventoux Souleyrol Chateau Unang ](/img/aoc-ventoux-souleyrol-chateau-unang-norman-kergoat-.jpg "AOC Ventoux Souleyrol Chateau Unang (Crédit photo : Norman Kergoat)")
+2) Réduire son impact carbone et s’adapter aux changements climatiques
 
-  <br>
+3) Transmettre un savoir-faire culturel et développer l’œnotourisme
+
+![AOC Ventoux Souleyrol Chateau Unang ](/img/aoc-ventoux-souleyrol-chateau-unang-norman-kergoat-.jpg "AOC Ventoux Souleyrol Chateau Unang (Crédit photo : Norman Kergoat)")
+
+*© Norman Kergoat* 
+
+ <br>
 
 # Réemploi du verre : la première solution pour réduire son empreinte carbone en tant que professionnel du vin
 
