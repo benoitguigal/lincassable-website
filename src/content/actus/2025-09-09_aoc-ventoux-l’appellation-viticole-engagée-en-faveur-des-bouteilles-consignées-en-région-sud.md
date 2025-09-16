@@ -11,7 +11,7 @@ categories:
 
 <br>
 
-##### C’est ce qui lui vaut son appellation “fraîche”, tout en étant le climat le plus tardif du sud de la Vallée du Rhône : l’AOC Ventoux, qui a célébré ses 50 ans en 2023, offre un vin aromatique et tourné vers l’avenir.
+##### C’est ce qui lui vaut son appellation “fraîche”, tout en étant le climat le plus tardif du sud de la Vallée du Rhône : l’[AOC Ventoux](https://aoc-ventoux.com/), qui a célébré ses 50 ans en 2023, offre un vin aromatique et tourné vers l’avenir.
 
 <br>
 
@@ -26,7 +26,7 @@ Aujourd’hui, l’AOC Ventoux se positionne comme un syndicat vigneron au servi
 
 <br>
 
-Depuis 2020, elle s’engage dans une démarche RSE innovante et collective. En réunissant les membres de la filière, des temps de co-construction ont permis de dessiner une feuille de route ambitieuse pour lancer la transition écologique et sociale de l’appellation. 
+Depuis 2020, elle s’engage dans une [démarche RSE innovante et collective](https://aoc-ventoux.com/engagements/). En réunissant les membres de la filière, des temps de co-construction ont permis de dessiner une feuille de route ambitieuse pour lancer la transition écologique et sociale de l’appellation. 
 
 <br>
 
@@ -70,11 +70,11 @@ L’AOC Ventoux s’est fixé le cap de structurer un réseau de réemploi pour 
 
 <br>
 
-Pour y parvenir, elle s’appuie sur les opérateurs locaux comme L’INCASSABLE (départements 04, 05, 13, 84) et Ma Bouteille s’appelle Reviens (07, 26). Des partenaires qui assurent la boucle logistique du réemploi, du transport à la redistribution, en passant par le lavage des bouteilles et l’accompagnement individuel des vigneron·nes. 
+Pour y parvenir, elle s’appuie sur les opérateurs locaux comme L’INCASSABLE (départements 04, 05, 13, 84) et [Ma Bouteille s’appelle Reviens](https://www.ma-bouteille.org/) (07, 26). Des partenaires qui assurent la boucle logistique du réemploi, du transport à la redistribution, en passant par le lavage des bouteilles et l’accompagnement individuel des vigneron·nes. 
 
 <br>
 
-Plusieurs producteur·ices ont déjà sauté le pas, à l’image des Terrasses d’Éole et du Domaine Souleyrol (avec L’INCASSABLE), des vins Labadens, du Château Pesquié et du Domaine Childéric (avec Ma Bouteille s’appelle Reviens).
+Plusieurs producteur·ices ont déjà sauté le pas, à l’image des [Terrasses d’Éole](https://www.terrasses-eole.fr/) et du [Domaine Souleyrol](https://domaine-souleyrol.com/) (avec L’INCASSABLE), des vins [Labadens](https://vins-labadens.fr/), du [Château Pesquié](https://vins-labadens.fr/) et du [Domaine Childéric](https://www.domainechilderic.com/) (avec Ma Bouteille s’appelle Reviens).
 
 <br>
 
@@ -93,7 +93,7 @@ En tant que structure au service des caves particulières et des coopératives, 
 
 <br>
 
-Pour lever ce frein, un projet pilote a vu le jour en juin 2025. Il est le fruit de la collaboration  entre cinq structures : l’AOC Ventoux, la Communauté d’agglomération Ventoux Comtat Venaissin (CoVe), le groupe ICV (accompagne et conseille les structures viticoles), Ma Bouteille s’appelle Reviens et L’INCASSABLE.
+Pour lever ce frein, un projet pilote a vu le jour en juin 2025. Il est le fruit de la collaboration  entre cinq structures : l’AOC Ventoux, la [Communauté d’agglomération Ventoux Comtat Venaissin (CoVe)](https://www.lacove.fr/accueil.html), le [groupe ICV ](https://www.icv.fr/)(accompagne et conseille les structures viticoles), Ma Bouteille s’appelle Reviens et L’INCASSABLE.
 
 <br>
 
