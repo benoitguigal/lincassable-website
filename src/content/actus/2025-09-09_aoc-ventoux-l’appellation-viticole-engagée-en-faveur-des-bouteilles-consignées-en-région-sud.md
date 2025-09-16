@@ -40,9 +40,7 @@ En 2021, l’AOC Ventoux devient la première appellation à se doter d’une ra
 <br>
 <br>
 
-###### “Réunis pour partager, protéger et cultiver le sommet du vivant”
-
-<br>
+###### “Réunis pour partager, protéger et cultiver le sommet du vivant"
 
 Une feuille de route qui s’articule autour de trois axes à horizon 2030 : 1) Protéger le vivant et valoriser la biodiversité des forêts et des sols, 2) Réduire son impact carbone et s’adapter aux changements climatiques, 3) Transmettre un savoir-faire culturel et développer l’œnotourisme
 
@@ -98,7 +96,7 @@ Un projet qui prend la forme d’un conteneur de massification installé à Beau
 
 <br>
 
-###### L’objectif : faciliter l’engagement des vigneron·nes locaux dans la démarche de réemploi en supprimant les contraintes de stockage et de collecte, et mutualiser les ressources entre les acteur·ices. 
+###### L’objectif : faciliter l’engagement des vigneron·nes locaux dans la démarche de réemploi en supprimant les contraintes de stockage et de collecte, et mutualiser les ressources entre les acteur·ices.
 
 <br>
 
