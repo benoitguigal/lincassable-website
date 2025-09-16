@@ -116,9 +116,7 @@ Un projet pilote qui accélère concrètement le réemploi sur le territoire du 
 
 ![Conteneur massification réemploi coopération extérieur 84](/img/conteneur-massification-réemploi-inauguration-vaucluse.jpeg "Inauguration du conteneur massification réemploi de bouteilles Vaucluse juin 2025")
 
-<br>
-
-Inauguration du conteneur de massification en juin 2025 avec, de gauche à droite, Benjamin Cordonnier ([Ma Bouteille s’appelle Reviens](https://www.ma-bouteille.org/)), Stéphane Saurel ([Les Terrasses d’Eole](https://www.terrasses-eole.fr/)), Thomas Oui ([Vins Labadens](https://vins-labadens.fr/)), Vanessa Veyrier ([Domaine Souleyrol](https://domaine-souleyrol.com/)), Jacqueline Bouyac ([Présidente de la CoVe](https://www.lacove.fr/accueil.html)), Frédéric Chaudière ([Président de l’AOC Ventoux](https://aoc-ventoux.com/) et [Domaine Pesquié](https://chateaupesquie.com/)) et Cléa Deborde (L’INCASSABLE)
+*Inauguration du conteneur de massification en juin 2025 avec, de gauche à droite, Benjamin Cordonnier ([Ma Bouteille s’appelle Reviens](https://www.ma-bouteille.org/)), Stéphane Saurel ([Les Terrasses d’Eole](https://www.terrasses-eole.fr/)), Thomas Oui ([Vins Labadens](https://vins-labadens.fr/)), Vanessa Veyrier ([Domaine Souleyrol](https://domaine-souleyrol.com/)), Jacqueline Bouyac ([Présidente de la CoVe](https://www.lacove.fr/accueil.html)), Frédéric Chaudière ([Président de l’AOC Ventoux](https://aoc-ventoux.com/) et [Domaine Pesquié](https://chateaupesquie.com/)) et Cléa Deborde (L’INCASSABLE)*
 
 <br>
 
