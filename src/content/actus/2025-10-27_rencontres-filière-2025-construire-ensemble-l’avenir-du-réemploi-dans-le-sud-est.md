@@ -20,7 +20,6 @@ categories:
 <br>
 
 ![](/img/rencontres-filière-2025-l-incassable-plénière.jpg "Présentation de l'activité de la filière de réemploi aux partenaires")
-
 <br>
 
 # Des annonces décisives pour la filière
@@ -28,25 +27,30 @@ categories:
 <br>
 Cette journée a permis de présenter le bilan et les actualités majeures de la filière : perspectives de développement à l’échelle nationale, enjeux de structuration à l’échelle régionale et annonces majeures pour l’avenir de L’INCASSABLE. Des annonces importantes et décisives ont été présentées à l’ensemble de nos parties-prenantes pour bâtir collectivement l’avenir de notre filière. Des annonces qui seront révélées au grand public dès 2026.
 <br>
-
+<br>
+<br>
 ![Bouteilles d'Or : meilleur taux de retour des bouteilles en magasin](/img/rencontres-filière-2025-l-incassable-bouteille-d-or.jpg "Bouteilles d'Or : meilleur taux de retour des bouteilles en magasin")
-
+<br>
 # Les Bouteilles d’Or : une cérémonie pour célébrer nos partenaires
 
 <br>
 Avant de clôturer la journée avec la dégustation de bouteilles réemployables issues de nos producteurs partenaires, place aux célébrations avec les Bouteilles d’Or. Une cérémonie symbolique qui met à l’honneur nos partenaires qui se mobilisent au quotidien pour faire avancer le réemploi de bouteilles en verre. 
 <br>
-
-###### Catégorie “Volume de bouteilles collectées” : [Biocoop Chave](https://www.biocoopchave.fr/) avec plus de 15 000 bouteilles collectées
+<br>
+###### Catégorie “Volume de bouteilles collectées” :
+[Biocoop Chave](https://www.biocoopchave.fr/) avec plus de 15 000 bouteilles collectées
 <br>
 
-###### Catégorie “Meilleur taux de retour en magasin” : [Super Cafoutch](https://supercafoutch.fr/) avec un taux de retour de 86%
+###### Catégorie “Meilleur taux de retour en magasin” :
+[Super Cafoutch](https://supercafoutch.fr/) avec un taux de retour de 86%
 <br>
 
-###### Catégorie “Meilleure étiquette réemployable” : [La Ferme Brasserie du Forest ](https://www.facebook.com/profile.php?id=100088701214059)dont la colle froide permet un faible taux de rebut au lavage et [Terrasse d’Eole](https://www.terrasses-eole.fr/) avec ses étiquettes au petit format
+###### Catégorie “Meilleure étiquette réemployable” :
+[La Ferme Brasserie du Forest ](https://www.facebook.com/profile.php?id=100088701214059)dont la colle froide permet un faible taux de rebut au lavage et [Terrasse d’Eole](https://www.terrasses-eole.fr/) avec ses étiquettes au petit format
 <br>
 
-###### Catégorie “Grand repreneurs de bouteille” : Trois lauréats avec [L’Abri](https://labri-marseille.fr/), la [Ferme Bio Margerie](https://fermebiomargerie.fr/) et la [Brasserie Zoumaï](https://www.brasseriezoumai.fr/)
+###### Catégorie “Grand repreneurs de bouteille” :
+Trois lauréats avec [L’Abri](https://labri-marseille.fr/), la [Ferme Bio Margerie](https://fermebiomargerie.fr/) et la [Brasserie Zoumaï](https://www.brasseriezoumai.fr/)
 <br>
 
 ![Dégustation de boissons en bouteilles consignées apportées par les producteurs partenaires qui pratiquent le réemploi de bouteilles](/img/rencontres-filière-2025-temps-convivial.jpg "Apéro et gégustation de boissons en bouteilles réemployables")
