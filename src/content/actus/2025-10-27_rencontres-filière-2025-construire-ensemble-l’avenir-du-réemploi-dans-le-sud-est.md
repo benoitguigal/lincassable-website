@@ -36,17 +36,17 @@ Avant de clôturer la journée avec la dégustation de bouteilles réemployables
 ###### Catégorie “Volume de bouteilles collectées”
 
 [Biocoop Chave](https://www.biocoopchave.fr/) avec plus de 15 000 bouteilles collectées
-
+<br>
 ###### Catégorie “Meilleur taux de retour en magasin”
 
 [Super Cafoutch](https://supercafoutch.fr/) avec un taux de retour de 86%
-
+<br>
 ###### Catégorie “Meilleure étiquette réemployable”
 
 [La Ferme Brasserie du Forest ](https://www.facebook.com/profile.php?id=100088701214059)dont la colle froide permet un faible taux de rebut au lavage et [Terrasse d’Eole](https://www.terrasses-eole.fr/) avec ses étiquettes au petit format
-
+<br>
 ###### Catégorie “Grand repreneurs de bouteille”
 
 Trois lauréats avec [L’Abri](https://labri-marseille.fr/), la [Ferme Bio Margerie](https://fermebiomargerie.fr/) et la [Brasserie Zoumaï](https://www.brasseriezoumai.fr/)
-
+<br>
 ![Dégustation de boissons en bouteilles consignées apportées par les producteurs partenaires qui pratiquent le réemploi de bouteilles](/img/rencontres-filière-2025-temps-convivial.jpg "Apéro et gégustation de boissons en bouteilles réemployables")
