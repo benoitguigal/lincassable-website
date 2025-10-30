@@ -26,13 +26,13 @@ Chaque année, 5 millions de tonnes de déchets d’emballages sont produits en 
 
 Dans ce contexte, la dynamique impulsée par L'INCASSABLE en Région Sud a permis en quelques années de structurer une filière de réemploi solide sur le territoire. Aujourd'hui, L'INCASSABLE c'est :
 
-##### \- 4 départements couverts : Alpes-de-Haute-Provence, Hautes-Alpes, Var et Bouches-du-Rhône
+###### \- 4 départements couverts : Alpes-de-Haute-Provence, Hautes-Alpes, Var et Bouches-du-Rhône
 
-##### \- 115 points de collecte partenaires, dont 55 % en magasins bio spécialisés et une arrivée en grande distribution avec deux magasins Carrefour à Marseille
+###### \- 115 points de collecte partenaires, dont 55 % en magasins bio spécialisés et une arrivée en grande distribution avec deux magasins Carrefour à Marseille
 
-##### \- 38 producteurs engagés, répartis entre vignerons (46 %), brasseurs (38 %), producteurs de softs et cidres (16 %)
+###### \- 38 producteurs engagés, répartis entre vignerons (46 %), brasseurs (38 %), producteurs de softs et cidres (16 %)
 
-##### \- +350 000 bouteilles collectées et 186 tonnes de déchets évités
+###### \- +350 000 bouteilles collectées et 186 tonnes de déchets évités
 
 <br>
 
