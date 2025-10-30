@@ -23,7 +23,7 @@ categories:
 
 <br>
 Chaque année, 5 millions de tonnes de déchets d’emballages sont produits en France. Et parmi eux, le verre représente près de 50 % du total. Alors que 92 % des Français se disent favorables au retour de la consigne, la loi AGEC fixe un cap ambitieux : 10 % d’emballages réemployés d’ici 2027.
-
+<br>
 Dans ce contexte, la dynamique impulsée par L'INCASSABLE en Région Sud a permis en quelques années de structurer une filière de réemploi solide sur le territoire. Aujourd'hui, L'INCASSABLE c'est :
 
 ###### \- 4 départements couverts : Alpes-de-Haute-Provence, Hautes-Alpes, Var et Bouches-du-Rhône
