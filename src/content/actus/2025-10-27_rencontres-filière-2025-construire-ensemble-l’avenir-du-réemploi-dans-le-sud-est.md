@@ -63,6 +63,7 @@ Face à un secteur en pleine transformation, L’INCASSABLE réfléchit à son f
 <br>
 Avant de clôturer la journée avec la dégustation de bouteilles réemployables issues de nos producteurs partenaires, place aux célébrations avec les Bouteilles d’Or. Une cérémonie symbolique qui met à l’honneur nos partenaires qui se mobilisent au quotidien pour faire avancer le réemploi de bouteilles en verre. 
 <br>
+<br>
 
 ###### Nos catégories et leurs gagnants...
 
