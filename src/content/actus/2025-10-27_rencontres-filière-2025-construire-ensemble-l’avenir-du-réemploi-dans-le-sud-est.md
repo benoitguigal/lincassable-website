@@ -45,9 +45,11 @@ Dans ce contexte, la dynamique impulsée par L'INCASSABLE en Région Sud a permi
 # Une filière en transformation et un avenir à co-construire
 
 <br>
-À l’échelle nationale, la structuration du réemploi s’accélère avec le dispositif ReUse, porté par CITEO, avec une expérimentation d’envergure dans le Nord et l’Ouest de la France. L'objectif : tester et fiabiliser les modèles logistiques et économiques du réemploi à grande échelle, avec 25 millions d’emballages réemployables espérés à la fin de l’expérimentation.
+À l’échelle nationale, la structuration du réemploi s’accélère avec le dispositif ReUse porté par CITEO, une expérimentation d’envergure dans le Nord et l’Ouest de la France. L'objectif : tester et fiabiliser les modèles logistiques et économiques du réemploi à grande échelle, avec 25 millions d’emballages réemployables espérés à la fin de l’expérimentation.
 
-Face à un secteur en pleine transformation, L’INCASSABLE réfléchit à son futur modèle de gouvernance qui permettra de pérenniser la filière et de consolider le modèle économique. Une étape structurante qui permettra d’accélérer la montée en puissance de la filière à plus grande échelle : rendez-vous en 2026 pour en savoir davantage sur l'avenir de notre filière.  
+<br>
+
+Face à un secteur en pleine transformation, L’INCASSABLE réfléchit à son futur modèle de gouvernance qui permettra de pérenniser la filière et de consolider le modèle économique. Une étape structurante pour accélérer la montée en puissance de la filière à grande échelle : rendez-vous en 2026 pour en savoir davantage sur l'avenir de L'INCASSABLE.
 
 
 <br>
