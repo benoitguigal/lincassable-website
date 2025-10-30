@@ -22,17 +22,14 @@ categories:
 # Un contexte favorable pour la filière
 
 <br>
-Chaque année, 5 millions de tonnes de déchets d’emballages sont produits en France. Et parmi eux, le verre représente près de 50 % du total. Alors que 92 % des Français se disent favorables au retour de la consigne, la loi AGEC fixe un cap ambitieux : 10 % d’emballages réemployés d’ici 2027.
+Chaque année, 5 millions de tonnes de déchets d’emballages sont produits en France. Et parmi eux, le verre représente près de 50 % du total. Alors que 93 % des Français se disent favorables au retour de la consigne, la loi AGEC fixe un cap ambitieux : 10 % d’emballages réemployés d’ici 2027.
 <br>
 Dans ce contexte, la dynamique impulsée par L'INCASSABLE en Région Sud a permis en quelques années de structurer une filière de réemploi solide sur le territoire. Aujourd'hui, L'INCASSABLE c'est :
 
-###### \- 4 départements couverts : Alpes-de-Haute-Provence, Hautes-Alpes, Var et Bouches-du-Rhône
-
-###### \- 115 points de collecte partenaires, dont 55 % en magasins bio spécialisés et une arrivée en grande distribution avec deux magasins Carrefour à Marseille
-
-###### \- 38 producteurs engagés, répartis entre vignerons (46 %), brasseurs (38 %), producteurs de softs et cidres (16 %)
-
-###### \- +350 000 bouteilles collectées et 186 tonnes de déchets évités
+* 4 départements couverts : Alpes-de-Haute-Provence, Hautes-Alpes, Var et Bouches-du-Rhône
+* 115 points de collecte partenaires, dont 55 % en magasins bio spécialisés et une arrivée en grande distribution avec deux magasins Carrefour à Marseille
+* 38 producteurs engagés, répartis entre vignerons (46 %), brasseurs (38 %), producteurs de softs et cidres (16 %)
+* +350 000 bouteilles collectées et 186 tonnes de déchets évités
 
 <br>
 
@@ -49,8 +46,7 @@ Dans ce contexte, la dynamique impulsée par L'INCASSABLE en Région Sud a permi
 
 <br>
 
-Face à un secteur en pleine transformation, L’INCASSABLE réfléchit à son futur modèle de gouvernance qui permettra de pérenniser la filière et de consolider le modèle économique. Une étape structurante pour accélérer la montée en puissance de la filière à grande échelle : rendez-vous en 2026 pour en savoir davantage sur l'avenir de L'INCASSABLE.
-
+Face à un secteur en pleine transformation, L’INCASSABLE construit son futur modèle de gouvernance qui permettra de pérenniser la filière et de consolider le modèle économique. Une étape structurante pour accélérer la montée en puissance de la filière à grande échelle : rendez-vous en 2026 pour en savoir davantage sur l'avenir de L'INCASSABLE.
 
 <br>
 
@@ -73,7 +69,7 @@ Avant de clôturer la journée avec la dégustation de bouteilles réemployables
 “Meilleur taux de retour en magasin” : [Super Cafoutch](https://supercafoutch.fr/) avec un taux de retour de 86%
 <br>
 
-“Meilleure étiquette réemployable” : [La Ferme Brasserie du Forest ](https://www.facebook.com/profile.php?id=100088701214059)dont la colle froide permet un faible taux de rebut au lavage et [Terrasse d’Eole](https://www.terrasses-eole.fr/) avec ses étiquettes au petit format
+“Meilleure étiquette réemployable” : [La Ferme Brasserie du Forest ](https://www.facebook.com/profile.php?id=100088701214059)dont la colle froide permet un faible taux de rebut au lavage et [Terrasse d’Eole](https://www.terrasses-eole.fr/) avec ses étiquettes de petite taille
 <br>
 
 “Grand repreneurs de bouteille” : Trois lauréats avec [L’Abri](https://labri-marseille.fr/), la [Ferme Bio Margerie](https://fermebiomargerie.fr/) et la [Brasserie Zoumaï](https://www.brasseriezoumai.fr/)
