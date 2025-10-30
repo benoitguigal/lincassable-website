@@ -19,15 +19,37 @@ categories:
 
 <br>
 
+# Un contexte favorable pour la filière
+
+<br>
+Chaque année, 5 millions de tonnes de déchets d’emballages sont produits en France. Et parmi eux, le verre représente près de 50 % du total. Alors que 92 % des Français se disent favorables au retour de la consigne, la loi AGEC fixe un cap ambitieux : 10 % d’emballages réemployés d’ici 2027.
+
+Dans ce contexte, la dynamique impulsée par L'INCASSABLE en Région Sud a permis en quelques années de structurer une filière de réemploi solide sur le territoire. Aujourd'hui, L'INCASSABLE c'est :
+
+##### \- 4 départements couverts : Alpes-de-Haute-Provence, Hautes-Alpes, Var et Bouches-du-Rhône
+
+##### \- 115 points de collecte partenaires, dont 55 % en magasins bio spécialisés et une arrivée en grande distribution avec deux magasins Carrefour à Marseille
+
+##### \- 38 producteurs engagés, répartis entre vignerons (46 %), brasseurs (38 %), producteurs de softs et cidres (16 %)
+
+##### \- +350 000 bouteilles collectées et 186 tonnes de déchets évités
+
+<br>
+
 ![](/img/rencontres-filière-2025-l-incassable-plénière.jpg "Présentation de l'activité de la filière de réemploi aux partenaires")
-<br>
-
-# Des annonces majeures pour la filière
 
 <br>
-Cette journée a permis de présenter le bilan et les actualités majeures de la filière : perspectives de développement à l’échelle nationale, enjeux de structuration à l’échelle régionale et annonces majeures pour l’avenir de L’INCASSABLE. Des annonces importantes ont été présentées à l’ensemble de nos parties-prenantes pour bâtir collectivement l’avenir de notre filière. Des annonces qui seront révélées au grand public dès 2026.
+
 <br>
+
+# Une filière en transformation et un avenir à co-construire
+
 <br>
+À l’échelle nationale, la structuration du réemploi s’accélère avec le dispositif ReUse, porté par CITEO, avec une expérimentation d’envergure dans le Nord et l’Ouest de la France. L'objectif : tester et fiabiliser les modèles logistiques et économiques du réemploi à grande échelle, avec 25 millions d’emballages réemployables espérés à la fin de l’expérimentation.
+
+Face à un secteur en pleine transformation, L’INCASSABLE réfléchit à son futur modèle de gouvernance qui permettra de pérenniser la filière et de consolider le modèle économique. Une étape structurante qui permettra d’accélérer la montée en puissance de la filière à plus grande échelle : rendez-vous en 2026 pour en savoir davantage sur l'avenir de notre filière.  
+
+
 <br>
 
 ![](/img/rencontres-filière-2025-l-incassable-bouteille-d-or.jpg)
@@ -41,7 +63,6 @@ Avant de clôturer la journée avec la dégustation de bouteilles réemployables
 <br>
 
 ###### Nos catégories et leurs gagnants...
-
 
 “Volume de bouteilles collectées” : [Biocoop Chave](https://www.biocoopchave.fr/) avec plus de 15 000 bouteilles collectées
 <br>
