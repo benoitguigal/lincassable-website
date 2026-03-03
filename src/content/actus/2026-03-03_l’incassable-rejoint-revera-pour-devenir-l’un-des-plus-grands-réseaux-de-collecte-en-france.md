@@ -1,6 +1,6 @@
 ---
 title: L’INCASSABLE rejoint Revera pour devenir l’un des plus grands réseaux de
-  collecte en France
+  réemploi en France
 date: 2026-03-03T10:40:00.000Z
 image: /img/revera-l-incassable-cover-blog.png
 miniature: /img/revera-l-incassable-miniature.png
